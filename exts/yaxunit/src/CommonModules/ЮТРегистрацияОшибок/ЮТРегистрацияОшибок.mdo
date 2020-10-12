@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3a750a1-8a8c-4b01-8968-ad88af6839de">
+  <name>ЮТРегистрацияОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация ошибок</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

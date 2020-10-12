@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8617fc6-e9d5-4d2d-85d4-e23166fcf0f2">
+  <name>ОМ_ОшибкаЗагрузкиСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибка загрузки сценариев</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

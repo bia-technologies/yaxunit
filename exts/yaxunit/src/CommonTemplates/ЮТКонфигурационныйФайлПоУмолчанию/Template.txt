@@ -1,0 +1,7 @@
+{
+    "reportDir": "reports",
+    "testExtensions": [
+        "tests"
+    ],
+    "closeAfterTests": true
+}

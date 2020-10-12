@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8707b744-2543-4013-af0e-9e13b6624e59">
+  <name>tests</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tests</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8a9d9b0a-06b5-4386-885a-eb8bcb1b0451"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="43272ea1-9fa7-4bc0-8465-c5f011180e73"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="86ef968e-8c32-4c3d-bb3f-7261d74f57ea"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a931567d-d5ce-4b91-84fd-0e88802c11ef"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1fd3bfeb-1675-4087-af3c-439afd61bc7c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0184ac30-9601-4012-af54-fcaeb13cab2c"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <languages uuid="d54879e4-8d6e-4e4d-b5b8-58bc03964e55">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
+  <commonModules>CommonModule.ОМ_СтроковыеФункцииКлиентСервер</commonModules>
+</mdclass:Configuration>

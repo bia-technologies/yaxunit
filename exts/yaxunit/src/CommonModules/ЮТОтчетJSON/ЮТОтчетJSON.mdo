@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f477925a-39e1-4150-a0c4-897bbaee9433">
+  <name>ЮТОтчетJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет JSON</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

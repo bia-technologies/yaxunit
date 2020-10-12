@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b36a006a-66ee-4a1d-bdc9-feebc5cdde82">
+  <name>ЮТФормированиеОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование отчета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ЮТОтчетJSON</content>
+  <content>CommonModule.ЮТОтчетJUnit</content>
+  <parentSubsystem>Subsystem.ЮТФункциональность</parentSubsystem>
+</mdclass:Subsystem>

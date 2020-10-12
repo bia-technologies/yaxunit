@@ -1,0 +1,35 @@
+*.cfu
+src/.project
+*.cfl
+*.lgd
+*.orig
+
+/src/Configuration/ConfigDumpInfo.xml
+
+/allure-reports
+/autotest-bia
+/ci4onec
+/spec/build/ib
+/tys
+
+autotest.json
+VBParams.json
+
+/allure-report/*
+/buildstatus.log
+
+
+/*_pid*.log
+
+*.*.bak
+
+# IDE
+*/.settings/com._1c.g5.v8.dt.platform.services.core.prefs
+*/.settings/EnvLaunchModeIndex.prefs
+
+# Binary
+*/bin/*
+
+#wsdl
+/fixtures/wsdl
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ebe57d7-1182-4eea-bdda-375c1e0262e4">
+  <name>YAXUNIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>YAXUNIT</value>
+  </synonym>
+  <version>1.0.0</version>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <managedApplicationModule>Extended</managedApplicationModule>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7aac7ebc-1c41-419f-aac1-52a9be0908ba"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a0ea5602-5711-43f0-ae72-26204f907950"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b8f84992-e90b-41b5-b663-77dbeb5a8c9b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4fb22a5b-2d3a-445e-b9c7-b51a4e59f82a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d26a61dd-a7a6-44b9-b131-be84fcf8c021"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8339b2da-95e3-48c0-b355-f1f6179cebb2"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЮТ</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЮТФункциональность</subsystems>
+  <commonTemplates>CommonTemplate.ЮТКонфигурационныйФайлПоУмолчанию</commonTemplates>
+  <commonModules>CommonModule.ОМ_ЮТИсполнитель</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
+  <commonModules>CommonModule.ЮТ</commonModules>
+  <commonModules>CommonModule.ЮТИсполнитель</commonModules>
+  <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
+  <commonModules>CommonModule.ЮТКонтекст</commonModules>
+  <commonModules>CommonModule.ЮТКонтекстКлиент</commonModules>
+  <commonModules>CommonModule.ЮТКонтекстСервер</commonModules>
+  <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
+  <commonModules>CommonModule.ЮТОбщий</commonModules>
+  <commonModules>CommonModule.ЮТОтчет</commonModules>
+  <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
+  <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
+  <commonModules>CommonModule.ЮТПараметры</commonModules>
+  <commonModules>CommonModule.ЮТПараметрыСервер</commonModules>
+  <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
+  <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
+  <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
+  <commonModules>CommonModule.ЮТТесты</commonModules>
+  <commonModules>CommonModule.ЮТУтверждения</commonModules>
+  <commonModules>CommonModule.ЮТФабрика</commonModules>
+  <commonModules>CommonModule.ЮТЧитатель</commonModules>
+  <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
+</mdclass:Configuration>
