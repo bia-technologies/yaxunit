@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>YAXUNIT</value>
   </synonym>
-  <version>1.0.0</version>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <managedApplicationModule>Extended</managedApplicationModule>
@@ -21,6 +20,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -30,9 +30,10 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
-  <commonTemplates>CommonTemplate.ЮТКонфигурационныйФайлПоУмолчанию</commonTemplates>
+  <commonModules>CommonModule.ОМ_ЮТ</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнитель</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТ</commonModules>
   <commonModules>CommonModule.ЮТИсполнитель</commonModules>
@@ -48,11 +49,14 @@
   <commonModules>CommonModule.ЮТПараметры</commonModules>
   <commonModules>CommonModule.ЮТПараметрыСервер</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
+  <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
+  <commonModules>CommonModule.ЮТСобытия</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>
+  <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
 </mdclass:Configuration>

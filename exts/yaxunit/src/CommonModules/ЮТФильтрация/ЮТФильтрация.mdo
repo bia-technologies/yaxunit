@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c9c92d6-ffbc-4e22-93dd-324d4533be61">
-  <name>ЮТТестовыеДанные</name>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4af6b7d2-1601-449a-800e-7873baef2aeb">
+  <name>ЮТФильтрация</name>
   <synonym>
     <key>ru</key>
-    <value>ЮТТестовые данные</value>
+    <value>Фильтрация</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
