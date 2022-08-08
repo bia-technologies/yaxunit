@@ -30,11 +30,17 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
-  <commonModules>CommonModule.ОМ_ЮТ</commonModules>
+  <commonModules>CommonModule.Мокито</commonModules>
+  <commonModules>CommonModule.МокитоОбучение</commonModules>
+  <commonModules>CommonModule.МокитоПроверки</commonModules>
+  <commonModules>CommonModule.МокитоСлужебный</commonModules>
+  <commonModules>CommonModule.ОМ_Мокито</commonModules>
+  <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнитель</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
+  <commonModules>CommonModule.РаботаСHTTP</commonModules>
   <commonModules>CommonModule.ЮТ</commonModules>
   <commonModules>CommonModule.ЮТИсполнитель</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
@@ -59,4 +65,7 @@
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
+  <catalogs>Catalog.ДополнительныеПараметрыЖурналаДействийПользователя</catalogs>
+  <catalogs>Catalog.ИсточникиДанных</catalogs>
+  <documents>Document.ЧекККМ</documents>
 </mdclass:Configuration>

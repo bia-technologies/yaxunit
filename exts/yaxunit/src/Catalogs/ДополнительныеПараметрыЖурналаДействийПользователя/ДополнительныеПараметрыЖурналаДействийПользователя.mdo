@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b6940270-fdf2-4e08-bece-d98e824d5b50">
+  <producedTypes>
+    <objectType typeId="d5bf9fd0-e2a2-4d32-9a09-b09e484f8198" valueTypeId="3d5cc1d2-0173-4750-9f8e-c0643618c079"/>
+    <refType typeId="dbfce91a-b175-43ee-a319-075bc6f511bc" valueTypeId="b667772d-0cdc-4ee6-8a44-831c0d1ea0a8"/>
+    <selectionType typeId="a7ca7180-81e7-4297-9209-0f553d482249" valueTypeId="0cfb7d72-9e2c-4d20-8683-684a5ecb331f"/>
+    <listType typeId="930bcca4-65ad-4b49-a81b-e6b57e31f324" valueTypeId="3d1b05cd-b8c8-4888-bde0-71a73afc0d65"/>
+    <managerType typeId="4c3f8f0c-daf7-49e7-94c9-a0ac9bce6511" valueTypeId="a279f0c0-adeb-433d-b9a6-cbfc500b11b1"/>
+  </producedTypes>
+  <name>ДополнительныеПараметрыЖурналаДействийПользователя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Catalog>
