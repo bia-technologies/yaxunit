@@ -29,6 +29,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ЮТДвижок</subsystems>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
   <commonModules>CommonModule.Мокито</commonModules>
   <commonModules>CommonModule.МокитоОбучение</commonModules>
@@ -44,11 +45,13 @@
   <commonModules>CommonModule.ЮТ</commonModules>
   <commonModules>CommonModule.ЮТИсполнитель</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
+  <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
   <commonModules>CommonModule.ЮТКонтекстКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСервер</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
+  <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТОтчет</commonModules>
   <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
@@ -59,6 +62,7 @@
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТСобытия</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
+  <commonModules>CommonModule.ЮТТестовыеДанныеВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>
