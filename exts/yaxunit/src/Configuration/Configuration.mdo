@@ -37,18 +37,20 @@
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнитель</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
   <commonModules>CommonModule.РаботаСHTTP</commonModules>
-  <commonModules>CommonModule.ЮТ</commonModules>
+  <commonModules>CommonModule.ЮТест</commonModules>
   <commonModules>CommonModule.ЮТИсполнитель</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
   <commonModules>CommonModule.ЮТКонтекстКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСервер</commonModules>
+  <commonModules>CommonModule.ЮТКонтекстТеста</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
@@ -56,7 +58,6 @@
   <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
   <commonModules>CommonModule.ЮТПараметры</commonModules>
-  <commonModules>CommonModule.ЮТПараметрыСервер</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>

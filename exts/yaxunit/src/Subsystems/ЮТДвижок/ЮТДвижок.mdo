@@ -9,7 +9,6 @@
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.МокитоСлужебный</content>
-  <content>CommonModule.ЮТ</content>
   <content>CommonModule.ЮТИсполнитель</content>
   <content>CommonModule.ЮТИсполнительСервер</content>
   <content>CommonModule.ЮТКонтекст</content>
@@ -21,7 +20,6 @@
   <content>CommonModule.ЮТОтчетJSON</content>
   <content>CommonModule.ЮТОтчетJUnit</content>
   <content>CommonModule.ЮТПараметры</content>
-  <content>CommonModule.ЮТПараметрыСервер</content>
   <content>CommonModule.ЮТПовторногоИспользования</content>
   <content>CommonModule.ЮТРасширения</content>
   <content>CommonModule.ЮТРегистрацияОшибок</content>
@@ -36,4 +34,6 @@
   <content>CommonModule.ЮТКонструкторВариантов</content>
   <content>CommonModule.ЮТОбщийВызовСервера</content>
   <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
+  <content>CommonModule.ЮТест</content>
+  <content>CommonModule.ЮТКонтекстТеста</content>
 </mdclass:Subsystem>
