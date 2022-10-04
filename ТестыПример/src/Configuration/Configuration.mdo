@@ -6,9 +6,7 @@
     <value>Tests</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:ConfigurationExtension">
-    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
-  </extension>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension"/>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8a9d9b0a-06b5-4386-885a-eb8bcb1b0451"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="43272ea1-9fa7-4bc0-8465-c5f011180e73"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="86ef968e-8c32-4c3d-bb3f-7261d74f57ea"/>
@@ -20,6 +18,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
+  <version>22.10.0</version>
   <languages uuid="d54879e4-8d6e-4e4d-b5b8-58bc03964e55">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

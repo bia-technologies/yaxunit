@@ -6,5 +6,6 @@
     <value>Функциональность</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>ЮТОбработчикиСобытий</subsystems>
   <subsystems>ЮТФормированиеОтчета</subsystems>
 </mdclass:Subsystem>

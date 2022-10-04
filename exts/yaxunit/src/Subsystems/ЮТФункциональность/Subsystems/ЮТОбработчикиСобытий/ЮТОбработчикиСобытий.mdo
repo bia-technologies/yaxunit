@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9216c4b-6129-47f8-abda-b37ac0c91680">
+  <name>ЮТОбработчикиСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЮТОбработчики событий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.МокитоСлужебный</content>
+  <content>CommonModule.ЮТТестовыеДанные</content>
+  <content>CommonModule.ЮТУтверждения</content>
+  <parentSubsystem>Subsystem.ЮТФункциональность</parentSubsystem>
+</mdclass:Subsystem>

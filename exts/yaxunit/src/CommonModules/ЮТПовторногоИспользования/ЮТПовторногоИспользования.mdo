@@ -5,6 +5,8 @@
     <key>ru</key>
     <value>Повторного использования</value>
   </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>
