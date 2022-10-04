@@ -18,6 +18,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
+  <version>22.10.0</version>
   <languages uuid="d54879e4-8d6e-4e4d-b5b8-58bc03964e55">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
