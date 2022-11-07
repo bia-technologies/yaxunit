@@ -31,6 +31,12 @@
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
+  <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
+  <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
+  <commonPictures>CommonPicture.ЮТПропущен</commonPictures>
+  <commonPictures>CommonPicture.ЮТУпал</commonPictures>
+  <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
+  <commonPictures>CommonPicture.ЮТЭлементыТестов</commonPictures>
   <commonModules>CommonModule.Мокито</commonModules>
   <commonModules>CommonModule.МокитоОбучение</commonModules>
   <commonModules>CommonModule.МокитоПроверки</commonModules>
@@ -62,4 +68,5 @@
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
+  <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
 </mdclass:Configuration>

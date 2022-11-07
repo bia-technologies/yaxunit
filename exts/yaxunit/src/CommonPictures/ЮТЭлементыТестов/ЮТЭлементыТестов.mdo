@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="341ee107-1c3b-488b-8890-02d2129fa2a4">
+  <name>ЮТЭлементыТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы тестов</value>
+  </synonym>
+</mdclass:CommonPicture>
