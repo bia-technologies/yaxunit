@@ -1,0 +1,17 @@
+alwaysEndWithSemicolon=true
+autowrapBinary=indent_on_wrap
+autowrapInvocation=alignment_on_wrap
+autowrapMethodParameters=alignment_on_wrap
+creatorEmptyBrackets=never brackets
+defaultValuesInitialized=true
+eclipse.preferences.version=1
+formattingOn=true
+indentMethodInternal=true
+invocationEmptyParamsDelimited=true
+keywordStandard=CamelCase
+noindent_preprocessor=true
+projectSpecificSettingsInited=true
+showWhitespaceCharacters=true
+softFormatassignmentStatement=true
+spacesForTabs=false
+whitespaceMethodParamsDelimited=true
