@@ -20,6 +20,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="92f4d1b5-d045-482b-b1ed-b8076caf180c">
+    <name>СозданиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="7b2e6e42-7ce3-4e80-b14c-6c492850cc66">
     <name>Сравнение</name>
     <synonym>
