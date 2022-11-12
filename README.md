@@ -30,6 +30,7 @@
 Подробнее ознакомиться с функциональностью вы можете изучив [документацию](docs/api-topic.md).
 
 А для того, что бы начать писать тесты необходимо [установить расширение](docs/install.md) в свою IDE (конфигуратор или EDT).
+
 ## Пример тестового модуля
 
 Для создания теста нужно в расширении (в отдельном или в том же) добавить модуль, содержащий экспортный метод регистрации - `ИсполняемыеСценарии` и реализовать тесты.
@@ -161,6 +162,7 @@
 | `reportFormat`    | `String`  | `"jUnit"`             | Формат отчета о тестировании, возможные значения: `"jUnit"`, `"JSON"`                                        |
 | `reportPath`      | `String`  | `""`                  | Путь к формируемому отчету, можно указать или каталог (в которому будет создан файл отчета) или путь к файлу |
 | `closeAfterTests` | `Boolean` | `True`                | Признак закрытия 1С:Предприятие по завершению тестирования                                                   |
+| `showReport`      | `Boolean` | `True`                | Открыть форму отчета завершению тестирования                                                                 |
 
 Параметры фильтрации:
 
@@ -221,9 +223,9 @@
 
 Особая благодарность авторам и контрибьютерам проектов
 
-* [xUnitFor1C](https://github.com/xDrivenDevelopment/xUnitFor1C/graphs/contributors)
-* [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation/graphs/contributors)
-* [add](https://github.com/vanessa-opensource/add/graphs/contributors)
+- [xUnitFor1C](https://github.com/xDrivenDevelopment/xUnitFor1C/graphs/contributors)
+- [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation/graphs/contributors)
+- [add](https://github.com/vanessa-opensource/add/graphs/contributors)
 
 ---
 

@@ -20,7 +20,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>22.10.0</version>
+  <version>22.11.0</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -31,6 +31,12 @@
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
+  <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
+  <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
+  <commonPictures>CommonPicture.ЮТПропущен</commonPictures>
+  <commonPictures>CommonPicture.ЮТУпал</commonPictures>
+  <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
+  <commonPictures>CommonPicture.ЮТЭлементыТестов</commonPictures>
   <commonModules>CommonModule.Мокито</commonModules>
   <commonModules>CommonModule.МокитоОбучение</commonModules>
   <commonModules>CommonModule.МокитоПроверки</commonModules>
@@ -62,4 +68,5 @@
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
+  <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
 </mdclass:Configuration>

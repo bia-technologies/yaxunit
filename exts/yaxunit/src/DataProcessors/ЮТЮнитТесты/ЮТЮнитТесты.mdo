@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1bdc484-8502-4c5d-bead-0a5861739c3c">
+  <producedTypes>
+    <objectType typeId="5b4ab199-21bb-4d2c-9b3f-76400ff90d09" valueTypeId="46e26617-02e4-4719-87a0-982b4820504f"/>
+    <managerType typeId="cea40759-07dd-409f-8c26-be7e738c7fbe" valueTypeId="e3a7e7ca-1e0d-4fdf-9390-258825a6bba5"/>
+  </producedTypes>
+  <name>ЮТЮнитТесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юнит тесты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЮТЮнитТесты.Form.Основная</defaultForm>
+  <forms uuid="c3c0fc7f-1c5e-47d9-b103-201517e2c100">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92f4d1b5-d045-482b-b1ed-b8076caf180c">
+    <name>СозданиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b2e6e42-7ce3-4e80-b14c-6c492850cc66">
+    <name>Сравнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2b46baf7-b195-4fa1-8014-1130b555872f">
+    <name>Сравнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="44459710-21e4-4399-a5ba-253d36a7fbbc">
+    <name>СравнениеOld</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение old</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

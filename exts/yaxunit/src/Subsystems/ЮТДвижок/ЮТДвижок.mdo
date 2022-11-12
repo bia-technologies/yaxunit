@@ -3,8 +3,9 @@
   <name>ЮТДвижок</name>
   <synonym>
     <key>ru</key>
-    <value>Движок</value>
+    <value>Юнит тесты</value>
   </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.Мокито</content>
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПроверки</content>
@@ -36,4 +37,11 @@
   <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
   <content>CommonModule.ЮТест</content>
   <content>CommonModule.ЮТКонтекстТеста</content>
+  <content>CommonPicture.ЮТНеизвестный</content>
+  <content>CommonPicture.ЮТОшибка</content>
+  <content>CommonPicture.ЮТПропущен</content>
+  <content>CommonPicture.ЮТУпал</content>
+  <content>CommonPicture.ЮТУспешно</content>
+  <content>CommonPicture.ЮТЭлементыТестов</content>
+  <content>DataProcessor.ЮТЮнитТесты</content>
 </mdclass:Subsystem>
