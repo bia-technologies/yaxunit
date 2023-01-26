@@ -49,6 +49,8 @@
   <commonModules>CommonModule.ЮТКонтекстКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСервер</commonModules>
   <commonModules>CommonModule.ЮТКонтекстТеста</commonModules>
+  <commonModules>CommonModule.ЮТЛогирование</commonModules>
+  <commonModules>CommonModule.ЮТЛогированиеВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
