@@ -32,6 +32,7 @@
   <commonModules>CommonModule.ОМ_Общий</commonModules>
   <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТТесты</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
