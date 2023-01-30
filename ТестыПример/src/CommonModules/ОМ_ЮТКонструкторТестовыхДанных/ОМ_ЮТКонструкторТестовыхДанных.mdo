@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5d2b51c-f761-4761-9d38-fc428aea76ea">
+  <name>ОМ_ЮТКонструкторТестовыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>О м конструктор тестовых данных</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
