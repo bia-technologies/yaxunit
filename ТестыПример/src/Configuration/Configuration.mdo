@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8707b744-2543-4013-af0e-9e13b6624e59">
   <name>tests</name>
-  <synonym>
-    <key>ru</key>
-    <value>Tests</value>
-  </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension"/>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8a9d9b0a-06b5-4386-885a-eb8bcb1b0451"/>
@@ -36,8 +32,8 @@
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
-  <commonModules>CommonModule.РаботаСHTTP</commonModules>
-  <catalogs>Catalog.ДополнительныеПараметрыЖурналаДействийПользователя</catalogs>
-  <catalogs>Catalog.ИсточникиДанных</catalogs>
-  <documents>Document.ЧекККМ</documents>
+  <commonModules>CommonModule.Интеграция</commonModules>
+  <catalogs>Catalog.Встречи</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ПриходТовара</documents>
 </mdclass:Configuration>
