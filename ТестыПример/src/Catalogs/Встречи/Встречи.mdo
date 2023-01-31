@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5bf237cc-e8c9-45ff-b2ee-6efd4355b750">
+  <producedTypes>
+    <objectType typeId="3f2a8e39-029d-4936-b08d-475610a0cd78" valueTypeId="570bf81b-9639-4e91-9d62-5764c1b9fd35"/>
+    <refType typeId="0d0f2c21-3f0d-4195-88a5-f879305f1528" valueTypeId="3567442a-9c3e-4629-b5f2-d86c6f03a98f"/>
+    <selectionType typeId="3a2a3d1c-ccf3-41c2-bc83-b92b7ec767a6" valueTypeId="df96db7e-96b9-4714-af68-5b5ef14c76e7"/>
+    <listType typeId="be7e54e7-18d6-4d69-a190-f99952914588" valueTypeId="c3b4a1a2-7882-4709-ae45-0288b389ddf5"/>
+    <managerType typeId="0c297f6d-df5e-4138-b552-d0ca91ae6363" valueTypeId="63648306-8fc0-43ca-9a9e-16a982ef24a2"/>
+  </producedTypes>
+  <name>Встречи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Catalog>

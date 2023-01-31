@@ -6,7 +6,7 @@
   </title>
   <items xsi:type="form:Table">
     <name>ДеревоТестов</name>
-    <id>61</id>
+    <id>25</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -381,7 +381,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДеревоТестовКонтекстноеМеню</name>
-      <id>63</id>
+      <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -414,6 +414,104 @@
   <items xsi:type="form:FormGroup">
     <name>ГруппаПараметрыЗапуска</name>
     <id>43</id>
+    <items xsi:type="form:FormField">
+      <name>ОтобразитьОтчет</name>
+      <id>69</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтобразитьОтчет</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОтобразитьОтчетРасширеннаяПодсказка</name>
+        <id>71</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОтобразитьОтчетКонтекстноеМеню</name>
+        <id>70</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ВыводЛога</name>
+      <id>66</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяФайлаЛога</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ВыводЛогаРасширеннаяПодсказка</name>
+        <id>68</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВыводЛогаКонтекстноеМеню</name>
+        <id>67</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>StartChoice</event>
+          <name>ВыводЛогаНачалоВыбора</name>
+        </handlers>
+        <wrap>true</wrap>
+        <choiceButton>true</choiceButton>
+        <clearButton>true</clearButton>
+        <openButton>true</openButton>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <items xsi:type="form:FormField">
       <name>ФайлКонфигурации</name>
       <id>55</id>
@@ -822,6 +920,47 @@
     </edit>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>ЗапускИзКонфигуратор</segments>
+    </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>ИмяФайлаЛога</name>
+    <title>
+      <key>ru</key>
+      <value>Вывод отладочных сообщений в файл</value>
+    </title>
+    <id>61</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ИмяФайлаЛога</segments>
+    </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>ОтобразитьОтчет</name>
+    <title>
+      <key>ru</key>
+      <value>Показать отчет после выполнения тестов</value>
+    </title>
+    <id>63</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ОтобразитьОтчет</segments>
     </settingsSavedData>
   </attributes>
   <formCommands>

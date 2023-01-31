@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ebe57d7-1182-4eea-bdda-375c1e0262e4">
   <name>YAXUNIT</name>
-  <synonym>
-    <key>ru</key>
-    <value>YAXUNIT</value>
-  </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <managedApplicationModule>Extended</managedApplicationModule>
@@ -20,7 +16,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>22.11.0</version>
+  <version>23.01.0</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -37,6 +33,7 @@
   <commonPictures>CommonPicture.ЮТУпал</commonPictures>
   <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
   <commonPictures>CommonPicture.ЮТЭлементыТестов</commonPictures>
+  <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
   <commonModules>CommonModule.Мокито</commonModules>
   <commonModules>CommonModule.МокитоОбучение</commonModules>
   <commonModules>CommonModule.МокитоПроверки</commonModules>
@@ -45,10 +42,15 @@
   <commonModules>CommonModule.ЮТИсполнитель</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
+  <commonModules>CommonModule.ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
   <commonModules>CommonModule.ЮТКонтекстКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСервер</commonModules>
   <commonModules>CommonModule.ЮТКонтекстТеста</commonModules>
+  <commonModules>CommonModule.ЮТЛогирование</commonModules>
+  <commonModules>CommonModule.ЮТЛогированиеВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТМетаданные</commonModules>
+  <commonModules>CommonModule.ЮТМетаданныеПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
@@ -62,6 +64,7 @@
   <commonModules>CommonModule.ЮТСобытия</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>

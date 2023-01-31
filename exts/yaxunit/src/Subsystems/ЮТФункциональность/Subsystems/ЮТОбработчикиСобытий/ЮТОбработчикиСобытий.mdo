@@ -8,6 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.МокитоСлужебный</content>
+  <content>CommonModule.ЮТЛогирование</content>
   <content>CommonModule.ЮТТестовыеДанные</content>
   <content>CommonModule.ЮТУтверждения</content>
   <parentSubsystem>Subsystem.ЮТФункциональность</parentSubsystem>
