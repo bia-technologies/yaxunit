@@ -6,7 +6,7 @@
   </title>
   <items xsi:type="form:Table">
     <name>ДеревоТестов</name>
-    <id>61</id>
+    <id>25</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -381,7 +381,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДеревоТестовКонтекстноеМеню</name>
-      <id>63</id>
+      <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

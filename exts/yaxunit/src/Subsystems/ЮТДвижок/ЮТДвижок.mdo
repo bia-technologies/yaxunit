@@ -10,13 +10,17 @@
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.МокитоСлужебный</content>
+  <content>CommonModule.ЮТест</content>
   <content>CommonModule.ЮТИсполнитель</content>
   <content>CommonModule.ЮТИсполнительСервер</content>
+  <content>CommonModule.ЮТКонструкторВариантов</content>
   <content>CommonModule.ЮТКонтекст</content>
   <content>CommonModule.ЮТКонтекстКлиент</content>
   <content>CommonModule.ЮТКонтекстСервер</content>
+  <content>CommonModule.ЮТКонтекстТеста</content>
   <content>CommonModule.ЮТМетаданныеСервер</content>
   <content>CommonModule.ЮТОбщий</content>
+  <content>CommonModule.ЮТОбщийВызовСервера</content>
   <content>CommonModule.ЮТОтчет</content>
   <content>CommonModule.ЮТОтчетJSON</content>
   <content>CommonModule.ЮТОтчетJUnit</content>
@@ -26,17 +30,13 @@
   <content>CommonModule.ЮТРегистрацияОшибок</content>
   <content>CommonModule.ЮТСобытия</content>
   <content>CommonModule.ЮТТестовыеДанные</content>
+  <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
   <content>CommonModule.ЮТТесты</content>
   <content>CommonModule.ЮТУтверждения</content>
   <content>CommonModule.ЮТФабрика</content>
   <content>CommonModule.ЮТФильтрация</content>
   <content>CommonModule.ЮТЧитатель</content>
   <content>CommonModule.ЮТЧитательСервер</content>
-  <content>CommonModule.ЮТКонструкторВариантов</content>
-  <content>CommonModule.ЮТОбщийВызовСервера</content>
-  <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
-  <content>CommonModule.ЮТест</content>
-  <content>CommonModule.ЮТКонтекстТеста</content>
   <content>CommonPicture.ЮТНеизвестный</content>
   <content>CommonPicture.ЮТОшибка</content>
   <content>CommonPicture.ЮТПропущен</content>
