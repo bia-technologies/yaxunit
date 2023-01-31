@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2022 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2023 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -44,6 +44,12 @@
 Функция ПараметрыТиповОшибок() Экспорт
 	
 	Возврат ЮТФабрика.ПараметрыТиповОшибок(Ложь);
+	
+КонецФункции
+
+Функция ОписаниеТиповЛюбаяСсылка() Экспорт
+	
+	Возврат ЮТОбщийВызовСервера.ОписаниеТиповЛюбаяСсылка();
 	
 КонецФункции
 

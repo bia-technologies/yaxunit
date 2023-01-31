@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2022 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2023 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -45,6 +45,16 @@
 Функция УстановленБезопасныйРежим() Экспорт
 	
 	Возврат БезопасныйРежим();
+	
+КонецФункции
+
+Функция Менеджер(Знач Менеджер) Экспорт
+	
+	Если ТипЗнч(Менеджер) = Тип("Строка") Тогда
+		Менеджер = ЮТОбщий.ВычислитьБезопасно(Менеджер);
+	КонецЕсли;
+	
+	Возврат Менеджер;
 	
 КонецФункции
 
