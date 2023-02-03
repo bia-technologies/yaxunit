@@ -1,5 +1,18 @@
 # YAXUnit. Расширение для запуска тестов
 
+----
+
+[![Actions Status](https://github.com/bia-technologies/yaxunit/actions/workflows/sq.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions)
+[![Download](https://img.shields.io/github/release/bia-technologies/yaxunit.svg?label=download&style=flat)](https://github.com/bia-technologies/yaxunit/releases/latest)
+[![GitHub Releases](https://img.shields.io/github/downloads/bia-technologies/yaxunit/latest/total?style=flat-square)](https://github.com/bia-technologies/yaxunit/releases)
+[![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
+[![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
+
+
+Обсудить в [телеграмм чате](https://t.me/BIAOpenTools/12)
+
+----
+
 - [Назначение](#назначение)
   - [Возможности](#возможности)
 - [Пример тестового модуля](#пример-тестового-модуля)
@@ -8,8 +21,6 @@
   - [Запуск вне EDT](#запуск-вне-edt)
 - [Благодарности](#благодарности)
 - [Лицензия](#лицензия)
-
-Обсудить в [телеграмм чате](https://t.me/BIAOpenTools/12)
 
 ## Назначение
 
