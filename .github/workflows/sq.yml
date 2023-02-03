@@ -28,7 +28,7 @@ jobs:
     
     - name: Extract version
       shell: bash
-      run: echo "##[set-output name=version;]` cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '<version>(.*)<\/version>'`"
+      run: echo "##[set-output name=version;]` cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+'`"
       id: extract_version
 
     - name: SonarCloud Scan on push
