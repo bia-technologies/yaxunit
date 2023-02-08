@@ -29,7 +29,10 @@ jobs:
       run: echo "##[set-output name=version;]` cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+'`"
       id: extract_version
 
-# Анализ проекта в SonarQube (ветка)
+    - name: Setup sonarqube
+      uses: warchant/setup-sonar-scanner@v3
+        
+    # Анализ проекта в SonarQube (ветка)
     - name: Анализ в SonarQube (branch)
       if: github.event_name == 'push'
       env:
