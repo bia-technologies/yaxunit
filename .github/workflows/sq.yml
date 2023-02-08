@@ -1,9 +1,6 @@
 name: sq-analyze
 
-on:
-  push: 
-      branches: 
-      pull_request:
+on: [push, pull_request]
 
 jobs:
   SonarScanner:
@@ -32,7 +29,6 @@ jobs:
       id: extract_version
 
     - name: SonarCloud Scan on push
-      if:  github.event_name == 'push'
       uses: nixel2007/sonarcloud-github-action@v1.4
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: true
@@ -41,5 +37,4 @@ jobs:
       with:
         args: >
           -Dsonar.host.url=https://sonar.openbsl.ru
-          -Dsonar.branch.name=${{ env.BRANCH_NAME }}
           -Dsonar.projectVersion=${{ steps.extract_version.outputs.version }}
