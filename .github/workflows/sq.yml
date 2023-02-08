@@ -24,17 +24,32 @@ jobs:
       uses: nixel2007/branch-name@v3
     
     - name: Extract version
+      if: github.event_name == 'push'
       shell: bash
       run: echo "##[set-output name=version;]` cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+'`"
       id: extract_version
 
-    - name: SonarCloud Scan on push
-      uses: nixel2007/sonarcloud-github-action@v1.4
+# Анализ проекта в SonarQube (ветка)
+    - name: Анализ в SonarQube (branch)
+      if: github.event_name == 'push'
       env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      with:
-        args: >
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: sonar-scanner
           -Dsonar.host.url=https://sonar.openbsl.ru
+          -Dsonar.branch.name=${{ env.BRANCH_NAME }}
           -Dsonar.projectVersion=${{ steps.extract_version.outputs.version }}
+
+      # Анализ проекта в SonarQube (PR)
+      # https://docs.sonarqube.org/latest/analysis/pull-request/
+    - name: Анализ в SonarQube (pull-request)
+      if: github.event_name == 'pull_request'
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: sonar-scanner
+          -Dsonar.host.url=https://sonar.openbsl.ru
+          -Dsonar.pullrequest.key=${{ github.event.pull_request.number }}
+          -Dsonar.pullrequest.branch=${{ github.event.pull_request.head.ref }}
+          -Dsonar.pullrequest.base=${{ github.event.pull_request.base.ref }}
+          -Dsonar.scm.revision=${{ github.event.pull_request.head.sha }}
