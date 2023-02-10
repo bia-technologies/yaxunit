@@ -1,3 +1,7 @@
+---
+tags: [Getting started]
+---
+
 # Установка
 
 ## Установка в EDT
