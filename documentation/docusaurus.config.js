@@ -73,6 +73,16 @@ const config = {
         sidebarPath: require.resolve('./sidebarsLessons.js'),
         // ... other options
       },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'contributing',
+        path: 'contributing',
+        routeBasePath: 'contributing',
+        sidebarPath: require.resolve('./sidebarsContributing.js'),
+        // ... other options
+      },
     ]
   ],
 
@@ -106,6 +116,13 @@ const config = {
             docsPluginId: 'api',
             position: 'left',
             label: 'API',
+          },
+          {
+            type: 'doc',
+            docId: 'index',
+            docsPluginId: 'contributing',
+            position: 'left',
+            label: 'Руководство разработчика',
           },
           {
             href: 'https://github.com/bia-technologies/yaxunit',
@@ -152,6 +169,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
 };
 
 module.exports = config;
