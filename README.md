@@ -1,4 +1,4 @@
-# YAXUnit. Расширение для запуска тестов
+# ![](documentation/static/img/logo.png) YAXUnit. Расширение для запуска тестов
 
 ----
 
