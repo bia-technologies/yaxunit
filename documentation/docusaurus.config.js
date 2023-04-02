@@ -113,8 +113,8 @@ const config = {
             label: 'Уроки',
           },
           {
-            type: 'doc',
-            docId: 'index',
+            type: 'docSidebar',
+            sidebarId: 'api',
             docsPluginId: 'api',
             position: 'left',
             label: 'API',
