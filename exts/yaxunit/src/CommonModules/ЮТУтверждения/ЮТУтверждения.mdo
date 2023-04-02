@@ -3,7 +3,7 @@
   <name>ЮТУтверждения</name>
   <synonym>
     <key>ru</key>
-    <value>ЮТУтверждения</value>
+    <value>Утверждения</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

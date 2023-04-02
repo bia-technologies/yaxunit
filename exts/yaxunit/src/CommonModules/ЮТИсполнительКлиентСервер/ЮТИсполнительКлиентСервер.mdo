@@ -3,7 +3,7 @@
   <name>ЮТИсполнительКлиентСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Исполнитель</value>
+    <value>Исполнитель тестов</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

@@ -3,7 +3,7 @@
   <name>ЮТСобытия</name>
   <synonym>
     <key>ru</key>
-    <value>Расширение исполнителя</value>
+    <value>Генератор событий</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

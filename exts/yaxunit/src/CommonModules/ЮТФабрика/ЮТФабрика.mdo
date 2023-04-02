@@ -3,7 +3,7 @@
   <name>ЮТФабрика</name>
   <synonym>
     <key>ru</key>
-    <value>Клиент сервер</value>
+    <value>Фабрика</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

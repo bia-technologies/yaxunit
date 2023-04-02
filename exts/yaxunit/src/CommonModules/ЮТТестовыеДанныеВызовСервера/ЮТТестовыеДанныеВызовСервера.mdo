@@ -3,7 +3,7 @@
   <name>ЮТТестовыеДанныеВызовСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Тестовые данные вызов сервера</value>
+    <value>Тестовые данные (вызов сервера)</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>
