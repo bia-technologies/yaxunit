@@ -57,7 +57,7 @@
   <commonModules>CommonModule.ЮТОтчет</commonModules>
   <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
-  <commonModules>CommonModule.ЮТПараметры</commonModules>
+  <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
