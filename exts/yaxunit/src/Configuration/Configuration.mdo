@@ -40,7 +40,9 @@
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
   <commonModules>CommonModule.ЮТИсполнитель</commonModules>
+  <commonModules>CommonModule.ЮТИсполнительКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
+  <commonModules>CommonModule.ЮТКоллекции</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
@@ -52,6 +54,7 @@
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
+  <commonModules>CommonModule.ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТОтчет</commonModules>
@@ -68,6 +71,7 @@
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>
+  <commonModules>CommonModule.ЮТФайлы</commonModules>
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>

@@ -7,6 +7,5 @@
   </synonym>
   <comment>Используется для обработки и дополнения параметров запуска тестов</comment>
   <clientManagedApplication>true</clientManagedApplication>
-  <server>true</server>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
