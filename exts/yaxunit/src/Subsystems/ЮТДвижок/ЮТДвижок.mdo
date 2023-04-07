@@ -11,7 +11,7 @@
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.МокитоСлужебный</content>
   <content>CommonModule.ЮТест</content>
-  <content>CommonModule.ЮТИсполнитель</content>
+  <content>CommonModule.ЮТИсполнительКлиентСервер</content>
   <content>CommonModule.ЮТИсполнительСервер</content>
   <content>CommonModule.ЮТКонструкторВариантов</content>
   <content>CommonModule.ЮТКонструкторТестовыхДанных</content>
