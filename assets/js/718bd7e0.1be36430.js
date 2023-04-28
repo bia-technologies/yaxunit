@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[3473],{6759:e=>{e.exports=JSON.parse('{"permalink":"/yaxunit/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"\u0417\u0430\u043c\u0435\u0442\u043a\u0438"}')}}]);

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>YAx Unit Blog</title>
+        <link>https://bia-technologies.github.io/yaxunit/blog</link>
+        <description>YAx Unit Blog</description>
+        <lastBuildDate>Sat, 29 Apr 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[У нас появился блог]]></title>
+            <link>https://bia-technologies.github.io/yaxunit/blog/2023/04/29/01-first</link>
+            <guid>https://bia-technologies.github.io/yaxunit/blog/2023/04/29/01-first</guid>
+            <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Здесь мы будем размещать новости о выпусках релизов, небольшие заметки и прочее.]]></description>
+            <content:encoded><![CDATA[<p>Здесь мы будем размещать новости о выпусках релизов, небольшие заметки и прочее.</p><p>Вы также можете добавлять свои посты делясь полезной информацией с сообществом.
+Для этого вам необходимо разместить его в каталоге <a href="https://github.com/bia-technologies/yaxunit/tree/develop/documentation/blog" target="_blank" rel="noopener noreferrer"><code>documentation/blog</code></a></p><p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Описание</a> по созданию постов</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[YaxUnit. Версия 23.04]]></title>
+            <link>https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release</link>
+            <guid>https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release</guid>
+            <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 23.04]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/edt-test-runner/releases/tag/23.04" target="_blank" rel="noopener noreferrer">Release 23.04</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="#новое-в-версии" class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="#тестовые-данные" class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные">​</a></h3><ul><li>Новые ф-ии для удаления тестовых данных по ссылкам</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование">Мокирование<a href="#мокирование" class="hash-link" aria-label="Direct link to Мокирование" title="Direct link to Мокирование">​</a></h3><ul><li>Восстановлена потерянная возможность задавать различное поведение для цепочки одинаковых вызовов</li><li>Доступ к статистике вызовов методов при проверке</li><li>Сброс статистики вызовов методов при нескольких "прогонах" в одном тесте</li><li>Реализована возможность мокирования HTTP сервисов</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="#утверждения" class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения">​</a></h3><ul><li>Новое утверждение для сравнения коллекций (by <a href="https://github.com/ViktorErmakov" target="_blank" rel="noopener noreferrer">@ViktorErmakov</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="документация">Документация<a href="#документация" class="hash-link" aria-label="Direct link to Документация" title="Direct link to Документация">​</a></h3><ul><li>Создан статический сайт с документацией в удобном виде</li><li>Обновлена и дополнена документация</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="#прочее" class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее">​</a></h3><ul><li>Внесены доработки для более удобного использования в CI</li><li>Доработан движок для работы в режиме без использования синхронных методов</li></ul><div class="theme-admonition theme-admonition-caution alert alert--warning admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Внимание</div><div class="admonitionContent_S0QG"><p>В ближайших версиях будет удален вариант точки входа в тестовый модуль ИсполняемыеСценарии с параметрами.</p></div></div>]]></content:encoded>
+            <category>releases</category>
+            <category>yaxunit</category>
+        </item>
+        <item>
+            <title><![CDATA[EDT Test runner. Версия 23.04]]></title>
+            <link>https://bia-technologies.github.io/yaxunit/blog/2023/04/29/03-plugin-release</link>
+            <guid>https://bia-technologies.github.io/yaxunit/blog/2023/04/29/03-plugin-release</guid>
+            <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 23.04]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/edt-test-runner/releases/tag/23.04" target="_blank" rel="noopener noreferrer">Release 23.04</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="#новое-в-версии" class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии">​</a></h2><ul><li>Модернизирована панель просмотра ошибок тестов</li><li>Реализована навигация между тестом и тестируемым методом</li><li>Исправлена ошибка, при которой в дереве предметов отладки оставались записи</li><li>Различные дополнения и правки в документации, включая исправление опечаток (спасибо <a href="https://github.com/artbear" target="_blank" rel="noopener noreferrer">@artbear</a>)</li><li>Исправлена ошибка конфликта с плагином git</li></ul>]]></content:encoded>
+            <category>releases</category>
+            <category>plugin</category>
+        </item>
+    </channel>
+</rss>
