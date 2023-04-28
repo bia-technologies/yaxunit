@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24d9c1de-23c0-4d03-b2bf-9437c0985453">
-  <name>ЮТИсполнитель</name>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2874e686-3785-4050-994a-bf457fa32700">
+  <name>ЮТФайлы</name>
   <synonym>
     <key>ru</key>
-    <value>Исполнитель</value>
+    <value>Файлы</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
