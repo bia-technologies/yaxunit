@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3405948-b02e-4e4b-8195-dd51bf07a4c4">
+  <name>ЮТНастройкиВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

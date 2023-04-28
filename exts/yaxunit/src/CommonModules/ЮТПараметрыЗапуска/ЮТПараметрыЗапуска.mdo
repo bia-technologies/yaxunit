@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0e947cd-ee15-4ae9-bf95-21ed64042227">
+  <name>ЮТПараметрыЗапуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры</value>
+  </synonym>
+  <comment>Используется для обработки и дополнения параметров запуска тестов</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

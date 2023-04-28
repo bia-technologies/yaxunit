@@ -39,7 +39,8 @@
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
-  <commonModules>CommonModule.ЮТИсполнитель</commonModules>
+  <commonModules>CommonModule.ЮТИсполнительКлиент</commonModules>
+  <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанных</commonModules>
@@ -52,12 +53,13 @@
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
+  <commonModules>CommonModule.ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТОтчет</commonModules>
   <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
-  <commonModules>CommonModule.ЮТПараметры</commonModules>
+  <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
@@ -68,8 +70,10 @@
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>
+  <commonModules>CommonModule.ЮТФайлы</commonModules>
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
+  <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
 </mdclass:Configuration>

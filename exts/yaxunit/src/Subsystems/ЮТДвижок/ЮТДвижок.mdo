@@ -11,26 +11,32 @@
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.МокитоСлужебный</content>
   <content>CommonModule.ЮТест</content>
-  <content>CommonModule.ЮТИсполнитель</content>
+  <content>CommonModule.ЮТИсполнительКлиентСервер</content>
   <content>CommonModule.ЮТИсполнительСервер</content>
   <content>CommonModule.ЮТКонструкторВариантов</content>
+  <content>CommonModule.ЮТКонструкторТестовыхДанных</content>
   <content>CommonModule.ЮТКонтекст</content>
   <content>CommonModule.ЮТКонтекстКлиент</content>
   <content>CommonModule.ЮТКонтекстСервер</content>
   <content>CommonModule.ЮТКонтекстТеста</content>
+  <content>CommonModule.ЮТЛогирование</content>
+  <content>CommonModule.ЮТЛогированиеВызовСервера</content>
+  <content>CommonModule.ЮТМетаданные</content>
+  <content>CommonModule.ЮТМетаданныеПовтИсп</content>
   <content>CommonModule.ЮТМетаданныеСервер</content>
   <content>CommonModule.ЮТОбщий</content>
   <content>CommonModule.ЮТОбщийВызовСервера</content>
   <content>CommonModule.ЮТОтчет</content>
   <content>CommonModule.ЮТОтчетJSON</content>
   <content>CommonModule.ЮТОтчетJUnit</content>
-  <content>CommonModule.ЮТПараметры</content>
+  <content>CommonModule.ЮТПараметрыЗапуска</content>
   <content>CommonModule.ЮТПовторногоИспользования</content>
   <content>CommonModule.ЮТРасширения</content>
   <content>CommonModule.ЮТРегистрацияОшибок</content>
   <content>CommonModule.ЮТСобытия</content>
   <content>CommonModule.ЮТТестовыеДанные</content>
   <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
+  <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <content>CommonModule.ЮТТесты</content>
   <content>CommonModule.ЮТУтверждения</content>
   <content>CommonModule.ЮТФабрика</content>
@@ -43,5 +49,7 @@
   <content>CommonPicture.ЮТУпал</content>
   <content>CommonPicture.ЮТУспешно</content>
   <content>CommonPicture.ЮТЭлементыТестов</content>
+  <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
+  <content>CommonTemplate.ЮТОписаниеМетаданных</content>
 </mdclass:Subsystem>
