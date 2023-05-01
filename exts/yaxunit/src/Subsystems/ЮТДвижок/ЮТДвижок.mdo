@@ -11,6 +11,9 @@
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.МокитоСлужебный</content>
   <content>CommonModule.ЮТест</content>
+  <content>CommonModule.ЮТЗапросы</content>
+  <content>CommonModule.ЮТЗапросыВызовСервера</content>
+  <content>CommonModule.ЮТИсполнительКлиент</content>
   <content>CommonModule.ЮТИсполнительКлиентСервер</content>
   <content>CommonModule.ЮТИсполнительСервер</content>
   <content>CommonModule.ЮТКонструкторВариантов</content>
@@ -24,6 +27,7 @@
   <content>CommonModule.ЮТМетаданные</content>
   <content>CommonModule.ЮТМетаданныеПовтИсп</content>
   <content>CommonModule.ЮТМетаданныеСервер</content>
+  <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщий</content>
   <content>CommonModule.ЮТОбщийВызовСервера</content>
   <content>CommonModule.ЮТОтчет</content>
@@ -31,15 +35,21 @@
   <content>CommonModule.ЮТОтчетJUnit</content>
   <content>CommonModule.ЮТПараметрыЗапуска</content>
   <content>CommonModule.ЮТПовторногоИспользования</content>
+  <content>CommonModule.ЮТПредикаты</content>
+  <content>CommonModule.ЮТПредикатыКлиентСервер</content>
   <content>CommonModule.ЮТРасширения</content>
   <content>CommonModule.ЮТРегистрацияОшибок</content>
   <content>CommonModule.ЮТСобытия</content>
+  <content>CommonModule.ЮТСравнениеКлиентСервер</content>
+  <content>CommonModule.ЮТСравнениеСервер</content>
   <content>CommonModule.ЮТТестовыеДанные</content>
   <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <content>CommonModule.ЮТТесты</content>
   <content>CommonModule.ЮТУтверждения</content>
+  <content>CommonModule.ЮТУтвержденияИБ</content>
   <content>CommonModule.ЮТФабрика</content>
+  <content>CommonModule.ЮТФайлы</content>
   <content>CommonModule.ЮТФильтрация</content>
   <content>CommonModule.ЮТЧитатель</content>
   <content>CommonModule.ЮТЧитательСервер</content>

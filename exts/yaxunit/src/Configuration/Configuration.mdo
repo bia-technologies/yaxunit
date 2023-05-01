@@ -39,6 +39,8 @@
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
+  <commonModules>CommonModule.ЮТЗапросы</commonModules>
+  <commonModules>CommonModule.ЮТЗапросыВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
@@ -73,6 +75,7 @@
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
+  <commonModules>CommonModule.ЮТУтвержденияИБ</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>
   <commonModules>CommonModule.ЮТФайлы</commonModules>
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
