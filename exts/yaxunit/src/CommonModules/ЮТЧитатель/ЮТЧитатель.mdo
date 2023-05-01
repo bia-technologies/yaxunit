@@ -3,7 +3,7 @@
   <name>ЮТЧитатель</name>
   <synonym>
     <key>ru</key>
-    <value>ЮТЧитатель</value>
+    <value>Загрузчик тестов</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

@@ -3,7 +3,7 @@
   <name>ЮТКонтекст</name>
   <synonym>
     <key>ru</key>
-    <value>Контекст</value>
+    <value>Контекст тестового движка</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

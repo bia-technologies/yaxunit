@@ -3,7 +3,7 @@
   <name>ЮТОбщийВызовСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Общий вызов сервера</value>
+    <value>Общий (вызов сервера)</value>
   </synonym>
   <server>true</server>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

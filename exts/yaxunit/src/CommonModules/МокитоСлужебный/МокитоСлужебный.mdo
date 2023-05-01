@@ -3,7 +3,7 @@
   <name>МокитоСлужебный</name>
   <synonym>
     <key>ru</key>
-    <value>Мокито служебный</value>
+    <value>Мокито (служебный)</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

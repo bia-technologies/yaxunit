@@ -3,7 +3,7 @@
   <name>ЮТКонтекстСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Контекст сервер</value>
+    <value>Контекст (сервер)</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

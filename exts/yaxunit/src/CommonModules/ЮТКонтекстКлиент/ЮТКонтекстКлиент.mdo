@@ -3,7 +3,7 @@
   <name>ЮТКонтекстКлиент</name>
   <synonym>
     <key>ru</key>
-    <value>Контекст клиент</value>
+    <value>Контекст (клиент)</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

@@ -17,6 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Download bsl doc
+        run: curl -L https://github.com/alkoleft/bsldoc/releases/download/0.1.0/bsldoc-0.1.0.jar --output ./bsldoc.jar && chmod +7 ./bsldoc.jar
+      - name: Generate API documentation
+        run: java -jar ./bsldoc.jar ./../exts/yaxunit ./api -f Docusaurus -s ЮТДвижок
       - uses: actions/setup-node@v3
         with:
           node-version: 18
