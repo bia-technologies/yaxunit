@@ -5,5 +5,7 @@
     <key>ru</key>
     <value>О м ЮТЗапросы</value>
   </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
