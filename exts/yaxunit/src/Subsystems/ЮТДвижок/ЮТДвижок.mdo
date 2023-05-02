@@ -13,6 +13,7 @@
   <content>CommonModule.ЮТест</content>
   <content>CommonModule.ЮТЗапросы</content>
   <content>CommonModule.ЮТЗапросыВызовСервера</content>
+  <content>CommonModule.ЮТЗапросыКлиентСервер</content>
   <content>CommonModule.ЮТИсполнительКлиент</content>
   <content>CommonModule.ЮТИсполнительКлиентСервер</content>
   <content>CommonModule.ЮТИсполнительСервер</content>
