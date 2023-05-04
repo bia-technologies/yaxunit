@@ -16,7 +16,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>23.01.0</version>
+  <version>23.04.0</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -61,9 +61,13 @@
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
+  <commonModules>CommonModule.ЮТПредикаты</commonModules>
+  <commonModules>CommonModule.ЮТПредикатыКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТСобытия</commonModules>
+  <commonModules>CommonModule.ЮТСравнениеКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЮТСравнениеСервер</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебный</commonModules>

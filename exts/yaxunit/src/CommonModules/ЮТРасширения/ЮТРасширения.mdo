@@ -3,7 +3,7 @@
   <name>ЮТРасширения</name>
   <synonym>
     <key>ru</key>
-    <value>Расширения</value>
+    <value>Расширения функциональности</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

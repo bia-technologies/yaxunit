@@ -3,7 +3,7 @@
   <name>ЮТМетаданныеПовтИсп</name>
   <synonym>
     <key>ru</key>
-    <value>Метаданные</value>
+    <value>Метаданные (повторного использования)</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

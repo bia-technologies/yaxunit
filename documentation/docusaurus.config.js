@@ -46,7 +46,9 @@ const config = {
           editUrl:
             'https://github.com/bia-technologies/yaxunit/',
         },
-        blog: false,
+        blog: {
+          blogTitle: 'Заметки'
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -111,8 +113,8 @@ const config = {
             label: 'Уроки',
           },
           {
-            type: 'doc',
-            docId: 'index',
+            type: 'docSidebar',
+            sidebarId: 'api',
             docsPluginId: 'api',
             position: 'left',
             label: 'API',
@@ -123,7 +125,8 @@ const config = {
             docsPluginId: 'contributing',
             position: 'left',
             label: 'Руководство разработчика',
-          },
+          },          
+          {to: 'blog', label: 'Заметки', position: 'left'},
           {
             href: 'https://github.com/bia-technologies/yaxunit',
             label: 'bia-technologies/yaxunit',

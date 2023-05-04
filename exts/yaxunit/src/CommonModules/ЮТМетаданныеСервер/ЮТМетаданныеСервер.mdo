@@ -3,7 +3,7 @@
   <name>ЮТМетаданныеСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Метаданные сервер</value>
+    <value>Метаданные (сервер)</value>
   </synonym>
   <server>true</server>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

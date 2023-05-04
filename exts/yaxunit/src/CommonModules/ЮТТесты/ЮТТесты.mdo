@@ -3,7 +3,7 @@
   <name>ЮТТесты</name>
   <synonym>
     <key>ru</key>
-    <value>Тесты</value>
+    <value>Регистрация тестов</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

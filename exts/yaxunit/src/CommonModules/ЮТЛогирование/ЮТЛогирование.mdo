@@ -3,7 +3,7 @@
   <name>ЮТЛогирование</name>
   <synonym>
     <key>ru</key>
-    <value>Логгер</value>
+    <value>Логирование</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
