@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36bb00a3-9e36-423a-9421-935867c7993e">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36bb00a3-9e36-423a-9421-935867c7993e">
   <name>ЮТДвижок</name>
   <synonym>
     <key>ru</key>
     <value>Юнит тесты</value>
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЮТ_Подсистема</picture>
+  </picture>
   <content>CommonModule.Мокито</content>
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПроверки</content>
