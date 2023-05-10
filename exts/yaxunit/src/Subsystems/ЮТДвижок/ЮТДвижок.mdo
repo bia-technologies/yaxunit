@@ -7,7 +7,7 @@
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ЮТ_Подсистема</picture>
+    <picture>CommonPicture.ЮТПодсистема</picture>
   </picture>
   <content>CommonModule.Мокито</content>
   <content>CommonModule.МокитоОбучение</content>

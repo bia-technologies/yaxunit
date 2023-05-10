@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcac48ee-163e-4b4b-b644-823ee4f0fe91">
+  <name>ЮТПодсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картинка подсистемы ЮТДвижок</value>
+  </synonym>
+</mdclass:CommonPicture>

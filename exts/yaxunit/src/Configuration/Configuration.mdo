@@ -27,9 +27,9 @@
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
-  <commonPictures>CommonPicture.ЮТ_Подсистема</commonPictures>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
   <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
+  <commonPictures>CommonPicture.ЮТПодсистема</commonPictures>
   <commonPictures>CommonPicture.ЮТПропущен</commonPictures>
   <commonPictures>CommonPicture.ЮТУпал</commonPictures>
   <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
