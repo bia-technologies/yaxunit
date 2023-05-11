@@ -29,6 +29,7 @@
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
   <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
+  <commonPictures>CommonPicture.ЮТПодсистема</commonPictures>
   <commonPictures>CommonPicture.ЮТПропущен</commonPictures>
   <commonPictures>CommonPicture.ЮТУпал</commonPictures>
   <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
