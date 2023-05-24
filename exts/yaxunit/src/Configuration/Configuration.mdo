@@ -47,7 +47,7 @@
   <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
-  <commonModules>CommonModule.ЮТКонструкторТестовыхДанных</commonModules>
+  <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
   <commonModules>CommonModule.ЮТКонтекстКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСервер</commonModules>
@@ -84,5 +84,6 @@
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
 </mdclass:Configuration>
