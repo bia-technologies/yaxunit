@@ -1,5 +1,5 @@
 ---
-tags: [Getting started, Asserts]
+tags: [Getting started, Asserts, DB]
 ---
 
 # Утверждения для проверки данных информационной базы
