@@ -1,5 +1,5 @@
 ---
-tags: [Getting started, Test data]
+tags: [Начало, Тестовые данные]
 ---
 # Тестовые данные
 

@@ -1,6 +1,5 @@
 ---
-description: Create a doc page with rich content.
-tags: [Getting started]
+tags: [Начало]
 ---
 
 # Пользовательский API

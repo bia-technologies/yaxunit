@@ -1,5 +1,5 @@
 ---
-tags: [Getting started, Asserts]
+tags: [Начало, Утверждения]
 ---
 
 # Утверждения

@@ -1,5 +1,5 @@
 ---
-tags: [Getting started, Mock]
+tags: [Начало, Мокирование]
 ---
 
 # Мокито

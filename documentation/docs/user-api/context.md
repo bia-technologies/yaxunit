@@ -1,5 +1,5 @@
 ---
-tags: [Getting started]
+tags: [Начало, Контекст]
 ---
 
 # Контекст
