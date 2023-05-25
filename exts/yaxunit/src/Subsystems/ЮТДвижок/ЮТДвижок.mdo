@@ -66,4 +66,6 @@
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
   <content>CommonTemplate.ЮТОписаниеМетаданных</content>
+  <content>CommonPicture.ЮТПодсистема</content>
+  <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
 </mdclass:Subsystem>
