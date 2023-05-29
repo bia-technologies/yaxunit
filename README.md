@@ -8,7 +8,7 @@
 [![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
 [![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
 
-Обсудить в [телеграмм чате](https://t.me/BIAOpenTools/12)
+Обсудить в [Telegram чате](https://t.me/BIAOpenTools/12)
 
 ----
 
