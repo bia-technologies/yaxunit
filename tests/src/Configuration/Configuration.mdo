@@ -40,6 +40,7 @@
   <commonModules>CommonModule.ОМ_ЮТУтвержденияИБ</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
+  <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПомощникТестированияВызовСервера</commonModules>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.Товары</catalogs>
