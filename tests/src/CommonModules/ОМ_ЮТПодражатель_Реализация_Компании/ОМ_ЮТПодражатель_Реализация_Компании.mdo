@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80d689ad-0837-43f2-bd97-e8e5af5c1edc">
+  <name>ОМ_ЮТПодражатель_Реализация_Компании</name>
+  <synonym>
+    <key>ru</key>
+    <value>О м ЮТПодражатель реализация компании</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
