@@ -6,7 +6,6 @@
     <value>ЮТПодражатель реализация люди</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеИмена_ru</content>
   <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеФамилии_ru</content>
   <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеОтчества_ru</content>

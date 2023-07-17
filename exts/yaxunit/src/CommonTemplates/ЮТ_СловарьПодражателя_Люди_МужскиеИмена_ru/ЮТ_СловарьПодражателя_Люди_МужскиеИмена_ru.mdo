@@ -3,7 +3,7 @@
   <name>ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</name>
   <synonym>
     <key>ru</key>
-    <value>Подражатель люди женские имена ru</value>
+    <value>Подражатель люди мужские имена ru</value>
   </synonym>
   <templateType>TextDocument</templateType>
 </mdclass:CommonTemplate>
