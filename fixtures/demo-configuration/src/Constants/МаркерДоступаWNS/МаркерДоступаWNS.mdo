@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00b9841f-ebf0-45ab-a136-9bcc2fc35480">
+  <producedTypes>
+    <managerType typeId="8afb4154-845a-4372-a2eb-30da1079af2d" valueTypeId="b9744e7e-c5e0-43b7-8336-1769ffbe270e"/>
+    <valueManagerType typeId="fcc5d68b-d0ff-44d7-afb4-53808a4e423f" valueTypeId="1a2cb869-0917-4ff2-8efb-a29362d4f6d2"/>
+    <valueKeyType typeId="6535e375-a2ab-4c2e-99bf-7ece3c69199b" valueTypeId="fef275e5-6f77-4924-8ed7-0021e73fa230"/>
+  </producedTypes>
+  <name>МаркерДоступаWNS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркер доступа WNS</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c98f88a3-b82f-4202-b870-cadfb3a14ab9">
+  <producedTypes>
+    <managerType typeId="c0fa7295-3dd4-417a-b722-3221d8c8c5be" valueTypeId="1720624f-29ed-4fbd-88c4-5b990d21c880"/>
+    <valueManagerType typeId="409cae75-4de3-4569-8add-9b034aa8ae3e" valueTypeId="5652119e-02c6-49d1-bed6-033e57f63f72"/>
+    <valueKeyType typeId="fd41f87c-ae38-4dd8-a145-fefcad8d3582" valueTypeId="20cc4e67-fd13-42c9-815a-f994708e9f12"/>
+  </producedTypes>
+  <name>НомерПриложенияGoogleCloud</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер приложения google cloud</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>12</length>
+    </stringQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

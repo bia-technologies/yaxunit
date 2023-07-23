@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="009d5536-bf91-46e1-83dc-d2883e9f8bc8">
+  <name>ОписанияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описания товаров</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>ProductDescriptions</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ef44555a-bb40-44ec-824f-20b29ee71bd4">
+    <name>V1_ВызовМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>V1 вызов метода</value>
+    </synonym>
+    <comment></comment>
+    <template>/v1/{ИмяМетода}</template>
+    <methods uuid="f4f58bd5-cec0-4561-a233-f9ab46d2a074">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>POST</httpMethod>
+      <handler>ВызовМетодаPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

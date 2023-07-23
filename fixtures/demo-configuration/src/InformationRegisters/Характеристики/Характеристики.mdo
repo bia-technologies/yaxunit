@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bbb1e79-311e-42e8-ab0c-67b9461bd797">
+  <producedTypes>
+    <selectionType typeId="2083fd65-ba92-4516-9d93-47de3fb48a9e" valueTypeId="00fb1b15-9a98-4871-bdc8-ed51aab2d7b0"/>
+    <listType typeId="2d0c0b2a-9371-4f53-b869-6b5a4466561e" valueTypeId="3c2cf4e5-10ad-4857-8d64-a5ca56916492"/>
+    <managerType typeId="20d5546f-f7f7-4ab8-b3ed-40e10e9f1d0f" valueTypeId="7e7ca5a2-fc6f-4947-b863-8fdb2fcc4722"/>
+    <recordSetType typeId="761dec19-9f63-48cb-9dbe-84c780269738" valueTypeId="e1b44fe9-d5e4-4d0a-af89-ec95a20b8037"/>
+    <recordKeyType typeId="0caadc9e-e92d-411e-ae13-9bb54b38edce" valueTypeId="0a8b1257-9ab6-453d-9d79-c64f2d8bc59c"/>
+    <recordType typeId="9e1ed178-a315-4a16-82ba-ebeb1ee179d9" valueTypeId="9bf52f1c-fb91-4554-a4a8-b6c72dac4644"/>
+    <recordManagerType typeId="5aa64eb8-b5a9-4f66-860b-e01d8ee691c1" valueTypeId="374bd17f-aea3-45a5-bd3e-88736efe2ac8"/>
+  </producedTypes>
+  <name>Характеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </synonym>
+  <comment></comment>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>BothWays</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Значение характеристики</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Дополнительные характеристики</value>
+  </explanation>
+  <resources uuid="83b8279d-a44e-4737-b20a-f71c9bb90063">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Characteristic.ВидыХарактеристик</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение характеристики товара</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.Характеристики.Dimension.ВидХарактеристики</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.Характеристики.Dimension.ВидХарактеристики</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1dad36b3-976e-42b4-9450-e55b4b633afb">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Товар</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Товары.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="54e936fd-283e-4224-bf39-4ff6bbc5f591">
+    <name>ВидХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид характеристики</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыХарактеристик</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Характеристика товара</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>ОбъектОтбораВидовХарактеристик</name>
+      <field>InformationRegister.Характеристики.Dimension.Объект</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.ВидыХарактеристик.EmptyRef</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="85c529bc-cacb-46c0-a5f8-2bfbeacb62e6">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

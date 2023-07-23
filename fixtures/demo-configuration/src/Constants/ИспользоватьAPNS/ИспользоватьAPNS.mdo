@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="203a1131-a3e5-45a7-86a4-45bf0f41001d">
+  <producedTypes>
+    <managerType typeId="d454c753-3e28-4def-b162-763b81073cc9" valueTypeId="aa2af233-9704-4ec5-bb54-b8c882d0a7e2"/>
+    <valueManagerType typeId="6718759b-46c7-4d5f-909f-e8ccd8699f1f" valueTypeId="de123b4e-e833-41b1-b002-c133de7d1407"/>
+    <valueKeyType typeId="110fb6e8-d9d1-4fee-8f80-e9e2e1df9bc4" valueTypeId="d703e25c-06e1-48ea-b1e6-462ecfd90044"/>
+  </producedTypes>
+  <name>ИспользоватьAPNS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать APNS</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

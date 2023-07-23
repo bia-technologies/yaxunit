@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="429ef13d-3a5b-4520-85c5-262152d85ab9">
+  <producedTypes>
+    <managerType typeId="ffb33801-7e4b-4ffd-87be-f1f53b9c0e22" valueTypeId="83b08ad6-618c-4577-a204-438708f2b261"/>
+    <valueManagerType typeId="84f41884-a0a7-4ff8-abe9-48faaf429c7f" valueTypeId="45134359-34e8-4e46-9302-f5f649735c2e"/>
+    <valueKeyType typeId="7b519bed-e984-40a7-a2d6-8ff138d23ea8" valueTypeId="a74b4f69-735d-465b-8bad-82bb0cc96839"/>
+  </producedTypes>
+  <name>ТолькоЗащищеннаяАутентификацияIMAP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Только защищенная аутентификация IMAP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planner:PlannerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:planner="http://g5.1c.ru/v8/dt/planner/model">
+  <items>
+    <value xsi:type="core:UndefinedValue"/>
+    <begin>2015-08-06T01:00:00</begin>
+    <end>2015-08-06T04:00:00</end>
+    <text>Встреча</text>
+    <tooltip></tooltip>
+    <replacementDate>0001-01-01T00:00:00</replacementDate>
+    <itemId>821efef7-461d-41c2-abc6-77cb513ba998</itemId>
+  </items>
+  <alignItemBoundariesByTimeScale>true</alignItemBoundariesByTimeScale>
+  <showWrappedHeaders>true</showWrappedHeaders>
+  <showWrappedTimeScaleHeaders>true</showWrappedTimeScaleHeaders>
+  <showCurrentDate>true</showCurrentDate>
+  <wrappedTimeScaleHeaderFormat>
+    <key>#</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <periodicVariantRepetition>1</periodicVariantRepetition>
+  <periodicVariantUnit>Day</periodicVariantUnit>
+  <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
+  <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
+  <itemsTimeRepresentation>BeginTime</itemsTimeRepresentation>
+  <timeScale>
+    <placement>Left</placement>
+    <levels>
+      <measure>Hour</measure>
+      <interval>1</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+        <style>Solid</style>
+      </line>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
+      <format>
+        <key>#</key>
+        <value>DF=&quot;HH:mm&quot;</value>
+      </format>
+      <labels/>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
+  </timeScale>
+  <periods>
+    <begin>2015-08-06T00:00:00</begin>
+    <end>2015-08-06T23:59:59</end>
+  </periods>
+</planner:PlannerSettings>

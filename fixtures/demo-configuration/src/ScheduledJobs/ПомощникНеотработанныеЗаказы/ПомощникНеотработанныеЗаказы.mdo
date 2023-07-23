@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a35af27e-3df5-4f9a-8261-7a0b31563f59">
+  <name>ПомощникНеотработанныеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник неотработанные заказы</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.Помощник.ПомощникНеотработанныеЗаказы</methodName>
+  <description></description>
+  <key>1</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

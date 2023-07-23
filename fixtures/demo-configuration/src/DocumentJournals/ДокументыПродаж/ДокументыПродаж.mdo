@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40cc851d-f17c-4c55-bdf9-7f515d434425">
+  <producedTypes>
+    <selectionType typeId="9e281186-6359-46a2-b239-387c3eb2bbac" valueTypeId="b7aca74f-4244-438d-a68a-e68fb0f628f1"/>
+    <listType typeId="deac0974-474b-4697-8ec8-660551985d05" valueTypeId="9614119c-8ca6-4318-8a71-d5ec3862b88c"/>
+    <managerType typeId="807042d2-11c5-45f1-a596-15fe517ea6ff" valueTypeId="3a0e27fd-2f01-4edf-9043-c75f0cf8b7a3"/>
+  </producedTypes>
+  <name>ДокументыПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы продаж</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.ДокументыПродаж.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РасходТовара</registeredDocuments>
+  <registeredDocuments>Document.Заказ</registeredDocuments>
+  <columns uuid="0c66d3cf-89ed-4b27-9168-18ed579bf858">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РасходТовара.Attribute.Покупатель</references>
+    <references>Document.Заказ.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="2ca279cf-d457-472d-836b-8fab52b9e006">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РасходТовара.Attribute.Склад</references>
+    <references>Document.Заказ.Attribute.Склад</references>
+  </columns>
+  <columns uuid="7ed48fae-5ffb-43d4-b6ae-65482bc3f207">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РасходТовара.Attribute.Валюта</references>
+    <references>Document.Заказ.Attribute.Валюта</references>
+  </columns>
+  <columns uuid="a7cf9aec-32de-47a6-aba8-7ea3a11217b8">
+    <name>ВидЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид цен</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РасходТовара.Attribute.ВидЦен</references>
+    <references>Document.Заказ.Attribute.ВидЦен</references>
+  </columns>
+  <columns uuid="4eb2f896-538b-4e69-abee-93000eff12a2">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РасходТовара.Attribute.Организация</references>
+    <references>Document.Заказ.Attribute.Организация</references>
+  </columns>
+  <columns uuid="987a9814-f297-4cd4-bb76-55bd6c236d1a">
+    <name>СостояниеЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние заказа</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.Заказ.Attribute.СостояниеЗаказа</references>
+  </columns>
+  <forms uuid="78a11540-6179-4d24-ac8e-6e9b08750b3c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

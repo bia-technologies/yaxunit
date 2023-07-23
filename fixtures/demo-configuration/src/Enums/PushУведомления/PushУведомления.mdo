@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80e6f4d0-e364-48ee-ac38-013e84864f4e">
+  <producedTypes>
+    <refType typeId="eb1ef217-70c7-45f4-8999-fd75bde214f5" valueTypeId="bb397733-6c42-4920-a564-98ec04d25cb1"/>
+    <listType typeId="09d40566-7c70-4e81-b0bd-318c207e71f0" valueTypeId="97d06871-92c5-49dd-a66c-ffa67999b7bf"/>
+    <managerType typeId="bc5db21e-b599-4198-a811-7e45222b1522" valueTypeId="7b5e5c0c-655b-4d54-89bc-45571abe8bcd"/>
+  </producedTypes>
+  <name>PushУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Push уведомления</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3652e56-be5b-4231-96c2-1f38d22a56c1">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7a622491-e58f-4997-80be-88fcf02c677a">
+    <name>ОтправлятьНепосредственно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять непосредственно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dde7c52e-5ece-40d4-9180-5b5cfb08a1bc">
+    <name>ИспользоватьВспомогательныйСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать вспомогательный сервис</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

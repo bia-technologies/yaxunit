@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34aee386-5654-415b-91af-ebcc5eef8034">
+  <name>УстановитьВидимостьОбъектовЧерезODataAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить видимость объектов через OData API</value>
+  </synonym>
+  <comment></comment>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

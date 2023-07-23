@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="543ab16a-e5f2-49bd-88bd-ee2a4074f822">
+  <producedTypes>
+    <objectType typeId="25549ab2-f92c-4c1f-9e69-4e80520ad1ab" valueTypeId="1730aca9-2a5f-41cb-9242-87991022148d"/>
+    <managerType typeId="1dd50883-6b48-4567-80d5-8c7c319c46eb" valueTypeId="56ab12bd-2c80-4319-b466-df4a1e2b3e0c"/>
+  </producedTypes>
+  <name>ВзаимосвязьПродажТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимосвязь продаж товаров</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВзаимосвязьПродажТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="ab857ebb-ea54-4412-a869-b0fe39a97b00">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

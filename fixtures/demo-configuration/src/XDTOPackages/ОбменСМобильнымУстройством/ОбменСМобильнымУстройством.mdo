@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be111c01-c954-4b66-adee-d71b199577c5">
+  <name>ОбменСМобильнымУстройством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным устройством</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://localhost/ws1</namespace>
+</mdclass:XDTOPackage>

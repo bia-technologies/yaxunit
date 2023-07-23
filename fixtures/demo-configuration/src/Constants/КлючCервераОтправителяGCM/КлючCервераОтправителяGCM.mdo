@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5ebec44-85c1-4f59-a0e2-0f182d9c7837">
+  <producedTypes>
+    <managerType typeId="fc6578ca-b39a-4666-b175-f7cb330cf49c" valueTypeId="a47fddbf-4709-4ed1-9993-6768d0bb3918"/>
+    <valueManagerType typeId="314e6319-e1b2-4011-b795-286bc1748392" valueTypeId="71705939-b8e9-483b-8261-96c7e1a77252"/>
+    <valueKeyType typeId="059e1012-7979-4ef8-91c3-2fc786c23e2f" valueTypeId="78c0860a-d0fa-4abc-b6eb-4b7379f9401d"/>
+  </producedTypes>
+  <name>КлючCервераОтправителяGCM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ cервера отправителя GCM</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

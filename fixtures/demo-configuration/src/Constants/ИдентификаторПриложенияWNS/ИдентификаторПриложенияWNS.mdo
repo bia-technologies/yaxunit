@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63d77299-f614-4ea9-a563-46cb039adbcc">
+  <producedTypes>
+    <managerType typeId="5d555ee1-2fad-4444-b493-0b0d79407331" valueTypeId="c7972c38-61bf-4f6f-92dc-111c6c51af94"/>
+    <valueManagerType typeId="a5b87abe-dfdb-4547-8073-959dbe91f22f" valueTypeId="46cd4840-f3ff-4f29-a1ea-a819dbd22ad6"/>
+    <valueKeyType typeId="c9b051c7-2e01-4a53-86be-b40dea15a541" valueTypeId="538e5e45-8bb9-4cec-b84c-e66e26503622"/>
+  </producedTypes>
+  <name>ИдентификаторПриложенияWNS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор приложения WNS</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
