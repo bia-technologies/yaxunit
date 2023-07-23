@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppearanceTemplate xmlns="http://v8.1c.ru/8.1/data-composition-system/appearance-template" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dcscor:item>
+		<dcscor:parameter>ЗаголовокГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ПодвалГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ЗаголовокИерархическойГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ПодвалИерархическойГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ЗаголовокГруппировкиСписка</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ПодвалГруппировкиСписка</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ЗаголовокИерархическойГруппировкиСписка</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="14" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="12" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>3</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ПодвалИерархическойГруппировкиСписка</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="14" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="12" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>3</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ЗаголовокГруппировкиКолонки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FAFAFA</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>РежимИзмененияРазмераКолонки</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:SizeChangeMode">QuickChange</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ПодвалГруппировкиКолонки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FAFAFA</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>РежимИзмененияРазмераКолонки</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:SizeChangeMode">QuickChange</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ЗаголовокИерархическойГруппировкиКолонки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FAFAFA</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>РежимИзмененияРазмераКолонки</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:SizeChangeMode">QuickChange</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ПодвалИерархическойГруппировкиКолонки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FAFAFA</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>РежимИзмененияРазмераКолонки</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:SizeChangeMode">QuickChange</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ДетальныеЗаписи</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>РесурсыЗаголовкаГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>РесурсыПодвалаГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>РесурсыЗаголовкаИерархическойГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
+						<dcscor:value xsi:type="xs:decimal">0</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>РесурсыПодвалаИерархическойГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>РесурсыДетальныхЗаписей</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ИтогПоРесурсамЗаголовкаГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ИтогПоРесурсамПодвалаГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ИтогПоРесурсамЗаголовкаИерархическойГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ИтогПоРесурсамПодвалаИерархическойГруппировки</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:use>false</dcscor:use>
+		<dcscor:parameter>ИтогПоРесурсамДетальныхЗаписей</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ОбщиеИтогиПоВертикали</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#D9D9D9</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ОбщиеИтогиПоВертикалиСписка</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="14" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="12" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>3</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="8" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ЗаголовокТаблицы</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FAFAFA</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>ЦветГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#E6E6E6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>СтильГраницы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+							<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>РежимИзмененияРазмераКолонки</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:SizeChangeMode">QuickChange</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>ПоУмолчанию</dcscor:parameter>
+		<dcscor:value xsi:nil="true"/>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>Заголовок</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>1</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#009646</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="18" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>2</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+			<item>
+				<level>3</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="13" bold="true" italic="true" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+	<dcscor:item>
+		<dcscor:parameter>Информация</dcscor:parameter>
+		<dcscor:value xsi:type="AppearanceTemplateArea">
+			<item>
+				<level>0</level>
+				<appearance>
+					<dcscor:item>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+					</dcscor:item>
+					<dcscor:item>
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</appearance>
+			</item>
+		</dcscor:value>
+	</dcscor:item>
+</AppearanceTemplate>

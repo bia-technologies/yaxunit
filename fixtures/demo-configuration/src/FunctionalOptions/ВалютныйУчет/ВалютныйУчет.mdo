@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ddb9715-14fa-4aec-9388-0d0778a6aed3">
+  <name>ВалютныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валютный учет</value>
+  </synonym>
+  <comment></comment>
+  <location>Catalog.Организации.Attribute.ВалютныйУчет</location>
+  <content>Document.ПриходТовара.Attribute.Валюта</content>
+  <content>Document.РасходТовара.Attribute.Валюта</content>
+  <content>Document.Оплата.Attribute.Валюта</content>
+  <content>Document.ПоступлениеДенег.Attribute.Валюта</content>
+  <content>Catalog.Валюты</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>Document.Заказ.Attribute.Валюта</content>
+</mdclass:FunctionalOption>

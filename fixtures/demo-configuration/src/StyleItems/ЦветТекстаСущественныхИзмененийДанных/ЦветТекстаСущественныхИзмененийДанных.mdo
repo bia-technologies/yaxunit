@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3549729-009c-452e-82e6-71a4b45f0880">
+  <name>ЦветТекстаСущественныхИзмененийДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет текста существенных изменений данных</value>
+  </synonym>
+  <comment></comment>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.DarkOrange</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

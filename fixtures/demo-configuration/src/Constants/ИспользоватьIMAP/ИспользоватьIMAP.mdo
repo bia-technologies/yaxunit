@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="641f7ff7-f139-429b-9086-80175cd1e261">
+  <producedTypes>
+    <managerType typeId="6945988e-0316-40f7-8bb9-8eaaa804c509" valueTypeId="5d373664-ad90-4743-9a78-abf393eeabd6"/>
+    <valueManagerType typeId="b59d000d-1855-44fb-9f75-8f790a88579b" valueTypeId="49ab2b54-3486-48c2-8c59-ebae1d771709"/>
+    <valueKeyType typeId="7ca01feb-0a86-4cb8-9ac8-8cb45fd03e0e" valueTypeId="083355b8-9621-4697-9f61-caefa73f0547"/>
+  </producedTypes>
+  <name>ИспользоватьIMAP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Всегда использовать IMAP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

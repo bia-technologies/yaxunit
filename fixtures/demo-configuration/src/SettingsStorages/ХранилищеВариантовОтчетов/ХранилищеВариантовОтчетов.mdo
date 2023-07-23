@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1e208c6-c2f8-4bfc-b236-ea48c762a748">
+  <producedTypes>
+    <managerType typeId="abf1b081-0caa-4486-afad-e98a719c69a8" valueTypeId="8445667c-d148-43ea-96e6-1af640a80eef"/>
+  </producedTypes>
+  <name>ХранилищеВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище вариантов отчетов</value>
+  </synonym>
+  <comment></comment>
+  <defaultSaveForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ФормаСохранения</defaultSaveForm>
+  <defaultLoadForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ФормаЗагрузки</defaultLoadForm>
+  <forms uuid="6d68318e-646f-4633-97d6-426f2d218097">
+    <name>ФормаСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f973b899-25f0-4324-b860-b3a4f250f40b">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:SettingsStorage>

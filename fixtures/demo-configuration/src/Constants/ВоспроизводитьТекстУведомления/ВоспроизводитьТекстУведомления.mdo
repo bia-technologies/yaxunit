@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a273947b-c78b-40fa-9809-5121b7b16ca5">
+  <producedTypes>
+    <managerType typeId="68195ced-91f5-4ea7-9e9d-39603ad6e3a0" valueTypeId="cad9c645-2fd3-4bac-85cd-75f211497440"/>
+    <valueManagerType typeId="3c9360d3-97e1-4318-903d-11a5c078090c" valueTypeId="e2b86637-83ec-4716-abd1-821bcb5dbc5c"/>
+    <valueKeyType typeId="72d889e1-0513-4bc9-8b56-7bf52a4d1f17" valueTypeId="a35b4259-77fc-4983-b9c3-59079a03e19b"/>
+  </producedTypes>
+  <name>ВоспроизводитьТекстУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воспроизводить текст уведомления</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

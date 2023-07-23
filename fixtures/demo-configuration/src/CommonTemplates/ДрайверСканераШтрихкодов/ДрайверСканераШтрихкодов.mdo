@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e16125e8-1ca0-448f-9961-9dff80e9c4d9">
+  <name>ДрайверСканераШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвер сканера штрихкодов</value>
+  </synonym>
+  <comment></comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

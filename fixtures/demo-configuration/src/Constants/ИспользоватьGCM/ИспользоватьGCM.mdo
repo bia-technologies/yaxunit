@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="212fdf01-c68a-4597-9ce2-17d4758905c1">
+  <producedTypes>
+    <managerType typeId="1639ab11-8c02-4760-a988-8f3044bde96b" valueTypeId="12494e30-7e05-42f7-b79f-8d7830aa8089"/>
+    <valueManagerType typeId="bf0941e5-9053-45b5-819f-833fda167748" valueTypeId="a9bdc4b5-2cef-4a9c-9a01-5571f6b04a8c"/>
+    <valueKeyType typeId="7e853b58-2f10-4272-9c8d-093aeddee8f3" valueTypeId="202a7573-a1f3-4406-bca1-358a7ab0f4bd"/>
+  </producedTypes>
+  <name>ИспользоватьGCM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать GCM</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

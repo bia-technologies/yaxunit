@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e535bbec-58f1-4afa-9863-da59a0061b52">
+  <producedTypes>
+    <managerType typeId="051ec43c-beef-4655-ab51-dfc29d9997f2" valueTypeId="9440368b-d072-4b25-837d-4d447d09d028"/>
+    <valueManagerType typeId="7a9b9a4c-78db-46e0-8e91-3683bd06df67" valueTypeId="c1aea17f-37ae-413d-966c-d859a560ac6f"/>
+    <valueKeyType typeId="50f8a0e8-0da2-4d11-a848-64f22d3bd302" valueTypeId="b902a439-d9b4-4f86-bf60-0a50ef19916d"/>
+  </producedTypes>
+  <name>ПользовательIMAP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь IMAP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

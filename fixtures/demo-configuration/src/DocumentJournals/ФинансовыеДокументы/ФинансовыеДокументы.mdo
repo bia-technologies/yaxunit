@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e718af75-1653-4321-aa29-30ac89cada0a">
+  <producedTypes>
+    <selectionType typeId="37457de0-db2c-4b80-887e-caea60c44602" valueTypeId="c2d093d8-f4d2-4155-b7ab-4fe9c76f8e81"/>
+    <listType typeId="bfb6bdab-d2dd-4fbc-bc3c-aff120d3994f" valueTypeId="7a456966-b7b1-4d76-a6b6-e06b4084892f"/>
+    <managerType typeId="9fcb08be-f620-4ae6-aa5e-f190d3f76ae3" valueTypeId="8d5b4bd7-7d03-4b43-bc9d-2c90d4f64276"/>
+  </producedTypes>
+  <name>ФинансовыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые документы</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.ФинансовыеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Оплата</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеДенег</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <explanation>
+    <key>ru</key>
+    <value>Оплаты товаров и услуг и поступления денег на наши счета</value>
+  </explanation>
+  <columns uuid="05446baf-f10f-4580-9cbc-880004377d86">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.Оплата.Attribute.Поставщик</references>
+    <references>Document.ПоступлениеДенег.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="f49c586b-8d5c-44ae-a335-c03a55dc9f0e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.Оплата.Attribute.Сумма</references>
+    <references>Document.ПоступлениеДенег.Attribute.Сумма</references>
+  </columns>
+  <columns uuid="89039205-7d8b-4ab5-bba7-365f62f44531">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.Оплата.Attribute.Валюта</references>
+    <references>Document.ПоступлениеДенег.Attribute.Валюта</references>
+  </columns>
+  <columns uuid="0e3c5d10-64ee-4d3b-afcd-626764b3d229">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.Оплата.Attribute.РасчетныйСчет</references>
+    <references>Document.ПоступлениеДенег.Attribute.РасчетныйСчет</references>
+  </columns>
+  <columns uuid="2318f908-c53f-4db5-989b-e44f1ea88a87">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.Оплата.Attribute.Организация</references>
+    <references>Document.ПоступлениеДенег.Attribute.Организация</references>
+  </columns>
+  <forms uuid="e0b553e1-c720-468f-b32a-d40cf582e768">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

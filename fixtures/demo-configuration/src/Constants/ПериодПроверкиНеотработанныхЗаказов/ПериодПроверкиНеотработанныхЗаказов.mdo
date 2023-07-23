@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14407eb6-c463-48fc-92e9-1deec2e42633">
+  <producedTypes>
+    <managerType typeId="2d199257-cf67-4767-9d0b-145dd2746fa4" valueTypeId="f2dee074-76dc-416b-8165-6e23cdde8faa"/>
+    <valueManagerType typeId="113882af-68f7-4b14-a119-cf65ad4d5f22" valueTypeId="700eb218-b669-4e52-b5ea-5bf95ca5cc6a"/>
+    <valueKeyType typeId="1d0dee5d-53b8-402f-bbbb-42c810af812d" valueTypeId="a1893e05-4c65-4820-b685-f5fb994545bb"/>
+  </producedTypes>
+  <name>ПериодПроверкиНеотработанныхЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период проверки неотработанных заказов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

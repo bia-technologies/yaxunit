@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fc40bb1-3b27-4709-98aa-addcc070fe7f">
+  <producedTypes>
+    <objectType typeId="f4b00e09-990e-4c5c-95ca-9c07aca92fea" valueTypeId="684b06d1-dc75-4aad-a78b-d859f9c7aab3"/>
+    <managerType typeId="82e560b9-a671-4425-9fc9-241dbc959a60" valueTypeId="1b6c20e3-8c18-4bd7-b818-28b7794bc4e7"/>
+  </producedTypes>
+  <name>УправлениеСистемойВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление обсуждениями</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеСистемойВзаимодействия.Form.Форма</defaultForm>
+  <forms uuid="953113c2-ed5b-47ab-9a10-1f8d30fc7d6b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

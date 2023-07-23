@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17acc7ad-67cf-47f8-bfad-6b7a036eb5a9">
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>Products</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="cef43c0d-213c-4dbd-9eb3-49fdaf530254">
+    <name>ПутьКТовару</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к товару</value>
+    </synonym>
+    <comment></comment>
+    <template>/*</template>
+    <methods uuid="725bab7e-3b3c-4e3d-9a8e-10b031d7c065">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <comment></comment>
+      <handler>ПутьКТоваруGET</handler>
+    </methods>
+    <methods uuid="37823a19-084a-4dfc-9fbb-98f9698b67c4">
+      <name>DELETE</name>
+      <synonym>
+        <key>ru</key>
+        <value>DELETE</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>DELETE</httpMethod>
+      <handler>ПутьКТоваруDELETE</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

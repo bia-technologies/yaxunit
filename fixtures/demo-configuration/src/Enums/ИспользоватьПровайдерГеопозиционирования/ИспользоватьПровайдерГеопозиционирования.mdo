@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b393b1d6-72e2-4894-bc02-0bd0db2b937f">
+  <producedTypes>
+    <refType typeId="b56eb0d3-14f4-4830-acad-e448a5fe8250" valueTypeId="6a76a943-a355-4582-a52d-1138a0af4cfa"/>
+    <listType typeId="656a774e-d156-4724-8036-ec9961a46988" valueTypeId="fe61a645-45a1-45ed-9339-f84c04a91b92"/>
+    <managerType typeId="87aa251d-9ff0-406f-8c55-2d97b3ab3a0d" valueTypeId="24989b6e-32ed-4e90-a559-9e25cfa8de27"/>
+  </producedTypes>
+  <name>ИспользоватьПровайдерГеопозиционирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать провайдер геопозиционирования</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f7ce5bd8-76f2-4263-9dc4-2efef917fc60">
+    <name>СамыйТочныйПровайдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самый точный провайдер</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="47cfd4a8-adc2-413f-b39b-c5be88e9ed22">
+    <name>СамыйЭкономичныйПровайдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самый экономичный провайдер</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b1334d8d-f5ff-4dd3-8f8a-2fa2945a4bfa">
+    <name>ВыбиратьИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбирать из списка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

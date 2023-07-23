@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0874a3c0-0d16-4172-b467-f0666d5fcaee">
+  <name>СлияниеИндексаППД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Слияние индекса ППД</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.РаботаСПолнотекстовымПоиском.СлияниеИндексаПолнотекстовогоПоиска</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

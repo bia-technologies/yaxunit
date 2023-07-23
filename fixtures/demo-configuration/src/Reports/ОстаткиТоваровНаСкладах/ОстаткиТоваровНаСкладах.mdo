@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e11e7a6b-22c6-482e-b211-9c60949de0e0">
+  <producedTypes>
+    <objectType typeId="4ec78936-43f1-4cd7-85c6-87c309c2881a" valueTypeId="669dd158-f915-4810-bf00-8e5ed9d82d2e"/>
+    <managerType typeId="04bc0d49-f2cd-4b68-9672-473f0c1ad9c7" valueTypeId="032b07c2-a8a7-46b5-8697-316b6e7cfb23"/>
+  </producedTypes>
+  <name>ОстаткиТоваровНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиТоваровНаСкладах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет по остаткам товаров на складах</value>
+  </explanation>
+  <templates uuid="f42fc5da-bdba-4312-a64d-a0e0ef4c17bf">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="cf457afa-996f-478a-a3e2-802f146155fc">
+    <name>ОформлениеДляМобильногоОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформление для мобильного отчета</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionAppearanceTemplate</templateType>
+  </templates>
+  <commands uuid="041adb17-dd79-455e-b880-a78fd11df938">
+    <name>ОстаткиПоСкладу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки по складу</value>
+    </synonym>
+    <comment></comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Склады</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

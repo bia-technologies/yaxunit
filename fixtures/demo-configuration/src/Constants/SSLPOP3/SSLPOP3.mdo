@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a8afac5-a325-40f0-9666-a3b2f5e48745">
+  <producedTypes>
+    <managerType typeId="3abca340-1c41-4e79-81e2-27e1fae2948c" valueTypeId="0ec0539b-0e9e-4784-9516-f79c20da8887"/>
+    <valueManagerType typeId="badfefd2-d4c8-49f9-98d7-391ea50c9b37" valueTypeId="938f7f65-01ad-4402-be87-a574153002ee"/>
+    <valueKeyType typeId="a1bd0a53-8b48-43dd-b142-38fd82262759" valueTypeId="2f188d46-9639-464b-af31-5268df1adebe"/>
+  </producedTypes>
+  <name>SSLPOP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>SSLPOP3</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

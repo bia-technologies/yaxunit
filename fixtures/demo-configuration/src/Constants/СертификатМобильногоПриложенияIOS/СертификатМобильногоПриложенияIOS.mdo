@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="343f85f3-e4c7-47be-9c71-b6ef5dbdf7c3">
+  <producedTypes>
+    <managerType typeId="f35987a5-3ac1-4a0d-b3ff-063b1e57a675" valueTypeId="55d77ed7-06a5-41f4-ae14-db54f9fab373"/>
+    <valueManagerType typeId="1daf8fa2-a734-48e6-8fbe-a636d22ad68f" valueTypeId="978cc1e4-c2d3-439f-ba57-06897c3111c1"/>
+    <valueKeyType typeId="e7f6c0f5-80b1-4d13-9c95-0901dd7f028b" valueTypeId="ffc95f29-e150-4cb9-aae2-38404c54f429"/>
+  </producedTypes>
+  <name>СертификатМобильногоПриложенияIOS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификат мобильного приложения IOS</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

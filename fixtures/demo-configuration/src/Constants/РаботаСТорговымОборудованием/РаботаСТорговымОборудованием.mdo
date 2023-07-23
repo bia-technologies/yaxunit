@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a67e9850-a15a-4b5d-833f-110479e4f5f4">
+  <producedTypes>
+    <managerType typeId="27394bac-162f-40bc-aed8-0bf4db643a3e" valueTypeId="62bbc1ef-7982-4189-81ae-413fe927a1dd"/>
+    <valueManagerType typeId="02a8b40d-eefe-4fb0-ae22-00564841a5f4" valueTypeId="b4c88e3f-1177-474d-8fb0-a102cd862154"/>
+    <valueKeyType typeId="7d63975b-429c-4ca4-b40c-82e5cbbc3fa4" valueTypeId="39d78df9-de74-48a0-a1af-24a8f6794f0e"/>
+  </producedTypes>
+  <name>РаботаСТорговымОборудованием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с торговым оборудованием</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <quickChoice>DontUse</quickChoice>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

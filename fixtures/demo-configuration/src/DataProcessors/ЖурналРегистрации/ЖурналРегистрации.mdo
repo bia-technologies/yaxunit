@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75e877b2-d845-4893-9b97-72b6ddb72e58">
+  <producedTypes>
+    <objectType typeId="b6d7c838-3244-438b-ba9a-11eb4531ef51" valueTypeId="15d64097-2ceb-4ca0-b854-910c13057513"/>
+    <managerType typeId="1bbab873-f02b-439f-9be9-e210f426e14d" valueTypeId="6c90f1bf-eebe-451d-9f2b-117d4562e95f"/>
+  </producedTypes>
+  <name>ЖурналРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖурналРегистрации.Form.ЖурналРегистрации</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="7aaa1cf7-57c1-4f01-b386-a50de8644525">
+    <name>ЖурналРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал регистрации</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c2cf3d5-1a2f-4382-b646-22490ef4d634">
+    <name>ОтборЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор журнала регистрации</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5308c6c0-c50c-4d3e-a19a-66e0a8ebd15b">
+    <name>РедакторСоставаСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор состава свойства</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6b852fd-062b-4968-ab77-44c69f2375ec">
+    <name>ФормаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма события</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

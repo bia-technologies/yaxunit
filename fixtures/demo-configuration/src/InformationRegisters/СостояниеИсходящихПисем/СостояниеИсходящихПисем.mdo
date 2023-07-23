@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f976b602-f27a-4b54-86f5-f2329f184dee">
+  <producedTypes>
+    <selectionType typeId="9787e712-5432-47a1-a4cf-fdc6b7764f5a" valueTypeId="29f232f0-c1d4-4a75-8e3d-c28cbcfca401"/>
+    <listType typeId="4a1f090f-6737-45f1-8cb5-880511b56536" valueTypeId="eec154c7-a03d-48cc-8278-2e8cbc78f6a5"/>
+    <managerType typeId="7f9b20e9-0f52-43b8-ab9d-fd4b0660109e" valueTypeId="66257fff-437b-46ef-9827-6a529d754e46"/>
+    <recordSetType typeId="af30abb6-7119-47a6-b556-d1cfa959f106" valueTypeId="bafc5b90-7d1c-42b1-bd79-50ebe056a77a"/>
+    <recordKeyType typeId="7604874b-2397-40a8-a72a-9bbae35ffcfe" valueTypeId="e3412a19-afbf-44b1-8a41-54a7c1c77e9f"/>
+    <recordType typeId="a5d90ba7-7961-4ee2-9c97-c40f24dd86e7" valueTypeId="0c1a09b6-5f46-4de6-a95f-2a16b1124489"/>
+    <recordManagerType typeId="ad4d7401-18b2-4db4-97af-427d0176811c" valueTypeId="4803f2b4-6e24-4da4-b115-80f83f2cf008"/>
+  </producedTypes>
+  <name>СостояниеИсходящихПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние исходящих писем</value>
+  </synonym>
+  <comment></comment>
+  <dataHistory>Use</dataHistory>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7e681f0b-ee94-4833-b15c-ac026d1babd7">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="da1a06f9-9cae-4026-b2a7-d0f9e255f6fe">
+    <name>Письмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсходящиеПисьма</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87438695-fa9a-432e-b5d2-84cc06e9ff6d">
+  <name>КомпонентаПечатиШтрихкодовWindows64</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента печати штрихкодов windows64</value>
+  </synonym>
+  <comment>Компонента использует библиотеку ImageMagick, разработанную ImageMagick Studio LLC. Лицензия http://www.imagemagick.org/script/license.php</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>
