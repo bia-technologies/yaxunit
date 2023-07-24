@@ -64,6 +64,7 @@
   <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
+  <commonModules>CommonModule.ЮТПереопределениеКонтекста</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ЮТПредикатыКлиентСервер</commonModules>

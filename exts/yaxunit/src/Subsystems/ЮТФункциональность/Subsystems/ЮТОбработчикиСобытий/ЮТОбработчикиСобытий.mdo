@@ -11,5 +11,6 @@
   <content>CommonModule.ЮТЛогирование</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <content>CommonModule.ЮТУтверждения</content>
+  <content>CommonModule.ЮТПереопределениеКонтекста</content>
   <parentSubsystem>Subsystem.ЮТФункциональность</parentSubsystem>
 </mdclass:Subsystem>
