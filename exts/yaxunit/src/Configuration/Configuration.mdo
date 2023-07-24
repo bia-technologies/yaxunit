@@ -75,9 +75,9 @@
   <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТПодражатель</commonModules>
-  <commonModules>CommonModule.ЮТПодражатель_Реализация_Банки</commonModules>
-  <commonModules>CommonModule.ЮТПодражатель_Реализация_Компании</commonModules>
-  <commonModules>CommonModule.ЮТПодражатель_Реализация_Люди</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Банки</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Компании</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Люди</commonModules>
   <commonModules>CommonModule.ЮТПодражательВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПодражательПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>

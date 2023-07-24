@@ -6,6 +6,6 @@
     <value>ЮТПодражатель реализация банки</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonModule.ЮТПодражатель_Реализация_Банки</content>
+  <content>CommonModule.ЮТПодражатель_Банки</content>
   <parentSubsystem>Subsystem.ЮТПодражатель.Subsystem.ЮТПодражательРеализации</parentSubsystem>
 </mdclass:Subsystem>
