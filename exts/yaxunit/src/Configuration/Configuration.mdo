@@ -80,6 +80,7 @@
   <commonModules>CommonModule.ЮТПодражатель_Люди</commonModules>
   <commonModules>CommonModule.ЮТПодражательВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПодражательПовтИсп</commonModules>
+  <commonModules>CommonModule.ЮТПодражательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ЮТПредикатыКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>

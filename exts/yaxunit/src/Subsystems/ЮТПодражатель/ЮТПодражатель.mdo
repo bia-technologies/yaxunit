@@ -9,5 +9,6 @@
   <content>CommonModule.ЮТПодражатель</content>
   <content>CommonModule.ЮТПодражательПовтИсп</content>
   <content>CommonModule.ЮТПодражательВызовСервера</content>
+  <content>CommonModule.ЮТПодражательСлужебный</content>
   <subsystems>ЮТПодражательРеализации</subsystems>
 </mdclass:Subsystem>
