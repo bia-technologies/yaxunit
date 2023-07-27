@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9002bdd-602e-4348-9d0f-4c910f9e40f4">
+  <name>ЮТПодражатель_Люди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подражатель реализация люди клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

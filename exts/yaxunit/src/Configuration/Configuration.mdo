@@ -26,6 +26,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
+  <subsystems>Subsystem.ЮТПодражатель</subsystems>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
   <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
@@ -34,6 +35,14 @@
   <commonPictures>CommonPicture.ЮТУпал</commonPictures>
   <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
   <commonPictures>CommonPicture.ЮТЭлементыТестов</commonPictures>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Компании_Наименования_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Компании_ПрефиксыНаименований_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеИмена_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеОтчества_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеФамилии_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
   <commonModules>CommonModule.Мокито</commonModules>
   <commonModules>CommonModule.МокитоОбучение</commonModules>
@@ -65,6 +74,13 @@
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Банки</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Компании</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Люди</commonModules>
+  <commonModules>CommonModule.ЮТПодражательВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТПодражательПовтИсп</commonModules>
+  <commonModules>CommonModule.ЮТПодражательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ЮТПредикатыКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>
