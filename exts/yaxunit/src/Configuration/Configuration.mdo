@@ -73,7 +73,6 @@
   <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
-  <commonModules>CommonModule.ЮТПереопределениеКонтекста</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТПодражатель</commonModules>
   <commonModules>CommonModule.ЮТПодражатель_Банки</commonModules>
