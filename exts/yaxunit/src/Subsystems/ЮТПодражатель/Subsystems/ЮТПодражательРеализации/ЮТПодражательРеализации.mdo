@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="675f2886-dc9b-4f34-aa07-0983d4a769e7">
+  <name>ЮТПодражательРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЮТПодражатель реализации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>ЮТПодражатель_Реализация_Банки</subsystems>
+  <subsystems>ЮТПодражатель_Реализация_Компании</subsystems>
+  <subsystems>ЮТПодражатель_Реализация_Люди</subsystems>
+  <parentSubsystem>Subsystem.ЮТПодражатель</parentSubsystem>
+</mdclass:Subsystem>
