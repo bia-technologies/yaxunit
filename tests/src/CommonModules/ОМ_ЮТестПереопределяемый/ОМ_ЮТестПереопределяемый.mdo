@@ -3,7 +3,7 @@
   <name>ОМ_ЮТестПереопределяемый</name>
   <synonym>
     <key>ru</key>
-    <value>О м ест</value>
+    <value>ЮТест переопределяемый</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
