@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Конструктор тестовых данных</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЮТКонструкторТестовыхДанных.Form.КлиентскийКонструктор</defaultForm>
   <forms uuid="c0ef2e2b-96b6-4e4c-b41d-32d571d74653">
     <name>КлиентскийКонструктор</name>

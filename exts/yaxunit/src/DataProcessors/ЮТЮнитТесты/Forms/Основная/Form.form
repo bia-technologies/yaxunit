@@ -5,7 +5,7 @@
     <id>122</id>
     <items xsi:type="form:Button">
       <name>ФормаСформироватьНастройки</name>
-      <id>125</id>
+      <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -656,6 +656,36 @@
       <contextMenu>
         <name>ДеревоТестовКонтекстноеМеню</name>
         <id>31</id>
+        <items xsi:type="form:Button">
+          <name>ДеревоТестовКонтекстноеМенюЗапуститьВыделенныеТесты</name>
+          <id>130</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДеревоТестовКонтекстноеМенюЗапуститьВыделенныеТестыРасширеннаяПодсказка</name>
+            <id>131</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ЗапуститьВыделенныеТесты</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1166,6 +1196,10 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1210,7 +1244,7 @@
         <key>ru</key>
         <value>Представление</value>
       </title>
-      <id>5</id>
+      <id>12</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1500,6 +1534,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЗагрузитьТестыПриОткрытии</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить тесты при открытии</value>
+    </title>
+    <id>125</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Сравнить</name>
     <title>
@@ -1573,6 +1624,18 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗапуститьВыделенныеТесты</name>
+    <title>
+      <key>ru</key>
+      <value>Запустить тесты</value>
+    </title>
+    <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>

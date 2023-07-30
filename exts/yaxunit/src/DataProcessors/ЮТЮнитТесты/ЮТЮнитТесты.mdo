@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1bdc484-8502-4c5d-bead-0a5861739c3c">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1bdc484-8502-4c5d-bead-0a5861739c3c">
   <producedTypes>
     <objectType typeId="5b4ab199-21bb-4d2c-9b3f-76400ff90d09" valueTypeId="46e26617-02e4-4719-87a0-982b4820504f"/>
     <managerType typeId="cea40759-07dd-409f-8c26-be7e738c7fbe" valueTypeId="e3a7e7ca-1e0d-4fdf-9390-258825a6bba5"/>
@@ -7,9 +7,8 @@
   <name>ЮТЮнитТесты</name>
   <synonym>
     <key>ru</key>
-    <value>Юнит тесты</value>
+    <value>Юнит-тесты</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЮТЮнитТесты.Form.Основная</defaultForm>
   <forms uuid="c3c0fc7f-1c5e-47d9-b103-201517e2c100">
     <name>Основная</name>
@@ -54,4 +53,25 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <commands uuid="38dff93f-270f-4fd9-9d79-aa529d5c4f89">
+    <name>ЗапускТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск тестирования</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЮТПодсистема</picture>
+    </picture>
+  </commands>
+  <commands uuid="608d6673-e26c-4216-bc5f-fc19acdc3baf">
+    <name>СформироватьНастройкиТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать настройки тестирования</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>
