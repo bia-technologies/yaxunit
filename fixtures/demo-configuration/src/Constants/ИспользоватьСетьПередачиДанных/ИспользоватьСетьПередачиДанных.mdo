@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f6217ec-b9c6-48ef-8424-f3c6f0ab9f24">
+  <producedTypes>
+    <managerType typeId="5bf1aa10-1104-4d70-8390-b11d7778eaf8" valueTypeId="c92e3d97-da67-40e9-a3d5-de14a4014d1c"/>
+    <valueManagerType typeId="9cf3700e-cc5b-4273-bdb3-458329d05c74" valueTypeId="8b3c26b4-eba1-4019-87e8-78dc1c4cc1af"/>
+    <valueKeyType typeId="7fc7f5a4-8a5a-45b2-be7f-be22acbd69c1" valueTypeId="f25c3d91-687a-40f2-9815-323f4eceb01a"/>
+  </producedTypes>
+  <name>ИспользоватьСетьПередачиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сеть передачи данных</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46a9d899-5be5-4d3d-8d57-33bad12b2e08">
+  <producedTypes>
+    <managerType typeId="d2fe5c2b-5bca-4fba-a50a-fedd96e6987a" valueTypeId="a7df5c8a-e87f-4ed5-9f08-d1b18e702b64"/>
+    <valueManagerType typeId="b19c5bb1-b746-4a52-9a03-0f1ba44bb12d" valueTypeId="3fc48dc3-b2d1-4613-a26d-af6c05a0d36c"/>
+    <valueKeyType typeId="cf2adc5f-dddc-4af4-823f-79a87b0873e9" valueTypeId="f1fd35d4-6e7a-4a2c-b6d4-f28c6cd2a229"/>
+  </producedTypes>
+  <name>SSLSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>SSLSMTP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49d17d5c-11a3-438e-b865-995c382c6099">
+  <name>ЮТ_СловарьПодражателя_Люди_ЖенскиеФамилии_ru</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подражатель люди женские фамилии ru</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

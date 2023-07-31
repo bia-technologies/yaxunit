@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02d4e175-d98d-4f48-89b8-61351535e9d4">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Расчеты с контрагентами, счета, банки</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаФинансы</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.РасчетныеСчетаКонтрагентов</content>
+  <content>Catalog.Банки</content>
+  <content>Document.Оплата</content>
+  <content>Document.ПоступлениеДенег</content>
+  <content>DocumentJournal.ФинансовыеДокументы</content>
+  <content>Report.ОтчетПоВзаиморасчетам</content>
+  <content>Report.ДокументыОплата</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>Catalog.Валюты</content>
+  <subsystems>Банк</subsystems>
+</mdclass:Subsystem>

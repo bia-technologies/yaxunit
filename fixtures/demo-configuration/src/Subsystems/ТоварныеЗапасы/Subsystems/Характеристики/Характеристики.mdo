@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ac25e71-65d2-41c6-8ee9-28a592600b69">
+  <name>Характеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЗначенияХарактеристик</content>
+  <content>InformationRegister.Характеристики</content>
+  <content>ChartOfCharacteristicTypes.ВидыХарактеристик</content>
+  <parentSubsystem>Subsystem.ТоварныеЗапасы</parentSubsystem>
+</mdclass:Subsystem>

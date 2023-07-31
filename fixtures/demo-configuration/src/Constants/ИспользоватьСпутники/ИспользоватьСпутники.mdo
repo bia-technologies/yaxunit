@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31be8727-0fdf-4b1b-9a01-c2cf10c693b5">
+  <producedTypes>
+    <managerType typeId="e0414368-25e9-40c0-9dc3-cc198caa3507" valueTypeId="7bc52edf-d68a-48ad-99e3-f29042eb55ca"/>
+    <valueManagerType typeId="0167c18f-dda9-4e42-8b33-4405edf5be2e" valueTypeId="e48a670e-3a48-4796-af8f-f321597d5766"/>
+    <valueKeyType typeId="36babb86-79eb-4f4d-89fe-633644867e16" valueTypeId="a8a20d6a-2054-4252-a8fc-a7079ede4222"/>
+  </producedTypes>
+  <name>ИспользоватьСпутники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать спутники</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

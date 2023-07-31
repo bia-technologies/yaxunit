@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aa4bef3-a756-43fd-b01a-321be93572e6">
+  <producedTypes>
+    <objectType typeId="6fde0a39-0b64-4244-9d29-ea779cb9c21a" valueTypeId="2abf8124-12aa-45cf-9102-6078215c8b23"/>
+    <managerType typeId="03c6e13b-5ff8-48a4-bea2-66b606f7c7ac" valueTypeId="d1c4081a-43b6-439f-a23a-b7f6e8fe8cbb"/>
+  </producedTypes>
+  <name>ДинамикаПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика продаж</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДинамикаПродаж.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет по динамике продаж товаров (объемы продаж по периодам)</value>
+  </explanation>
+  <templates uuid="a44f9d57-e041-491e-aff7-0dbff78ddafa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

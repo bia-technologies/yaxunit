@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4e7cb3c-895e-4a50-97b1-46beec549497">
+  <producedTypes>
+    <managerType typeId="4e0d4122-0d45-4915-8877-c2939aa285d8" valueTypeId="b1356b0e-7ac7-4bec-a2d9-a84e7c1bea60"/>
+    <valueManagerType typeId="e328b541-6f78-4831-9da3-b68c594d238f" valueTypeId="9cd26cad-a7ea-4ece-a5ba-adda33ea26e3"/>
+    <valueKeyType typeId="b6a4fdb9-239f-45f5-911a-3b7a5166ec0c" valueTypeId="3317a643-3536-4df3-a3b1-547831777344"/>
+  </producedTypes>
+  <name>ПарольSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль SMTP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <passwordMode>true</passwordMode>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

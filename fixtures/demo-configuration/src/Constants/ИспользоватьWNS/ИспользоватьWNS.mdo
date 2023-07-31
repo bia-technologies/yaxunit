@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a45022e1-a02b-4d32-b282-829c67bc863b">
+  <producedTypes>
+    <managerType typeId="e3415845-580d-4358-9933-621926cae896" valueTypeId="334be5a5-0ee4-4091-bbc9-842d7f92a01e"/>
+    <valueManagerType typeId="d4f3437f-7e61-45ac-8f8e-07aab2854e47" valueTypeId="01a83512-4001-451a-bb2f-906f496ec9b0"/>
+    <valueKeyType typeId="175dae60-86e6-4be3-b849-08d3e76a5f5e" valueTypeId="c81c8970-a42f-4e14-a5d3-f80e17f27ed9"/>
+  </producedTypes>
+  <name>ИспользоватьWNS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать WNS</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

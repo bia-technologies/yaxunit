@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule:Schedule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:schedule="http://g5.1c.ru/v8/dt/schedule" beginDate="0001-01-01" endDate="0001-01-01" daysRepeatPeriod="1" beginTime="08:00:00" endTime="00:00:00" completionTime="00:00:00" repeatPeriodInDay="60" weeksPeriod="1">
+  <weekDays>Mon</weekDays>
+  <weekDays>Tue</weekDays>
+  <weekDays>Wed</weekDays>
+  <weekDays>Thu</weekDays>
+  <weekDays>Fri</weekDays>
+  <weekDays>Sat</weekDays>
+  <weekDays>Sun</weekDays>
+  <months>Jan</months>
+  <months>Feb</months>
+  <months>Mar</months>
+  <months>Apr</months>
+  <months>May</months>
+  <months>Jun</months>
+  <months>Jul</months>
+  <months>Aug</months>
+  <months>Sep</months>
+  <months>Oct</months>
+  <months>Nov</months>
+  <months>Dec</months>
+</schedule:Schedule>

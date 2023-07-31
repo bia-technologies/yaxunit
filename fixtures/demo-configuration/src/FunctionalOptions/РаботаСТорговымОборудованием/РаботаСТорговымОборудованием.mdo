@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a7348ed-7b1c-41ee-be6e-3e15fbbae7c3">
+  <name>РаботаСТорговымОборудованием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с торговым оборудованием</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.РаботаСТорговымОборудованием</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.НастройкиТорговогоОборудования</content>
+  <content>CommonCommand.УстановитьСканерШтрихкодов</content>
+  <content>CommonCommand.НастроитьСканерШтрихКодов</content>
+</mdclass:FunctionalOption>

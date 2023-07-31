@@ -16,7 +16,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>23.04.0</version>
+  <version>23.07.0</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -26,24 +26,37 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
+  <subsystems>Subsystem.ЮТПодражатель</subsystems>
   <subsystems>Subsystem.ЮТФункциональность</subsystems>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
   <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
+  <commonPictures>CommonPicture.ЮТПодсистема</commonPictures>
   <commonPictures>CommonPicture.ЮТПропущен</commonPictures>
   <commonPictures>CommonPicture.ЮТУпал</commonPictures>
   <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
   <commonPictures>CommonPicture.ЮТЭлементыТестов</commonPictures>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Компании_Наименования_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Компании_ПрефиксыНаименований_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеИмена_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеОтчества_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеФамилии_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
   <commonModules>CommonModule.Мокито</commonModules>
   <commonModules>CommonModule.МокитоОбучение</commonModules>
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
+  <commonModules>CommonModule.ЮТЗапросы</commonModules>
+  <commonModules>CommonModule.ЮТЗапросыВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЗапросыКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
-  <commonModules>CommonModule.ЮТКонструкторТестовыхДанных</commonModules>
+  <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
   <commonModules>CommonModule.ЮТКонтекстКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСервер</commonModules>
@@ -61,6 +74,13 @@
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
   <commonModules>CommonModule.ЮТПовторногоИспользования</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Банки</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Компании</commonModules>
+  <commonModules>CommonModule.ЮТПодражатель_Люди</commonModules>
+  <commonModules>CommonModule.ЮТПодражательВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТПодражательПовтИсп</commonModules>
+  <commonModules>CommonModule.ЮТПодражательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ЮТПредикатыКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>
@@ -73,11 +93,13 @@
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
+  <commonModules>CommonModule.ЮТУтвержденияИБ</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>
   <commonModules>CommonModule.ЮТФайлы</commonModules>
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
 </mdclass:Configuration>

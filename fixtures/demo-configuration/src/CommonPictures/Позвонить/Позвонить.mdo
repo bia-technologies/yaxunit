@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b35b6309-35ff-4991-9056-495cfc76e0bc">
+  <name>Позвонить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позвонить</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

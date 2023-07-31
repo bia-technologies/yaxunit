@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4c43c07-2e0b-4776-8ffe-5f434f6c69b0">
+  <producedTypes>
+    <managerType typeId="b98bf842-249d-4243-ab7e-cb313811e9e3" valueTypeId="0c8ac22f-23f6-47c5-9f35-3abd336beb2a"/>
+    <valueManagerType typeId="71675261-33d0-4784-beda-676e9db7bc28" valueTypeId="6aa08879-7ccd-4aad-a647-74d66cc6141f"/>
+    <valueKeyType typeId="3b3b44b8-3401-4ab8-819c-0334155d837b" valueTypeId="c6643c28-4098-4787-8693-c502091d8120"/>
+  </producedTypes>
+  <name>АдресIMAPСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес IMAP сервера</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

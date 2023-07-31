@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-tags: [Getting started]
+tags: [Начало]
 ---
 
 # Пишем первый тест

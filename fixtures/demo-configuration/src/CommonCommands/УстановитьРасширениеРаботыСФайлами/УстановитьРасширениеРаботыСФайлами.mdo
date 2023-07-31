@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44573f7c-3112-41c7-8c42-4919f8bcd14d">
+  <name>УстановитьРасширениеРаботыСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить расширение работы с файлами</value>
+  </synonym>
+  <comment></comment>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

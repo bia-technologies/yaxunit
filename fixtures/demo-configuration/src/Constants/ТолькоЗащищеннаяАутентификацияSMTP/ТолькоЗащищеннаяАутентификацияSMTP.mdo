@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b2d3faa-996c-4f97-a93b-eada51533f3f">
+  <producedTypes>
+    <managerType typeId="df28c77e-dade-467b-8e0c-d9f01493cc50" valueTypeId="a6a76288-fe78-4bbd-aa42-5a2429918864"/>
+    <valueManagerType typeId="6670a2ff-1905-49e0-a1ae-814fdf89fcf6" valueTypeId="5f62ffdf-ad43-486a-9d5e-eec4b6dfad88"/>
+    <valueKeyType typeId="ee67a458-dfe6-40f2-a55f-c0c7f3dc083d" valueTypeId="c9b4a3d6-ef39-4261-9e76-c6304f6748f5"/>
+  </producedTypes>
+  <name>ТолькоЗащищеннаяАутентификацияSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Только защищенная аутентификация SMTP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

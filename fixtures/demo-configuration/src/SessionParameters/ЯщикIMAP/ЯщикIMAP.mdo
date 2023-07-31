@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b3b80be-7c19-48dc-be95-bb442c3e76c1">
+  <name>ЯщикIMAP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ящик IMAP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+</mdclass:SessionParameter>

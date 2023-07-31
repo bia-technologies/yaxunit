@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51868649-af13-4999-b39a-2eac2e704cdb">
+  <producedTypes>
+    <managerType typeId="30955a77-033a-4aea-aa05-f0acc81eb3b9" valueTypeId="4f324a82-92e8-45a9-86fa-260975b214ce"/>
+    <valueManagerType typeId="d4010123-7f6a-43d8-add5-02724da9e642" valueTypeId="e38b5223-1255-4fe8-bd32-bc29b4db8b44"/>
+    <valueKeyType typeId="584205c8-b296-4ae5-b27e-8e3dd2daedf0" valueTypeId="5a9a3f07-f25f-4250-a6d8-45e9a7089988"/>
+  </producedTypes>
+  <name>ИспользоватьPushУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать push уведомления</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.PushУведомления</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

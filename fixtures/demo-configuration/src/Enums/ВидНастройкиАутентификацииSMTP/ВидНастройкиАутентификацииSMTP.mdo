@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62d1ded0-fc4a-4c5e-a59c-b565f382fb73">
+  <producedTypes>
+    <refType typeId="632c92b9-d76e-4b90-8608-d6335fff232d" valueTypeId="56b7568c-d416-4775-98b5-1294a9eb2d95"/>
+    <listType typeId="d2a59719-5bca-45dd-85dd-9578eb40484f" valueTypeId="2020ef70-6566-4dda-80a7-928f45271957"/>
+    <managerType typeId="22fdb4d9-43b8-40d1-8895-350dbab38fa4" valueTypeId="afddf1a9-90f3-429b-8e8a-68df4897b65a"/>
+  </producedTypes>
+  <name>ВидНастройкиАутентификацииSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид настройки аутентификации SMTP</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e6bb92b8-d11d-4d15-9d22-c6ee18e4c929">
+    <name>Нет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dcc72ba4-4733-4965-85b4-fb70d7d54685">
+    <name>ПолучатьССервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получать с сервера</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="637ce4ad-bca6-4448-b9ef-7e7b444bc3b6">
+    <name>РучнаяНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная настройка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>
