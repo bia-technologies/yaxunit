@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bb835ed-1ddd-467f-94d5-02e1259cde62">
+  <name>ЮТ_МакетТестовыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ю т макет тестовых данных</value>
+  </synonym>
+</mdclass:CommonTemplate>
