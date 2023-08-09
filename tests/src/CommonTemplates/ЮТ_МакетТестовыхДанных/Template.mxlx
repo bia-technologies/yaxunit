@@ -9,7 +9,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>9</size>
+		<size>11</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -52,13 +52,37 @@
 				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
+		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>8</index>
+			<column>
+				<formatIndex>9</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>9</index>
+			<column>
+				<formatIndex>10</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>10</index>
+			<column>
+				<formatIndex>9</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
 			<c>
 				<c>
-					<f>2</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -79,55 +103,11 @@
 		<row>
 			<c>
 				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Товар</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Товар.Артикул</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>10</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Товар.Поставщик</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>11</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Товар.Вид</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>12</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Товар.Описание</v8:content>
+							<v8:content>Период</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -138,7 +118,18 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Товар.ОтсутствующийРеквизит</v8:content>
+							<v8:content>Активность</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -149,7 +140,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Цена</v8:content>
+							<v8:content>Товар.Артикул</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -160,6 +151,61 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Товар.Поставщик</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар.Вид</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар.Описание</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар.ОтсутствующийРеквизит</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>Количество</v8:content>
 						</v8:item>
 					</tl>
@@ -167,7 +213,7 @@
 			</c>
 			<c>
 				<c>
-					<f>14</f>
+					<f>19</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -183,7 +229,29 @@
 		<row>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>01.01.2023 0:00:00</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Да</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -194,7 +262,7 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -205,18 +273,18 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поставщик</v8:content>
+							<v8:content>Поставщик 1</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -227,7 +295,7 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -238,7 +306,7 @@
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -249,18 +317,18 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>100</v8:content>
+							<v8:content>100,55</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -271,11 +339,11 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>100</v8:content>
+							<v8:content>100,55</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -287,7 +355,29 @@
 		<row>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2023-01-01</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Истина</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -298,7 +388,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -309,18 +399,18 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>22</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поставщик</v8:content>
+							<v8:content>Поставщик 2</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -331,12 +421,12 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>24</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -347,33 +437,33 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>200</v8:content>
+							<v8:content>1 500.2</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>2</v8:content>
+							<v8:content>1</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>400</v8:content>
+							<v8:content>1 500.2</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -385,7 +475,29 @@
 		<row>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>01/01/23</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>false</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -396,7 +508,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -407,12 +519,12 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>22</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -423,7 +535,7 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -434,23 +546,23 @@
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>25</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>300</v8:content>
+							<v8:content>1 000 000</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -461,11 +573,11 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>300</v8:content>
+							<v8:content>1 000 000</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -493,7 +605,29 @@
 		<row>
 			<c>
 				<c>
-					<f>21</f>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Активность</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -504,7 +638,7 @@
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -515,7 +649,7 @@
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>18</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -526,7 +660,7 @@
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -542,7 +676,29 @@
 		<row>
 			<c>
 				<c>
-					<f>24</f>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>01.01.2023 0:00:00</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Истина</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -553,18 +709,18 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>100</v8:content>
+							<v8:content>100.55</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -575,11 +731,11 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>100</v8:content>
+							<v8:content>100.55</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -591,7 +747,29 @@
 		<row>
 			<c>
 				<c>
-					<f>24</f>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>01.01.2023 0:00:00</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Истина</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -602,33 +780,33 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>200</v8:content>
+							<v8:content>1500.2</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>2</v8:content>
+							<v8:content>1</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>400</v8:content>
+							<v8:content>1500.2</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -640,7 +818,29 @@
 		<row>
 			<c>
 				<c>
-					<f>24</f>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>01.01.2023 0:00:00</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ложь</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -651,18 +851,18 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>300</v8:content>
+							<v8:content>1000000</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -673,11 +873,11 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>300</v8:content>
+							<v8:content>1000000</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -692,25 +892,43 @@
 	</line>
 	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>95</width>
+		<width>123</width>
 	</format>
 	<format>
-		<width>147</width>
+		<width>83</width>
 	</format>
 	<format>
-		<width>163</width>
+		<width>56</width>
 	</format>
 	<format>
-		<width>120</width>
+		<width>105</width>
 	</format>
 	<format>
-		<width>176</width>
+		<width>122</width>
+	</format>
+	<format>
+		<width>77</width>
 	</format>
 	<format>
 		<width>209</width>
 	</format>
 	<format>
-		<width>81</width>
+		<width>176</width>
+	</format>
+	<format>
+		<width>65</width>
+	</format>
+	<format>
+		<width>86</width>
+	</format>
+	<format>
+		<width>147</width>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>95</width>
+		<horizontalAlignment>Center</horizontalAlignment>
 	</format>
 	<format>
 		<font>0</font>
@@ -745,29 +963,17 @@
 	<format>
 		<font>0</font>
 		<border>0</border>
-		<width>176</width>
-		<horizontalAlignment>Center</horizontalAlignment>
-	</format>
-	<format>
-		<font>0</font>
-		<border>0</border>
-		<horizontalAlignment>Center</horizontalAlignment>
-	</format>
-	<format>
-		<font>0</font>
-		<border>0</border>
 		<width>81</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 	</format>
 	<format>
+		<font>0</font>
 		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
 	</format>
 	<format>
 		<border>0</border>
-		<width>163</width>
-	</format>
-	<format>
-		<border>0</border>
+		<width>95</width>
 	</format>
 	<format>
 		<border>0</border>
@@ -775,31 +981,25 @@
 	</format>
 	<format>
 		<border>0</border>
+		<width>163</width>
+	</format>
+	<format>
+		<border>0</border>
+		<width>120</width>
+	</format>
+	<format>
+		<border>0</border>
 		<width>176</width>
 	</format>
 	<format>
-		<font>0</font>
 		<border>0</border>
-		<width>95</width>
-		<horizontalAlignment>Center</horizontalAlignment>
-	</format>
-	<format>
-		<font>0</font>
-		<border>0</border>
-		<horizontalAlignment>Center</horizontalAlignment>
-	</format>
-	<format>
-		<font>0</font>
-		<border>0</border>
-		<width>81</width>
-		<horizontalAlignment>Center</horizontalAlignment>
-	</format>
-	<format>
-		<border>0</border>
-		<width>95</width>
+		<width>209</width>
 	</format>
 	<format>
 		<border>0</border>
 		<width>81</width>
+	</format>
+	<format>
+		<border>0</border>
 	</format>
 </document>
