@@ -1661,10 +1661,10 @@
     </additionalColumns>
   </attributes>
   <attributes>
-    <name>АдресДанных</name>
+    <name>АдресОтчета</name>
     <title>
       <key>ru</key>
-      <value>Адрес данных</value>
+      <value>Адрес отчета</value>
     </title>
     <id>16</id>
     <valueType>
