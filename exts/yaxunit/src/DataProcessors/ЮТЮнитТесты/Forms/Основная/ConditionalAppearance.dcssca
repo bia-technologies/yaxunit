@@ -126,7 +126,7 @@
 					<item xsi:type="FilterItemComparison">
 						<left xsi:type="dcscor:Field">ДеревоТестов.ВремяВыполнения</left>
 						<comparisonType>Greater</comparisonType>
-						<right xsi:type="xs:decimal">1</right>
+						<right xsi:type="xs:decimal">1000</right>
 					</item>
 				</item>
 				<item xsi:type="FilterItemGroup">
@@ -139,7 +139,7 @@
 					<item xsi:type="FilterItemComparison">
 						<left xsi:type="dcscor:Field">ДеревоТестов.ВремяВыполнения</left>
 						<comparisonType>Greater</comparisonType>
-						<right xsi:type="xs:decimal">10</right>
+						<right xsi:type="xs:decimal">10000</right>
 					</item>
 				</item>
 			</item>
