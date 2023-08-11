@@ -22,6 +22,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <commonTemplates>CommonTemplate.ЮТ_МакетТестовыхДанных</commonTemplates>
   <commonModules>CommonModule.Интеграция</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
@@ -38,6 +39,7 @@
   <commonModules>CommonModule.ОМ_ЮТПредикатыКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСравнениеКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанные</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТТестовыеДанные_ТаблицыЗначений</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТесты</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
