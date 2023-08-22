@@ -5,5 +5,5 @@
     <key>ru</key>
     <value>ЮТYax unit add in</value>
   </synonym>
-  <templateType>BinaryData</templateType>
+  <templateType>AddIn</templateType>
 </mdclass:CommonTemplate>
