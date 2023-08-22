@@ -43,6 +43,7 @@
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
   <commonModules>CommonModule.Мокито</commonModules>
   <commonModules>CommonModule.МокитоОбучение</commonModules>
@@ -55,6 +56,9 @@
   <commonModules>CommonModule.ЮТИсполнительКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
+  <commonModules>CommonModule.ЮТКомпоненты</commonModules>
+  <commonModules>CommonModule.ЮТКомпонентыВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
