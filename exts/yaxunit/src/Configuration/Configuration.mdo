@@ -57,7 +57,8 @@
   <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
   <commonModules>CommonModule.ЮТКомпоненты</commonModules>
-  <commonModules>CommonModule.ЮТКомпонентыСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТКомпонентыВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекст</commonModules>
