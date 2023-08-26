@@ -17,6 +17,15 @@ jobs:
       with:
         submodules: recursive
     
+    - name: prepare
+      run: |
+        mkdir export
+        mkdir binary
+        mkdir file-db
+        mkdir reports
+        sudo apt-get install -y locales
+        localedef -i ru_RU -c -f UTF-8 -A /usr/share/locale/locale.alias ru_RU.UTF-8
+
     - name: install x11 (for run tests)
       run: |
         {
@@ -62,14 +71,6 @@ jobs:
       run: sudo X :99 -config dummy-1920x1080.conf &
       timeout-minutes: 5
  
-    - name: prepare
-      run: |
-        mkdir export
-        mkdir binary
-        mkdir file-db
-        mkdir reports
-        apt-get install -y locales
-        localedef -i ru_RU -c -f UTF-8 -A /usr/share/locale/locale.alias ru_RU.UTF-8
     - name: thinck client libs
       run: |
         sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
