@@ -5,18 +5,22 @@ on:
       v8_version:
         type: string
         required: true
+      
       edt_version:
         type: string
         required: true
+      
       artifact_name:
         type: string
         required: true
 jobs:
   build-dev:
+  
     runs-on: ubuntu-20.04
+
     steps:
 
-    - uses: actions/checkout@v3n
+    - uses: actions/checkout@v3
     
     - name: prepare
       run: |
