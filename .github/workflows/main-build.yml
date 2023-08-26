@@ -40,7 +40,7 @@ jobs:
   
   tests_windows_ru:
     name: Test on Windows ${{ env.v8_version }} ru_RU
-     uses: ./.github/workflows/run-tests-windows.yml
+    uses: ./.github/workflows/run-tests-windows.yml
     need: build-artifacts
     with:
       v8_version: ${{ env.v8_version }}
