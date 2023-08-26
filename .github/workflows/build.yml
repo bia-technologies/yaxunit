@@ -172,7 +172,7 @@ jobs:
       run: |
         export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
         export DISPLAY=:99
-        export LANG ru_RU.UTF-8
+        export LANG=ru_RU.UTF-8
         1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
       timeout-minutes: 5
 
