@@ -1,4 +1,4 @@
-name: Run tests
+name: Run tests on Linux
 
 on:
   workflow_call:
@@ -20,6 +20,7 @@ concurrency:
 jobs:
   execute-tests:
     runs-on: ubuntu-20.04
+    steps:
 
     - name: download artifact
       uses: actions/download-artifact@v3
