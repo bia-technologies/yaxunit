@@ -1,0 +1,51 @@
+name: Build and test
+on:
+  push:
+    branches: [ feature/**, develop ]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  v8_version: 8.3.21.1895
+
+jobs:
+  build-artifacts:
+    uses: ./.github/workflows/build.yml
+    with:
+      v8_version: ${{ env.v8_version }}
+      edt_version: 2023.1.2
+      artifact_name: build-artifacts
+    secrets: inherit
+  
+  tests Linux;ru_RU:
+    uses: ./.github/workflows/run-tests-linux.yml
+    need: build-artifacts
+    with:
+      v8_version: ${{ env.v8_version }}
+      artifact_name: build-artifacts
+    secrets: inherit
+  
+  tests Linux;en_US:
+    uses: ./.github/workflows/run-tests-linux.yml
+    need: build-artifacts
+    with:
+      v8_version: ${{ env.v8_version }}
+      artifact_name: build-artifacts
+    secrets: inherit
+  
+  tests Windows;ru_RU:
+    uses: ./.github/workflows/run-tests-windows.yml
+    need: build-artifacts
+    with:
+      v8_version: ${{ env.v8_version }}
+      artifact_name: build-artifacts
+    secrets: inherit
+  
+  tests MacOS;ru_RU:
+    uses: ./.github/workflows/run-tests-macos.yml
+    need: build-artifacts
+    with:
+      v8_version: ${{ env.v8_version }}
+      artifact_name: build-artifacts
+    secrets: inherit
