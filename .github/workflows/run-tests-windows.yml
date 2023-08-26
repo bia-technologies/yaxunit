@@ -15,10 +15,8 @@ on:
         type: string
         required: true
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Windows
   cancel-in-progress: true
 jobs:
   execute-tests:
     runs-on: windows-latest
-    steps:
-      - run: echo 'empty'
