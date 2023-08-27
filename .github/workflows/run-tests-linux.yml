@@ -7,23 +7,28 @@ on:
         description: 'Platform version'
         type: string
         required: true
+
       locale:
         type: string
         required: false
         default: ru_RU
+
       artifact_name:
         type: string
         required: true
+        
       fail_on_failure:
         type: boolean
         required: false
         default: true
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Linux
   cancel-in-progress: true
+
 jobs:
   execute-tests:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
 
     - name: download artifact
@@ -110,8 +115,7 @@ jobs:
       timeout-minutes: 5
 
     - name: run server
-      run: |
-        ibsrv --db-path=file-db --daemon
+      run: ibsrv --db-path=file-db --daemon
     
     - name: create test-config
       uses: DamianReeves/write-file-action@master
@@ -126,12 +130,12 @@ jobs:
           }
     
     - name: run tests
-      run: |
-        export DISPLAY=:99
-        export LANG=${{ inputs.locale }}.UTF-8
-        1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
+      run: 1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
       timeout-minutes: 5
-
+      env:
+        DISPLAY: :99
+        LANG: "${{ inputs.locale }}.UTF-8"
+      
     - name: view output
       if: always()
       run: cat output.log
