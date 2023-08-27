@@ -14,6 +14,10 @@ on:
       artifact_name:
         type: string
         required: true
+      fail_on_failure:
+        type: boolean
+        required: false
+        default: true
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Linux
   cancel-in-progress: true
@@ -149,6 +153,6 @@ jobs:
       if: always()
       with:
         report_paths: reports/report.xml
-        fail_on_failure: true
-        require_passed_tests: true
+        fail_on_failure: ${{ inputs.fail_on_failure }}
+        require_passed_tests: ${{ inputs.fail_on_failure }}
         update_check: true

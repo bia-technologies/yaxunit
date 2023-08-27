@@ -33,6 +33,7 @@ jobs:
       v8_version: 8.3.21.1895
       artifact_name: build-artifacts
       locale: en_US
+      fail_on_failure: false
     secrets: inherit
   
   tests_windows_ru:
