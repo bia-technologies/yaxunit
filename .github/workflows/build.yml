@@ -14,20 +14,10 @@ on:
         type: string
         required: true
 jobs:
-  build-dev:
-  
+  build:
     runs-on: ubuntu-20.04
-
     steps:
-
     - uses: actions/checkout@v3
-    
-    - name: prepare
-      run: |
-        mkdir export
-        mkdir binary
-        mkdir file-db
-        mkdir reports
     
     - name: install EDT
       uses: IT-Medved/onec-setup-build-env-action@develop
@@ -51,7 +41,7 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 10
         
-    - name: export configuration
+    - name: convert configuration src
       uses: IT-Medved/onec-edtcli-command-action@feature/init
       with:
         export: true
@@ -59,7 +49,7 @@ jobs:
         to: export/configuration
       timeout-minutes: 5
       
-    - name: export yaxunit extension
+    - name: convert yaxunit src
       uses: IT-Medved/onec-edtcli-command-action@feature/init
       with:
         export: true
@@ -67,7 +57,7 @@ jobs:
         to: export/yaxunit
       timeout-minutes: 5
       
-    - name: export tests extension
+    - name: convert tests src
       uses: IT-Medved/onec-edtcli-command-action@feature/init
       with:
         export: true
@@ -80,28 +70,22 @@ jobs:
       timeout-minutes: 5
 
     - name: import yaxunit
-      run: |
-        ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export/yaxunit
-        ibcmd infobase config apply --db-path=file-db --extension=YAXUNIT --force
-        ibcmd infobase config extension update --db-path=file-db --name=YAXUNIT --safe-mode=no --unsafe-action-protection=no
+      run: ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export/yaxunit
       timeout-minutes: 5
 
     - name: import tests
-      run: |
-        ibcmd infobase config import --db-path=file-db --extension=tests export/tests
-        ibcmd infobase config apply --db-path=file-db --extension=tests --force
-        ibcmd infobase config extension update --db-path=file-db --name=tests --safe-mode=no --unsafe-action-protection=no
+      run: ibcmd infobase config import --db-path=file-db --extension=tests export/tests
       timeout-minutes: 5
 
     - name: save yaxunit
       run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT binary/yaxunit.cfe
       timeout-minutes: 5
       
-    - name: save yaxunit
+    - name: save tests
       run: ibcmd infobase config save --db-path=file-db --extension=tests binary/tests.cfe
       timeout-minutes: 5
       
-    - name: save yaxunit
+    - name: save configuration
       run: ibcmd infobase config save --db-path=file-db binary/configuration.cf
       timeout-minutes: 5
       
