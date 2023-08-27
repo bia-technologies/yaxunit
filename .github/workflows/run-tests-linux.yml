@@ -34,11 +34,7 @@ jobs:
 
     - name: prepare
       run: |
-        sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
-          locales \
-          at-spi2-core \
-          mesa-utils \
-          libgl1-mesa-glx
+        sudo DEBIAN_FRONTEND=noninteractive apt-get install -y locales 
         sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
         sudo localedef -i ${{ inputs.locale }} -c -f UTF-8 -A /usr/share/locale/locale.alias ${{ inputs.locale }}.UTF-8
 
@@ -131,7 +127,6 @@ jobs:
     
     - name: run tests
       run: |
-        export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
         export DISPLAY=:99
         export LANG=${{ inputs.locale }}.UTF-8
         1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
