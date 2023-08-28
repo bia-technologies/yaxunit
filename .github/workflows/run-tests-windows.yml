@@ -1,0 +1,29 @@
+name: Run tests on Windows
+
+on:
+  workflow_call:
+    inputs:
+      v8_version:
+        description: 'Platform version'
+        type: string
+        required: true
+
+      locale:
+        type: string
+        required: false
+        default: ru_RU
+        
+      artifact_name:
+        type: string
+        required: true
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Windows
+  cancel-in-progress: true
+
+jobs:
+  execute-tests:
+    runs-on: windows-latest
+    if: false
+    steps:
+      - run: echo 'empty'

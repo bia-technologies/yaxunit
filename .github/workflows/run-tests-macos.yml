@@ -1,0 +1,29 @@
+name: Run tests on MacOS
+
+on:
+  workflow_call:
+    inputs:
+      v8_version:
+        description: 'Platform version'
+        type: string
+        required: true
+
+      locale:
+        type: string
+        required: false
+        default: ru_RU
+        
+      artifact_name:
+        type: string
+        required: true
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-MacOS
+  cancel-in-progress: true
+
+jobs:
+  execute-tests:
+    runs-on: macos-latest
+    if: false
+    steps:
+      - run: echo 'empty'

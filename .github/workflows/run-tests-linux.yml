@@ -1,0 +1,157 @@
+name: Run tests on Linux
+
+on:
+  workflow_call:
+    inputs:
+      v8_version:
+        description: 'Platform version'
+        type: string
+        required: true
+
+      locale:
+        type: string
+        required: false
+        default: ru_RU
+
+      artifact_name:
+        type: string
+        required: true
+        
+      fail_on_failure:
+        type: boolean
+        required: false
+        default: true
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Linux
+  cancel-in-progress: true
+
+jobs:
+  execute-tests:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: ${{ inputs.artifact_name }}
+        path: binary
+
+    - name: prepare
+      run: |
+        sudo DEBIAN_FRONTEND=noninteractive apt-get install -y locales 
+        sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
+        sudo localedef -i ${{ inputs.locale }} -c -f UTF-8 -A /usr/share/locale/locale.alias ${{ inputs.locale }}.UTF-8
+
+    - name: install platform
+      uses: IT-Medved/onec-setup-build-env-action@develop
+      with:
+        type: onec
+        onec_version: ${{ inputs.v8_version }}
+        cache: false
+      env: 
+        ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+        ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+      timeout-minutes: 10
+
+    - name: install x11
+      run: sudo apt-get install -y x11-xserver-utils
+      continue-on-error: true
+      timeout-minutes: 5
+    
+    - name: install xserver-dummy
+      run: sudo apt-get install -y xserver-xorg-video-dummy
+      timeout-minutes: 5
+    
+    - name: create dummy-config
+      uses: DamianReeves/write-file-action@master
+      with:
+        path: dummy-1920x1080.conf
+        contents: |
+          Section "Monitor"
+            Identifier "Monitor0"
+            HorizSync 28.0-80.0
+            VertRefresh 48.0-75.0
+            # https://arachnoid.com/modelines/
+            # 1920x1080 @ 60.00 Hz (GTF) hsync: 67.08 kHz; pclk: 172.80 MHz
+            Modeline "1920x1080_60.00" 172.80 1920 2040 2248 2576 1080 1081 1084 1118 -HSync +Vsync
+          EndSection
+          Section "Device"
+            Identifier "Card0"
+            Driver "dummy"
+            VideoRam 256000
+          EndSection
+          Section "Screen"
+            DefaultDepth 24
+            Identifier "Screen0"
+            Device "Card0"
+            Monitor "Monitor0"
+            SubSection "Display"
+              Depth 24
+              Modes "1920x1080_60.00"
+            EndSubSection
+          EndSection
+    
+    - name: start xserver
+      run: sudo X :99 -config dummy-1920x1080.conf &
+      timeout-minutes: 5
+    
+    - name: create IB
+      run: ibcmd infobase create --db-path=file-db --load=binary/configuration.cf --apply --force
+      timeout-minutes: 5
+
+    - name: load yaxunit
+      run: |
+        ibcmd infobase config load --db-path=file-db --extension=YAXUNIT --force binary/yaxunit.cfe
+        ibcmd infobase config apply --db-path=file-db --extension=YAXUNIT --force
+        ibcmd infobase config extension update --db-path=file-db --name=YAXUNIT --safe-mode=no --unsafe-action-protection=no
+      timeout-minutes: 5
+
+    - name: load tests
+      run: |
+        ibcmd infobase config load --db-path=file-db --extension=tests --force binary/tests.cfe
+        ibcmd infobase config apply --db-path=file-db --extension=tests --force
+        ibcmd infobase config extension update --db-path=file-db --name=tests --safe-mode=no --unsafe-action-protection=no
+      timeout-minutes: 5
+
+    - name: run server
+      run: ibsrv --db-path=file-db --daemon
+    
+    - name: create test-config
+      uses: DamianReeves/write-file-action@master
+      with:
+        path: unit.json
+        contents: |
+          {
+            "reportFormat": "jUnit",
+            "reportPath": "reports/report.xml",
+            "closeAfterTests": true,
+            "exitCode": "exit-code.txt"
+          }
+    
+    - name: run tests
+      run: 1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
+      timeout-minutes: 5
+      env:
+        DISPLAY: :99
+        LANG: "${{ inputs.locale }}.UTF-8"
+      
+    - name: view output
+      if: always()
+      run: cat output.log
+    
+    - name: upload-artifact
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: report-linux-${{ inputs.v8_version }}-${{ inputs.locale }}
+        path: reports/*.*
+        
+    - name: Publish Test Report
+      uses: mikepenz/action-junit-report@v3
+      if: always()
+      with:
+        report_paths: reports/report.xml
+        fail_on_failure: ${{ inputs.fail_on_failure }}
+        require_passed_tests: ${{ inputs.fail_on_failure }}
+        update_check: true
