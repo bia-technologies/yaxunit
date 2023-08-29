@@ -160,7 +160,7 @@ jobs:
       uses: mikepenz/action-junit-report@v3
       if: always()
       with:
+        check_name: Tests. Linux v${{ inputs.v8_version }} ${{ inputs.locale }}
         report_paths: reports/report.xml
         fail_on_failure: ${{ inputs.fail_on_failure }}
-        require_passed_tests: ${{ inputs.fail_on_failure }}
-        update_check: true
+        require_passed_tests: true

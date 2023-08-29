@@ -9,6 +9,11 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+    contents: read
+    checks: write
+    id-token: write
+
 jobs:
   build_artifacts:
     name: Build artifacts
