@@ -22,6 +22,11 @@ on:
         required: false
         default: true
 
+permissions:
+    contents: read
+    checks: write
+    id-token: write
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Linux
   cancel-in-progress: true
@@ -42,6 +47,7 @@ jobs:
         sudo DEBIAN_FRONTEND=noninteractive apt-get install -y locales 
         sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
         sudo localedef -i ${{ inputs.locale }} -c -f UTF-8 -A /usr/share/locale/locale.alias ${{ inputs.locale }}.UTF-8
+        mkdir reports -p
 
     - name: install platform
       uses: IT-Medved/onec-setup-build-env-action@develop
@@ -126,7 +132,10 @@ jobs:
             "reportFormat": "jUnit",
             "reportPath": "reports/report.xml",
             "closeAfterTests": true,
-            "exitCode": "exit-code.txt"
+            "exitCode": "exit-code.txt",
+            "logging": {
+              "console": true
+            }
           }
     
     - name: run tests
