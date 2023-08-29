@@ -22,6 +22,11 @@ on:
         required: false
         default: true
 
+permissions:
+    contents: read
+    checks: write
+    id-token: write
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Linux
   cancel-in-progress: true
