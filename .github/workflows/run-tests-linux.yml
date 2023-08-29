@@ -42,6 +42,7 @@ jobs:
         sudo DEBIAN_FRONTEND=noninteractive apt-get install -y locales 
         sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
         sudo localedef -i ${{ inputs.locale }} -c -f UTF-8 -A /usr/share/locale/locale.alias ${{ inputs.locale }}.UTF-8
+        mkdir reports -p
 
     - name: install platform
       uses: IT-Medved/onec-setup-build-env-action@develop
