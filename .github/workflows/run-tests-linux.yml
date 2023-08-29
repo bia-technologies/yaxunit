@@ -126,7 +126,10 @@ jobs:
             "reportFormat": "jUnit",
             "reportPath": "reports/report.xml",
             "closeAfterTests": true,
-            "exitCode": "exit-code.txt"
+            "exitCode": "exit-code.txt",
+            "logging": {
+              "console": true
+            }
           }
     
     - name: run tests
