@@ -517,7 +517,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ВыводЛога</name>
-        <id>66</id>
+        <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -658,6 +658,49 @@
         <throughAlign>Auto</throughAlign>
         <currentRowUse>DontUse</currentRowUse>
       </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ЛогированиеВКонсоль</name>
+      <id>84</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЛогированиеВКонсоль</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ЛогированиеВКонсольРасширеннаяПодсказка</name>
+        <id>86</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЛогированиеВКонсольКонтекстноеМеню</name>
+        <id>85</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
       <name>ФайлКонфигурации</name>
@@ -1073,7 +1116,7 @@
     <name>ИмяФайлаЛога</name>
     <title>
       <key>ru</key>
-      <value>Отладочные сообщения</value>
+      <value>Логирование в файл</value>
     </title>
     <id>61</id>
     <valueType>
@@ -1151,6 +1194,23 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>ИмяФайлаОтчета</segments>
     </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>ЛогированиеВКонсоль</name>
+    <title>
+      <key>ru</key>
+      <value>Логирование в консоль</value>
+    </title>
+    <id>66</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>УстановитьФлажки</name>

@@ -162,6 +162,7 @@
           </extendedTooltip>
           <commandName>Form.Command.ЗамерВремениВыполнения</commandName>
           <representation>Auto</representation>
+          <onlyInAllActions>true</onlyInAllActions>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
@@ -822,6 +823,10 @@
         <items xsi:type="form:Button">
           <name>ДеревоТестовКонтекстноеМенюЗапуститьВыделенныеТесты</name>
           <id>130</id>
+          <title>
+            <key>ru</key>
+            <value>Запустить выбранные тесты</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
