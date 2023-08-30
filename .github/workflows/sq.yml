@@ -43,7 +43,8 @@ jobs:
           -Dsonar.host.url=https://sonar.openbsl.ru
           -Dsonar.branch.name=${{ env.BRANCH_NAME }}
           -Dsonar.projectVersion=${{ steps.extract_version.outputs.version }}
-
+          -Dsonar.qualitygate.wait=true
+          -Dsonar.qualitygate.timeout=300
       # Анализ проекта в SonarQube (PR)
       # https://docs.sonarqube.org/latest/analysis/pull-request/
     - name: Анализ в SonarQube (pull-request)
@@ -57,3 +58,5 @@ jobs:
           -Dsonar.pullrequest.branch=${{ github.event.pull_request.head.ref }}
           -Dsonar.pullrequest.base=${{ github.event.pull_request.base.ref }}
           -Dsonar.scm.revision=${{ github.event.pull_request.head.sha }}
+          -Dsonar.qualitygate.wait=true
+          -Dsonar.qualitygate.timeout=300

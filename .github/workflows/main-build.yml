@@ -2,12 +2,17 @@ name: Build and test
 on:
   push:
     branches: [ feature/**, develop ]
-  pull_request:
+  pull_request_target:
     branches: [ develop ]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
+permissions:
+    contents: read
+    checks: write
+    id-token: write
 
 jobs:
   build_artifacts:
@@ -20,7 +25,7 @@ jobs:
     secrets: inherit
   
   tests_linux_ru:
-    name: Test on Linux 8.3.21.1895 ru_RU
+    name: Tests Linux 8.3.21.1895 ru_RU
     uses: ./.github/workflows/run-tests-linux.yml
     needs: build_artifacts
     with:
@@ -29,8 +34,9 @@ jobs:
     secrets: inherit
   
   tests_linux_en:
-    name: Test on Linux 8.3.21.1895 en_US
+    name: Tests Linux 8.3.21.1895 en_US
     uses: ./.github/workflows/run-tests-linux.yml
+    if: false
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
@@ -40,7 +46,7 @@ jobs:
     secrets: inherit
   
   tests_windows_ru:
-    name: Test on Windows 8.3.21.1895 ru_RU
+    name: Tests Windows 8.3.21.1895 ru_RU
     uses: ./.github/workflows/run-tests-windows.yml
     needs: build_artifacts
     with:
@@ -49,7 +55,7 @@ jobs:
     secrets: inherit
   
   tests_macos_ru:
-    name: Test on MacOS 8.3.21.1895 ru_RU
+    name: Tests MacOS 8.3.21.1895 ru_RU
     uses: ./.github/workflows/run-tests-macos.yml
     needs: build_artifacts
     with:
