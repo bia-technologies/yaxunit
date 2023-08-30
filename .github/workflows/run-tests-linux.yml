@@ -139,7 +139,7 @@ jobs:
           }
     
     - name: run tests
-      run: 1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
+      run: 1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out ${{github.workspace}}/output.log
       timeout-minutes: 5
       env:
         DISPLAY: :99
@@ -147,7 +147,7 @@ jobs:
       
     - name: view output
       if: always()
-      run: cat output.log
+      run: cat ./output.log
     
     - name: upload-artifact
       uses: actions/upload-artifact@v3
