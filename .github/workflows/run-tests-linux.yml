@@ -139,7 +139,7 @@ jobs:
           }
     
     - name: run tests
-      run: 1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
+      run: 1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out ${{github.workspace}}/output.log
       timeout-minutes: 5
       env:
         DISPLAY: :99
@@ -147,20 +147,21 @@ jobs:
       
     - name: view output
       if: always()
-      run: cat output.log
+      run: cat ./output.log
     
     - name: upload-artifact
       uses: actions/upload-artifact@v3
       if: always()
       with:
-        name: report-linux-${{ inputs.v8_version }}-${{ inputs.locale }}
+        name: Tests report. Linux ${{ inputs.v8_version }} ${{ inputs.locale }}
         path: reports/*.*
         
     - name: Publish Test Report
       uses: mikepenz/action-junit-report@v3
       if: always()
       with:
+        job_name: Tests Linux ${{ inputs.v8_version }} ${{ inputs.locale }}
+        check_name: Tests report. Linux ${{ inputs.v8_version }} ${{ inputs.locale }}
         report_paths: reports/report.xml
         fail_on_failure: ${{ inputs.fail_on_failure }}
-        require_passed_tests: ${{ inputs.fail_on_failure }}
-        update_check: true
+        require_passed_tests: true
