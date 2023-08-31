@@ -43,6 +43,7 @@
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТRegEx1CAddin</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
   <commonModules>CommonModule.Мокито</commonModules>
