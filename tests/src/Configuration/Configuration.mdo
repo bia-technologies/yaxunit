@@ -23,6 +23,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonTemplates>CommonTemplate.ЮТ_МакетТестовыхДанных</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_ТестовыеДанныеMarkdown</commonTemplates>
   <commonModules>CommonModule.Интеграция</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
