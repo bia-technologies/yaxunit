@@ -50,6 +50,7 @@
   <commonModules>CommonModule.МокитоОбучение</commonModules>
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
   <commonModules>CommonModule.ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ЮТЗапросыВызовСервера</commonModules>
