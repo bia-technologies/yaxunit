@@ -88,6 +88,7 @@
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ЮТПредикатыКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТПреобразования</commonModules>
+  <commonModules>CommonModule.ЮТПроверкиСлужебный</commonModules>
   <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТСобытия</commonModules>
