@@ -97,7 +97,6 @@
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные_ТаблицыЗначений</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеВызовСервера</commonModules>
-  <commonModules>CommonModule.ЮТТестовыеДанныеКлиент</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТТипыДанныхСлужебный</commonModules>
