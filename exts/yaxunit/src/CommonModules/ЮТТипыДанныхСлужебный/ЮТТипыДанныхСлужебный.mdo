@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4089d47b-14fd-4dba-b573-0004f6590c82">
+  <name>ЮТТипыДанныхСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

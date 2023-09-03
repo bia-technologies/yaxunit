@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e31e77f-a18c-4b2d-bc19-f038eb6ec143">
+  <name>ЮТ_ТестовыеДанныеMarkdown</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ю т тестовые данные markdown</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>
