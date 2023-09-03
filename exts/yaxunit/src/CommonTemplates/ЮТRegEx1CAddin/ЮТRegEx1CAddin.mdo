@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f86b3d9-1e91-4f04-a8b5-47a0117c653d">
+  <name>ЮТRegEx1CAddin</name>
+  <synonym>
+    <key>ru</key>
+    <value>Reg ex1 c addin</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>
