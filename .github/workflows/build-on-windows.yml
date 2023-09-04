@@ -1,0 +1,74 @@
+name: Build
+on:
+  workflow_call:
+    inputs:
+      v8_version:
+        type: string
+        required: true
+      
+      src_artifact_name:
+        type: string
+        required: true
+      
+      artifact_name:
+        type: string
+        required: true
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+
+    - name: install Onec Platform
+      uses: alkoleft/onec-setup-build-env-action@develop
+      with:
+        type: onec
+        onec_version: ${{ inputs.v8_version }}
+        cache: true
+      env: 
+        ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+        ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+      timeout-minutes: 10
+        
+    - name: download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: ${{ inputs.src_artifact_name }}
+      
+    - run: |
+        mkdir export
+        mkdir binary
+        cd export
+        7z x ../export.7z -y
+    
+    - name: create IB
+      run: ibcmd infobase create --db-path=file-db --import=export\configuration --apply --force
+      timeout-minutes: 5
+
+    - name: import yaxunit
+      run: ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export\yaxunit
+      timeout-minutes: 5
+
+    - name: import tests
+      run: ibcmd infobase config import --db-path=file-db --extension=tests export\tests
+      timeout-minutes: 5
+
+    - name: save yaxunit
+      run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT binary\yaxunit.cfe
+      timeout-minutes: 5
+      
+    - name: save tests
+      run: ibcmd infobase config save --db-path=file-db --extension=tests binary\tests.cfe
+      timeout-minutes: 5
+      
+    - name: save configuration
+      run: ibcmd infobase config save --db-path=file-db binary\configuration.cf
+      timeout-minutes: 5
+      
+    - name: upload-artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ inputs.artifact_name }}
+        path: binary\*.*

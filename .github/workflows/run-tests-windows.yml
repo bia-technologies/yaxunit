@@ -12,10 +12,15 @@ on:
         type: string
         required: false
         default: ru_RU
-        
+
       artifact_name:
         type: string
         required: true
+        
+      fail_on_failure:
+        type: boolean
+        required: false
+        default: true
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Windows
@@ -24,6 +29,89 @@ concurrency:
 jobs:
   execute-tests:
     runs-on: windows-latest
-    if: false
+    defaults:
+      run:
+        shell: pwsh
+
     steps:
-      - run: echo 'empty'
+
+    - name: download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: ${{ inputs.artifact_name }}
+        path: binary
+
+    - name: install platform
+      uses: alkoleft/onec-setup-build-env-action@develop
+      with:
+        type: onec
+        onec_version: ${{ inputs.v8_version }}
+      env: 
+        ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+        ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+      timeout-minutes: 10
+
+    - name: create IB
+      run: |
+        mkdir data\data
+        ibcmd.exe infobase create --data=data --load=binary\configuration.cf --apply --force
+      timeout-minutes: 5
+
+    - name: load yaxunit
+      run: |
+        ibcmd.exe infobase config load --data=data --extension=YAXUNIT --force binary\yaxunit.cfe
+        ibcmd.exe infobase config apply --data=data --extension=YAXUNIT --force
+        ibcmd.exe infobase config extension update --data=data --name=YAXUNIT --safe-mode=no --unsafe-action-protection=no
+      timeout-minutes: 5
+
+    - name: load tests
+      run: |
+        ibcmd.exe infobase config load --data=data --extension=tests --force binary\tests.cfe
+        ibcmd.exe infobase config apply --data=data --extension=tests --force
+        ibcmd.exe infobase config extension update --data=data --name=tests --safe-mode=no --unsafe-action-protection=no
+      timeout-minutes: 5
+
+    - name: create test-config
+      uses: DamianReeves/write-file-action@master
+      with:
+        path: unit.json
+        contents: |
+          {
+            "reportFormat": "jUnit",
+            "reportPath": "reports\\report.xml",
+            "closeAfterTests": true,
+            "exitCode": "exit-code.txt",
+            "logging": {
+              "console": true,
+              "file": "execute.log"
+            }
+          }
+    
+    - name: Test
+      run: |
+        Start-Process ibsrv.exe -ArgumentList "--data=data"
+        Start-Process -NoNewWindow -PassThru -Wait 1cv8c.exe -ArgumentList '/WS "http://localhost:8314" /C"RunUnitTests=unit.json" /L ru /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out 1cv8c-output.log'
+      timeout-minutes: 10
+   
+    - name: view output
+      if: always()
+      run: type execute.log
+
+    - name: view output
+      if: always()
+      run: type 1cv8c-output.log
+    
+    - name: upload-artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Tests report. Windows ${{ inputs.v8_version }} ${{ inputs.locale }}
+        path: reports/
+            
+    - name: Publish Test Report
+      uses: mikepenz/action-junit-report@v3
+      with:
+        job_name: Tests Windows ${{ inputs.v8_version }} ${{ inputs.locale }}
+        check_name: Tests report. Windows ${{ inputs.v8_version }} ${{ inputs.locale }}
+        report_paths: reports/report.xml
+        fail_on_failure: ${{ inputs.fail_on_failure }}
+        require_passed_tests: true
