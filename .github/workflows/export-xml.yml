@@ -63,3 +63,4 @@ jobs:
         name: ${{ inputs.artifact_name }}
         path: export.7z
         if-no-files-found: error
+        retention-days: 1

@@ -72,3 +72,5 @@ jobs:
       with:
         name: ${{ inputs.artifact_name }}
         path: binary\*.*
+        if-no-files-found: error
+        retention-days: 1
