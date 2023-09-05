@@ -91,199 +91,199 @@
   <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.ТоварныеЗапасы</subsystems>
   <subsystems>Subsystem.Интеграция</subsystems>
-  <styleItems>StyleItem.ЦветТекстаСущественныхИзмененийДанных</styleItems>
+  <styleItems>StyleItem.ЦветТекстаВажнойИнформации</styleItems>
   <styleItems>StyleItem.ЦветТекстаНормальногоСостояния</styleItems>
   <styleItems>StyleItem.ЦветТекстаОшибочногоСостояния</styleItems>
+  <styleItems>StyleItem.ЦветТекстаСущественныхИзмененийДанных</styleItems>
   <styleItems>StyleItem.ШрифтВажнойИнформации</styleItems>
-  <styleItems>StyleItem.ЦветТекстаВажнойИнформации</styleItems>
+  <commonPictures>CommonPicture.ВыделитьВажное</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВидыАктивныхПользователей</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияДляПомеченныхНаУдалениеОбъектов</commonPictures>
+  <commonPictures>CommonPicture.ОткрытьХранимыйФайл</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьСМС</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаЗакупки</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаПредприятие</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаПродажи</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаТоварныеЗапасы</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаФинансы</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияВидыАктивныхПользователей</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияДляПомеченныхНаУдалениеОбъектов</commonPictures>
+  <commonPictures>CommonPicture.Позвонить</commonPictures>
   <commonPictures>CommonPicture.ПолнотекстовыйПоискДалее</commonPictures>
   <commonPictures>CommonPicture.ПолнотекстовыйПоискНазад</commonPictures>
-  <commonPictures>CommonPicture.ОткрытьХранимыйФайл</commonPictures>
-  <commonPictures>CommonPicture.ВыделитьВажное</commonPictures>
   <commonPictures>CommonPicture.ПроверитьПочту</commonPictures>
   <commonPictures>CommonPicture.СписокЗаказов</commonPictures>
-  <commonPictures>CommonPicture.Позвонить</commonPictures>
   <commonPictures>CommonPicture.ШтрихКод</commonPictures>
-  <commonPictures>CommonPicture.ОтправитьСМС</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ЯщикIMAP</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.МенеджерПоЗакупкам</roles>
   <roles>Role.МенеджерПоПродажам</roles>
-  <roles>Role.Продавец</roles>
   <roles>Role.Помощник</roles>
+  <roles>Role.Продавец</roles>
   <commonTemplates>CommonTemplate.ДрайверСканераШтрихкодов</commonTemplates>
-  <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовWindows32</commonTemplates>
-  <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовWindows64</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовLinux32</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовLinux64</commonTemplates>
+  <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовWindows32</commonTemplates>
+  <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовWindows64</commonTemplates>
   <filterCriteria>FilterCriterion.ДокументыКонтрагента</filterCriteria>
-  <commonModules>CommonModule.РаботаСТорговымОборудованием</commonModules>
-  <commonModules>CommonModule.РаботаСПолнотекстовымПоиском</commonModules>
-  <commonModules>CommonModule.РаботаСХранилищемОбщихНастроек</commonModules>
-  <commonModules>CommonModule.РегламентныеЗаданияАгрегатов</commonModules>
-  <commonModules>CommonModule.СервисныеМеханизмы</commonModules>
-  <commonModules>CommonModule.РаботаСПочтой</commonModules>
-  <commonModules>CommonModule.РаботаСПочтойВызовСервера</commonModules>
+  <commonModules>CommonModule.ГеопозиционированиеКлиент</commonModules>
+  <commonModules>CommonModule.ГеопозиционированиеСервер</commonModules>
+  <commonModules>CommonModule.Интеграция</commonModules>
+  <commonModules>CommonModule.ИнтеграцияМагазин</commonModules>
   <commonModules>CommonModule.ОбменМобильныеОбщее</commonModules>
   <commonModules>CommonModule.ОбменМобильныеПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
-  <commonModules>CommonModule.РаботаСПанельюЗадач</commonModules>
   <commonModules>CommonModule.Помощник</commonModules>
   <commonModules>CommonModule.ПомощникКлиент</commonModules>
   <commonModules>CommonModule.РаботаСИсториейДанных</commonModules>
-  <commonModules>CommonModule.ГеопозиционированиеКлиент</commonModules>
-  <commonModules>CommonModule.ГеопозиционированиеСервер</commonModules>
+  <commonModules>CommonModule.РаботаСПанельюЗадач</commonModules>
+  <commonModules>CommonModule.РаботаСПолнотекстовымПоиском</commonModules>
+  <commonModules>CommonModule.РаботаСПочтой</commonModules>
+  <commonModules>CommonModule.РаботаСПочтойВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСТорговымОборудованием</commonModules>
+  <commonModules>CommonModule.РаботаСХранилищемОбщихНастроек</commonModules>
+  <commonModules>CommonModule.РегистрацияОшибок</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияАгрегатов</commonModules>
+  <commonModules>CommonModule.СервисныеМеханизмы</commonModules>
   <commonModules>CommonModule.УведомленияКлиент</commonModules>
   <commonModules>CommonModule.УведомленияСервер</commonModules>
-  <commonModules>CommonModule.Интеграция</commonModules>
-  <commonModules>CommonModule.ИнтеграцияМагазин</commonModules>
-  <commonModules>CommonModule.РегистрацияОшибок</commonModules>
   <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
   <xDTOPackages>XDTOPackage.ОбменСМобильнымУстройством</xDTOPackages>
   <webServices>WebService.MAExchange</webServices>
-  <httpServices>HTTPService.Товары</httpServices>
   <httpServices>HTTPService.ОписанияТоваров</httpServices>
-  <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
-  <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
+  <httpServices>HTTPService.Товары</httpServices>
   <scheduledJobs>ScheduledJob.ОбновлениеАгрегатовПродаж</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеИсторииДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПерестроениеАгрегатовПродаж</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПомощникНеотработанныеЗаказы</scheduledJobs>
-  <scheduledJobs>ScheduledJob.ОбновлениеИсторииДанных</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
+  <functionalOptions>FunctionalOption.ВалютныйУчет</functionalOptions>
   <functionalOptions>FunctionalOption.РаботаСТорговымОборудованием</functionalOptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
-  <functionalOptions>FunctionalOption.ВалютныйУчет</functionalOptions>
   <functionalOptionsParameters>FunctionalOptionsParameter.Организация</functionalOptionsParameters>
-  <commonCommands>CommonCommand.УстановитьСканерШтрихкодов</commonCommands>
   <commonCommands>CommonCommand.НастроитьСканерШтрихКодов</commonCommands>
-  <commonCommands>CommonCommand.УстановитьРасширениеРаботыСФайлами</commonCommands>
-  <commonCommands>CommonCommand.УстановитьРасширениеРаботыСКриптографией</commonCommands>
-  <commonCommands>CommonCommand.УстановитьВидимостьОбъектовЧерезODataAPI</commonCommands>
   <commonCommands>CommonCommand.ОбщиеНастройки</commonCommands>
+  <commonCommands>CommonCommand.УстановитьВидимостьОбъектовЧерезODataAPI</commonCommands>
+  <commonCommands>CommonCommand.УстановитьРасширениеРаботыСКриптографией</commonCommands>
+  <commonCommands>CommonCommand.УстановитьРасширениеРаботыСФайлами</commonCommands>
+  <commonCommands>CommonCommand.УстановитьСканерШтрихкодов</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
-  <constants>Constant.РаботаСТорговымОборудованием</constants>
-  <constants>Constant.УчетПоСкладам</constants>
-  <constants>Constant.АдресSMTPСервера</constants>
-  <constants>Constant.ПортSMTP</constants>
-  <constants>Constant.ПользовательSMTP</constants>
-  <constants>Constant.ПарольSMTP</constants>
-  <constants>Constant.АдресPOP3Сервера</constants>
-  <constants>Constant.ПортPOP3</constants>
-  <constants>Constant.ПользовательPOP3</constants>
-  <constants>Constant.ПарольPOP3</constants>
-  <constants>Constant.ТаймаутИнтернетПочты</constants>
-  <constants>Constant.ИмяОтправителяПочтовогоСообщения</constants>
-  <constants>Constant.ПользовательIMAP</constants>
-  <constants>Constant.ПарольIMAP</constants>
-  <constants>Constant.АдресIMAPСервера</constants>
-  <constants>Constant.ПортIMAP</constants>
   <constants>Constant.SSLIMAP</constants>
-  <constants>Constant.ИспользоватьIMAP</constants>
   <constants>Constant.SSLPOP3</constants>
   <constants>Constant.SSLSMTP</constants>
+  <constants>Constant.АдресIMAPСервера</constants>
+  <constants>Constant.АдресPOP3Сервера</constants>
+  <constants>Constant.АдресSMTPСервера</constants>
+  <constants>Constant.ВоспроизводитьТекстУведомления</constants>
+  <constants>Constant.ВыборПровайдераГеопозиционирования</constants>
+  <constants>Constant.ИдентификаторПриложенияWNS</constants>
+  <constants>Constant.ИмяОтправителяПочтовогоСообщения</constants>
+  <constants>Constant.ИмяПровайдера</constants>
+  <constants>Constant.ИспользоватьAPNS</constants>
+  <constants>Constant.ИспользоватьGCM</constants>
+  <constants>Constant.ИспользоватьIMAP</constants>
+  <constants>Constant.ИспользоватьPushУведомления</constants>
+  <constants>Constant.ИспользоватьWNS</constants>
+  <constants>Constant.ИспользоватьСетьПередачиДанных</constants>
+  <constants>Constant.ИспользоватьСотовуюСеть</constants>
+  <constants>Constant.ИспользоватьСпутники</constants>
+  <constants>Constant.КлючCервераОтправителяGCM</constants>
+  <constants>Constant.КлючПриложенияWNS</constants>
+  <constants>Constant.КодНовогоУзлаПланаОбмена</constants>
+  <constants>Constant.ЛогинСервисаПередачиPushУведомлений</constants>
+  <constants>Constant.МаркерДоступаWNS</constants>
+  <constants>Constant.НомерПриложенияGoogleCloud</constants>
+  <constants>Constant.ПарольIMAP</constants>
+  <constants>Constant.ПарольPOP3</constants>
+  <constants>Constant.ПарольSMTP</constants>
+  <constants>Constant.ПериодПроверкиНеотработанныхЗаказов</constants>
+  <constants>Constant.ПользовательIMAP</constants>
+  <constants>Constant.ПользовательPOP3</constants>
+  <constants>Constant.ПользовательSMTP</constants>
+  <constants>Constant.ПортIMAP</constants>
+  <constants>Constant.ПортPOP3</constants>
+  <constants>Constant.ПортSMTP</constants>
+  <constants>Constant.РаботаСТорговымОборудованием</constants>
+  <constants>Constant.СертификатМобильногоПриложенияIOS</constants>
+  <constants>Constant.ТаймаутИнтернетПочты</constants>
+  <constants>Constant.ТолькоБесплатные</constants>
   <constants>Constant.ТолькоЗащищеннаяАутентификацияIMAP</constants>
   <constants>Constant.ТолькоЗащищеннаяАутентификацияPOP3</constants>
   <constants>Constant.ТолькоЗащищеннаяАутентификацияSMTP</constants>
-  <constants>Constant.КодНовогоУзлаПланаОбмена</constants>
-  <constants>Constant.ИспользоватьPushУведомления</constants>
-  <constants>Constant.ИспользоватьAPNS</constants>
-  <constants>Constant.СертификатМобильногоПриложенияIOS</constants>
-  <constants>Constant.ИспользоватьGCM</constants>
-  <constants>Constant.НомерПриложенияGoogleCloud</constants>
-  <constants>Constant.КлючCервераОтправителяGCM</constants>
-  <constants>Constant.ИспользоватьWNS</constants>
-  <constants>Constant.КлючПриложенияWNS</constants>
-  <constants>Constant.МаркерДоступаWNS</constants>
-  <constants>Constant.ИдентификаторПриложенияWNS</constants>
-  <constants>Constant.ЛогинСервисаПередачиPushУведомлений</constants>
-  <constants>Constant.ПериодПроверкиНеотработанныхЗаказов</constants>
-  <constants>Constant.ВоспроизводитьТекстУведомления</constants>
-  <constants>Constant.ВыборПровайдераГеопозиционирования</constants>
-  <constants>Constant.ИмяПровайдера</constants>
-  <constants>Constant.ТолькоБесплатные</constants>
-  <constants>Constant.ИспользоватьСотовуюСеть</constants>
-  <constants>Constant.ИспользоватьСетьПередачиДанных</constants>
-  <constants>Constant.ИспользоватьСпутники</constants>
-  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
-  <commonForms>CommonForm.НастройкиМобильногоУстройства</commonForms>
-  <commonForms>CommonForm.НастройкаПочты</commonForms>
-  <commonForms>CommonForm.ФормаПодбора</commonForms>
-  <commonForms>CommonForm.НастройкаПомощникаНеотработанныхЗаказов</commonForms>
-  <commonForms>CommonForm.НастройкаPushУведомлений</commonForms>
-  <commonForms>CommonForm.ФормаПодбораМобильная</commonForms>
+  <constants>Constant.УчетПоСкладам</constants>
   <commonForms>CommonForm.Звонок</commonForms>
-  <catalogs>Catalog.Товары</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
-  <catalogs>Catalog.Валюты</catalogs>
-  <catalogs>Catalog.Регионы</catalogs>
-  <catalogs>Catalog.ВидыЦен</catalogs>
-  <catalogs>Catalog.РасчетныеСчетаКонтрагентов</catalogs>
-  <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
+  <commonForms>CommonForm.НастройкаPushУведомлений</commonForms>
+  <commonForms>CommonForm.НастройкаПомощникаНеотработанныхЗаказов</commonForms>
+  <commonForms>CommonForm.НастройкаПочты</commonForms>
+  <commonForms>CommonForm.НастройкиМобильногоУстройства</commonForms>
+  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
+  <commonForms>CommonForm.ФормаПодбора</commonForms>
+  <commonForms>CommonForm.ФормаПодбораМобильная</commonForms>
   <catalogs>Catalog.Банки</catalogs>
-  <catalogs>Catalog.РасчетныеСчета</catalogs>
-  <catalogs>Catalog.ХранимыеФайлы</catalogs>
-  <catalogs>Catalog.НастройкиТорговогоОборудования</catalogs>
-  <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.ВходящиеПисьма</catalogs>
-  <catalogs>Catalog.ИсходящиеПисьма</catalogs>
-  <catalogs>Catalog.ПочтовыеВложения</catalogs>
-  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.Встречи</catalogs>
+  <catalogs>Catalog.ВходящиеПисьма</catalogs>
+  <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
+  <catalogs>Catalog.ИсходящиеПисьма</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.МобильныеУстройства</catalogs>
   <catalogs>Catalog.НастройкиИнтеграции</catalogs>
-  <documents>Document.ПриходТовара</documents>
-  <documents>Document.РасходТовара</documents>
+  <catalogs>Catalog.НастройкиТорговогоОборудования</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПочтовыеВложения</catalogs>
+  <catalogs>Catalog.РасчетныеСчета</catalogs>
+  <catalogs>Catalog.РасчетныеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.Регионы</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
+  <catalogs>Catalog.ХранимыеФайлы</catalogs>
+  <documents>Document.Заказ</documents>
+  <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
   <documents>Document.ПоступлениеДенег</documents>
-  <documents>Document.ОперацияПоУчетуТоваров</documents>
-  <documents>Document.Заказ</documents>
-  <documentJournals>DocumentJournal.ФинансовыеДокументы</documentJournals>
+  <documents>Document.ПриходТовара</documents>
+  <documents>Document.РасходТовара</documents>
   <documentJournals>DocumentJournal.ДокументыПродаж</documentJournals>
-  <enums>Enum.ВидыТоваров</enums>
-  <enums>Enum.НазначениеХарактеристик</enums>
-  <enums>Enum.ВидНастройкиАутентификацииSMTP</enums>
-  <enums>Enum.ВидыМобильныхОтчетов</enums>
-  <enums>Enum.СостоянияЗаказов</enums>
-  <enums>Enum.ВидСодержимогоВходящегоПисьма</enums>
+  <documentJournals>DocumentJournal.ФинансовыеДокументы</documentJournals>
   <enums>Enum.PushУведомления</enums>
+  <enums>Enum.ВидНастройкиАутентификацииSMTP</enums>
+  <enums>Enum.ВидСодержимогоВходящегоПисьма</enums>
+  <enums>Enum.ВидыМобильныхОтчетов</enums>
+  <enums>Enum.ВидыТоваров</enums>
   <enums>Enum.ИспользоватьПровайдерГеопозиционирования</enums>
-  <reports>Report.ОстаткиТоваровНаСкладах</reports>
-  <reports>Report.ДинамикаПродаж</reports>
-  <reports>Report.ОтчетПоВзаиморасчетам</reports>
-  <reports>Report.ДокументыОплата</reports>
+  <enums>Enum.НазначениеХарактеристик</enums>
+  <enums>Enum.СостоянияЗаказов</enums>
   <reports>Report.ВзаимосвязьПродажТоваров</reports>
-  <dataProcessors>DataProcessor.УправлениеПолнотекстовымПоиском</dataProcessors>
+  <reports>Report.ДинамикаПродаж</reports>
+  <reports>Report.ДокументыОплата</reports>
+  <reports>Report.ОстаткиТоваровНаСкладах</reports>
+  <reports>Report.ОтчетПоВзаиморасчетам</reports>
   <dataProcessors>DataProcessor.АдминистративныйСервис</dataProcessors>
+  <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкиПользователя</dataProcessors>
   <dataProcessors>DataProcessor.ПроведениеДокументов</dataProcessors>
   <dataProcessors>DataProcessor.Путеводитель</dataProcessors>
   <dataProcessors>DataProcessor.СписокАктивныхПользователей</dataProcessors>
-  <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
-  <dataProcessors>DataProcessor.УправлениеНастройкамиФорм</dataProcessors>
-  <dataProcessors>DataProcessor.НастройкиПользователя</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеАгрегатамиПродаж</dataProcessors>
-  <dataProcessors>DataProcessor.ЭлектроннаяПочта</dataProcessors>
+  <dataProcessors>DataProcessor.УправлениеНастройкамиФорм</dataProcessors>
+  <dataProcessors>DataProcessor.УправлениеПолнотекстовымПоиском</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСистемойВзаимодействия</dataProcessors>
+  <dataProcessors>DataProcessor.ЭлектроннаяПочта</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
-  <informationRegisters>InformationRegister.Характеристики</informationRegisters>
-  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
+  <informationRegisters>InformationRegister.МобильныеОтчеты</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеВходящихПисем</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеИсходящихПисем</informationRegisters>
-  <informationRegisters>InformationRegister.МобильныеОтчеты</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>
+  <informationRegisters>InformationRegister.Характеристики</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

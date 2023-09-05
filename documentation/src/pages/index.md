@@ -13,6 +13,9 @@ slug: /
 [![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
 [![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
 
+[![Build and test](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml)
+[![Build ocumentation](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)
+
 Обсудить в [Telegram чате](https://t.me/BIAOpenTools/12)
 
 ----
