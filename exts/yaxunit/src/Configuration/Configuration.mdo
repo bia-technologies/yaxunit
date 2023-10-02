@@ -69,6 +69,7 @@
   <commonModules>CommonModule.ЮТКонтекстТеста</commonModules>
   <commonModules>CommonModule.ЮТЛогирование</commonModules>
   <commonModules>CommonModule.ЮТЛогированиеВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЛокальСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
