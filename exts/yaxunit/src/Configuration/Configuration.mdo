@@ -94,6 +94,7 @@
   <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТСобытия</commonModules>
+  <commonModules>CommonModule.ЮТСообщенияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСравнениеКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСервер</commonModules>
   <commonModules>CommonModule.ЮТСтроки</commonModules>
