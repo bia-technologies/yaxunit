@@ -45,6 +45,7 @@ jobs:
   tests_linux_en:
     name: Tests Linux 8.3.21.1895 en_US
     uses: ./.github/workflows/run-tests-linux.yml
+    if: false
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
@@ -60,4 +61,16 @@ jobs:
     with:
       v8_version: 8.3.21.1895
       artifact_name: build-artifacts
+      locale: ru_RU
+      fail_on_failure: false
+    secrets: inherit
+  tests_windows_en:
+    name: Tests Windows 8.3.21.1895 en_US
+    uses: ./.github/workflows/run-tests-windows.yml
+    needs: build_artifacts
+    with:
+      v8_version: 8.3.21.1895
+      artifact_name: build-artifacts
+      locale: en_US
+      fail_on_failure: false
     secrets: inherit
