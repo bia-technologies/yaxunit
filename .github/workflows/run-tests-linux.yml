@@ -29,7 +29,7 @@ permissions:
     id-token: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Linux
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-${{ github.event.number }}-Linux
   cancel-in-progress: true
 
 jobs:
