@@ -15,7 +15,8 @@ on:
 
       artifact_name:
         type: string
-        required: true
+        required: false
+        default: build-artifacts
         
       fail_on_failure:
         type: boolean
@@ -91,7 +92,7 @@ jobs:
       id: short_locale
       with:
         value: ${{ inputs.locale }}
-        length_from_end: 2
+        length_from_start: 2
     - name: Test
       run: |
         Start-Process ibsrv.exe -ArgumentList "--data=data"
