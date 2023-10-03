@@ -45,7 +45,6 @@ jobs:
   tests_linux_en:
     name: Tests Linux 8.3.21.1895 en_US
     uses: ./.github/workflows/run-tests-linux.yml
-    if: false
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
