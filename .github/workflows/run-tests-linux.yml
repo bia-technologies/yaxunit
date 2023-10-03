@@ -15,7 +15,8 @@ on:
 
       artifact_name:
         type: string
-        required: true
+        required: false
+        default: build-artifacts
         
       fail_on_failure:
         type: boolean
