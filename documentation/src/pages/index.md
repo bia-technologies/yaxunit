@@ -13,18 +13,22 @@ slug: /
 [![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
 [![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
 
+[![Build and test](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml)
+[![Build ocumentation](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)
+
 Обсудить в [Telegram чате](https://t.me/BIAOpenTools/12)
 
 ----
 
-- [Назначение](#назначение)
-  - [Возможности](#возможности)
-- [Пример тестового модуля](#пример-тестового-модуля)
-- [Запуск](#запуск)
-  - [Запуск из EDT](#запуск-из-edt)
-  - [Запуск вне EDT](#запуск-вне-edt)
-- [Благодарности](#благодарности)
-- [Лицензия](#лицензия)
+- [YAXUnit. Расширение для запуска тестов](#yaxunit-расширение-для-запуска-тестов)
+  - [Назначение](#назначение)
+    - [Возможности](#возможности)
+  - [Пример тестового модуля](#пример-тестового-модуля)
+  - [Запуск](#запуск)
+    - [Запуск из EDT](#запуск-из-edt)
+    - [Запуск вне EDT](#запуск-вне-edt)
+  - [Благодарности](#благодарности)
+  - [Лицензия](#лицензия)
 
 ## Назначение
 
@@ -192,6 +196,6 @@ slug: /
 
 ## Лицензия
 
-Copyright © 2022 [BIA-Technologies Limited Liability Company](http://bia-tech.ru/)
+Copyright © 2023 [BIA-Technologies Limited Liability Company](http://bia-tech.ru/)
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)

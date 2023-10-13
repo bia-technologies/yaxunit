@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb3274e3-1931-4354-be2c-7ad3e56b3042">
+  <name>ЮТАсинхроннаяОбработкаСлужебныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Асинхронная обработка служебный</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

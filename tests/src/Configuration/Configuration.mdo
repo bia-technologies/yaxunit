@@ -23,6 +23,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonTemplates>CommonTemplate.ЮТ_МакетТестовыхДанных</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_ТестовыеДанныеMarkdown</commonTemplates>
   <commonModules>CommonModule.Интеграция</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
@@ -33,15 +34,16 @@
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Банки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Компании</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Люди</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПредикатыКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСравнениеКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанные</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТТестовыеДанные_ТаблицыЗначений</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТесты</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТТипыДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтвержденияИБ</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>

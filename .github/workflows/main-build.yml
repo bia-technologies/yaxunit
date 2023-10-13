@@ -6,7 +6,7 @@ on:
     branches: [ develop ]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}
   cancel-in-progress: true
 
 permissions:
@@ -15,34 +15,39 @@ permissions:
     id-token: write
 
 jobs:
+  export_to_designer:
+    name: Export to designer xml
+    uses: ./.github/workflows/export-xml.yml
+    with:
+      edt_version: 2023.1.2
+      artifact_name: designer-src
+    secrets: inherit
+  
   build_artifacts:
     name: Build artifacts
-    uses: ./.github/workflows/build.yml
+    uses: ./.github/workflows/build-on-windows.yml
+    needs: export_to_designer
     with:
       v8_version: 8.3.21.1895
-      edt_version: 2023.1.2
-      artifact_name: build-artifacts
     secrets: inherit
   
   tests_linux_ru:
     name: Tests Linux 8.3.21.1895 ru_RU
     uses: ./.github/workflows/run-tests-linux.yml
+    if: github.ref == 'refs/heads/develop'
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
-      artifact_name: build-artifacts
     secrets: inherit
   
   tests_linux_en:
     name: Tests Linux 8.3.21.1895 en_US
     uses: ./.github/workflows/run-tests-linux.yml
-    if: false
+    if: github.ref == 'refs/heads/develop'
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
-      artifact_name: build-artifacts
       locale: en_US
-      fail_on_failure: false
     secrets: inherit
   
   tests_windows_ru:
@@ -51,14 +56,13 @@ jobs:
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
-      artifact_name: build-artifacts
+      locale: ru_RU
     secrets: inherit
-  
-  tests_macos_ru:
-    name: Tests MacOS 8.3.21.1895 ru_RU
-    uses: ./.github/workflows/run-tests-macos.yml
+  tests_windows_en:
+    name: Tests Windows 8.3.21.1895 en_US
+    uses: ./.github/workflows/run-tests-windows.yml
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
-      artifact_name: build-artifacts
+      locale: en_US
     secrets: inherit
