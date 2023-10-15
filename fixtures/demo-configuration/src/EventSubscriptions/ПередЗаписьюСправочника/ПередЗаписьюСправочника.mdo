@@ -9,5 +9,5 @@
     <types>CatalogObject.Товары</types>
   </source>
   <event>BeforeWrite</event>
-  <handler>CommonModule.ПодпискиНаСобытия.ПередЗаписьюСправочникаПередЗаписью</handler>
+  <handler>CommonModule.ПодпискиНаСобытия.ПередЗаписьюСправочника</handler>
 </mdclass:EventSubscription>

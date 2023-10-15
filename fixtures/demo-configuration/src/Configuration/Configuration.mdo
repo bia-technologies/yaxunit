@@ -154,6 +154,7 @@
   <httpServices>HTTPService.ОписанияТоваров</httpServices>
   <httpServices>HTTPService.Товары</httpServices>
   <eventSubscriptions>EventSubscription.ПередЗаписьюСправочника</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПередЗаписьюДокумента</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ОбновлениеАгрегатовПродаж</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИсторииДанных</scheduledJobs>
