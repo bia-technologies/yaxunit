@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0510797f-0596-4b77-bc26-f9fc5a66bb0c">
+  <name>ПодпискиНаСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписки на события</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
