@@ -83,6 +83,7 @@ jobs:
             "closeAfterTests": true,
             "exitCode": "exit-code.txt",
             "logging": {
+              "enable": false,
               "console": true,
               "file": "execute.log"
             }
@@ -99,9 +100,9 @@ jobs:
         Start-Process -NoNewWindow -PassThru -Wait 1cv8c.exe -ArgumentList '/WS "http://localhost:8314" /C"RunUnitTests=unit.json" /L ${{ steps.short_locale.outputs.substring }} /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out 1cv8c-output.log'
       timeout-minutes: 10
    
-    - name: view output
-      if: always()
-      run: type execute.log
+    # - name: view log
+    #   if: always()
+    #   run: type execute.log
 
     - name: view output
       if: always()

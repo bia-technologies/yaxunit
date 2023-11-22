@@ -135,7 +135,9 @@ jobs:
             "closeAfterTests": true,
             "exitCode": "exit-code.txt",
             "logging": {
-              "console": true
+              "enable": false,
+              "console": true,
+              "file": "execute.log"
             }
           }
     
@@ -146,6 +148,10 @@ jobs:
         DISPLAY: :99
         LANG: "${{ inputs.locale }}.UTF-8"
       
+    # - name: view log
+    #   if: always()
+    #   run: cat ./execute.log
+
     - name: view output
       if: always()
       run: cat ./output.log
