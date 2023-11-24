@@ -100,7 +100,6 @@
   <commonModules>CommonModule.ЮТСравнениеКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСервер</commonModules>
   <commonModules>CommonModule.ЮТСтроки</commonModules>
-  <commonModules>CommonModule.ЮТТестКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные_ТаблицыЗначений</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеВызовСервера</commonModules>

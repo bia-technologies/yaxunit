@@ -96,5 +96,4 @@
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
-  <content>CommonModule.ЮТТестКлиентСервер</content>
 </mdclass:Subsystem>
