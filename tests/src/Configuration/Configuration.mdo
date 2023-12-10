@@ -54,4 +54,5 @@
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <documents>Document.ПриходТовара</documents>
+  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
 </mdclass:Configuration>
