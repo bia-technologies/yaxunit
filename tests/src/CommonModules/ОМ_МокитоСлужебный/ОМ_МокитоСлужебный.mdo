@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c6cbdc6-eb05-47c3-9aac-0f5ec59328b5">
+  <name>ОМ_МокитоСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>О м мокито служебный</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
