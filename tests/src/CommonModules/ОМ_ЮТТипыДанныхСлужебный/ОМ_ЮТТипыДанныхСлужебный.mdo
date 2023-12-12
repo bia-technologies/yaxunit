@@ -5,5 +5,7 @@
     <key>ru</key>
     <value>Типы данных служебный</value>
   </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

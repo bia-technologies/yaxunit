@@ -28,6 +28,7 @@
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
+  <commonModules>CommonModule.ОМ_МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_Общий</commonModules>
   <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
@@ -54,4 +55,6 @@
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <documents>Document.ПриходТовара</documents>
+  <dataProcessors>DataProcessor.ПроведениеДокументов</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
 </mdclass:Configuration>
