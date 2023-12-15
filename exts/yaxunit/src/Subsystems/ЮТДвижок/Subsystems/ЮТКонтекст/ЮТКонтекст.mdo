@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de4a422d-6943-4fa5-8a70-1a301c2cbaa1">
+  <name>ЮТКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контекст</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Функциональность работы с контекстами</value>
+  </explanation>
+  <content>CommonModule.ЮТКонтекст</content>
+  <content>CommonModule.ЮТКонтекстКлиент</content>
+  <content>CommonModule.ЮТКонтекстТеста</content>
+  <content>CommonModule.ЮТКонтекстСервер</content>
+  <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
+</mdclass:Subsystem>

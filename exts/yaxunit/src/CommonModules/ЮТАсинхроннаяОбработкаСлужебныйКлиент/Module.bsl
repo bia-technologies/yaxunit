@@ -79,14 +79,20 @@
 	
 КонецФункции
 
+//@skip-check module-empty-method
+//@skip-check doc-comment-parameter-section
 Процедура ПустойОбработчик1(Параметр1) Экспорт
 	
 КонецПроцедуры
 
+//@skip-check module-empty-method
+//@skip-check doc-comment-parameter-section
 Процедура ПустойОбработчик2(Параметр1, Параметр2) Экспорт
 	
 КонецПроцедуры
 
+//@skip-check module-empty-method
+//@skip-check doc-comment-parameter-section
 Процедура ПустойОбработчик3(Параметр1, Параметр2, Параметр3) Экспорт
 	
 КонецПроцедуры

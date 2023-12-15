@@ -6,8 +6,11 @@
     <value>Формирование отчета</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Функциональность формирования отчетов</value>
+  </explanation>
   <content>CommonModule.ЮТОтчетJSON</content>
   <content>CommonModule.ЮТОтчетJUnit</content>
-  <parentSubsystem>Subsystem.ЮТФункциональность</parentSubsystem>
+  <parentSubsystem>Subsystem.ЮТДинамическиПодключаемые</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24bbebcb-477b-4067-8d46-44f28817e2eb">
+  <name>ЮТМокирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мокирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит функциональности мокирования данных</value>
+  </explanation>
+  <content>CommonModule.МокитоОбучение</content>
+  <content>CommonModule.МокитоПроверки</content>
+  <content>CommonModule.МокитоСлужебный</content>
+  <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
+  <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
+</mdclass:Subsystem>

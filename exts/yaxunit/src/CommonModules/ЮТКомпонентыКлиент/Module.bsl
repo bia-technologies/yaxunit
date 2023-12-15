@@ -80,7 +80,9 @@
 	Windows = "Windows";
 	MacOS = "MacOS";
 	
+	//@skip-check bsl-variable-name-invalid
 	x86 = "i386";
+	//@skip-check bsl-variable-name-invalid
 	x64 = "x86_64";
 	
 	ТипКлиентскойПлатформы = Информация.ТипПлатформы;

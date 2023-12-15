@@ -3,14 +3,13 @@
   <name>ЮТОбработчикиСобытий</name>
   <synonym>
     <key>ru</key>
-    <value>ЮТОбработчики событий</value>
+    <value>Обработчики событий</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.МокитоСлужебный</content>
   <content>CommonModule.ЮТИсполнительКлиент</content>
   <content>CommonModule.ЮТЛогирование</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <content>CommonModule.ЮТУтверждения</content>
-  <parentSubsystem>Subsystem.ЮТФункциональность</parentSubsystem>
+  <parentSubsystem>Subsystem.ЮТДинамическиПодключаемые</parentSubsystem>
 </mdclass:Subsystem>
