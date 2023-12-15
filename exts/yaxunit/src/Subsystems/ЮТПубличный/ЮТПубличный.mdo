@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46383f22-a834-40f0-b79e-c358ce9f5a10">
+  <name>ЮТПубличный</name>
+  <synonym>
+    <key>ru</key>
+    <value>YAxUnit</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Публичные API и инструменты,  применяемые при написании тестов и самом тестировании. Остальные использовать напрямую не рекомендуется</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЮТПодсистема</picture>
+  </picture>
+  <content>CommonModule.ЮТест</content>
+  <content>CommonModule.ЮТОбщий</content>
+  <content>CommonModule.ЮТТесты</content>
+  <content>CommonModule.Мокито</content>
+  <content>CommonModule.ЮТЗапросы</content>
+  <content>CommonModule.ЮТМетаданные</content>
+  <content>CommonModule.ЮТЛогирование</content>
+  <content>DataProcessor.ЮТЮнитТесты</content>
+  <content>CommonModule.ЮТУтверждения</content>
+</mdclass:Subsystem>

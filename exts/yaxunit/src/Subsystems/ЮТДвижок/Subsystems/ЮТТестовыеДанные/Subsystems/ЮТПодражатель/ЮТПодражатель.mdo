@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bda333bc-3760-4247-8d9f-b6e6a03b0b4f">
+  <name>ЮТПодражатель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подражатель</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЮТПодражатель</content>
+  <content>CommonModule.ЮТПодражатель_Банки</content>
+  <content>CommonModule.ЮТПодражатель_Компании</content>
+  <content>CommonModule.ЮТПодражатель_Люди</content>
+  <content>CommonModule.ЮТПодражательВызовСервера</content>
+  <content>CommonModule.ЮТПодражательПовтИсп</content>
+  <content>CommonModule.ЮТПодражательСлужебный</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Компании_Наименования_ru</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Компании_ПрефиксыНаименований_ru</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеИмена_ru</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеОтчества_ru</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеФамилии_ru</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</content>
+  <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</content>
+  <parentSubsystem>Subsystem.ЮТДвижок.Subsystem.ЮТТестовыеДанные</parentSubsystem>
+</mdclass:Subsystem>
