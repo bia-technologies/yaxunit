@@ -6,6 +6,10 @@
     <value>Юнит тесты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Внутренняя реализация инструмента</value>
+  </explanation>
   <subsystems>ЮТИсполнитель</subsystems>
   <subsystems>ЮТКонтекст</subsystems>
   <subsystems>ЮТМокирование</subsystems>

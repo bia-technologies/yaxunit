@@ -6,6 +6,10 @@
     <value>Обработчики событий</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подключаемые обработчики событий тестов</value>
+  </explanation>
   <content>CommonModule.МокитоСлужебный</content>
   <content>CommonModule.ЮТИсполнительКлиент</content>
   <content>CommonModule.ЮТЛогирование</content>
