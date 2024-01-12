@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01df8cc1-cb96-4cda-a18f-0641bca9f212">
+  <producedTypes>
+    <objectType typeId="852c0b16-4887-4def-83f9-18821d77f310" valueTypeId="d40cfd7c-5781-4c8f-9ec6-d59b29f9380a"/>
+    <managerType typeId="8710c3c0-b550-4cce-816c-3e4364c212ca" valueTypeId="82b2c6e6-4ea3-473c-90d5-4c2e17fa50de"/>
+  </producedTypes>
+  <name>ЮТHTTPServiceRequest</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мок для HTTP Service request</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
