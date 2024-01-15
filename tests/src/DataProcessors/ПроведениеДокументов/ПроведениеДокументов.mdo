@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b692ca7c-050c-4877-96cd-f4d80d5b76d2">
+  <producedTypes>
+    <objectType typeId="b29007c7-cc82-4f54-abf4-8d0d77299bdf" valueTypeId="d4153680-ac36-4513-b2e2-e6cef9372f29"/>
+    <managerType typeId="d1f7a204-67bf-48b1-b4b6-b7ce9ae2a924" valueTypeId="c67f0951-a8f6-40d5-9f98-184f3cb6fef1"/>
+  </producedTypes>
+  <name>ПроведениеДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:DataProcessor>

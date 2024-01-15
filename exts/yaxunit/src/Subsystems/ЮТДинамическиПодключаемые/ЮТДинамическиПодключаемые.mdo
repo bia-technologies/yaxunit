@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2000d722-2a1d-47b1-8b5d-f3ebcb93e898">
+  <name>ЮТДинамическиПодключаемые</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамически подключаемые</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит подсистемы с динамически подключаемой (загружаемой) функциональностью</value>
+  </explanation>
+  <subsystems>ЮТОбработчикиСобытий</subsystems>
+  <subsystems>ЮТФормированиеОтчета</subsystems>
+</mdclass:Subsystem>

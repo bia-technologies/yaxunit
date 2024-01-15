@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ebe57d7-1182-4eea-bdda-375c1e0262e4">
   <name>YAXUNIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>YAxUnit</value>
+  </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <managedApplicationModule>Extended</managedApplicationModule>
@@ -16,7 +20,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>23.08.0</version>
+  <version>24.01.1</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -26,8 +30,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
-  <subsystems>Subsystem.ЮТПодражатель</subsystems>
-  <subsystems>Subsystem.ЮТФункциональность</subsystems>
+  <subsystems>Subsystem.ЮТДинамическиПодключаемые</subsystems>
+  <subsystems>Subsystem.ЮТПубличный</subsystems>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
   <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
   <commonPictures>CommonPicture.ЮТПодсистема</commonPictures>
@@ -55,6 +59,7 @@
   <commonModules>CommonModule.ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ЮТЗапросыВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЗапросыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЮТИсполнительГлобальный</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
@@ -69,6 +74,7 @@
   <commonModules>CommonModule.ЮТКонтекстТеста</commonModules>
   <commonModules>CommonModule.ЮТЛогирование</commonModules>
   <commonModules>CommonModule.ЮТЛогированиеВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЛокальСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
@@ -94,6 +100,7 @@
   <commonModules>CommonModule.ЮТРасширения</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТСобытия</commonModules>
+  <commonModules>CommonModule.ЮТСообщенияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСравнениеКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСервер</commonModules>
   <commonModules>CommonModule.ЮТСтроки</commonModules>
@@ -110,6 +117,7 @@
   <commonModules>CommonModule.ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ЮТЧитатель</commonModules>
   <commonModules>CommonModule.ЮТЧитательСервер</commonModules>
+  <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>

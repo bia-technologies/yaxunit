@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce70f27f-4871-4e26-aa7d-19cddba77f91">
+  <name>ЮТТестовыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовые данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Реализация генерации и работы с тестовыми данными</value>
+  </explanation>
+  <content>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</content>
+  <content>CommonModule.ЮТТестовыеДанные</content>
+  <content>CommonModule.ЮТТестовыеДанные_ТаблицыЗначений</content>
+  <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
+  <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
+  <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
+  <content>CommonModule.ЮТСтроки</content>
+  <content>CommonModule.ЮТПреобразования</content>
+  <content>CommonModule.ЮТКонструкторВариантов</content>
+  <subsystems>ЮТПодражатель</subsystems>
+  <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
+</mdclass:Subsystem>

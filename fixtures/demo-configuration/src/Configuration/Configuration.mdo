@@ -147,11 +147,14 @@
   <commonModules>CommonModule.СервисныеМеханизмы</commonModules>
   <commonModules>CommonModule.УведомленияКлиент</commonModules>
   <commonModules>CommonModule.УведомленияСервер</commonModules>
+  <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
   <xDTOPackages>XDTOPackage.ОбменСМобильнымУстройством</xDTOPackages>
   <webServices>WebService.MAExchange</webServices>
   <httpServices>HTTPService.ОписанияТоваров</httpServices>
   <httpServices>HTTPService.Товары</httpServices>
+  <eventSubscriptions>EventSubscription.ПередЗаписьюСправочника</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПередЗаписьюДокумента</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ОбновлениеАгрегатовПродаж</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИсторииДанных</scheduledJobs>

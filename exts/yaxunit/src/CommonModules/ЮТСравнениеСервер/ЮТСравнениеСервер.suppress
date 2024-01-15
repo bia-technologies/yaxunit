@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="CommonModule.ЮТСравнениеСервер">
+  <suppressions key="com.e1c.v8codestyle.md:common-module-name-server-call" value="true"/>
+</suppress:SuppressGenericObject>

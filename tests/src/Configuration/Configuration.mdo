@@ -28,11 +28,13 @@
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
+  <commonModules>CommonModule.ОМ_МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_Общий</commonModules>
   <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗапросы</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Банки</commonModules>
@@ -48,9 +50,12 @@
   <commonModules>CommonModule.ОМ_ЮТУтвержденияИБ</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
+  <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПомощникТестированияВызовСервера</commonModules>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <documents>Document.ПриходТовара</documents>
+  <dataProcessors>DataProcessor.ПроведениеДокументов</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
 </mdclass:Configuration>

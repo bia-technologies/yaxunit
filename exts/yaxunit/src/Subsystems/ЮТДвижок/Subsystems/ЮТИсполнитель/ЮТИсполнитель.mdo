@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f90d482-0035-4c3c-82d4-2e21ca70d72e">
+  <name>ЮТИсполнитель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнитель</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Функциональность запуска тестирования</value>
+  </explanation>
+  <content>CommonModule.ЮТИсполнительГлобальный</content>
+  <content>CommonModule.ЮТИсполнительКлиент</content>
+  <content>CommonModule.ЮТИсполнительКлиентСервер</content>
+  <content>CommonModule.ЮТИсполнительСервер</content>
+  <content>CommonModule.ЮТЧитатель</content>
+  <content>CommonModule.ЮТЧитательСервер</content>
+  <content>CommonModule.ЮТФильтрация</content>
+  <content>CommonModule.ЮТПараметрыЗапуска</content>
+  <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
+</mdclass:Subsystem>

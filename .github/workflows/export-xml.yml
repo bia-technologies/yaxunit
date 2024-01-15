@@ -9,6 +9,11 @@ on:
       artifact_name:
         type: string
         required: true
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-export
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest

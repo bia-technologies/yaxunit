@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="67201e35-afd7-492c-a710-4a05305e1743">
+  <producedTypes>
+    <selectionType typeId="26b9331d-7726-4669-bb42-9d0f2f223c2e" valueTypeId="e9f7789b-d420-49aa-8b13-4f7aed559a6c"/>
+    <listType typeId="e3a39aa2-2011-4ebe-aa2e-9523ad811687" valueTypeId="c8a1cecf-9246-40de-af96-7bc9c47ba230"/>
+    <managerType typeId="7ca0d09a-e919-4883-947b-81bcd2d4f50b" valueTypeId="98f4bbbd-9e9d-4776-9be5-6caf9591d6db"/>
+    <recordSetType typeId="51c45869-9e3b-4b4c-be61-3e5bb46269dd" valueTypeId="10047383-6e4d-4678-b7bb-bb884301c50a"/>
+    <recordKeyType typeId="b9489145-7cee-4adc-bd2e-e821324b53ab" valueTypeId="0a1b4515-7e4e-4b5f-8485-cd2cbf541868"/>
+    <recordType typeId="550e9fa6-b716-4a7c-a498-f6e00ea526bf" valueTypeId="93353485-edba-49e3-aa60-3bfdbaa0166e"/>
+    <recordManagerType typeId="338906f6-10ab-4964-bef6-4dc84c49bad0" valueTypeId="6c5d6182-e8bd-4ef4-8ede-9d669253fbf9"/>
+  </producedTypes>
+  <name>ЦеныТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+</mdclass:InformationRegister>

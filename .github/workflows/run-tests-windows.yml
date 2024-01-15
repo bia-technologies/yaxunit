@@ -15,7 +15,8 @@ on:
 
       artifact_name:
         type: string
-        required: true
+        required: false
+        default: build-artifacts
         
       fail_on_failure:
         type: boolean
@@ -23,7 +24,7 @@ on:
         default: true
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Windows
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-${{ github.event.number }}-Windows
   cancel-in-progress: true
 
 jobs:
@@ -82,20 +83,26 @@ jobs:
             "closeAfterTests": true,
             "exitCode": "exit-code.txt",
             "logging": {
+              "enable": false,
               "console": true,
               "file": "execute.log"
             }
           }
     
+    - uses: bhowell2/github-substring-action@1.0.2
+      id: short_locale
+      with:
+        value: ${{ inputs.locale }}
+        length_from_start: 2
     - name: Test
       run: |
         Start-Process ibsrv.exe -ArgumentList "--data=data"
-        Start-Process -NoNewWindow -PassThru -Wait 1cv8c.exe -ArgumentList '/WS "http://localhost:8314" /C"RunUnitTests=unit.json" /L ru /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out 1cv8c-output.log'
+        Start-Process -NoNewWindow -PassThru -Wait 1cv8c.exe -ArgumentList '/WS "http://localhost:8314" /C"RunUnitTests=unit.json" /L ${{ steps.short_locale.outputs.substring }} /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out 1cv8c-output.log'
       timeout-minutes: 10
    
-    - name: view output
-      if: always()
-      run: type execute.log
+    # - name: view log
+    #   if: always()
+    #   run: type execute.log
 
     - name: view output
       if: always()

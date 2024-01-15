@@ -15,7 +15,8 @@ on:
 
       artifact_name:
         type: string
-        required: true
+        required: false
+        default: build-artifacts
         
       fail_on_failure:
         type: boolean
@@ -28,7 +29,7 @@ permissions:
     id-token: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-Linux
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.v8_version }}-${{ inputs.locale }}-${{ github.event.number }}-Linux
   cancel-in-progress: true
 
 jobs:
@@ -134,7 +135,9 @@ jobs:
             "closeAfterTests": true,
             "exitCode": "exit-code.txt",
             "logging": {
-              "console": true
+              "enable": false,
+              "console": true,
+              "file": "execute.log"
             }
           }
     
@@ -145,6 +148,10 @@ jobs:
         DISPLAY: :99
         LANG: "${{ inputs.locale }}.UTF-8"
       
+    # - name: view log
+    #   if: always()
+    #   run: cat ./execute.log
+
     - name: view output
       if: always()
       run: cat ./output.log

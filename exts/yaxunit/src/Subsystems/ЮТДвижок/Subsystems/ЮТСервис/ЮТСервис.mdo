@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0de5fcbf-9941-4e24-99ae-7a92e46760fd">
+  <name>ЮТСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Сервисная функциональность работы движка</value>
+  </explanation>
+  <content>CommonModule.ЮТЛогированиеВызовСервера</content>
+  <content>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</content>
+  <content>CommonModule.ЮТФабрика</content>
+  <content>CommonModule.ЮТФайлы</content>
+  <content>CommonModule.ЮТТипыДанныхСлужебный</content>
+  <content>CommonModule.ЮТСообщенияСлужебный</content>
+  <content>CommonModule.ЮТСобытия</content>
+  <content>CommonModule.ЮТРегистрацияОшибок</content>
+  <content>CommonModule.ЮТРасширения</content>
+  <content>CommonModule.ЮТПроверкиСлужебный</content>
+  <content>CommonTemplate.ЮТRegEx1CAddin</content>
+  <content>CommonTemplate.ЮТYaxUnitAddIn</content>
+  <content>CommonPicture.ЮТНеизвестный</content>
+  <content>CommonPicture.ЮТОшибка</content>
+  <content>CommonPicture.ЮТПодсистема</content>
+  <content>CommonPicture.ЮТПропущен</content>
+  <content>CommonPicture.ЮТУпал</content>
+  <content>CommonPicture.ЮТУспешно</content>
+  <content>CommonPicture.ЮТЭлементыТестов</content>
+  <content>CommonModule.ЮТКомпоненты</content>
+  <content>CommonModule.ЮТКомпонентыВызовСервера</content>
+  <content>CommonModule.ЮТКомпонентыКлиент</content>
+  <content>CommonModule.ЮТЛокальСлужебный</content>
+  <content>CommonModule.ЮТМетаданныеПовтИсп</content>
+  <content>CommonModule.ЮТМетаданныеСервер</content>
+  <content>CommonModule.ЮТОбщийВызовСервера</content>
+  <content>CommonModule.ЮТПовторногоИспользования</content>
+  <content>CommonTemplate.ЮТОписаниеМетаданных</content>
+  <content>CommonModule.ЮТНастройкиВыполнения</content>
+  <content>CommonModule.ЮТОтчет</content>
+  <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
+</mdclass:Subsystem>

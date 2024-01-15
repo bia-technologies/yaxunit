@@ -8,11 +8,18 @@ on:
       
       src_artifact_name:
         type: string
-        required: true
+        required: false
+        default: designer-src
       
       artifact_name:
         type: string
-        required: true
+        required: false
+        default: build-artifacts
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-build
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: windows-latest

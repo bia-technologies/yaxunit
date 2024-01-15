@@ -6,7 +6,7 @@ on:
     branches: [ develop ]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}
   cancel-in-progress: true
 
 permissions:
@@ -29,29 +29,25 @@ jobs:
     needs: export_to_designer
     with:
       v8_version: 8.3.21.1895
-      src_artifact_name: designer-src
-      artifact_name: build-artifacts
     secrets: inherit
   
   tests_linux_ru:
     name: Tests Linux 8.3.21.1895 ru_RU
     uses: ./.github/workflows/run-tests-linux.yml
+    if: github.ref == 'refs/heads/develop'
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
-      artifact_name: build-artifacts
     secrets: inherit
   
   tests_linux_en:
     name: Tests Linux 8.3.21.1895 en_US
     uses: ./.github/workflows/run-tests-linux.yml
-    if: false
+    if: github.ref == 'refs/heads/develop'
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
-      artifact_name: build-artifacts
       locale: en_US
-      fail_on_failure: false
     secrets: inherit
   
   tests_windows_ru:
@@ -60,5 +56,13 @@ jobs:
     needs: build_artifacts
     with:
       v8_version: 8.3.21.1895
-      artifact_name: build-artifacts
+      locale: ru_RU
+    secrets: inherit
+  tests_windows_en:
+    name: Tests Windows 8.3.21.1895 en_US
+    uses: ./.github/workflows/run-tests-windows.yml
+    needs: build_artifacts
+    with:
+      v8_version: 8.3.21.1895
+      locale: en_US
     secrets: inherit

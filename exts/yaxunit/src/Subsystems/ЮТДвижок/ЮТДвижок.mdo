@@ -1,71 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36bb00a3-9e36-423a-9421-935867c7993e">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36bb00a3-9e36-423a-9421-935867c7993e">
   <name>ЮТДвижок</name>
   <synonym>
     <key>ru</key>
     <value>Юнит тесты</value>
   </synonym>
-  <includeInCommandInterface>true</includeInCommandInterface>
-  <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ЮТПодсистема</picture>
-  </picture>
-  <content>CommonModule.Мокито</content>
-  <content>CommonModule.МокитоОбучение</content>
-  <content>CommonModule.МокитоПроверки</content>
-  <content>CommonModule.МокитоСлужебный</content>
-  <content>CommonModule.ЮТест</content>
-  <content>CommonModule.ЮТЗапросы</content>
-  <content>CommonModule.ЮТЗапросыВызовСервера</content>
-  <content>CommonModule.ЮТЗапросыКлиентСервер</content>
-  <content>CommonModule.ЮТИсполнительКлиент</content>
-  <content>CommonModule.ЮТИсполнительКлиентСервер</content>
-  <content>CommonModule.ЮТИсполнительСервер</content>
-  <content>CommonModule.ЮТКонструкторВариантов</content>
-  <content>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</content>
-  <content>CommonModule.ЮТКонтекст</content>
-  <content>CommonModule.ЮТКонтекстКлиент</content>
-  <content>CommonModule.ЮТКонтекстСервер</content>
-  <content>CommonModule.ЮТКонтекстТеста</content>
-  <content>CommonModule.ЮТЛогирование</content>
-  <content>CommonModule.ЮТЛогированиеВызовСервера</content>
-  <content>CommonModule.ЮТМетаданные</content>
-  <content>CommonModule.ЮТМетаданныеПовтИсп</content>
-  <content>CommonModule.ЮТМетаданныеСервер</content>
-  <content>CommonModule.ЮТНастройкиВыполнения</content>
-  <content>CommonModule.ЮТОбщий</content>
-  <content>CommonModule.ЮТОбщийВызовСервера</content>
-  <content>CommonModule.ЮТОтчет</content>
-  <content>CommonModule.ЮТОтчетJSON</content>
-  <content>CommonModule.ЮТОтчетJUnit</content>
-  <content>CommonModule.ЮТПараметрыЗапуска</content>
-  <content>CommonModule.ЮТПовторногоИспользования</content>
-  <content>CommonModule.ЮТПредикаты</content>
-  <content>CommonModule.ЮТПредикатыКлиентСервер</content>
-  <content>CommonModule.ЮТРасширения</content>
-  <content>CommonModule.ЮТРегистрацияОшибок</content>
-  <content>CommonModule.ЮТСобытия</content>
-  <content>CommonModule.ЮТСравнениеКлиентСервер</content>
-  <content>CommonModule.ЮТСравнениеСервер</content>
-  <content>CommonModule.ЮТТестовыеДанные</content>
-  <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
-  <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
-  <content>CommonModule.ЮТТесты</content>
-  <content>CommonModule.ЮТУтверждения</content>
-  <content>CommonModule.ЮТУтвержденияИБ</content>
-  <content>CommonModule.ЮТФабрика</content>
-  <content>CommonModule.ЮТФайлы</content>
-  <content>CommonModule.ЮТФильтрация</content>
-  <content>CommonModule.ЮТЧитатель</content>
-  <content>CommonModule.ЮТЧитательСервер</content>
-  <content>CommonPicture.ЮТНеизвестный</content>
-  <content>CommonPicture.ЮТОшибка</content>
-  <content>CommonPicture.ЮТПропущен</content>
-  <content>CommonPicture.ЮТУпал</content>
-  <content>CommonPicture.ЮТУспешно</content>
-  <content>CommonPicture.ЮТЭлементыТестов</content>
-  <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
-  <content>DataProcessor.ЮТЮнитТесты</content>
-  <content>CommonTemplate.ЮТОписаниеМетаданных</content>
-  <content>CommonPicture.ЮТПодсистема</content>
-  <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Внутренняя реализация инструмента</value>
+  </explanation>
+  <subsystems>ЮТИсполнитель</subsystems>
+  <subsystems>ЮТКонтекст</subsystems>
+  <subsystems>ЮТМокирование</subsystems>
+  <subsystems>ЮТСервис</subsystems>
+  <subsystems>ЮТТестовыеДанные</subsystems>
+  <subsystems>ЮТУтверждения</subsystems>
 </mdclass:Subsystem>
