@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: Установка плагина EDT
+sidebar_label: Установка плагина для EDT
 ---
 # Установка плагина для работы с тестами в EDT
 
