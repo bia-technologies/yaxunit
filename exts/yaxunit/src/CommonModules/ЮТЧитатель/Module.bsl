@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2023 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -224,7 +224,7 @@
 
 Процедура УдалитьНастройкиМодуляИзПервогоНабора(СценарииМодуля)
 	
-	НастройкиВыполнения = ЮТОбщий.СкопироватьРекурсивно(СценарииМодуля.НастройкиВыполнения);
+	НастройкиВыполнения = ЮТКоллекции.СкопироватьРекурсивно(СценарииМодуля.НастройкиВыполнения);
 	
 	СценарииМодуля.НастройкиВыполнения.Очистить();
 	

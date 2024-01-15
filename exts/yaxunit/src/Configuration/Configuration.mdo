@@ -64,6 +64,7 @@
   <commonModules>CommonModule.ЮТИсполнительКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСервер</commonModules>
+  <commonModules>CommonModule.ЮТКоллекции</commonModules>
   <commonModules>CommonModule.ЮТКомпоненты</commonModules>
   <commonModules>CommonModule.ЮТКомпонентыВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТКомпонентыКлиент</commonModules>
