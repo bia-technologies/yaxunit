@@ -34,6 +34,7 @@
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗапросы</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТИсполнительКлиент</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
