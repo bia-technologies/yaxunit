@@ -38,6 +38,8 @@
   <commonModules>CommonModule.ОМ_ЮТИсполнительКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТОтчет</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТОтчетAllure</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Банки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Компании</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Люди</commonModules>
@@ -54,6 +56,7 @@
   <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПомощникТестированияВызовСервера</commonModules>
+  <commonModules>CommonModule.ТестовыеДанные</commonModules>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <documents>Document.ПриходТовара</documents>

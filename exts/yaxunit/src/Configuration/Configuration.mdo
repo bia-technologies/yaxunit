@@ -82,6 +82,7 @@
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТОтчет</commonModules>
+  <commonModules>CommonModule.ЮТОтчетAllure</commonModules>
   <commonModules>CommonModule.ЮТОтчетJSON</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnit</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапуска</commonModules>
