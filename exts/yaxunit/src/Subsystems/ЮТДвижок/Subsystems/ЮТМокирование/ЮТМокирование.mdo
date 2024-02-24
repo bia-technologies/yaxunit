@@ -13,6 +13,7 @@
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.МокитоСлужебный</content>
+  <content>DataProcessor.ЮТHTTPServiceRequest</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>
