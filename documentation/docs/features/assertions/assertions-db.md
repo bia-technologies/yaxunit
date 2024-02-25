@@ -38,7 +38,5 @@ tags: [Начало, Утверждения, ДанныеИБ]
 * `НеСодержитЗаписиСНомером` - проверяет отсутствие в таблице записей с указанным номером
 
 :::tip
-
 [Предлагайте](https://github.com/bia-technologies/yaxunit/issues) и [добавляйте](https://github.com/bia-technologies/yaxunit/pulls) свои утверждения
-
 :::
