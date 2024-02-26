@@ -6,6 +6,7 @@
 		<languageInfo>
 			<id>ru</id>
 			<code>Русский</code>
+			<description/>
 		</languageInfo>
 	</languageSettings>
 	<columns>
@@ -47,13 +48,13 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>7</index>
+			<index>6</index>
 			<column>
 				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
+			<index>7</index>
 			<column>
 				<formatIndex>8</formatIndex>
 			</column>
@@ -585,6 +586,12 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>5</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>6</index>
 		<row>
 			<c>
@@ -884,9 +891,158 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>РасчетныеСчета</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<c>
+					<f>28</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>28</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет.Номер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>28</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет.Банк</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>29</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<c>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет 1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Банк 1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>35</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<c>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет 2</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>11</height>
-	<vgRows>11</vgRows>
+	<height>16</height>
+	<vgRows>16</vgRows>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
@@ -910,10 +1066,10 @@
 		<width>77</width>
 	</format>
 	<format>
-		<width>209</width>
+		<width>176</width>
 	</format>
 	<format>
-		<width>176</width>
+		<width>209</width>
 	</format>
 	<format>
 		<width>65</width>
@@ -1001,5 +1157,34 @@
 	</format>
 	<format>
 		<border>0</border>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>95</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+	</format>
+	<format>
+		<width>95</width>
+	</format>
+	<format>
+		<width>147</width>
+	</format>
+	<format>
+		<width>120</width>
+	</format>
+	<format>
+		<border>0</border>
+		<width>123</width>
+	</format>
+	<format>
+		<border>0</border>
+		<width>83</width>
+	</format>
+	<format>
+		<width>56</width>
+	</format>
+	<format>
+		<width>105</width>
 	</format>
 </document>
