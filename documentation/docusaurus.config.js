@@ -100,7 +100,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'user-api/index',
+            docId: 'getting-started/index',
             position: 'left',
             label: 'Описание',
           },
@@ -141,7 +141,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/user-api',
+                to: '/docs/features',
               },
             ],
           },
