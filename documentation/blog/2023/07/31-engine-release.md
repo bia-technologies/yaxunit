@@ -4,7 +4,7 @@ authors: alkoleft
 tags: [releases, yaxunit]
 ---
 
-[Release 23.07](https://github.com/bia-technologies/edt-test-runner/releases/tag/23.07)
+[Release 23.07](https://github.com/bia-technologies/yaxunit/releases/tag/23.07)
 
 ## Новое в версии
 
