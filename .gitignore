@@ -24,6 +24,8 @@ VBParams.json
 *.*.bak
 
 # IDE
+tests/.settings/*
+.metadata/
 */.settings/com._1c.g5.v8.dt.platform.services.core.prefs
 */.settings/EnvLaunchModeIndex.prefs
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39fc0d14-3ae5-429b-90ec-e02a462ceed9">
+  <producedTypes>
+    <objectType typeId="40542278-a176-447b-b729-967555b6fbc5" valueTypeId="5802b53d-bb23-4f8e-b96b-9ba39325447a"/>
+    <managerType typeId="6d7fc763-87bb-4249-8308-775667798af9" valueTypeId="f1dcbc92-0692-415d-a538-8c7b774610d2"/>
+  </producedTypes>
+  <name>ЮТRecordSet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Record set</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="ae1fc2b5-5f77-4da1-b07b-c5e65c836e53">
+    <name>EOF</name>
+    <synonym>
+      <key>ru</key>
+      <value>EOF</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7353c07e-227b-4668-9784-76494d19b2fe">
+    <name>BOF</name>
+    <synonym>
+      <key>ru</key>
+      <value>BOF</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6cf16630-295c-4a45-a6d4-056b2fc4ff5d">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c69ffb7b-c905-436d-928f-2d12863946ac">
+    <name>AbsolutePosition</name>
+    <synonym>
+      <key>ru</key>
+      <value>Absolute position</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="34d387d6-57b4-4c53-b066-bf46135c58fb">
+    <name>RecordCount</name>
+    <synonym>
+      <key>ru</key>
+      <value>Record count</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>
