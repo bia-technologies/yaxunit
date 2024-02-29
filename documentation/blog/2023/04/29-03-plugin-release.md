@@ -2,7 +2,6 @@
 title: EDT Test runner. Версия 23.04
 authors: alkoleft
 tags: [releases, plugin]
-image: https://github.com/bia-technologies/edt-test-runner/releases/tag/23.04
 ---
 
 [Release 23.04](https://github.com/bia-technologies/edt-test-runner/releases/tag/23.04)
