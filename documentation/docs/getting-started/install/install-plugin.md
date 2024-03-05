@@ -24,29 +24,25 @@ import TabItem from '@theme/TabItem';
 * Переходим к `Установить новое ПО` (в меню `Справка`);
 * Добавляем новый репозиторий;
 
-  ```mdx-code-block
-  <Tabs>
-    <TabItem value="master" label="Основной репозиторий">
-  ```
-
+````mdx-code-block
+<Tabs>
+  <TabItem value="master" label="Основной репозиторий">
   ```url
   https://bia-technologies.github.io/edt-test-runner/repository
   ```
-
-  ```mdx-code-block
-    </TabItem>
-
-    <TabItem value="develop" label="Develop">
-  ```
-
+  </TabItem>
+  <TabItem value="develop" label="Develop">
   ```url
   https://bia-technologies.github.io/edt-test-runner/dev/repository
   ```
-
-  ```mdx-code-block
-    </TabItem>
-  </Tabs>
+  </TabItem>
+  <TabItem value="old-2023-02" label="Для версий EDT до 2023-02">
+  ```url
+  https://bia-technologies.github.io/edt-test-runner/repository/updates/23.x
   ```
+  </TabItem>
+</Tabs>
+````
 
   ![Установка плагина](images/plugin-install-from-rep.png)
 
