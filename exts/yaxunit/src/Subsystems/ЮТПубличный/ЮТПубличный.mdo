@@ -14,13 +14,13 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ЮТПодсистема</picture>
   </picture>
+  <content>CommonModule.Мокито</content>
   <content>CommonModule.ЮТест</content>
+  <content>CommonModule.ЮТЗапросы</content>
+  <content>CommonModule.ЮТЛогирование</content>
+  <content>CommonModule.ЮТМетаданные</content>
   <content>CommonModule.ЮТОбщий</content>
   <content>CommonModule.ЮТТесты</content>
-  <content>CommonModule.Мокито</content>
-  <content>CommonModule.ЮТЗапросы</content>
-  <content>CommonModule.ЮТМетаданные</content>
-  <content>CommonModule.ЮТЛогирование</content>
-  <content>DataProcessor.ЮТЮнитТесты</content>
   <content>CommonModule.ЮТУтверждения</content>
+  <content>DataProcessor.ЮТЮнитТесты</content>
 </mdclass:Subsystem>

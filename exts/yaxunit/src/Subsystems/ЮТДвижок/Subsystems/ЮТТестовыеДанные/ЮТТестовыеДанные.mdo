@@ -10,15 +10,15 @@
     <key>ru</key>
     <value>Реализация генерации и работы с тестовыми данными</value>
   </explanation>
+  <content>CommonModule.ЮТКонструкторВариантов</content>
   <content>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</content>
+  <content>CommonModule.ЮТПреобразования</content>
+  <content>CommonModule.ЮТСтроки</content>
   <content>CommonModule.ЮТТестовыеДанные</content>
   <content>CommonModule.ЮТТестовыеДанные_ТаблицыЗначений</content>
   <content>CommonModule.ЮТТестовыеДанныеВызовСервера</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
-  <content>CommonModule.ЮТСтроки</content>
-  <content>CommonModule.ЮТПреобразования</content>
-  <content>CommonModule.ЮТКонструкторВариантов</content>
   <subsystems>ЮТПодражатель</subsystems>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>

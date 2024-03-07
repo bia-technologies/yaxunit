@@ -10,18 +10,26 @@
     <key>ru</key>
     <value>Сервисная функциональность работы движка</value>
   </explanation>
-  <content>CommonModule.ЮТЛогированиеВызовСервера</content>
   <content>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</content>
+  <content>CommonModule.ЮТКомпоненты</content>
+  <content>CommonModule.ЮТКомпонентыВызовСервера</content>
+  <content>CommonModule.ЮТКомпонентыКлиент</content>
+  <content>CommonModule.ЮТЛогированиеВызовСервера</content>
+  <content>CommonModule.ЮТЛокальСлужебный</content>
+  <content>CommonModule.ЮТМетаданныеПовтИсп</content>
+  <content>CommonModule.ЮТМетаданныеСервер</content>
+  <content>CommonModule.ЮТНастройкиВыполнения</content>
+  <content>CommonModule.ЮТОбщийВызовСервера</content>
+  <content>CommonModule.ЮТОтчет</content>
+  <content>CommonModule.ЮТПовторногоИспользования</content>
+  <content>CommonModule.ЮТПроверкиСлужебный</content>
+  <content>CommonModule.ЮТРасширения</content>
+  <content>CommonModule.ЮТРегистрацияОшибок</content>
+  <content>CommonModule.ЮТСобытия</content>
+  <content>CommonModule.ЮТСообщенияСлужебный</content>
+  <content>CommonModule.ЮТТипыДанныхСлужебный</content>
   <content>CommonModule.ЮТФабрика</content>
   <content>CommonModule.ЮТФайлы</content>
-  <content>CommonModule.ЮТТипыДанныхСлужебный</content>
-  <content>CommonModule.ЮТСообщенияСлужебный</content>
-  <content>CommonModule.ЮТСобытия</content>
-  <content>CommonModule.ЮТРегистрацияОшибок</content>
-  <content>CommonModule.ЮТРасширения</content>
-  <content>CommonModule.ЮТПроверкиСлужебный</content>
-  <content>CommonTemplate.ЮТRegEx1CAddin</content>
-  <content>CommonTemplate.ЮТYaxUnitAddIn</content>
   <content>CommonPicture.ЮТНеизвестный</content>
   <content>CommonPicture.ЮТОшибка</content>
   <content>CommonPicture.ЮТПодсистема</content>
@@ -29,16 +37,8 @@
   <content>CommonPicture.ЮТУпал</content>
   <content>CommonPicture.ЮТУспешно</content>
   <content>CommonPicture.ЮТЭлементыТестов</content>
-  <content>CommonModule.ЮТКомпоненты</content>
-  <content>CommonModule.ЮТКомпонентыВызовСервера</content>
-  <content>CommonModule.ЮТКомпонентыКлиент</content>
-  <content>CommonModule.ЮТЛокальСлужебный</content>
-  <content>CommonModule.ЮТМетаданныеПовтИсп</content>
-  <content>CommonModule.ЮТМетаданныеСервер</content>
-  <content>CommonModule.ЮТОбщийВызовСервера</content>
-  <content>CommonModule.ЮТПовторногоИспользования</content>
+  <content>CommonTemplate.ЮТRegEx1CAddin</content>
+  <content>CommonTemplate.ЮТYaxUnitAddIn</content>
   <content>CommonTemplate.ЮТОписаниеМетаданных</content>
-  <content>CommonModule.ЮТНастройкиВыполнения</content>
-  <content>CommonModule.ЮТОтчет</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>

@@ -14,9 +14,9 @@
   <content>CommonModule.ЮТИсполнительКлиент</content>
   <content>CommonModule.ЮТИсполнительКлиентСервер</content>
   <content>CommonModule.ЮТИсполнительСервер</content>
+  <content>CommonModule.ЮТПараметрыЗапуска</content>
+  <content>CommonModule.ЮТФильтрация</content>
   <content>CommonModule.ЮТЧитатель</content>
   <content>CommonModule.ЮТЧитательСервер</content>
-  <content>CommonModule.ЮТФильтрация</content>
-  <content>CommonModule.ЮТПараметрыЗапуска</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>
