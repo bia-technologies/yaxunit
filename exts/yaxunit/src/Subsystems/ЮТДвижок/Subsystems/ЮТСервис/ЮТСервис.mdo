@@ -11,6 +11,7 @@
     <value>Сервисная функциональность работы движка</value>
   </explanation>
   <content>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</content>
+  <content>CommonModule.ЮТИсключения</content>
   <content>CommonModule.ЮТКомпоненты</content>
   <content>CommonModule.ЮТКомпонентыВызовСервера</content>
   <content>CommonModule.ЮТКомпонентыКлиент</content>
@@ -21,10 +22,10 @@
   <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщийВызовСервера</content>
   <content>CommonModule.ЮТОтчет</content>
-  <content>CommonModule.ЮТПовторногоИспользования</content>
   <content>CommonModule.ЮТПроверкиСлужебный</content>
   <content>CommonModule.ЮТРасширения</content>
   <content>CommonModule.ЮТРегистрацияОшибок</content>
+  <content>CommonModule.ЮТСлужебныйПовторногоИспользования</content>
   <content>CommonModule.ЮТСобытия</content>
   <content>CommonModule.ЮТСообщенияСлужебный</content>
   <content>CommonModule.ЮТТипыДанныхСлужебный</content>
