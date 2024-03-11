@@ -3,7 +3,7 @@
   <name>ОМ_ЮТЗапросы</name>
   <synonym>
     <key>ru</key>
-    <value>О м ЮТЗапросы</value>
+    <value>ЮТЗапросы</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

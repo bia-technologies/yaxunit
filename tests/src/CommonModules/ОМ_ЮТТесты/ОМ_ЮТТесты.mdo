@@ -3,7 +3,7 @@
   <name>ОМ_ЮТТесты</name>
   <synonym>
     <key>ru</key>
-    <value>О м ЮТТесты</value>
+    <value>Тесты</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
