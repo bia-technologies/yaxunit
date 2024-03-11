@@ -94,7 +94,7 @@ const config = {
       navbar: {
         title: 'YAx Unit',
         logo: {
-          alt: 'YaxUnit Logo',
+          alt: 'YAxUnit Logo',
           src: 'img/logo.png',
         },
         items: [
