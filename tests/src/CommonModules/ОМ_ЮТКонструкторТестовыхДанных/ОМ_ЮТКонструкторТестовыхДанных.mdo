@@ -3,7 +3,7 @@
   <name>ОМ_ЮТКонструкторТестовыхДанных</name>
   <synonym>
     <key>ru</key>
-    <value>О м конструктор тестовых данных</value>
+    <value>Конструктор тестовых данных</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

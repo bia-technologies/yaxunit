@@ -3,7 +3,7 @@
   <name>ОМ_ЮТТестовыеДанныеСлужебный</name>
   <synonym>
     <key>ru</key>
-    <value>О м тестовые данные служебный</value>
+    <value>Тестовые данные служебный</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

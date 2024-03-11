@@ -10,9 +10,9 @@
   <content>CommonModule.ЮТПодражатель_Банки</content>
   <content>CommonModule.ЮТПодражатель_Компании</content>
   <content>CommonModule.ЮТПодражатель_Люди</content>
-  <content>CommonModule.ЮТПодражательВызовСервера</content>
-  <content>CommonModule.ЮТПодражательПовтИсп</content>
   <content>CommonModule.ЮТПодражательСлужебный</content>
+  <content>CommonModule.ЮТПодражательСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТПодражательСлужебныйПовтИсп</content>
   <content>CommonTemplate.ЮТ_СловарьПодражателя_Компании_Наименования_ru</content>
   <content>CommonTemplate.ЮТ_СловарьПодражателя_Компании_ПрефиксыНаименований_ru</content>
   <content>CommonTemplate.ЮТ_СловарьПодражателя_Люди_ЖенскиеИмена_ru</content>

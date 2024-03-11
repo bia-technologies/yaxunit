@@ -36,25 +36,27 @@
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗапросы</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТИсполнительКлиент</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТИсполнительКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТКоллекции</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТОтчет</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТОтчетAllure</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТОтчетAllureСлужебный</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТОтчетСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Банки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Компании</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Люди</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТПредикатыКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТСравнениеКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТПредикатыСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТСравнениеСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТСтроки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТесты</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТипыДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтвержденияИБ</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТФильтрация</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТЧитатель</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТФильтрацияСлужебный</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТЧитательСлужебный</commonModules>
   <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПомощникТестированияВызовСервера</commonModules>
