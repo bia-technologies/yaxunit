@@ -114,6 +114,7 @@
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебныйТаблицыЗначений</commonModules>
   <commonModules>CommonModule.ЮТТесты</commonModules>
+  <commonModules>CommonModule.ЮТТестыСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТипыДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТУтвержденияИБ</commonModules>
