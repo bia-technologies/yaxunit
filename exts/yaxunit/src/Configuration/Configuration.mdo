@@ -80,6 +80,7 @@
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСервер</commonModules>
+  <commonModules>CommonModule.ЮТМетодыСлужебный</commonModules>
   <commonModules>CommonModule.ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийВызовСервера</commonModules>
