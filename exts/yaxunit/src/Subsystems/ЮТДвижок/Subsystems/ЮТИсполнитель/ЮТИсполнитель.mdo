@@ -15,6 +15,7 @@
   <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
   <content>CommonModule.ЮТИсполнительСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТПараметрыЗапускаСлужебный</content>
+  <content>CommonModule.ЮТТестыСлужебный</content>
   <content>CommonModule.ЮТФильтрацияСлужебный</content>
   <content>CommonModule.ЮТЧитательСлужебный</content>
   <content>CommonModule.ЮТЧитательСлужебныйВызовСервера</content>
