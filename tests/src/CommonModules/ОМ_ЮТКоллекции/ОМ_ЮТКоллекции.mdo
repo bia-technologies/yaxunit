@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3042adc3-f668-4347-ad80-d3680b64de4e">
+  <name>ОМ_ЮТКоллекции</name>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
