@@ -77,6 +77,7 @@
   <commonModules>CommonModule.ЮТЛогирование</commonModules>
   <commonModules>CommonModule.ЮТЛогированиеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЛогированиеСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЛогИсполненияТестаСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЛокальСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйВызовСервера</commonModules>
@@ -102,6 +103,7 @@
   <commonModules>CommonModule.ЮТПреобразованияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПроверкиСлужебный</commonModules>
   <commonModules>CommonModule.ЮТРасширенияСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибокСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСлужебныйПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТСобытияСлужебный</commonModules>
