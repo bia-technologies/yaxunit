@@ -823,7 +823,7 @@
         <id>31</id>
         <items xsi:type="form:Button">
           <name>ДеревоТестовКонтекстноеМенюЗапуститьВыделенныеТесты</name>
-          <id>130</id>
+          <id>28</id>
           <title>
             <key>ru</key>
             <value>Запустить выбранные тесты</value>
@@ -1772,6 +1772,24 @@
         <id>129</id>
         <valueType>
           <types>ValueList</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>ТипОшибки</name>
+        <title>
+          <key>ru</key>
+          <value>Тип ошибки</value>
+        </title>
+        <id>130</id>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
         </valueType>
         <view>
           <common>true</common>

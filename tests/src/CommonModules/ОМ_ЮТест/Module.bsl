@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2023 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -77,7 +77,7 @@
 
 Процедура Пропустить() Экспорт
 	
-	ЮТест.Пропустить();
+	ЮТест.Пропустить("Тест пропущен");
 	ВызватьИсключение "Не отработал пропуск теста";
 	
 КонецПроцедуры
