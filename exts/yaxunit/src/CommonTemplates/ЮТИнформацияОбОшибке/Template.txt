@@ -24,17 +24,19 @@
             display: inline-block;
             margin: 0;
             padding: 0;
-            width:1.4em;
-            border: 1px solid silver;
-            border-radius: 10px;
         }
         
         .caret::before {
             display: inline-block;
             content: '➖';
-            width: 1.4em;
             vertical-align: middle;
             text-align: center;
+
+            width: 1.4em;
+            height: 1.4em;
+            border: 1px solid silver;
+            border-radius: 10px;
+
         }
         
         .caret-collapse::before {
@@ -106,11 +108,13 @@
         
         .side {
             color: rgb(96, 96, 96);
+            font-weight: normal;
         }
         .error-line, .note-line, .warn-line  {
             border-left: 4px solid;
             margin: 2px;
             padding-left: 4px;
+            display: block;
         }
         .error-line {
             border-color: red;
@@ -124,7 +128,7 @@
         .log-block {
             display: flex;
             padding: 0.5em;
-            margin-left: 6em;
+            margin-left: 2em;
             flex-direction: column;
             border: 1px solid #e2e2e2;
             background: #f7f7f7;
@@ -132,6 +136,7 @@
         }
         .log-title {
             cursor: pointer;
+            text-decoration: underline;
         }
     </style>
 </head>
