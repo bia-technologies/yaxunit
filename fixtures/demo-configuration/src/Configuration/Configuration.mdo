@@ -132,6 +132,7 @@
   <commonModules>CommonModule.ИнтеграцияМагазин</commonModules>
   <commonModules>CommonModule.ОбменМобильныеОбщее</commonModules>
   <commonModules>CommonModule.ОбменМобильныеПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.Помощник</commonModules>
   <commonModules>CommonModule.ПомощникКлиент</commonModules>
@@ -147,14 +148,14 @@
   <commonModules>CommonModule.СервисныеМеханизмы</commonModules>
   <commonModules>CommonModule.УведомленияКлиент</commonModules>
   <commonModules>CommonModule.УведомленияСервер</commonModules>
-  <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
+  <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
   <xDTOPackages>XDTOPackage.ОбменСМобильнымУстройством</xDTOPackages>
   <webServices>WebService.MAExchange</webServices>
   <httpServices>HTTPService.ОписанияТоваров</httpServices>
   <httpServices>HTTPService.Товары</httpServices>
-  <eventSubscriptions>EventSubscription.ПередЗаписьюСправочника</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПередЗаписьюДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПередЗаписьюСправочника</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ОбновлениеАгрегатовПродаж</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеИсторииДанных</scheduledJobs>
