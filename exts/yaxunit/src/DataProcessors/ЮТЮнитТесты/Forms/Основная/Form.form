@@ -1442,7 +1442,7 @@
     <autoMaxHeight>true</autoMaxHeight>
     <verticalStretch>false</verticalStretch>
     <font xsi:type="core:FontDef">
-      <height>16.0</height>
+      <height>12.0</height>
     </font>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
       <horizontalAlign>Left</horizontalAlign>
@@ -1886,7 +1886,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.QueryWizardReplaceTable</picture>
+      <picture>CommonPicture.ЮТСравнить</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1928,7 +1928,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
+      <picture>CommonPicture.ЮТЗапустить</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1970,7 +1970,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
+      <picture>CommonPicture.ЮТЗапустить</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1991,7 +1991,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ЮТУпал</picture>
+      <picture>CommonPicture.ЮТПерезапуститьУпавшие</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
