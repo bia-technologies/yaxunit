@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -95,13 +94,13 @@ const config = {
       navbar: {
         title: 'YAx Unit',
         logo: {
-          alt: 'YaxUnit Logo',
+          alt: 'YAxUnit Logo',
           src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'user-api/index',
+            docId: 'features/features',
             position: 'left',
             label: 'Описание',
           },
@@ -142,7 +141,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/user-api',
+                to: '/docs/features',
               },
             ],
           },
@@ -168,14 +167,25 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} BIA Technologies, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.vsLight,
+        darkTheme: prismThemes.vsDark,
+        additionalLanguages: ['bsl'],
       },
     }),
     markdown: {
       mermaid: true,
     },
-    themes: ['@docusaurus/theme-mermaid'],
+    themes: ['@docusaurus/theme-mermaid', 
+    ["@easyops-cn/docusaurus-search-local", {
+      hashed: true,
+      language: ["en", "ru"],
+      indexBlog: false,
+      indexDocs: true,
+      docsRouteBasePath: ["docs", "api", 'contributing', 'lessons'],
+      docsDir: ["docs", "api", 'contributing', 'lessons'],
+      highlightSearchTermsOnTargetPage: true,
+      hideSearchBarWithNoSearchContext: true,
+    }]],
 };
 
 module.exports = config;
