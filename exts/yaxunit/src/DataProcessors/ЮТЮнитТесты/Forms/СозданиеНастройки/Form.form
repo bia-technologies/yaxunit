@@ -709,33 +709,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Отладка</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>debug</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Информация</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>info</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Ошибки</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>error</value>
-              </value>
-            </choiceList>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
