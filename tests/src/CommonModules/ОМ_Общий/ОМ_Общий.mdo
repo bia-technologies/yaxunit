@@ -3,7 +3,7 @@
   <name>ОМ_Общий</name>
   <synonym>
     <key>ru</key>
-    <value>О м общий</value>
+    <value>Общий</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

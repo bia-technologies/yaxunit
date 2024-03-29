@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="430f3969-ed28-4cc2-bfc6-17fc870dfea5">
+  <name>ЮТФабрикаСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фабрика</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

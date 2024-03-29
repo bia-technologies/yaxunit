@@ -3,7 +3,7 @@
   <name>ОМ_ЮТПодражатель_Банки</name>
   <synonym>
     <key>ru</key>
-    <value>О м ЮТПодражатель банки</value>
+    <value>Подражатель банки</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

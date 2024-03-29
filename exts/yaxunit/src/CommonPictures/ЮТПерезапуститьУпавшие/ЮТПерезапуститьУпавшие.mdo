@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1545dcc2-31cc-497d-898d-172e66f6ee9c">
+  <name>ЮТПерезапуститьУпавшие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перезапустить упавшие</value>
+  </synonym>
+</mdclass:CommonPicture>

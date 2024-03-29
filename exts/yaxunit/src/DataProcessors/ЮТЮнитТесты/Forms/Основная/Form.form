@@ -75,7 +75,7 @@
         </items>
         <items xsi:type="form:Button">
           <name>ЗапуститьВсеТесты</name>
-          <id>126</id>
+          <id>21</id>
           <title>
             <key>ru</key>
             <value>Все тесты</value>
@@ -87,7 +87,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ЗапуститьВсеТестыРасширеннаяПодсказка</name>
-            <id>127</id>
+            <id>22</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -148,7 +148,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ЗамерВремениВыполненияРасширеннаяПодсказка</name>
-            <id>129</id>
+            <id>23</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -823,7 +823,7 @@
         <id>31</id>
         <items xsi:type="form:Button">
           <name>ДеревоТестовКонтекстноеМенюЗапуститьВыделенныеТесты</name>
-          <id>130</id>
+          <id>28</id>
           <title>
             <key>ru</key>
             <value>Запустить выбранные тесты</value>
@@ -889,6 +889,56 @@
     <items xsi:type="form:FormGroup">
       <name>ГруппаДанныеОшибок</name>
       <id>83</id>
+      <items xsi:type="form:FormField">
+        <name>ФорматВыводаОшибки</name>
+        <id>26</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ФорматВыводаОшибки</segments>
+        </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ФорматВыводаОшибкиПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ФорматВыводаОшибкиРасширеннаяПодсказка</name>
+          <id>24</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ФорматВыводаОшибкиКонтекстноеМеню</name>
+          <id>25</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>RadioButtonField</type>
+        <groupHorizontalAlign>Right</groupHorizontalAlign>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+          <radioButtonsType>Tumbler</radioButtonsType>
+        </extInfo>
+      </items>
       <items xsi:type="form:Table">
         <name>ДеревоТестовОшибки</name>
         <id>59</id>
@@ -967,10 +1017,6 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
-        <handlers>
-          <event>OnActivateRow</event>
-          <name>ДеревоТестовОшибкиПриАктивизацииСтроки</name>
-        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1129,7 +1175,6 @@
       <items xsi:type="form:FormField">
         <name>ДеревоТестовОшибкиСтек</name>
         <id>75</id>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -1172,6 +1217,59 @@
         <extInfo xsi:type="form:TextDocFieldExtInfo">
           <width>50</width>
           <height>10</height>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.FormBackColor</color>
+          </borderColor>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ОтображениеОшибки</name>
+        <id>144</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОтображениеОшибки</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>ОтображениеОшибкиРасширеннаяПодсказка</name>
+          <id>146</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОтображениеОшибкиКонтекстноеМеню</name>
+          <id>145</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>HTMLDocumentField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:HtmlFieldExtInfo">
+          <width>50</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
+          <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <borderColor xsi:type="core:ColorRef">
@@ -1344,7 +1442,7 @@
     <autoMaxHeight>true</autoMaxHeight>
     <verticalStretch>false</verticalStretch>
     <font xsi:type="core:FontDef">
-      <height>16.0</height>
+      <height>12.0</height>
     </font>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
       <horizontalAlign>Left</horizontalAlign>
@@ -1370,6 +1468,7 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1664,6 +1763,41 @@
           <common>true</common>
         </edit>
       </columns>
+      <columns>
+        <name>Лог</name>
+        <title>
+          <key>ru</key>
+          <value>Лог</value>
+        </title>
+        <id>129</id>
+        <valueType>
+          <types>ValueList</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>ТипОшибки</name>
+        <title>
+          <key>ru</key>
+          <value>Тип ошибки</value>
+        </title>
+        <id>130</id>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
     </additionalColumns>
   </attributes>
   <attributes>
@@ -1676,26 +1810,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СтатистикаВыполненияВеса</name>
-    <title>
-      <key>ru</key>
-      <value>Статистика выполнения веса</value>
-    </title>
-    <id>118</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -1721,6 +1835,46 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ОтображениеОшибки</name>
+    <title>
+      <key>ru</key>
+      <value>Отображение ошибки</value>
+    </title>
+    <id>27</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФорматВыводаОшибки</name>
+    <title>
+      <key>ru</key>
+      <value>Формат вывода ошибки</value>
+    </title>
+    <id>126</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ФорматВыводаОшибки</segments>
+    </settingsSavedData>
+    <savedData>true</savedData>
+  </attributes>
   <formCommands>
     <name>Сравнить</name>
     <title>
@@ -1732,7 +1886,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.QueryWizardReplaceTable</picture>
+      <picture>CommonPicture.ЮТСравнить</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1774,7 +1928,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
+      <picture>CommonPicture.ЮТЗапустить</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1816,7 +1970,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
+      <picture>CommonPicture.ЮТЗапустить</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1837,7 +1991,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ЮТУпал</picture>
+      <picture>CommonPicture.ЮТПерезапуститьУпавшие</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

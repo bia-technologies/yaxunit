@@ -10,13 +10,13 @@
     <key>ru</key>
     <value>Реализация утверждений для проверки результатов при тестировании</value>
   </explanation>
+  <content>CommonModule.ЮТЗапросыСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТЗапросыСлужебныйКлиентСервер</content>
+  <content>CommonModule.ЮТПредикаты</content>
+  <content>CommonModule.ЮТПредикатыСлужебныйКлиентСервер</content>
+  <content>CommonModule.ЮТСравнениеСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТСравнениеСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТУтверждения</content>
   <content>CommonModule.ЮТУтвержденияИБ</content>
-  <content>CommonModule.ЮТПредикаты</content>
-  <content>CommonModule.ЮТПредикатыКлиентСервер</content>
-  <content>CommonModule.ЮТЗапросыВызовСервера</content>
-  <content>CommonModule.ЮТЗапросыКлиентСервер</content>
-  <content>CommonModule.ЮТСравнениеСервер</content>
-  <content>CommonModule.ЮТСравнениеКлиентСервер</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>

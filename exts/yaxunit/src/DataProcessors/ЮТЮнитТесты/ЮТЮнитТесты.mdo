@@ -62,7 +62,7 @@
     <group>NavigationPanelImportant</group>
     <representation>PictureAndText</representation>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ЮТПодсистема</picture>
+      <picture>CommonPicture.ЮТЗапустить</picture>
     </picture>
   </commands>
   <commands uuid="608d6673-e26c-4216-bc5f-fc19acdc3baf">

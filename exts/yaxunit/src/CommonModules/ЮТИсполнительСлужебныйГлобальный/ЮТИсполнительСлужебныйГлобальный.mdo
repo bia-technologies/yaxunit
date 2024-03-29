@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c71e5399-4012-43dd-8025-379f4211a16a">
+  <name>ЮТИсполнительСлужебныйГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнитель глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

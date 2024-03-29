@@ -10,9 +10,9 @@
     <key>ru</key>
     <value>Функциональность работы с контекстами</value>
   </explanation>
-  <content>CommonModule.ЮТКонтекст</content>
-  <content>CommonModule.ЮТКонтекстКлиент</content>
+  <content>CommonModule.ЮТКонтекстСлужебный</content>
+  <content>CommonModule.ЮТКонтекстСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТКонтекстСлужебныйКлиент</content>
   <content>CommonModule.ЮТКонтекстТеста</content>
-  <content>CommonModule.ЮТКонтекстСервер</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>

@@ -8,7 +8,7 @@
 | ПланСчетов                 | ПланыСчетов                 | СоздатьСчет           |        | +         | +         |           |         |                    | +              | +                    |
 | ПланВидовРасчета           | ПланыВидовРасчета           | СоздатьВидРасчета     |        | +         | +         |           |         |                    | +              | +                    |
 | ПланОбмена                 | ПланыОбмена                 | СоздатьУзел           |        | +         | +         |           |         |                    | +              | +                    |
-| РегистрСведений            | РегистрыСведений            | СоздатьМенеджерЗаписи |        |           | +         | +         | +       |                    |                | +                    |
+| РегистрСведений            | РегистрыСведений            | СоздатьНаборЗаписей   |        |           | +         | +         | +       |                    |                | +                    |
 | РегистрНакопления          | РегистрыНакопления          |                       |        |           | +         | +         | +       |                    |                | +                    |
 | РегистрБухгалтерии         | РегистрыБухгалтерии         |                       |        |           | +         | +         | +       |                    |                | +                    |
 | РегистрРасчета             | РегистрыРасчета             |                       |        |           | +         | +         | +       |                    |                | +                    |
@@ -23,7 +23,7 @@
 | ChartOfAccounts            | ChartsOfAccounts            | СоздатьСчет           |        | +         | +         |           |         |                    | +              | +                    |
 | ChartOfCalculationTypes    | ChartsOfCalculationTypes    | СоздатьВидРасчета     |        | +         | +         |           |         |                    | +              | +                    |
 | ExchangePlan               | ExchangePlans               | СоздатьУзел           |        | +         | +         |           |         |                    | +              | +                    |
-| InformationRegister        | InformationRegisters        | СоздатьМенеджерЗаписи |        |           | +         | +         | +       |                    |                | +                    |
+| InformationRegister        | InformationRegisters        | СоздатьНаборЗаписей   |        |           | +         | +         | +       |                    |                | +                    |
 | AccumulationRegister       | AccumulationRegisters       |                       |        |           | +         | +         | +       |                    |                | +                    |
 | AccountingRegister         | AccountingRegisters         |                       |        |           | +         | +         | +       |                    |                | +                    |
 | CalculationRegister        | CalculationRegisters        |                       |        |           | +         | +         | +       |                    |                | +                    |

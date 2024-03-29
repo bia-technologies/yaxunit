@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ea1fd8e-8352-4973-a357-c64ccb1b9b5c">
+  <producedTypes>
+    <objectType typeId="4d0c09ec-ea56-4aef-852c-42a99d491406" valueTypeId="ac59e2e1-acef-483b-b47d-b9aa6bcde7cd"/>
+    <managerType typeId="f43e3751-6657-41b5-a060-07b0bcd9b2c0" valueTypeId="66b97e8e-5ab2-4e0b-8e10-a14a755c4e0b"/>
+  </producedTypes>
+  <name>ЮТКонструкторОбъектаXDTO</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор объекта XDTO</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

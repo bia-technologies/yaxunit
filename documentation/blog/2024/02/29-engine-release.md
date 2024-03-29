@@ -24,7 +24,7 @@ tags: [releases, yaxunit]
 
 ### Запуск
 
-* Добавить запуск выделенных тестов в обработке запуска тестов по Ctrl+Enter [#251](https://github.com/bia-technologies/yaxunit/issues/251) Спасибо [@1cgh](\(https://github.com/1cgh)
+* Добавить запуск выделенных тестов в обработке запуска тестов по Ctrl+Enter [#251](https://github.com/bia-technologies/yaxunit/issues/251). Спасибо [@1cgh](https://github.com/1cgh)
 
 ### Отчет о тестировании
 

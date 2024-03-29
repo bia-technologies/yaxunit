@@ -3,7 +3,7 @@
   <name>ОМ_Мокито</name>
   <synonym>
     <key>ru</key>
-    <value>О м мокито</value>
+    <value>Мокито</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

@@ -10,13 +10,14 @@
     <key>ru</key>
     <value>Функциональность запуска тестирования</value>
   </explanation>
-  <content>CommonModule.ЮТИсполнительГлобальный</content>
-  <content>CommonModule.ЮТИсполнительКлиент</content>
-  <content>CommonModule.ЮТИсполнительКлиентСервер</content>
-  <content>CommonModule.ЮТИсполнительСервер</content>
-  <content>CommonModule.ЮТЧитатель</content>
-  <content>CommonModule.ЮТЧитательСервер</content>
-  <content>CommonModule.ЮТФильтрация</content>
-  <content>CommonModule.ЮТПараметрыЗапуска</content>
+  <content>CommonModule.ЮТИсполнительСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТИсполнительСлужебныйГлобальный</content>
+  <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
+  <content>CommonModule.ЮТИсполнительСлужебныйКлиентСервер</content>
+  <content>CommonModule.ЮТПараметрыЗапускаСлужебный</content>
+  <content>CommonModule.ЮТТестыСлужебный</content>
+  <content>CommonModule.ЮТФильтрацияСлужебный</content>
+  <content>CommonModule.ЮТЧитательСлужебный</content>
+  <content>CommonModule.ЮТЧитательСлужебныйВызовСервера</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>
