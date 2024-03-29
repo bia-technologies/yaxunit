@@ -4,10 +4,52 @@
         <title>YAx Unit Blog</title>
         <link>https://bia-technologies.github.io/yaxunit/blog</link>
         <description>YAx Unit Blog</description>
-        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[YaxUnit. Версия 24.03]]></title>
+            <link>https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release</link>
+            <guid>https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release</guid>
+            <pubDate>Fri, 29 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 24.03]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/24.03" target="_blank" rel="noopener noreferrer">Release 24.03</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="документация">Документация<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F" class="hash-link" aria-label="Direct link to Документация" title="Direct link to Документация">​</a></h3>
+<ul>
+<li>Переписана вся <a href="https://bia-technologies.github.io/yaxunit/" target="_blank" rel="noopener noreferrer">документация</a></li>
+<li>Включить поиск по документации <a href="https://github.com/bia-technologies/yaxunit/issues/289" target="_blank" rel="noopener noreferrer">#289</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные">​</a></h3>
+<ul>
+<li>Добавить методы генерации случайной даты <a href="https://github.com/bia-technologies/yaxunit/issues/269" target="_blank" rel="noopener noreferrer">#269</a></li>
+<li>Добавить конструктор объектов для XDTO <a href="https://github.com/bia-technologies/yaxunit/issues/271" target="_blank" rel="noopener noreferrer">#271</a></li>
+<li>Метод <code>ЮТКонструкторТестовыхДанныхСлужебный.Фикция</code> не работает для общих реквизитов <a href="https://github.com/bia-technologies/yaxunit/issues/218" target="_blank" rel="noopener noreferrer">#218</a></li>
+<li>Добавить метод в КонструкторОбъекта для установки реквизитов по коллекции <a href="https://github.com/bia-technologies/yaxunit/issues/249" target="_blank" rel="noopener noreferrer">#249</a></li>
+<li>Поддержка записи в режиме обмен данными загрузка для регистров из конструктора объекта <a href="https://github.com/bia-technologies/yaxunit/issues/270" target="_blank" rel="noopener noreferrer">#270</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения">​</a></h3>
+<ul>
+<li>Добавить утверждение/предикат <code>ВСписке</code> <a href="https://github.com/bia-technologies/yaxunit/issues/283" target="_blank" rel="noopener noreferrer">#283</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее">​</a></h3>
+<ul>
+<li>Добавить возможность задавать разные описания для тестов с параметрами <a href="https://github.com/bia-technologies/yaxunit/issues/276" target="_blank" rel="noopener noreferrer">#276</a></li>
+<li>Сбор лога выполнения теста <a href="https://github.com/bia-technologies/yaxunit/issues/282" target="_blank" rel="noopener noreferrer">#282</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Direct link to Исправленные ошибки" title="Direct link to Исправленные ошибки">​</a></h2>
+<ul>
+<li>Падает с ошибкой создание элемента справочника с настройкой <code>ОбменДаннымиЗагрузка = Истина</code> <a href="https://github.com/bia-technologies/yaxunit/issues/273" target="_blank" rel="noopener noreferrer">#273</a></li>
+<li>При повторном запуске упавшего теста из Предприятия реального вызова не происходит <a href="https://github.com/bia-technologies/yaxunit/issues/248" target="_blank" rel="noopener noreferrer">#248</a></li>
+<li>Исправить описания устаревших методов, чтобы EDT их подсвечивала. <a href="https://github.com/bia-technologies/yaxunit/issues/304" target="_blank" rel="noopener noreferrer">#304</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="важно">Важно<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE" class="hash-link" aria-label="Direct link to Важно" title="Direct link to Важно">​</a></h2>
+<p>Выполнен <strong>рефакторинг</strong> модулей YAxUnit для физического разделения публичного и служебного программного интерфейса.<br>
+<!-- -->Попытался по максимуму сохранить обратную совместимость.</p>]]></content:encoded>
+            <category>releases</category>
+            <category>yaxunit</category>
+        </item>
         <item>
             <title><![CDATA[YaxUnit. Версия 24.02]]></title>
             <link>https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release</link>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[354],{71846:a=>{a.exports=JSON.parse('[{"label":"releases","permalink":"/yaxunit/blog/tags/releases","count":9},{"label":"yaxunit","permalink":"/yaxunit/blog/tags/yaxunit","count":7},{"label":"plugin","permalink":"/yaxunit/blog/tags/plugin","count":2}]')}}]);
