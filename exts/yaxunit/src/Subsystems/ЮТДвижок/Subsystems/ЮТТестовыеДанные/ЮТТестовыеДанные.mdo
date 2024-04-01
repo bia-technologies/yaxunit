@@ -18,6 +18,7 @@
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебныйТаблицыЗначений</content>
+  <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
   <subsystems>ЮТПодражатель</subsystems>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
