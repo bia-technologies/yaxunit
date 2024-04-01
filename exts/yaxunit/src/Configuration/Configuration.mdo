@@ -61,6 +61,8 @@
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
+  <commonModules>CommonModule.ЮТЗависимости</commonModules>
+  <commonModules>CommonModule.ЮТЗависимостиСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ЮТЗапросыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЗапросыСлужебныйКлиентСервер</commonModules>
@@ -108,6 +110,8 @@
   <commonModules>CommonModule.ЮТПредикатыСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТПреобразованияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПроверкиСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТРасширенияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибокСлужебный</commonModules>

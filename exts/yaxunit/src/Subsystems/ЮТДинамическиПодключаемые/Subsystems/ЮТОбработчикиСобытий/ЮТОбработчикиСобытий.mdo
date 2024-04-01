@@ -11,6 +11,7 @@
     <value>Подключаемые обработчики событий тестов</value>
   </explanation>
   <content>CommonModule.МокитоСлужебный</content>
+  <content>CommonModule.ЮТЗависимостиСлужебный</content>
   <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
   <content>CommonModule.ЮТЛогированиеСлужебный</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
