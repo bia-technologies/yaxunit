@@ -355,6 +355,7 @@
           <font xsi:type="core:FontDef">
             <height>8.0</height>
             <bold>true</bold>
+            <font>Style.NormalTextFont</font>
           </font>
         </extInfo>
       </items>
@@ -1443,6 +1444,7 @@
     <verticalStretch>false</verticalStretch>
     <font xsi:type="core:FontDef">
       <height>12.0</height>
+      <font>Style.NormalTextFont</font>
     </font>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
       <horizontalAlign>Left</horizontalAlign>
