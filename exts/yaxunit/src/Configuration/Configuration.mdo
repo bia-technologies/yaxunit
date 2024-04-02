@@ -63,6 +63,7 @@
   <commonModules>CommonModule.ЮТест</commonModules>
   <commonModules>CommonModule.ЮТЗависимости</commonModules>
   <commonModules>CommonModule.ЮТЗависимостиСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТЗависимостиСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЗависимостиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ЮТЗапросыСлужебныйВызовСервера</commonModules>
