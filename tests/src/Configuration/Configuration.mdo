@@ -35,6 +35,7 @@
   <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТЗависимостиСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиентСервер</commonModules>

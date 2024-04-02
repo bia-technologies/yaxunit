@@ -19,6 +19,7 @@
   <content>CommonModule.МокитоПерехват</content>
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.ЮТест</content>
+  <content>CommonModule.ЮТЗависимости</content>
   <content>CommonModule.ЮТЗапросы</content>
   <content>CommonModule.ЮТИсключения</content>
   <content>CommonModule.ЮТКоллекции</content>
