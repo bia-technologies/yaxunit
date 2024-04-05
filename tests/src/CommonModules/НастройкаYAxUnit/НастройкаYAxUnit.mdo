@@ -5,5 +5,6 @@
     <key>ru</key>
     <value>Настройка YAxUnit</value>
   </synonym>
-  <server>true</server>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
