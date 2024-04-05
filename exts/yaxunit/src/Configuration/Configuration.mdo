@@ -30,7 +30,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
-  <subsystems>Subsystem.ЮТДинамическиПодключаемые</subsystems>
+  <subsystems>Subsystem.ЮТПодключаемыеМодули</subsystems>
   <subsystems>Subsystem.ЮТПубличный</subsystems>
   <commonPictures>CommonPicture.ЮТЗапустить</commonPictures>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
@@ -115,6 +115,7 @@
   <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТРасширенияСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТРасширенияСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибокСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСлужебныйПовторногоИспользования</commonModules>

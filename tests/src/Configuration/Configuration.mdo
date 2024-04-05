@@ -22,9 +22,11 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Тесты_ПодключаемыеМодули</subsystems>
   <commonTemplates>CommonTemplate.ЮТ_МакетТестовыхДанных</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_ТестовыеДанныеMarkdown</commonTemplates>
   <commonModules>CommonModule.Интеграция</commonModules>
+  <commonModules>CommonModule.НастройкаYAxUnit</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
@@ -48,6 +50,7 @@
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Компании</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Люди</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПредикатыСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТРасширенияСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСравнениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСтроки</commonModules>

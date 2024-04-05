@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9216c4b-6129-47f8-abda-b37ac0c91680">
-  <name>ЮТОбработчикиСобытий</name>
+  <name>ОбработчикиСобытий</name>
   <synonym>
     <key>ru</key>
     <value>Обработчики событий</value>
@@ -10,11 +10,9 @@
     <key>ru</key>
     <value>Подключаемые обработчики событий тестов</value>
   </explanation>
-  <content>CommonModule.МокитоСлужебный</content>
-  <content>CommonModule.ЮТЗависимостиСлужебный</content>
-  <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
   <content>CommonModule.ЮТЛогированиеСлужебный</content>
-  <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
-  <content>CommonModule.ЮТУтверждения</content>
-  <parentSubsystem>Subsystem.ЮТДинамическиПодключаемые</parentSubsystem>
+  <subsystems>ЗагрузкаТестов</subsystems>
+  <subsystems>Инициализация</subsystems>
+  <subsystems>СобытияИсполненияТестов</subsystems>
+  <parentSubsystem>Subsystem.ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>
