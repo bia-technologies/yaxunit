@@ -6,7 +6,6 @@
     <value>События исполнения тестов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.МокитоСлужебный</content>
   <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>

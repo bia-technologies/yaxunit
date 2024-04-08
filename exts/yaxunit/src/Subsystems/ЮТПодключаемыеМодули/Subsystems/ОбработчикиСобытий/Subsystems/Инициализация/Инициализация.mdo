@@ -6,7 +6,6 @@
     <value>Инициализация</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.ЮТЗависимостиСлужебный</content>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
 </mdclass:Subsystem>

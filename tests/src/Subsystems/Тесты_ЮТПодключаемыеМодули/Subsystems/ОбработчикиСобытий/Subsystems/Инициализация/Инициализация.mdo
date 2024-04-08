@@ -6,7 +6,6 @@
     <value>Инициализация</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.НастройкаYAxUnit</content>
-  <parentSubsystem>Subsystem.Тесты_ПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
+  <parentSubsystem>Subsystem.Тесты_ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
 </mdclass:Subsystem>

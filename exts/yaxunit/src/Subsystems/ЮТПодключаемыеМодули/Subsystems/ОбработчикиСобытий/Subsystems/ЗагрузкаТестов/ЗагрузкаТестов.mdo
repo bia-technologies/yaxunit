@@ -6,6 +6,5 @@
     <value>Загрузка тестов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
 </mdclass:Subsystem>
