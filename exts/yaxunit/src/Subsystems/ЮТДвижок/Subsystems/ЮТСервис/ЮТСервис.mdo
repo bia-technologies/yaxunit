@@ -27,10 +27,10 @@
   <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщийСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТОтчетСлужебный</content>
+  <content>CommonModule.ЮТПодключаемыеМодулиСлужебный</content>
   <content>CommonModule.ЮТПроверкиСлужебный</content>
   <content>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</content>
-  <content>CommonModule.ЮТРасширенияСлужебный</content>
   <content>CommonModule.ЮТРегистрацияОшибок</content>
   <content>CommonModule.ЮТРегистрацияОшибокСлужебный</content>
   <content>CommonModule.ЮТСлужебныйПовторногоИспользования</content>

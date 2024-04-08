@@ -101,6 +101,8 @@
   <commonModules>CommonModule.ЮТОтчетJUnitСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапускаСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПодражатель</commonModules>
   <commonModules>CommonModule.ЮТПодражатель_Банки</commonModules>
   <commonModules>CommonModule.ЮТПодражатель_Компании</commonModules>
@@ -114,8 +116,6 @@
   <commonModules>CommonModule.ЮТПроверкиСлужебный</commonModules>
   <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.ЮТРасширенияСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТРасширенияСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибокСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСлужебныйПовторногоИспользования</commonModules>

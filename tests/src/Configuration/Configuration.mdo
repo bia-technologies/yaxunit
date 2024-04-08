@@ -46,11 +46,11 @@
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетAllureСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетСлужебный</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Банки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Компании</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Люди</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПредикатыСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТРасширенияСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСравнениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСтроки</commonModules>
