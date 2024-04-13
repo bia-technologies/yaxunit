@@ -7,6 +7,10 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ЮТЗависимостиСлужебный</content>
+  <content>CommonModule.ЮТКонтекстИсполненияСлужебныйКлиентСервер</content>
+  <content>CommonModule.ЮТКонтекстСлужебный</content>
   <content>CommonModule.ЮТОкружениеСлужебныйКлиентСервер</content>
+  <content>CommonModule.ЮТПодражательСлужебный</content>
+  <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
 </mdclass:Subsystem>

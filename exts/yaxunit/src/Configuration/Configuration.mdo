@@ -89,7 +89,6 @@
   <commonModules>CommonModule.ЮТЛогированиеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЛогированиеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЛогИсполненияТестаСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТЛокальСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйВызовСервера</commonModules>
