@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b8f0d47-9988-4ec7-bed2-b417de20d600">
+  <name>Инициализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инициализация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЮТЗависимостиСлужебный</content>
+  <parentSubsystem>Subsystem.ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
+</mdclass:Subsystem>

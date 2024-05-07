@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a9c1b21-9df7-4a67-8cd6-e488ca8d3432">
+  <name>ОбработчикиСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики событий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>Инициализация</subsystems>
+  <parentSubsystem>Subsystem.Тесты_ЮТПодключаемыеМодули</parentSubsystem>
+</mdclass:Subsystem>

@@ -11,19 +11,27 @@
     <value>Сервисная функциональность работы движка</value>
   </explanation>
   <content>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</content>
+  <content>CommonModule.ЮТЗависимости</content>
+  <content>CommonModule.ЮТЗависимостиСлужебный</content>
   <content>CommonModule.ЮТИсключения</content>
   <content>CommonModule.ЮТКомпоненты</content>
   <content>CommonModule.ЮТКомпонентыСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТКомпонентыСлужебныйКлиент</content>
   <content>CommonModule.ЮТЛогированиеСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТЛогИсполненияТестаСлужебный</content>
   <content>CommonModule.ЮТЛокальСлужебный</content>
+  <content>CommonModule.ЮТМетаданныеСлужебный</content>
   <content>CommonModule.ЮТМетаданныеСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТМетаданныеСлужебныйПовтИсп</content>
+  <content>CommonModule.ЮТМетодыСлужебный</content>
   <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщийСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТОтчетСлужебный</content>
+  <content>CommonModule.ЮТПодключаемыеМодулиСлужебный</content>
   <content>CommonModule.ЮТПроверкиСлужебный</content>
-  <content>CommonModule.ЮТРасширенияСлужебный</content>
+  <content>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</content>
+  <content>CommonModule.ЮТРегистрацияОшибок</content>
   <content>CommonModule.ЮТРегистрацияОшибокСлужебный</content>
   <content>CommonModule.ЮТСлужебныйПовторногоИспользования</content>
   <content>CommonModule.ЮТСобытияСлужебный</content>
@@ -31,15 +39,19 @@
   <content>CommonModule.ЮТТипыДанныхСлужебный</content>
   <content>CommonModule.ЮТФабрикаСлужебный</content>
   <content>CommonModule.ЮТФайлы</content>
+  <content>CommonPicture.ЮТЗапустить</content>
   <content>CommonPicture.ЮТНеизвестный</content>
   <content>CommonPicture.ЮТОшибка</content>
+  <content>CommonPicture.ЮТПерезапуститьУпавшие</content>
   <content>CommonPicture.ЮТПодсистема</content>
   <content>CommonPicture.ЮТПропущен</content>
+  <content>CommonPicture.ЮТСравнить</content>
   <content>CommonPicture.ЮТУпал</content>
   <content>CommonPicture.ЮТУспешно</content>
   <content>CommonPicture.ЮТЭлементыТестов</content>
   <content>CommonTemplate.ЮТRegEx1CAddin</content>
   <content>CommonTemplate.ЮТYaxUnitAddIn</content>
+  <content>CommonTemplate.ЮТИнформацияОбОшибке</content>
   <content>CommonTemplate.ЮТОписаниеМетаданных</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>

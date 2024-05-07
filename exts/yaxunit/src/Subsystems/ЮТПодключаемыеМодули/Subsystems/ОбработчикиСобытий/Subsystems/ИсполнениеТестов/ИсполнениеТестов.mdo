@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d7cb216-f07c-48e3-8a0f-674ac9cca6f0">
+  <name>ИсполнениеТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнение тестов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МокитоСлужебный</content>
+  <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
+  <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
+  <content>CommonModule.ЮТУтверждения</content>
+  <parentSubsystem>Subsystem.ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="757f2b32-7da8-42d9-af13-87e75a9d24dd">
+  <name>НастройкаYAxUnit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка YAxUnit</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

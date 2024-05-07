@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81ef3186-2f6c-457c-8b1c-f69512b84960">
+  <name>Тесты_ЮТПодключаемыеМодули</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые модули</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>ОбработчикиСобытий</subsystems>
+</mdclass:Subsystem>

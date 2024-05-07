@@ -20,7 +20,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>24.03</version>
+  <version>24.04</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -30,7 +30,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЮТДвижок</subsystems>
-  <subsystems>Subsystem.ЮТДинамическиПодключаемые</subsystems>
+  <subsystems>Subsystem.ЮТПодключаемыеМодули</subsystems>
   <subsystems>Subsystem.ЮТПубличный</subsystems>
   <commonPictures>CommonPicture.ЮТЗапустить</commonPictures>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
@@ -61,6 +61,10 @@
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
+  <commonModules>CommonModule.ЮТЗависимости</commonModules>
+  <commonModules>CommonModule.ЮТЗависимостиСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТЗависимостиСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЗависимостиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ЮТЗапросыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЗапросыСлужебныйКлиентСервер</commonModules>
@@ -97,6 +101,8 @@
   <commonModules>CommonModule.ЮТОтчетJUnitСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапускаСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПодражатель</commonModules>
   <commonModules>CommonModule.ЮТПодражатель_Банки</commonModules>
   <commonModules>CommonModule.ЮТПодражатель_Компании</commonModules>
@@ -108,7 +114,8 @@
   <commonModules>CommonModule.ЮТПредикатыСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТПреобразованияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПроверкиСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТРасширенияСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибокСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСлужебныйПовторногоИспользования</commonModules>
