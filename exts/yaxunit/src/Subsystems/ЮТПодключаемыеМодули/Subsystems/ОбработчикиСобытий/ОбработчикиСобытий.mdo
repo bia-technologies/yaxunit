@@ -13,6 +13,6 @@
   <content>CommonModule.ЮТЛогированиеСлужебный</content>
   <subsystems>ЗагрузкаТестов</subsystems>
   <subsystems>Инициализация</subsystems>
-  <subsystems>СобытияИсполненияТестов</subsystems>
+  <subsystems>ИсполнениеТестов</subsystems>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>
