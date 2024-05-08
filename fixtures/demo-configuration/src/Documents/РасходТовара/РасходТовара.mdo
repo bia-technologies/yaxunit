@@ -107,6 +107,7 @@
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.ТоварныеЗапасы</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccountingRegister.Основной</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="6a0d444b-cd90-4c14-a9d4-dd6fa17e1ea7">
