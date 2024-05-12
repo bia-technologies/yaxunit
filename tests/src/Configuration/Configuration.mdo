@@ -65,6 +65,7 @@
   <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПомощникТестированияВызовСервера</commonModules>
+  <commonModules>CommonModule.ТегиТестов</commonModules>
   <commonModules>CommonModule.ТестовыеДанные</commonModules>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.Товары</catalogs>
