@@ -100,6 +100,7 @@
   <commonModules>CommonModule.ЮТОтчетJSONСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnitСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТОтчетСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапускаСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>
