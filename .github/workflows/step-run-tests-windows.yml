@@ -120,5 +120,3 @@ jobs:
         report_paths: reports/report.xml
         fail_on_failure: ${{ inputs.fail_on_failure }}
         require_passed_tests: true
-        test_files_prefix: tests/src/CommonModules
-        check_annotations: true
