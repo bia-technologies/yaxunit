@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: install EDT
-      uses: IT-Medved/onec-setup-build-env-action@develop
+      uses: alkoleft/onec-setup-build-env-action@develop
       with:
         type: edt
         edt_version: ${{ inputs.edt_version }}
