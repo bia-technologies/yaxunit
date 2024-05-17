@@ -122,4 +122,3 @@ jobs:
         require_passed_tests: true
         test_files_prefix: tests/src/CommonModules
         check_annotations: true
-        transformers: [{"searchValue":"::","replaceValue":"/"}]
