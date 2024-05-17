@@ -6,5 +6,6 @@
     <value>Загрузка тестов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЮТТестыСлужебный</content>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
 </mdclass:Subsystem>
