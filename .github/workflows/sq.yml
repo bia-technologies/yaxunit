@@ -49,7 +49,7 @@ jobs:
       # https://docs.sonarqube.org/latest/analysis/pull-request/
     - name: Анализ в SonarQube (pull-request)
       if: github.event_name == 'pull_request'
-      uses: dieuhd/sonar-quality-gate@v1
+      uses: alkoleft/sonar-quality-gate@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         GIT_URL: "https://api.github.com"
