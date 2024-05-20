@@ -45,18 +45,16 @@ jobs:
           -Dsonar.projectVersion=${{ steps.extract_version.outputs.version }}
           -Dsonar.qualitygate.wait=true
           -Dsonar.qualitygate.timeout=300
-      # Анализ проекта в SonarQube (PR)
+      
       # https://docs.sonarqube.org/latest/analysis/pull-request/
     - name: Анализ в SonarQube (pull-request)
       if: github.event_name == 'pull_request'
+      uses: dieuhd/sonar-quality-gate@v1
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: sonar-scanner
-          -Dsonar.host.url=https://sonar.openbsl.ru
-          -Dsonar.pullrequest.key=${{ github.event.pull_request.number }}
-          -Dsonar.pullrequest.branch=${{ github.event.pull_request.head.ref }}
-          -Dsonar.pullrequest.base=${{ github.event.pull_request.base.ref }}
-          -Dsonar.scm.revision=${{ github.event.pull_request.head.sha }}
-          -Dsonar.qualitygate.wait=true
-          -Dsonar.qualitygate.timeout=300
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        GIT_URL: "https://api.github.com"
+        GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_URL: https://sonar.openbsl.ru
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        GITHUB_REPOSITORY: bia-technologies/yaxunit
+        CI_MERGE_REQUEST_IID: ${{ github.event.pull_request.number }}
