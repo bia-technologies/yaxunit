@@ -185,8 +185,6 @@
 // Возвращаемое значение:
 //  Массив из Произвольный - Массив параметров
 //@skip-check method-too-many-params
-// BSLLS:NumberOfOptionalParams-off
-// BSLLS:NumberOfParams-off
 Функция МассивПараметров(Параметр1 = "_!%*",
 						 Параметр2 = "_!%*",
 						 Параметр3 = "_!%*",
@@ -210,9 +208,6 @@
 										 Параметр10);
 	
 КонецФункции
-
-// BSLLS:NumberOfParams-on
-// BSLLS:NumberOfOptionalParams-on
 
 // Возвращает идентификатор значения входного параметра по умолчанию.
 //
