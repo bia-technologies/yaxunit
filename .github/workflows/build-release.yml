@@ -1,0 +1,73 @@
+name: Build release
+on:
+  push:
+    tags:
+      - '*'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-release
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  export_to_designer:
+    name: Export to designer xml
+    uses: ./.github/workflows/step-export-xml.yml
+    with:
+      edt_version: 2023.1.2
+      artifact_name: designer-src
+      engine_only: true
+    secrets: inherit
+  
+  build_artifacts:
+    runs-on: ubuntu-latest
+    needs: export_to_designer
+    
+    steps:
+      - name: install 8.3.21.1895
+        uses: alkoleft/onec-setup-build-env-action@develop
+        with:
+          type: onec
+          onec_version: 8.3.21.1895
+          cache: true
+        env: 
+          ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+          ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+        timeout-minutes: 10
+          
+      - name: download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: designer-src
+      - name: extract artifacts
+        run: |
+          mkdir export
+          cd export
+          7z x ../export.7z -y
+
+      - name: create IB
+        run: ibcmd infobase create --db-path=file-db
+        timeout-minutes: 5
+  
+      - name: import yaxunit
+        run: ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export/yaxunit
+        timeout-minutes: 5
+    
+      - name: save yaxunit
+        run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT YAxUnit-${{ needs.export_to_designer.outputs.yaxunit_version }}.cfe
+        timeout-minutes: 5
+        
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: ${{ success() }}
+        with:
+          draft: true
+          files: YAxUnit-*.cfe
+          fail_on_unmatched_files: true
+          generate_release_notes: true
+          append_body: false
+          name: Версия ${{ needs.export_to_designer.outputs.yaxunit_version }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
