@@ -26,6 +26,7 @@
   <content>CommonModule.ЮТМетодыСлужебный</content>
   <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщийСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТОкружениеСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТОтчетСлужебный</content>
   <content>CommonModule.ЮТПодключаемыеМодулиСлужебный</content>
   <content>CommonModule.ЮТПроверкиСлужебный</content>
