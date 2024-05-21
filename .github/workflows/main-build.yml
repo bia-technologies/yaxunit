@@ -4,13 +4,12 @@ on:
     branches: 
       - feature/**
       - develop
-    tags:
-      - '*'
+
   pull_request_target:
     branches: [ develop ]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-main
   cancel-in-progress: true
 
 permissions:
@@ -66,9 +65,3 @@ jobs:
       v8_version: ${{ matrix.v8_version }}
       locale: ${{ matrix.locale }}
     secrets: inherit
-
-  publish_artifacts:
-    name: Publish draft release
-    if: ${{ startsWith(github.ref, 'refs/tags/') && success() }}
-    uses: ./.github/workflows/step-publish-artifacts.yml
-    needs: build_artifacts
