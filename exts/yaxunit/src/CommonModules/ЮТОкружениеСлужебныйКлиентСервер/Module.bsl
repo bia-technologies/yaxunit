@@ -75,7 +75,7 @@
 #КонецЕсли
 	
 	//@skip-check use-non-recommended-method
-	Окружение.Вставить("ВремяЗапуска", ТекущаяДата());
+	Окружение.Вставить("ВремяЗапуска", ТекущаяДата()); // BSLLS:DeprecatedCurrentDate-off
 	
 	//@skip-check constructor-function-return-section
 	Возврат Окружение;
