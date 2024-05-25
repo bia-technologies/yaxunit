@@ -96,6 +96,7 @@
   <commonModules>CommonModule.ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТОкружениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТОтчетAllureСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетJSONСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnitСлужебный</commonModules>
