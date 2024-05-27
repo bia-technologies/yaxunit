@@ -17,6 +17,7 @@
   <content>CommonModule.ЮТКомпоненты</content>
   <content>CommonModule.ЮТКомпонентыСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТКомпонентыСлужебныйКлиент</content>
+  <content>CommonModule.ЮТКонтекстИсполненияСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТЛогированиеСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТЛогИсполненияТестаСлужебный</content>
   <content>CommonModule.ЮТЛокальСлужебный</content>
