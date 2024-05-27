@@ -83,9 +83,7 @@ jobs:
             "closeAfterTests": true,
             "exitCode": "exit-code.txt",
             "logging": {
-              "enable": false,
-              "console": true,
-              "file": "execute.log"
+              "console": true
             }
           }
     
