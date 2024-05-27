@@ -128,7 +128,6 @@
   <commonModules>CommonModule.ЮТСравнениеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТСтроки</commonModules>
-  <commonModules>CommonModule.ЮТСтруктураТестов</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебныйВызовСервера</commonModules>
