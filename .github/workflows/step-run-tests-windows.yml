@@ -90,7 +90,7 @@ jobs:
     - name: set short_locale
       id: short_locale
       run: |
-        Write-Output "substring=" + '${{ inputs.locale }}'.Substring(0, 2) >> $Env:GITHUB_OUTPUT
+        Write-Output "substring='$(${{ inputs.locale }}'.Substring(0, 2))" >> $Env:GITHUB_OUTPUT
 
     - name: Test
       run: |
