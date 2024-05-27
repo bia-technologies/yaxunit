@@ -8,6 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.МокитоСлужебный</content>
   <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
+  <content>CommonModule.ЮТКонтекстИсполненияСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТТестовыеДанныеСлужебный</content>
   <content>CommonModule.ЮТУтверждения</content>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>

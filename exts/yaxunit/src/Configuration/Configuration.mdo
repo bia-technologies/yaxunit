@@ -73,12 +73,14 @@
   <commonModules>CommonModule.ЮТИсполнительСлужебныйГлобальный</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЮТИсполнительСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТКоллекции</commonModules>
   <commonModules>CommonModule.ЮТКомпоненты</commonModules>
   <commonModules>CommonModule.ЮТКомпонентыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТКомпонентыСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТКонтекстИсполненияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебныйКлиент</commonModules>
