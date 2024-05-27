@@ -72,6 +72,7 @@
 //@skip-check method-too-many-params
 // BSLLS:NumberOfOptionalParams-off
 // BSLLS:NumberOfParams-off
+// BSLLS:DuplicateStringLiteral-off
 Функция МассивПараметров(Параметр1 = "_!%*",
 						 Параметр2 = "_!%*",
 						 Параметр3 = "_!%*",
@@ -96,5 +97,8 @@
 														 Параметр10);
 	
 КонецФункции
+// BSLLS:DuplicateStringLiteral-on
+// BSLLS:NumberOfParams-on
+// BSLLS:NumberOfOptionalParams-on
 
 #КонецОбласти

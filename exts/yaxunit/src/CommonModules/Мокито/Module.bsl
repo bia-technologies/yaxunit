@@ -188,6 +188,7 @@
 //@skip-check method-too-many-params
 // BSLLS:NumberOfOptionalParams-off
 // BSLLS:NumberOfParams-off
+// BSLLS:DuplicateStringLiteral-off
 Функция МассивПараметров(Параметр1 = "_!%*",
 						 Параметр2 = "_!%*",
 						 Параметр3 = "_!%*",
@@ -199,7 +200,7 @@
 						 Параметр9 = "_!%*",
 						 Параметр10 = "_!%*") Экспорт
 	
-	Возврат ЮТОбщийСлужебный.ЗначениеВМассивеПоУмолчанию(Мокито.ЛюбойПараметр(),
+	Возврат ЮТОбщийСлужебный.ЗначениеВМассивеПоУмолчанию(ЛюбойПараметр(),
 														 Параметр1,
 														 Параметр2,
 														 Параметр3,
@@ -212,7 +213,7 @@
 														 Параметр10);
 	
 КонецФункции
-
+// BSLLS:DuplicateStringLiteral-on
 // BSLLS:NumberOfParams-on
 // BSLLS:NumberOfOptionalParams-on
 
