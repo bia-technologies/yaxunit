@@ -28,8 +28,10 @@
   <content>CommonModule.ЮТКонтекстТеста</content>
   <content>CommonModule.ЮТЛогирование</content>
   <content>CommonModule.ЮТМетаданные</content>
+  <content>CommonModule.ЮТМетоды</content>
   <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщий</content>
+  <content>CommonModule.ЮТОкружение</content>
   <content>CommonModule.ЮТПодражатель</content>
   <content>CommonModule.ЮТПодражатель_Банки</content>
   <content>CommonModule.ЮТПодражатель_Компании</content>

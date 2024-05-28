@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Содержит функциональности мокирования данных</value>
   </explanation>
+  <content>CommonModule.Мокито</content>
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПерехват</content>
   <content>CommonModule.МокитоПроверки</content>
