@@ -6,6 +6,7 @@
     <value>Обработчики событий</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>ЗагрузкаТестов</subsystems>
   <subsystems>Инициализация</subsystems>
   <parentSubsystem>Subsystem.Тесты_ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>
