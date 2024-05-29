@@ -28,10 +28,19 @@ jobs:
     outputs:
       yaxunit_version: ${{ steps.extract_version.outputs.version }}
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Extract version
+    - name: Checkout PR
+      if: github.event_name == 'pull_request_target' || github.event_name == 'pull_request'
+      uses: actions/checkout@v4
+      with:
+        # Для поддержки pull_request и pull_request_target
+        # https://github.com/android-password-store/Android-Password-Store/pull/1247
+        ref: refs/pull/${{ github.event.number }}/merge
+      
+    - name: Checkout ${{github.ref}}
       if: github.event_name == 'push'
+      uses: actions/checkout@v4
+
+    - name: Extract version
       shell: bash
       run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
       id: extract_version
