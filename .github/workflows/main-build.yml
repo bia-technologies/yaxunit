@@ -1,23 +1,26 @@
 name: Build and test
 on:
   push:
-    branches: [ feature/**, develop ]
+    branches: 
+      - feature/**
+      - develop
+
   pull_request_target:
     branches: [ develop ]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-main
   cancel-in-progress: true
 
 permissions:
-    contents: read
+    contents: write
     checks: write
     id-token: write
 
 jobs:
   export_to_designer:
     name: Export to designer xml
-    uses: ./.github/workflows/export-xml.yml
+    uses: ./.github/workflows/step-export-xml.yml
     with:
       edt_version: 2023.1.2
       artifact_name: designer-src
@@ -25,44 +28,40 @@ jobs:
   
   build_artifacts:
     name: Build artifacts
-    uses: ./.github/workflows/build-on-windows.yml
+    uses: ./.github/workflows/step-build-artifacts-windows.yml
     needs: export_to_designer
     with:
       v8_version: 8.3.21.1895
     secrets: inherit
-  
-  tests_linux_ru:
-    name: Tests Linux 8.3.21.1895 ru_RU
-    uses: ./.github/workflows/run-tests-linux.yml
-    if: github.ref == 'refs/heads/develop'
+
+  tests_windows:
+    strategy:
+      fail-fast: false
+      matrix:
+        v8_version:
+          - 8.3.21.1895
+        locale:
+          - ru_RU
+          - en_US
+    uses: ./.github/workflows/step-run-tests-windows.yml
     needs: build_artifacts
     with:
-      v8_version: 8.3.21.1895
+      v8_version: ${{ matrix.v8_version }}
+      locale: ${{ matrix.locale }}
     secrets: inherit
-  
-  tests_linux_en:
-    name: Tests Linux 8.3.21.1895 en_US
-    uses: ./.github/workflows/run-tests-linux.yml
-    if: github.ref == 'refs/heads/develop'
+
+  tests_linux:
+    strategy:
+      fail-fast: false
+      matrix:
+        v8_version:
+          - 8.3.21.1895
+        locale:
+          - ru_RU
+          - en_US
+    uses: ./.github/workflows/step-run-tests-linux.yml
     needs: build_artifacts
     with:
-      v8_version: 8.3.21.1895
-      locale: en_US
-    secrets: inherit
-  
-  tests_windows_ru:
-    name: Tests Windows 8.3.21.1895 ru_RU
-    uses: ./.github/workflows/run-tests-windows.yml
-    needs: build_artifacts
-    with:
-      v8_version: 8.3.21.1895
-      locale: ru_RU
-    secrets: inherit
-  tests_windows_en:
-    name: Tests Windows 8.3.21.1895 en_US
-    uses: ./.github/workflows/run-tests-windows.yml
-    needs: build_artifacts
-    with:
-      v8_version: 8.3.21.1895
-      locale: en_US
+      v8_version: ${{ matrix.v8_version }}
+      locale: ${{ matrix.locale }}
     secrets: inherit

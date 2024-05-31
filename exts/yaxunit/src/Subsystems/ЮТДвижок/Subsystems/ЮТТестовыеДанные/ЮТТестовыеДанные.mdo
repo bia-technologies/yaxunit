@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Реализация генерации и работы с тестовыми данными</value>
   </explanation>
+  <content>CommonModule.ЮТЗапросы</content>
   <content>CommonModule.ЮТКонструкторВариантов</content>
   <content>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</content>
   <content>CommonModule.ЮТПреобразованияСлужебный</content>

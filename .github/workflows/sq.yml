@@ -1,6 +1,8 @@
 name: sq-analyze
 
-on: [push, pull_request]
+on: 
+  - push
+  # - pull_request
 
 jobs:
   SonarScanner:
@@ -8,7 +10,7 @@ jobs:
     if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.event.repository.full_name
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
           repository: ${{ github.event.workflow_run.head_repository.full_name }}
           ref: ${{ github.event.workflow_run.head_branch }}
@@ -31,7 +33,7 @@ jobs:
       id: extract_version
 
     - name: Setup sonarqube
-      uses: warchant/setup-sonar-scanner@v3
+      uses: warchant/setup-sonar-scanner@v8
         
     # Анализ проекта в SonarQube (ветка)
     - name: Анализ в SonarQube (branch)

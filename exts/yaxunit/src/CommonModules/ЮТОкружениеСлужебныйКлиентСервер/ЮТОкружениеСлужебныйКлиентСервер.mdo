@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f53b66d1-d3a6-48ff-86e3-d684d219a58d">
+  <name>ЮТОкружениеСлужебныйКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окружение служебный</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

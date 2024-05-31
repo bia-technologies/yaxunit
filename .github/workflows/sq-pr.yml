@@ -1,0 +1,29 @@
+name: Анализ в SonarQube (pull-request)
+
+on: 
+  - pull_request
+  # - pull_request_target Не поддерживается 1CDevFlow/sonar-quality-gate и sonarqube-community-branch-plugin, необходимо доработать action
+jobs:
+  SonarScanner:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout PR
+      uses: actions/checkout@v4
+      with:
+        # Для поддержки pull_request и pull_request_target
+        # https://github.com/android-password-store/Android-Password-Store/pull/1247
+        ref: refs/pull/${{ github.event.number }}/merge
+        fetch-depth: 0
+
+    # https://docs.sonarqube.org/latest/analysis/pull-request/
+    - name: Analyze (pull-request)
+      uses: 1CDevFlow/sonar-quality-gate@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        GIT_URL: "https://api.github.com"
+        GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_URL: https://sonar.openbsl.ru
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        GITHUB_REPOSITORY: bia-technologies/yaxunit
+        CI_MERGE_REQUEST_IID: ${{ github.event.number }}
+        DEBUG: ${{ runner.debug }}

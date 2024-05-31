@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="149eef4c-8401-420e-a2a5-2837ef33b225">
+  <producedTypes>
+    <selectionType typeId="ba35cb1d-6a8c-4454-a8d7-a0c24d90c5c3" valueTypeId="5a2723bc-0237-4d4d-883b-24aa4bae3c94"/>
+    <listType typeId="815336ca-7a6e-4574-84b8-ee246652b1ee" valueTypeId="97b368de-f614-4143-930f-c154945dab89"/>
+    <managerType typeId="ce64e69d-8656-48fc-a4e8-98ff8f9b9ce0" valueTypeId="a33113e0-2ab1-42cf-aeee-bf359b325527"/>
+    <recordSetType typeId="a63bf657-6f03-4252-b5a8-cd02f7afe241" valueTypeId="8eb83090-79b5-4a2d-96c5-d84e22924bb9"/>
+    <recordKeyType typeId="cc9dfe74-8c02-4b5a-997c-e2f91892ad13" valueTypeId="e5fac3c0-7f12-46c1-8a41-03ef0236b0f8"/>
+    <recordType typeId="860baa10-ae60-4918-8e81-0dd89ee312bb" valueTypeId="1e310e03-5435-4013-b6f7-43494a47b29c"/>
+    <extDimensionsType typeId="129de268-d5c3-456d-8bf4-881fdc6c20b1" valueTypeId="bc3c6cb7-8ade-44b6-b1f2-b061a68b7fcb"/>
+  </producedTypes>
+  <name>Основной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Основной</chartOfAccounts>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="c5b5f415-f501-417a-bd1a-71491cbb3a5d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <resources uuid="a44be632-022a-49e2-b349-4c5b20ff7951">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

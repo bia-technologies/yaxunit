@@ -40,7 +40,7 @@ jobs:
       timeout-minutes: 10
         
     - name: download artifact
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: ${{ inputs.src_artifact_name }}
       
@@ -75,7 +75,7 @@ jobs:
       timeout-minutes: 5
       
     - name: upload-artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.artifact_name }}
         path: binary\*.*

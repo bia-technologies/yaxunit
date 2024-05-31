@@ -94,6 +94,7 @@
   <defaultListForm>Document.ПриходТовара.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ТоварныеЗапасы</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccountingRegister.Основной</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="5f0a6f85-c742-4946-81ce-a6461b6b55ab">

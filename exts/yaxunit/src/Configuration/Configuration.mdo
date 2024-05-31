@@ -20,7 +20,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>24.04</version>
+  <version>24.05</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -73,12 +73,14 @@
   <commonModules>CommonModule.ЮТИсполнительСлужебныйГлобальный</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЮТИсполнительСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТКоллекции</commonModules>
   <commonModules>CommonModule.ЮТКомпоненты</commonModules>
   <commonModules>CommonModule.ЮТКомпонентыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТКомпонентыСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТКонтекстИсполненияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебныйКлиент</commonModules>
@@ -87,19 +89,23 @@
   <commonModules>CommonModule.ЮТЛогированиеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЛогированиеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЛогИсполненияТестаСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТЛокальСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ЮТМетоды</commonModules>
   <commonModules>CommonModule.ЮТМетодыСлужебный</commonModules>
   <commonModules>CommonModule.ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
+  <commonModules>CommonModule.ЮТОбщийСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОбщийСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТОкружение</commonModules>
+  <commonModules>CommonModule.ЮТОкружениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТОтчетAllureСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетJSONСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnitСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТОтчетСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапускаСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>

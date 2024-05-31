@@ -37,7 +37,7 @@ jobs:
     steps:
 
     - name: download artifact
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: ${{ inputs.artifact_name }}
         path: binary
@@ -83,17 +83,15 @@ jobs:
             "closeAfterTests": true,
             "exitCode": "exit-code.txt",
             "logging": {
-              "enable": false,
-              "console": true,
-              "file": "execute.log"
+              "console": true
             }
           }
     
-    - uses: bhowell2/github-substring-action@1.0.2
+    - name: set short_locale
       id: short_locale
-      with:
-        value: ${{ inputs.locale }}
-        length_from_start: 2
+      run: |
+        Write-Output "substring=$('${{ inputs.locale }}'.Substring(0, 2))" >> $Env:GITHUB_OUTPUT
+
     - name: Test
       run: |
         Start-Process ibsrv.exe -ArgumentList "--data=data"
@@ -109,13 +107,13 @@ jobs:
       run: type 1cv8c-output.log
     
     - name: upload-artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Tests report. Windows ${{ inputs.v8_version }} ${{ inputs.locale }}
         path: reports/
             
     - name: Publish Test Report
-      uses: mikepenz/action-junit-report@v3
+      uses: 1CDevFlow/action-onec-junit-report@main
       with:
         job_name: Tests Windows ${{ inputs.v8_version }} ${{ inputs.locale }}
         check_name: Tests report. Windows ${{ inputs.v8_version }} ${{ inputs.locale }}

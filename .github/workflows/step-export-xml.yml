@@ -9,19 +9,44 @@ on:
       artifact_name:
         type: string
         required: true
+      
+      engine_only:
+        type: boolean
+        required: false
+        default: false
+    outputs:
+      yaxunit_version:
+        value: ${{ jobs.export.outputs.yaxunit_version }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-export
   cancel-in-progress: true
 
 jobs:
-  build:
+  export:
     runs-on: ubuntu-latest
+    outputs:
+      yaxunit_version: ${{ steps.extract_version.outputs.version }}
     steps:
-    - uses: actions/checkout@v3
-    
+    - name: Checkout PR
+      if: github.event_name == 'pull_request_target' || github.event_name == 'pull_request'
+      uses: actions/checkout@v4
+      with:
+        # Для поддержки pull_request и pull_request_target
+        # https://github.com/android-password-store/Android-Password-Store/pull/1247
+        ref: refs/pull/${{ github.event.number }}/merge
+      
+    - name: Checkout ${{github.ref}}
+      if: github.event_name == 'push'
+      uses: actions/checkout@v4
+
+    - name: Extract version
+      shell: bash
+      run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
+      id: extract_version
+
     - name: install EDT
-      uses: IT-Medved/onec-setup-build-env-action@develop
+      uses: alkoleft/onec-setup-build-env-action@develop
       with:
         type: edt
         edt_version: ${{ inputs.edt_version }}
@@ -29,9 +54,10 @@ jobs:
       env: 
         ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
-      timeout-minutes: 10
+      timeout-minutes: 30
         
     - name: convert configuration src
+      if: ${{ !inputs.engine_only }}
       uses: alkoleft/onec-edtcli-command-action@main
       with:
         export: true
@@ -50,6 +76,7 @@ jobs:
       timeout-minutes: 10
       
     - name: convert tests src
+      if: ${{ !inputs.engine_only }}
       uses: alkoleft/onec-edtcli-command-action@main
       with:
         export: true
@@ -63,7 +90,7 @@ jobs:
         7za a -t7z ../export.7z ./
 
     - name: upload-artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.artifact_name }}
         path: export.7z
