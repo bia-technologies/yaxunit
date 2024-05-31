@@ -1,12 +1,15 @@
 name: Анализ в SonarQube (pull-request)
 
 on: 
-  - pull_request
-  # - pull_request_target Не поддерживается 1CDevFlow/sonar-quality-gate и sonarqube-community-branch-plugin, необходимо доработать action
+  - pull_request_target
 jobs:
   SonarScanner:
     runs-on: ubuntu-latest
     steps:
+    - name: Dump GitHub context
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: echo "$GITHUB_CONTEXT"
     - name: Checkout PR
       uses: actions/checkout@v4
       with:
@@ -18,12 +21,15 @@ jobs:
     # https://docs.sonarqube.org/latest/analysis/pull-request/
     - name: Analyze (pull-request)
       uses: 1CDevFlow/sonar-quality-gate@master
+      with:
+        sonarBranchPlugin: true
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         GIT_URL: "https://api.github.com"
-        GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_URL: https://sonar.openbsl.ru
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         GITHUB_REPOSITORY: bia-technologies/yaxunit
-        CI_MERGE_REQUEST_IID: ${{ github.event.number }}
         DEBUG: ${{ runner.debug }}
+        GITHUB_REF: refs/pull/${{ github.event.number }}/merge
+        GITHUB_BASE_REF: ${{ github.event.pull_request.base.ref }}
+        GITHUB_HEAD_REF: ${{ github.event.pull_request.head.ref }}
