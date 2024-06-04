@@ -1,56 +1,57 @@
-name: sq-analyze
+name: SonarQualityGate
 
 on: 
   - push
-  # - pull_request
+  - pull_request_target
 
 jobs:
-  SonarScanner:
+  SonarQualityGate:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.event.repository.full_name
     steps:
-    - name: Checkout
+
+    - name: Checkout PR
+      if: github.event_name != 'push'
       uses: actions/checkout@v4
       with:
-          repository: ${{ github.event.workflow_run.head_repository.full_name }}
-          ref: ${{ github.event.workflow_run.head_branch }}
-          fetch-depth: 0
+        ref: refs/pull/${{ github.event.number }}/merge # Для поддержки pull_request и pull_request_target
+      
+    - name: Checkout ${{ github.ref_name }}
+      if: github.event_name == 'push'
+      uses: actions/checkout@v4
+
     - name: Configure env vars for SonarCloud scan
       env:  
         ACTIONS_ALLOW_UNSECURE_COMMANDS: true
       run: |
         echo "::set-env name=PATH::/opt/sonar-scanner/bin:$PATH"
     
-    - name: Compute branch name
-      env:  
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-      uses: nixel2007/branch-name@v3
-    
     - name: Extract version
       if: github.event_name == 'push'
       shell: bash
-      run: echo "##[set-output name=version;]` cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+'`"
+      run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
       id: extract_version
 
     - name: Setup sonarqube
       uses: warchant/setup-sonar-scanner@v8
         
     # Анализ проекта в SonarQube (ветка)
-    - name: Анализ в SonarQube (branch)
+    - name: Анализ в SonarQube (${{ github.ref_name }})
       if: github.event_name == 'push'
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: sonar-scanner
           -Dsonar.host.url=https://sonar.openbsl.ru
-          -Dsonar.branch.name=${{ env.BRANCH_NAME }}
+          -Dsonar.branch.name=${{ github.ref_name }}
           -Dsonar.projectVersion=${{ steps.extract_version.outputs.version }}
           -Dsonar.qualitygate.wait=true
           -Dsonar.qualitygate.timeout=300
+
       # Анализ проекта в SonarQube (PR)
       # https://docs.sonarqube.org/latest/analysis/pull-request/
-    - name: Анализ в SonarQube (pull-request)
-      if: github.event_name == 'pull_request'
+    - name: Анализ в SonarQube (pull-request ${{ github.event.number }})
+      if: github.event_name != 'push'
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
@@ -62,3 +63,12 @@ jobs:
           -Dsonar.scm.revision=${{ github.event.pull_request.head.sha }}
           -Dsonar.qualitygate.wait=true
           -Dsonar.qualitygate.timeout=300
+
+    - name: Publish report (pull-request)
+      if: github.event_name != 'push' && (success()||failure())
+      uses: 1CDevFlow/sonar-review-action@main
+      with:
+        sonar_branch_plugin: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
