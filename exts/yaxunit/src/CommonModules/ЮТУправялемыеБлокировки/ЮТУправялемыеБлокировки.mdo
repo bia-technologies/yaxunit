@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0650dd07-788c-455d-be40-04112a7a6d05">
+  <name>ЮТУправялемыеБлокировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управялемые блокировки</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
