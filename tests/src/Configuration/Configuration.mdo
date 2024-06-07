@@ -59,7 +59,6 @@
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанныеСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТесты</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТипыДанныхСлужебный</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТУправялемыеБлокировки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтвержденияИБ</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрацияСлужебный</commonModules>

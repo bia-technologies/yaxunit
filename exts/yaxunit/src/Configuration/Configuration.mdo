@@ -137,7 +137,6 @@
   <commonModules>CommonModule.ЮТТесты</commonModules>
   <commonModules>CommonModule.ЮТТестыСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТипыДанныхСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТУправялемыеБлокировки</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТУтвержденияИБ</commonModules>
   <commonModules>CommonModule.ЮТФабрика</commonModules>
