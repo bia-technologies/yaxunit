@@ -78,6 +78,8 @@
 	
 КонецФункции
 
+// BSLLS:MissingParameterDescription-off
+
 //@skip-check module-empty-method
 //@skip-check doc-comment-parameter-section
 Процедура ПустойОбработчик1(Параметр1) Экспорт
@@ -95,5 +97,7 @@
 Процедура ПустойОбработчик3(Параметр1, Параметр2, Параметр3) Экспорт
 	
 КонецПроцедуры
+
+// BSLLS:MissingParameterDescription-on
 
 #КонецОбласти
