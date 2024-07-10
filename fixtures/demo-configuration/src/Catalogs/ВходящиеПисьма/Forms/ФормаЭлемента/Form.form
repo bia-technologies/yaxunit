@@ -2,19 +2,17 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Дата</name>
-    <id>3</id>
+    <id>9</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Дата</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Дата</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ДатаExtendedTooltip</name>
+      <name>ДатаРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -30,7 +28,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДатаКонтекстноеМеню</name>
-      <id>4</id>
+      <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -54,20 +52,18 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Наименование</name>
-    <id>1</id>
+    <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -83,7 +79,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>НаименованиеКонтекстноеМеню</name>
-      <id>2</id>
+      <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -113,13 +109,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Отправитель</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Отправитель</segments>
     </dataPath>
     <extendedTooltip>
-      <name>АдресатExtendedTooltip</name>
+      <name>АдресатРасширеннаяПодсказка</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -171,14 +165,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>HTML</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>HTML</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>HTMLExtendedTooltip</name>
+          <name>HTMLРасширеннаяПодсказка</name>
           <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -230,7 +222,7 @@
         <value>Группа HTML</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаHTMLExtendedTooltip</name>
+        <name>ГруппаHTMLРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -261,14 +253,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Текст</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Текст</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ТекстExtendedTooltip</name>
+          <name>ТекстРасширеннаяПодсказка</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -321,7 +311,7 @@
         <value>Группа текст</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаТекстExtendedTooltip</name>
+        <name>ГруппаТекстРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -355,7 +345,7 @@
       <value>Группа</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаExtendedTooltip</name>
+      <name>ГруппаРасширеннаяПодсказка</name>
       <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -386,7 +376,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтветитьExtendedTooltip</name>
+        <name>ОтветитьРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -415,7 +405,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -460,7 +450,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>8</id>
     <valueType>
       <types>CatalogObject.ВходящиеПисьма</types>
     </valueType>

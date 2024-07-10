@@ -2,23 +2,21 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Пользователь</name>
-    <id>7</id>
+    <id>12</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Пользователь</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Пользователь</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ПользовательПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПользовательExtendedTooltip</name>
+      <name>ПользовательРасширеннаяПодсказка</name>
       <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -34,7 +32,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ПользовательКонтекстноеМеню</name>
-      <id>8</id>
+      <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -70,17 +68,15 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Поиск</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Поиск</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
         <name>ПоискПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПоискExtendedTooltip</name>
+        <name>ПоискРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -131,7 +127,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ИскатьExtendedTooltip</name>
+        <name>ИскатьРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -172,7 +168,7 @@
       <value>Группа поиск</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаПоискExtendedTooltip</name>
+      <name>ГруппаПоискРасширеннаяПодсказка</name>
       <id>40</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -219,13 +215,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтфильтрованныеФормы.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтфильтрованныеФормы.Value</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЗначениеExtendedTooltip</name>
+        <name>ЗначениеРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -395,7 +389,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ОтфильтрованныеФормыExtendedTooltip</name>
+      <name>ОтфильтрованныеФормыРасширеннаяПодсказка</name>
       <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -461,7 +455,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОбновитьExtendedTooltip</name>
+        <name>ОбновитьРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -500,7 +494,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СкопироватьExtendedTooltip</name>
+        <name>СкопироватьРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -539,7 +533,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>УдалитьExtendedTooltip</name>
+        <name>УдалитьРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -591,7 +585,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>10</id>
     <valueType>
       <types>DataProcessorObject.УправлениеНастройкамиФорм</types>
     </valueType>
@@ -609,7 +603,7 @@
       <key>ru</key>
       <value>Формы</value>
     </title>
-    <id>2</id>
+    <id>13</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -629,7 +623,7 @@
       <key>ru</key>
       <value>Пользователь</value>
     </title>
-    <id>3</id>
+    <id>15</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -647,7 +641,7 @@
       <key>ru</key>
       <value>Строка поиска</value>
     </title>
-    <id>4</id>
+    <id>14</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

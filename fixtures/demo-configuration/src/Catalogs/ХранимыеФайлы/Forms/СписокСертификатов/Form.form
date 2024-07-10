@@ -9,7 +9,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ОсуществлениеВыбораExtendedTooltip</name>
+      <name>ОсуществлениеВыбораРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -32,7 +32,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>ТаблицаДляВыбора</name>
-    <id>1</id>
+    <id>11</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -44,20 +44,18 @@
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>ТаблицаДляВыбораВыбран</name>
-      <id>4</id>
+      <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаДляВыбора.Выбран</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаДляВыбора.Выбран</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ТаблицаДляВыбораВыбранExtendedTooltip</name>
+        <name>ТаблицаДляВыбораВыбранРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -96,13 +94,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаДляВыбора.СертификатПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаДляВыбора.СертификатПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаДляВыбораСертификатПредставлениеExtendedTooltip</name>
+        <name>ТаблицаДляВыбораСертификатПредставлениеРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -149,13 +145,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаДляВыбора.ТипХранилища</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаДляВыбора.ТипХранилища</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаДляВыбораТипХранилищаExtendedTooltip</name>
+        <name>ТаблицаДляВыбораТипХранилищаРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -196,7 +190,7 @@
     </items>
     <autoCommandBar>
       <name>ТаблицаДляВыбораКоманднаяПанель</name>
-      <id>3</id>
+      <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -326,7 +320,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТаблицаДляВыбораExtendedTooltip</name>
+      <name>ТаблицаДляВыбораРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -342,7 +336,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ТаблицаДляВыбораКонтекстноеМеню</name>
-      <id>2</id>
+      <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -420,7 +414,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -454,7 +448,7 @@
       <value>Кнопки формы</value>
     </toolTip>
     <extendedTooltip>
-      <name>КнопкиФормыExtendedTooltip</name>
+      <name>КнопкиФормыРасширеннаяПодсказка</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -534,7 +528,7 @@
       <key>ru</key>
       <value>Выбранные сертификаты</value>
     </title>
-    <id>3</id>
+    <id>36</id>
     <valueType/>
     <view>
       <common>true</common>
@@ -549,7 +543,7 @@
       <key>ru</key>
       <value>Таблица для выбора</value>
     </title>
-    <id>4</id>
+    <id>38</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -561,7 +555,7 @@
     </edit>
     <columns>
       <name>Выбран</name>
-      <id>1</id>
+      <id>20</id>
       <valueType>
         <types>Boolean</types>
       </valueType>
@@ -578,7 +572,7 @@
         <key>ru</key>
         <value>Сертификат</value>
       </title>
-      <id>2</id>
+      <id>40</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>

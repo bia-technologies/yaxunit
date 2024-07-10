@@ -6,25 +6,23 @@
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаОсновные</name>
-    <id>1</id>
+    <id>72</id>
     <items xsi:type="form:FormGroup">
       <name>ГруппаДатаКомпьютер</name>
-      <id>7</id>
+      <id>82</id>
       <items xsi:type="form:FormField">
         <name>ДатаВремя</name>
-        <id>9</id>
+        <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДатаВремя</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДатаВремя</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаВремяExtendedTooltip</name>
+          <name>ДатаВремяРасширеннаяПодсказка</name>
           <id>46</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -39,8 +37,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДатаВремя_КонтекстноеМеню</name>
-          <id>10</id>
+          <name>ДатаВремяКонтекстноеМеню</name>
+          <id>79</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -68,19 +66,17 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Компьютер</name>
-        <id>11</id>
+        <id>78</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Компьютер</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Компьютер</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КомпьютерExtendedTooltip</name>
+          <name>КомпьютерРасширеннаяПодсказка</name>
           <id>47</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -95,8 +91,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>Компьютер_КонтекстноеМеню</name>
-          <id>12</id>
+          <name>КомпьютерКонтекстноеМеню</name>
+          <id>77</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -135,7 +131,7 @@
         <value>Группа дата компьютер</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаДатаКомпьютерExtendedTooltip</name>
+        <name>ГруппаДатаКомпьютерРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -160,22 +156,20 @@
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаПользовательПриложение</name>
-      <id>8</id>
+      <id>81</id>
       <items xsi:type="form:FormField">
         <name>Пользователь</name>
-        <id>15</id>
+        <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Пользователь</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Пользователь</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПользовательExtendedTooltip</name>
+          <name>ПользовательРасширеннаяПодсказка</name>
           <id>49</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -190,8 +184,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>Пользователь_КонтекстноеМеню</name>
-          <id>16</id>
+          <name>ПользовательКонтекстноеМеню</name>
+          <id>73</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -224,13 +218,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Приложение</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Приложение</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПриложениеExtendedTooltip</name>
+          <name>ПриложениеРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -245,7 +237,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>Приложение_КонтекстноеМеню</name>
+          <name>ПриложениеКонтекстноеМеню</name>
           <id>18</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -285,7 +277,7 @@
         <value>Группа пользователь приложение</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаПользовательПриложениеExtendedTooltip</name>
+        <name>ГруппаПользовательПриложениеРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -322,7 +314,7 @@
       <value>Группа основные</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаОсновныеExtendedTooltip</name>
+      <name>ГруппаОсновныеРасширеннаяПодсказка</name>
       <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -346,22 +338,20 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСобытие</name>
-    <id>2</id>
+    <id>80</id>
     <items xsi:type="form:FormField">
       <name>Событие</name>
-      <id>13</id>
+      <id>76</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Событие</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Событие</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СобытиеExtendedTooltip</name>
+        <name>СобытиеРасширеннаяПодсказка</name>
         <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -376,8 +366,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Событие_КонтекстноеМеню</name>
-        <id>14</id>
+        <name>СобытиеКонтекстноеМеню</name>
+        <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -410,14 +400,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Комментарий</segments>
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>КомментарийExtendedTooltip</name>
+        <name>КомментарийРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -432,7 +420,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Комментарий_КонтекстноеМеню</name>
+        <name>КомментарийКонтекстноеМеню</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -473,7 +461,7 @@
       <value>Группа событие</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаСобытиеExtendedTooltip</name>
+      <name>ГруппаСобытиеРасширеннаяПодсказка</name>
       <id>51</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -499,7 +487,7 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаДанные</name>
-    <id>4</id>
+    <id>85</id>
     <items xsi:type="form:FormField">
       <name>Метаданные</name>
       <id>21</id>
@@ -508,13 +496,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Метаданные</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Метаданные</segments>
       </dataPath>
       <extendedTooltip>
-        <name>МетаданныеExtendedTooltip</name>
+        <name>МетаданныеРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -529,7 +515,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Метаданные_КонтекстноеМеню</name>
+        <name>МетаданныеКонтекстноеМеню</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -563,13 +549,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Данные</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Данные</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДанныеExtendedTooltip</name>
+        <name>ДанныеРасширеннаяПодсказка</name>
         <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -584,7 +568,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Данные_КонтекстноеМеню</name>
+        <name>ДанныеКонтекстноеМеню</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -618,14 +602,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеДанных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеДанных</segments>
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>ПредставлениеДанныхExtendedTooltip</name>
+        <name>ПредставлениеДанныхРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -640,7 +622,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПредставлениеДанных_КонтекстноеМеню</name>
+        <name>ПредставлениеДанныхКонтекстноеМеню</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -681,7 +663,7 @@
       <value>Группа данные</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаДанныеExtendedTooltip</name>
+      <name>ГруппаДанныеРасширеннаяПодсказка</name>
       <id>54</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -707,7 +689,7 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаТранзакция</name>
-    <id>5</id>
+    <id>84</id>
     <items xsi:type="form:FormField">
       <name>ИдентификаторТранзакции</name>
       <id>27</id>
@@ -716,13 +698,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИдентификаторТранзакции</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИдентификаторТранзакции</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИдентификаторТранзакцииExtendedTooltip</name>
+        <name>ИдентификаторТранзакцииРасширеннаяПодсказка</name>
         <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -737,7 +717,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИдентификаторТранзакции_КонтекстноеМеню</name>
+        <name>ИдентификаторТранзакцииКонтекстноеМеню</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -771,13 +751,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтатусЗавершенияТранзакции</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтатусЗавершенияТранзакции</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СтатусЗавершенияТранзакцииExtendedTooltip</name>
+        <name>СтатусЗавершенияТранзакцииРасширеннаяПодсказка</name>
         <id>60</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -792,7 +770,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СтатусЗавершенияТранзакции_КонтекстноеМеню</name>
+        <name>СтатусЗавершенияТранзакцииКонтекстноеМеню</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -832,7 +810,7 @@
       <value>Группа транзакция</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаТранзакцияExtendedTooltip</name>
+      <name>ГруппаТранзакцияРасширеннаяПодсказка</name>
       <id>58</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -858,7 +836,7 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСоединение</name>
-    <id>6</id>
+    <id>83</id>
     <items xsi:type="form:FormGroup">
       <name>ГруппаСеанс</name>
       <id>31</id>
@@ -870,13 +848,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Сеанс</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Сеанс</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СеансExtendedTooltip</name>
+          <name>СеансРасширеннаяПодсказка</name>
           <id>63</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -891,7 +867,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>Сеанс_КонтекстноеМеню</name>
+          <name>СеансКонтекстноеМеню</name>
           <id>34</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -931,7 +907,7 @@
         <value>Группа сеанс</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаСеансExtendedTooltip</name>
+        <name>ГруппаСеансРасширеннаяПодсказка</name>
         <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -965,13 +941,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РабочийСервер</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РабочийСервер</segments>
         </dataPath>
         <extendedTooltip>
-          <name>РабочийСерверExtendedTooltip</name>
+          <name>РабочийСерверРасширеннаяПодсказка</name>
           <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -986,7 +960,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>РабочийСервер_КонтекстноеМеню</name>
+          <name>РабочийСерверКонтекстноеМеню</name>
           <id>36</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1023,13 +997,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ОсновнойIPПорт</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОсновнойIPПорт</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОсновнойIPПортExtendedTooltip</name>
+            <name>ОсновнойIPПортРасширеннаяПодсказка</name>
             <id>67</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1044,7 +1016,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ОсновнойIPПорт_КонтекстноеМеню</name>
+            <name>ОсновнойIPПортКонтекстноеМеню</name>
             <id>39</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1079,13 +1051,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВспомогательныйIPПорт</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВспомогательныйIPПорт</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ВспомогательныйIPПортExtendedTooltip</name>
+            <name>ВспомогательныйIPПортРасширеннаяПодсказка</name>
             <id>68</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1100,7 +1070,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ВспомогательныйIPПорт_КонтекстноеМеню</name>
+            <name>ВспомогательныйIPПортКонтекстноеМеню</name>
             <id>41</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1141,7 +1111,7 @@
           <value>Группа порт</value>
         </toolTip>
         <extendedTooltip>
-          <name>ГруппаПортExtendedTooltip</name>
+          <name>ГруппаПортРасширеннаяПодсказка</name>
           <id>66</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1177,7 +1147,7 @@
         <value>Группа сервер</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаСерверExtendedTooltip</name>
+        <name>ГруппаСерверРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1214,7 +1184,7 @@
       <value>Группа соединение</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаСоединениеExtendedTooltip</name>
+      <name>ГруппаСоединениеРасширеннаяПодсказка</name>
       <id>61</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1240,7 +1210,7 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаКнопкиФормы</name>
-    <id>3</id>
+    <id>86</id>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКнопок</name>
       <id>42</id>
@@ -1254,7 +1224,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ЗакрытьExtendedTooltip</name>
+          <name>ЗакрытьРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1298,7 +1268,7 @@
         <value>Группа кнопок</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаКнопокExtendedTooltip</name>
+        <name>ГруппаКнопокРасширеннаяПодсказка</name>
         <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1331,7 +1301,7 @@
       <value>Группа кнопки формы</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаКнопкиФормыExtendedTooltip</name>
+      <name>ГруппаКнопкиФормыРасширеннаяПодсказка</name>
       <id>69</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1357,7 +1327,7 @@
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>

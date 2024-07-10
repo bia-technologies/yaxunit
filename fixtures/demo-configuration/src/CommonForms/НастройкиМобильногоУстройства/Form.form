@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НаборКонстант.ВыборПровайдераГеопозиционирования</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ВыборПровайдераГеопозиционирования</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <handlers>
@@ -83,10 +81,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НаборКонстант.ИмяПровайдера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ИмяПровайдера</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <handlers>
@@ -148,10 +144,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ТолькоБесплатные</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ТолькоБесплатные</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -197,10 +191,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ИспользоватьСотовуюСеть</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьСотовуюСеть</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -246,10 +238,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ИспользоватьСетьПередачиДанных</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьСетьПередачиДанных</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -295,10 +285,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ИспользоватьСпутники</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьСпутники</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -427,10 +415,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ВоспроизводитьТекстУведомления</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ВоспроизводитьТекстУведомления</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>

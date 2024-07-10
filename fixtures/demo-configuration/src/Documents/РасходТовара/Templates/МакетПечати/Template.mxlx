@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
 		<currentLanguage>ru</currentLanguage>
@@ -53,6 +53,12 @@
 		</columnsItem>
 	</columns>
 	<rowsItem>
+		<index>0</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>1</index>
 		<row>
 			<formatIndex>4</formatIndex>
@@ -68,6 +74,13 @@
 					</tl>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<indexTo>3</indexTo>
+		<row>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -188,6 +201,13 @@
 					<parameter>СуммаПоТоварам</parameter>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<indexTo>11</indexTo>
+		<row>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>

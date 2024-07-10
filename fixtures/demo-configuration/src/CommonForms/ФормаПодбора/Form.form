@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВидЦенИСклад</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВидЦенИСклад</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -72,7 +70,7 @@
       <value>Шапка</value>
     </toolTip>
     <extendedTooltip>
-      <name>ШапкаExtendedTooltip</name>
+      <name>ШапкаРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -101,7 +99,7 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСпискаТоваров</name>
-    <id>3</id>
+    <id>20</id>
     <items xsi:type="form:Addition">
       <title>
         <key>ru</key>
@@ -149,7 +147,7 @@
       <id>50</id>
       <items xsi:type="form:Table">
         <name>ДеревоТоваров</name>
-        <id>4</id>
+        <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -168,13 +166,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоТоваров.Description</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоТоваров.Description</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДеревоТоваровНаименованиеExtendedTooltip</name>
+            <name>ДеревоТоваровНаименованиеРасширеннаяПодсказка</name>
             <id>68</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -343,7 +339,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ДеревоТоваровExtendedTooltip</name>
+          <name>ДеревоТоваровРасширеннаяПодсказка</name>
           <id>67</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -411,7 +407,7 @@
       </items>
       <items xsi:type="form:Table">
         <name>СписокТоваров</name>
-        <id>2</id>
+        <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -431,13 +427,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокТоваров.Наименование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров.Наименование</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НаименованиеExtendedTooltip</name>
+            <name>НаименованиеРасширеннаяПодсказка</name>
             <id>70</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -481,13 +475,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокТоваров.Код</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров.Код</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КодExtendedTooltip</name>
+            <name>КодРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -531,13 +523,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокТоваров.Цена</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров.Цена</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ЦенаExtendedTooltip</name>
+            <name>ЦенаРасширеннаяПодсказка</name>
             <id>72</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -582,13 +572,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокТоваров.Количество</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров.Количество</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КоличествоExtendedTooltip</name>
+            <name>КоличествоРасширеннаяПодсказка</name>
             <id>73</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -763,7 +751,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокТоваровExtendedTooltip</name>
+          <name>СписокТоваровРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -835,7 +823,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>Группа1ExtendedTooltip</name>
+        <name>Группа1РасширеннаяПодсказка</name>
         <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -863,7 +851,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ГруппаСпискаТоваровExtendedTooltip</name>
+      <name>ГруппаСпискаТоваровРасширеннаяПодсказка</name>
       <id>64</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -895,7 +883,7 @@
     <id>19</id>
     <items xsi:type="form:Table">
       <name>Товары</name>
-      <id>5</id>
+      <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -914,13 +902,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Товары.Товар</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Товары.Товар</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТоварыТоварExtendedTooltip</name>
+          <name>ТоварыТоварРасширеннаяПодсказка</name>
           <id>77</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -969,13 +955,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Товары.Количество</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Товары.Количество</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТоварыКоличествоExtendedTooltip</name>
+          <name>ТоварыКоличествоРасширеннаяПодсказка</name>
           <id>78</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1154,7 +1138,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ТоварыExtendedTooltip</name>
+        <name>ТоварыРасширеннаяПодсказка</name>
         <id>76</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1181,7 +1165,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>УдалитьExtendedTooltip</name>
+            <name>УдалитьРасширеннаяПодсказка</name>
             <id>75</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1256,7 +1240,7 @@
       <value>Отобранные товары</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОтобранныеТоварыExtendedTooltip</name>
+      <name>ГруппаОтобранныеТоварыРасширеннаяПодсказка</name>
       <id>74</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1287,14 +1271,14 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ДействияФормыОсновные</name>
-    <id>1</id>
+    <id>11</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ДействияФормыОсновныеExtendedTooltip</name>
+      <name>ДействияФормыОсновныеРасширеннаяПодсказка</name>
       <id>79</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1327,7 +1311,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОКExtendedTooltip</name>
+        <name>ОКРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1367,7 +1351,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1406,7 +1390,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1460,7 +1444,7 @@
       <key>ru</key>
       <value>Товары</value>
     </title>
-    <id>1</id>
+    <id>14</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -1476,7 +1460,7 @@
         <key>ru</key>
         <value>Товар</value>
       </title>
-      <id>1</id>
+      <id>15</id>
       <valueType>
         <types>CatalogRef.Товары</types>
       </valueType>
@@ -1493,7 +1477,7 @@
         <key>ru</key>
         <value>Количество</value>
       </title>
-      <id>2</id>
+      <id>17</id>
       <valueType>
         <types>Number</types>
         <numberQualifiers>
@@ -1514,7 +1498,7 @@
         <key>ru</key>
         <value>Цена</value>
       </title>
-      <id>3</id>
+      <id>21</id>
       <valueType>
         <types>Number</types>
         <numberQualifiers>

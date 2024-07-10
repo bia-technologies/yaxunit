@@ -12,7 +12,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПечатьExtendedTooltip</name>
+        <name>ПечатьРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -41,7 +41,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПечатьСразуExtendedTooltip</name>
+        <name>ПечатьСразуРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -71,7 +71,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПредварительныйПросмотрExtendedTooltip</name>
+        <name>ПредварительныйПросмотрРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -101,7 +101,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПараметрыСтраницыExtendedTooltip</name>
+        <name>ПараметрыСтраницыРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -164,7 +164,7 @@
       <value>Команды формы доставки</value>
     </toolTip>
     <extendedTooltip>
-      <name>КомандыФормыДоставкиExtendedTooltip</name>
+      <name>КомандыФормыДоставкиРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -185,7 +185,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>ТабличныйДокумент</name>
-    <id>1</id>
+    <id>17</id>
     <title>
       <key>ru</key>
       <value>Заявка на доставку</value>
@@ -195,17 +195,15 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ТабличныйДокумент</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТабличныйДокумент</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>CollapseAllGroups</excludedCommands>
     <excludedCommands>ExpandAllGroups</excludedCommands>
     <excludedCommands>ShowGroups</excludedCommands>
     <extendedTooltip>
-      <name>ТабличныйДокументExtendedTooltip</name>
+      <name>ТабличныйДокументРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -221,7 +219,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ТабличныйДокументКонтекстноеМеню</name>
-      <id>2</id>
+      <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -286,7 +284,7 @@
       <key>ru</key>
       <value>Документ</value>
     </title>
-    <id>1</id>
+    <id>18</id>
     <valueType>
       <types>SpreadsheetDocument</types>
     </valueType>

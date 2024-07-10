@@ -12,23 +12,21 @@
       <id>16</id>
       <items xsi:type="form:FormField">
         <name>РазрешитьПолнотекстовыйПоиск</name>
-        <id>1</id>
+        <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РазрешитьПолнотекстовыйПоиск</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РазрешитьПолнотекстовыйПоиск</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
           <name>РазрешитьПолнотекстовыйПоискПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>РазрешитьПолнотекстовыйПоискExtendedTooltip</name>
+          <name>РазрешитьПолнотекстовыйПоискРасширеннаяПодсказка</name>
           <id>9</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -44,7 +42,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>РазрешитьПолнотекстовыйПоискКонтекстноеМеню</name>
-          <id>2</id>
+          <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -61,20 +59,18 @@
       </items>
       <items xsi:type="form:FormField">
         <name>СтатусИндекса</name>
-        <id>3</id>
+        <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СтатусИндекса</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтатусИндекса</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>СтатусИндексаExtendedTooltip</name>
+          <name>СтатусИндексаРасширеннаяПодсказка</name>
           <id>10</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -90,7 +86,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>СтатусИндексаКонтекстноеМеню</name>
-          <id>4</id>
+          <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -116,13 +112,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДатаАктуальностиИндекса</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДатаАктуальностиИндекса</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаАктуальностиИндексаExtendedTooltip</name>
+          <name>ДатаАктуальностиИндексаРасширеннаяПодсказка</name>
           <id>11</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -236,7 +230,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОбновитьИндексExtendedTooltip</name>
+          <name>ОбновитьИндексРасширеннаяПодсказка</name>
           <id>12</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -276,7 +270,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОчиститьИндексExtendedTooltip</name>
+          <name>ОчиститьИндексРасширеннаяПодсказка</name>
           <id>13</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -404,7 +398,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>23</id>
     <valueType>
       <types>DataProcessorObject.УправлениеПолнотекстовымПоиском</types>
     </valueType>
@@ -422,7 +416,7 @@
       <key>ru</key>
       <value>Разрешить полнотекстовый поиск</value>
     </title>
-    <id>2</id>
+    <id>25</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

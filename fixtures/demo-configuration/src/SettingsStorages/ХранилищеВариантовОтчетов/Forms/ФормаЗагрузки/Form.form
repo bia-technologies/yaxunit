@@ -34,13 +34,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокНастроек.Presentation</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокНастроек.Presentation</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПредставлениеExtendedTooltip</name>
+        <name>ПредставлениеРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -227,7 +225,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокНастроекExtendedTooltip</name>
+      <name>СписокНастроекРасширеннаяПодсказка</name>
       <id>24</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -254,7 +252,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>УдалитьExtendedTooltip</name>
+          <name>УдалитьРасширеннаяПодсказка</name>
           <id>23</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -325,7 +323,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗагрузитьExtendedTooltip</name>
+        <name>ЗагрузитьРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -365,7 +363,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменитьExtendedTooltip</name>
+        <name>ОтменитьРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -404,7 +402,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -439,7 +437,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ГруппаExtendedTooltip</name>
+      <name>ГруппаРасширеннаяПодсказка</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -545,7 +543,7 @@
       <key>ru</key>
       <value>Ключ текущих настроек</value>
     </title>
-    <id>1</id>
+    <id>2</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

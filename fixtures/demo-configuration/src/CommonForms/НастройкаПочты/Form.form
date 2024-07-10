@@ -8,13 +8,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ИмяОтправителяПочтовогоСообщения</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ИмяОтправителяПочтовогоСообщения</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ИмяОтправителяExtendedTooltip</name>
+      <name>ИмяОтправителяРасширеннаяПодсказка</name>
       <id>89</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -70,13 +68,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.АдресSMTPСервера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.АдресSMTPСервера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>АдресSMTPСервераExtendedTooltip</name>
+          <name>АдресSMTPСервераРасширеннаяПодсказка</name>
           <id>91</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -122,10 +118,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПортSMTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПортSMTP</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -183,10 +177,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.SSLSMTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.SSLSMTP</segments>
         </dataPath>
         <extendedTooltip>
           <name>SMTPSSLРасширеннаяПодсказка</name>
@@ -228,13 +220,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПользовательSMTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПользовательSMTP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПользовательSMTPExtendedTooltip</name>
+          <name>ПользовательSMTPРасширеннаяПодсказка</name>
           <id>94</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -280,13 +270,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПарольSMTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПарольSMTP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПарольSMTPExtendedTooltip</name>
+          <name>ПарольSMTPРасширеннаяПодсказка</name>
           <id>95</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -336,10 +324,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ТолькоЗащищеннаяАутентификацияSMTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ТолькоЗащищеннаяАутентификацияSMTP</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТолькоЗащищеннаяАутентификацияSMTPРасширеннаяПодсказка</name>
@@ -387,7 +373,7 @@
         <value>Группа настройка SMTPСервера</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаНастройкаSMTPСервераExtendedTooltip</name>
+        <name>ГруппаНастройкаSMTPСервераРасширеннаяПодсказка</name>
         <id>90</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -418,13 +404,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.АдресPOP3Сервера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.АдресPOP3Сервера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>АдресPOP3СервераExtendedTooltip</name>
+          <name>АдресPOP3СервераРасширеннаяПодсказка</name>
           <id>97</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -470,10 +454,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПортPOP3</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПортPOP3</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -531,10 +513,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.SSLPOP3</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.SSLPOP3</segments>
         </dataPath>
         <extendedTooltip>
           <name>POP3SSLРасширеннаяПодсказка</name>
@@ -576,13 +556,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПользовательPOP3</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПользовательPOP3</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПользовательPOP3ExtendedTooltip</name>
+          <name>ПользовательPOP3РасширеннаяПодсказка</name>
           <id>99</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -628,13 +606,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПарольPOP3</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПарольPOP3</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПарольPOP3ExtendedTooltip</name>
+          <name>ПарольPOP3РасширеннаяПодсказка</name>
           <id>100</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -684,10 +660,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ТолькоЗащищеннаяАутентификацияPOP3</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ТолькоЗащищеннаяАутентификацияPOP3</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТолькоЗащищеннаяАутентификацияPOP3РасширеннаяПодсказка</name>
@@ -735,7 +709,7 @@
         <value>Группа настройка POP3 сервера</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаНастройкаPOP3СервераExtendedTooltip</name>
+        <name>ГруппаНастройкаPOP3СервераРасширеннаяПодсказка</name>
         <id>96</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -766,13 +740,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.АдресIMAPСервера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.АдресIMAPСервера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>АдресIMAPСервераExtendedTooltip</name>
+          <name>АдресIMAPСервераРасширеннаяПодсказка</name>
           <id>102</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -818,10 +790,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПортIMAP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПортIMAP</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -879,13 +849,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.SSLIMAP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.SSLIMAP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>IMAPSSLExtendedTooltip</name>
+          <name>IMAPSSLРасширеннаяПодсказка</name>
           <id>106</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -924,13 +892,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПользовательIMAP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПользовательIMAP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПользовательIMAPExtendedTooltip</name>
+          <name>ПользовательIMAPРасширеннаяПодсказка</name>
           <id>104</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -976,13 +942,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ПарольIMAP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ПарольIMAP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПарольIMAPExtendedTooltip</name>
+          <name>ПарольIMAPРасширеннаяПодсказка</name>
           <id>105</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1032,10 +996,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ТолькоЗащищеннаяАутентификацияIMAP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ТолькоЗащищеннаяАутентификацияIMAP</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТолькоЗащищеннаяАутентификацияIMAPРасширеннаяПодсказка</name>
@@ -1083,7 +1045,7 @@
         <value>Группа настройка IMAPСервера</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаНастройкаIMAPСервераExtendedTooltip</name>
+        <name>ГруппаНастройкаIMAPСервераРасширеннаяПодсказка</name>
         <id>101</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1137,13 +1099,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ИспользоватьIMAP</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ИспользоватьIMAP</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ИспользоватьIMAPExtendedTooltip</name>
+      <name>ИспользоватьIMAPРасширеннаяПодсказка</name>
       <id>107</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1182,13 +1142,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ТаймаутИнтернетПочты</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ТаймаутИнтернетПочты</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТаймаутExtendedTooltip</name>
+      <name>ТаймаутРасширеннаяПодсказка</name>
       <id>108</id>
       <visible>true</visible>
       <enabled>true</enabled>

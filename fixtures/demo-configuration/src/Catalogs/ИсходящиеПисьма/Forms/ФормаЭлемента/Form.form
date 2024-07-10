@@ -2,19 +2,17 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Дата</name>
-    <id>3</id>
+    <id>20</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Дата</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Дата</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ДатаExtendedTooltip</name>
+      <name>ДатаРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -30,7 +28,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДатаКонтекстноеМеню</name>
-      <id>4</id>
+      <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -54,20 +52,18 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Наименование</name>
-    <id>1</id>
+    <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -83,7 +79,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>НаименованиеКонтекстноеМеню</name>
-      <id>2</id>
+      <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -113,10 +109,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Контрагент</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Контрагент</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -166,7 +160,7 @@
     <id>22</id>
     <items xsi:type="form:FormField">
       <name>Получатель</name>
-      <id>5</id>
+      <id>19</id>
       <title>
         <key>ru</key>
         <value>Адрес</value>
@@ -176,10 +170,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Получатель</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Получатель</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПолучательРасширеннаяПодсказка</name>
@@ -233,7 +225,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВыбратьПолучателяExtendedTooltip</name>
+        <name>ВыбратьПолучателяРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -268,7 +260,7 @@
       <value>Группа получатель</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаПолучательExtendedTooltip</name>
+      <name>ГруппаПолучательРасширеннаяПодсказка</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -334,7 +326,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВставитьКонтактноеЛицоExtendedTooltip</name>
+          <name>ВставитьКонтактноеЛицоРасширеннаяПодсказка</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -368,7 +360,7 @@
         <value>Группа КПТекст</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаКПТекстExtendedTooltip</name>
+        <name>ГруппаКПТекстРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -396,14 +388,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Содержимое</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Содержимое</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>СодержимоеExtendedTooltip</name>
+        <name>СодержимоеРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -454,7 +444,7 @@
       <value>Группа редактор</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаРедакторExtendedTooltip</name>
+      <name>ГруппаРедакторРасширеннаяПодсказка</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -490,7 +480,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтправитьИЗакрытьExtendedTooltip</name>
+        <name>ОтправитьИЗакрытьРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -520,7 +510,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтправитьExtendedTooltip</name>
+        <name>ОтправитьРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -577,7 +567,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗаписатьExtendedTooltip</name>
+        <name>ЗаписатьРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -606,7 +596,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -680,7 +670,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>15</id>
     <valueType>
       <types>CatalogObject.ИсходящиеПисьма</types>
     </valueType>
@@ -699,7 +689,7 @@
       <key>ru</key>
       <value>Содержимое</value>
     </title>
-    <id>2</id>
+    <id>17</id>
     <valueType>
       <types>FormattedDocument</types>
     </valueType>

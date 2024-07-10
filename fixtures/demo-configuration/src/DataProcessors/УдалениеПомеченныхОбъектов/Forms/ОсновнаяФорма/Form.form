@@ -6,10 +6,10 @@
   </title>
   <items xsi:type="form:FormGroup">
     <name>СтраницыФормы</name>
-    <id>1</id>
+    <id>9</id>
     <items xsi:type="form:FormGroup">
       <name>ВыборРежимаУдаления</name>
-      <id>6</id>
+      <id>86</id>
       <items xsi:type="form:FormField">
         <name>РежимУдаления</name>
         <id>15</id>
@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РежимУдаления</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РежимУдаления</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -33,7 +31,7 @@
           <name>РежимУдаленияПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>РежимУдаленияExtendedTooltip</name>
+          <name>РежимУдаленияРасширеннаяПодсказка</name>
           <id>48</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -48,7 +46,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>РежимУдаления_КонтекстноеМеню</name>
+          <name>РежимУдаленияКонтекстноеМеню</name>
           <id>16</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -100,7 +98,7 @@
         <value>Выбор режима удаления</value>
       </toolTip>
       <extendedTooltip>
-        <name>ВыборРежимаУдаленияExtendedTooltip</name>
+        <name>ВыборРежимаУдаленияРасширеннаяПодсказка</name>
         <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -135,14 +133,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СтрокаРезультатов</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтрокаРезультатов</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
-          <name>СтрокаРезультатовExtendedTooltip</name>
+          <name>СтрокаРезультатовРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -157,7 +153,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СтрокаРезультатов_КонтекстноеМеню</name>
+          <name>СтрокаРезультатовКонтекстноеМеню</name>
           <id>36</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -191,7 +187,7 @@
         <value>Результаты удаления</value>
       </toolTip>
       <extendedTooltip>
-        <name>РезультатыУдаленияExtendedTooltip</name>
+        <name>РезультатыУдаленияРасширеннаяПодсказка</name>
         <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -253,13 +249,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоНеудаленныхОбъектов.Представление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоНеудаленныхОбъектов.Представление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>Представление1ExtendedTooltip</name>
+            <name>Представление1РасширеннаяПодсказка</name>
             <id>53</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -274,7 +268,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>Представление1_КонтекстноеМеню</name>
+            <name>Представление1КонтекстноеМеню</name>
             <id>44</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -302,7 +296,7 @@
         </items>
         <commandBarLocation>None</commandBarLocation>
         <autoCommandBar>
-          <name>ДеревоНеудаленныхОбъектов_КоманднаяПанель</name>
+          <name>ДеревоНеудаленныхОбъектовКоманднаяПанель</name>
           <id>42</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -434,7 +428,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ДеревоНеудаленныхОбъектовExtendedTooltip</name>
+          <name>ДеревоНеудаленныхОбъектовРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -449,7 +443,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоНеудаленныхОбъектов_КонтекстноеМеню</name>
+          <name>ДеревоНеудаленныхОбъектовКонтекстноеМеню</name>
           <id>41</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -503,7 +497,7 @@
       </toolTip>
       <enableContentChange>true</enableContentChange>
       <extendedTooltip>
-        <name>ПричиныНеудаленияExtendedTooltip</name>
+        <name>ПричиныНеудаленияРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -554,17 +548,15 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СписокПомеченныхНаУдаление.Пометка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СписокПомеченныхНаУдаление.Пометка</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
               <name>ПометкаПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ПометкаExtendedTooltip</name>
+              <name>ПометкаРасширеннаяПодсказка</name>
               <id>59</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -579,7 +571,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>Пометка_КонтекстноеМеню</name>
+              <name>ПометкаКонтекстноеМеню</name>
               <id>31</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -601,13 +593,11 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СписокПомеченныхНаУдаление.Представление</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СписокПомеченныхНаУдаление.Представление</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ПредставлениеExtendedTooltip</name>
+              <name>ПредставлениеРасширеннаяПодсказка</name>
               <id>60</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -622,7 +612,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>Представление_КонтекстноеМеню</name>
+              <name>ПредставлениеКонтекстноеМеню</name>
               <id>33</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -660,7 +650,7 @@
             <value>Строка списка помеченных</value>
           </toolTip>
           <extendedTooltip>
-            <name>СтрокаСпискаПомеченныхExtendedTooltip</name>
+            <name>СтрокаСпискаПомеченныхРасширеннаяПодсказка</name>
             <id>58</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -681,7 +671,7 @@
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>СписокПомеченныхНаУдаление_КоманднаяПанель</name>
+          <name>СписокПомеченныхНаУдалениеКоманднаяПанель</name>
           <id>28</id>
           <items xsi:type="form:FormGroup">
             <name>ГруппаКнопокПометки</name>
@@ -696,7 +686,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>КомандаСписокПомеченныхУстановитьВсеExtendedTooltip</name>
+                <name>КомандаСписокПомеченныхУстановитьВсеРасширеннаяПодсказка</name>
                 <id>55</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -735,7 +725,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>КомандаСписокПомеченныхСнятьВсеExtendedTooltip</name>
+                <name>КомандаСписокПомеченныхСнятьВсеРасширеннаяПодсказка</name>
                 <id>56</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -925,7 +915,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокПомеченныхНаУдалениеExtendedTooltip</name>
+          <name>СписокПомеченныхНаУдалениеРасширеннаяПодсказка</name>
           <id>57</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -940,7 +930,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокПомеченныхНаУдаление_КонтекстноеМеню</name>
+          <name>СписокПомеченныхНаУдалениеКонтекстноеМеню</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -986,7 +976,7 @@
         <value>Помеченные на удаление</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПомеченныеНаУдалениеExtendedTooltip</name>
+        <name>ПомеченныеНаУдалениеРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1021,7 +1011,7 @@
     </toolTip>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>СтраницыФормыExtendedTooltip</name>
+      <name>СтраницыФормыРасширеннаяПодсказка</name>
       <id>46</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1042,7 +1032,7 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>КомандыФормы</name>
-    <id>2</id>
+    <id>13</id>
     <items xsi:type="form:Button">
       <name>КомандаУдалить</name>
       <id>45</id>
@@ -1053,7 +1043,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КомандаУдалитьExtendedTooltip</name>
+        <name>КомандаУдалитьРасширеннаяПодсказка</name>
         <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1085,7 +1075,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>КомандаДалее</name>
-      <id>3</id>
+      <id>19</id>
       <title>
         <key>ru</key>
         <value>Далее >></value>
@@ -1097,7 +1087,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КомандаДалееExtendedTooltip</name>
+        <name>КомандаДалееРасширеннаяПодсказка</name>
         <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1128,7 +1118,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>Закрыть</name>
-      <id>4</id>
+      <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1136,7 +1126,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗакрытьExtendedTooltip</name>
+        <name>ЗакрытьРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1175,7 +1165,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>65</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1219,7 +1209,7 @@
     </toolTip>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>КомандыФормыExtendedTooltip</name>
+      <name>КомандыФормыРасширеннаяПодсказка</name>
       <id>61</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1240,7 +1230,7 @@
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1269,7 +1259,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>10</id>
     <valueType>
       <types>DataProcessorObject.УдалениеПомеченныхОбъектов</types>
     </valueType>
@@ -1287,7 +1277,7 @@
       <key>ru</key>
       <value>Режим удаления</value>
     </title>
-    <id>2</id>
+    <id>14</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -1321,7 +1311,7 @@
         <key>ru</key>
         <value>Пометка</value>
       </title>
-      <id>1</id>
+      <id>11</id>
       <valueType>
         <types>Boolean</types>
       </valueType>
@@ -1338,7 +1328,7 @@
         <key>ru</key>
         <value>Значение</value>
       </title>
-      <id>2</id>
+      <id>17</id>
       <valueType>
         <types>String</types>
         <types>AnyRef</types>
@@ -1359,7 +1349,7 @@
         <key>ru</key>
         <value>Представление</value>
       </title>
-      <id>3</id>
+      <id>20</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1412,7 +1402,7 @@
         <key>ru</key>
         <value>Номер картинки</value>
       </title>
-      <id>1</id>
+      <id>12</id>
       <valueType>
         <types>Number</types>
         <numberQualifiers>
@@ -1433,7 +1423,7 @@
         <key>ru</key>
         <value>Значение</value>
       </title>
-      <id>2</id>
+      <id>18</id>
       <valueType>
         <types>String</types>
         <types>AnyRef</types>
@@ -1454,7 +1444,7 @@
         <key>ru</key>
         <value>Представление</value>
       </title>
-      <id>3</id>
+      <id>21</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1473,7 +1463,7 @@
       <key>ru</key>
       <value>Пояснение для полного</value>
     </title>
-    <id>3</id>
+    <id>22</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -1491,7 +1481,7 @@
       <key>ru</key>
       <value>Пояснение для выборочного</value>
     </title>
-    <id>4</id>
+    <id>24</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
