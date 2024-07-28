@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28245591-23ad-4b41-825a-228a4b6ee9d1">
+  <name>ЮТДымовыеТесты_ОбычныеФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дымовые тесты. Обычные формы</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -64,6 +64,8 @@
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТДымовыеТесты_ОбычныеФормы</commonModules>
+  <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
   <commonModules>CommonModule.ЮТЗависимости</commonModules>
   <commonModules>CommonModule.ЮТЗависимостиСлужебный</commonModules>
