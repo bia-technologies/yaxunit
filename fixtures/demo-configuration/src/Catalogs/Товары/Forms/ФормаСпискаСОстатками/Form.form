@@ -62,13 +62,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СправочникСписок.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СправочникСписок.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -111,13 +109,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СправочникСписок.Code</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СправочникСписок.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -160,13 +156,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СправочникСписок.Артикул</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СправочникСписок.Артикул</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АртикулExtendedTooltip</name>
+        <name>АртикулРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -209,13 +203,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СправочникСписок.Количество</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СправочникСписок.Количество</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КоличествоExtendedTooltip</name>
+        <name>КоличествоРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -256,13 +248,11 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СправочникСписок.Ref</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СправочникСписок.Ref</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВсеПоляExtendedTooltip</name>
+        <name>ВсеПоляРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -426,7 +416,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>

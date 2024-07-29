@@ -3,4 +3,5 @@
   <name>ОМ_ЮТПодключаемыеМодулиСлужебныйВызовСервера</name>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

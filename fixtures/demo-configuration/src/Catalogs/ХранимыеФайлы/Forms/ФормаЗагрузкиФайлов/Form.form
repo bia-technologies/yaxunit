@@ -2,19 +2,17 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Владелец</name>
-    <id>1</id>
+    <id>36</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Владелец</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Владелец</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВладелецExtendedTooltip</name>
+      <name>ВладелецРасширеннаяПодсказка</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -30,7 +28,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ВладелецКонтекстноеМеню</name>
-      <id>2</id>
+      <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -54,7 +52,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>СписокФайлов</name>
-    <id>3</id>
+    <id>40</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -73,13 +71,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокФайлов.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокФайлов.Value</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокФайловЗначениеExtendedTooltip</name>
+        <name>СписокФайловЗначениеРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -126,7 +122,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ДобавитьФайлыExtendedTooltip</name>
+          <name>ДобавитьФайлыРасширеннаяПодсказка</name>
           <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -156,7 +152,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ДобавитьКаталогExtendedTooltip</name>
+          <name>ДобавитьКаталогРасширеннаяПодсказка</name>
           <id>23</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -186,7 +182,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>УдалитьExtendedTooltip</name>
+          <name>УдалитьРасширеннаяПодсказка</name>
           <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -335,7 +331,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокФайловExtendedTooltip</name>
+      <name>СписокФайловРасширеннаяПодсказка</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -362,7 +358,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ДобавитьФайлы1ExtendedTooltip</name>
+          <name>ДобавитьФайлы1РасширеннаяПодсказка</name>
           <id>18</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -392,7 +388,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ДобавитьКаталог1ExtendedTooltip</name>
+          <name>ДобавитьКаталог1РасширеннаяПодсказка</name>
           <id>19</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -422,7 +418,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КонтекстноеМенюСписокФайловУдалитьExtendedTooltip</name>
+          <name>КонтекстноеМенюСписокФайловУдалитьРасширеннаяПодсказка</name>
           <id>20</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -452,7 +448,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>Загрузить1ExtendedTooltip</name>
+          <name>Загрузить1РасширеннаяПодсказка</name>
           <id>21</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -515,7 +511,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗагрузитьExtendedTooltip</name>
+        <name>ЗагрузитьРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -559,7 +555,7 @@
       <key>ru</key>
       <value>Владелец</value>
     </title>
-    <id>1</id>
+    <id>37</id>
     <valueType>
       <types>CatalogRef.Контрагенты</types>
       <types>CatalogRef.Товары</types>
@@ -578,7 +574,7 @@
       <key>ru</key>
       <value>Список файлов</value>
     </title>
-    <id>2</id>
+    <id>39</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -598,7 +594,7 @@
       <key>ru</key>
       <value>Список загруженных файлов</value>
     </title>
-    <id>3</id>
+    <id>41</id>
     <valueType>
       <types>ValueList</types>
     </valueType>

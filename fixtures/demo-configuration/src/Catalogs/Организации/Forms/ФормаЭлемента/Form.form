@@ -2,19 +2,17 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Код</name>
-    <id>1</id>
+    <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Code</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Code</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КодExtendedTooltip</name>
+      <name>КодРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -29,7 +27,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Код_КонтекстноеМеню</name>
+      <name>КодКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -59,13 +57,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -80,7 +76,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Наименование_КонтекстноеМеню</name>
+      <name>НаименованиеКонтекстноеМеню</name>
       <id>4</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -110,13 +106,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ВалютныйУчет</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВалютныйУчет</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВалютныйУчетExtendedTooltip</name>
+      <name>ВалютныйУчетРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -131,7 +125,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВалютныйУчет_КонтекстноеМеню</name>
+      <name>ВалютныйУчетКонтекстноеМеню</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -148,7 +142,7 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>

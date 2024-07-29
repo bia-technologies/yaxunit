@@ -6,19 +6,17 @@
   </title>
   <items xsi:type="form:FormField">
     <name>Пароль</name>
-    <id>1</id>
+    <id>3</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Пароль</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Пароль</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПарольExtendedTooltip</name>
+      <name>ПарольРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -100,7 +98,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>6</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -145,7 +143,7 @@
       <key>ru</key>
       <value>Пароль доступа к закрытому ключу</value>
     </title>
-    <id>1</id>
+    <id>5</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

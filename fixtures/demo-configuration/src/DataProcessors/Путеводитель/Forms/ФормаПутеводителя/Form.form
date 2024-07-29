@@ -53,21 +53,19 @@
   </items>
   <items xsi:type="form:FormField">
     <name>ПолеHTML</name>
-    <id>1</id>
+    <id>9</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПолеHTML</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПолеHTML</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ПолеHTMLExtendedTooltip</name>
-      <id>3</id>
+      <name>ПолеHTMLРасширеннаяПодсказка</name>
+      <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -82,7 +80,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ПолеHTMLКонтекстноеМеню</name>
-      <id>2</id>
+      <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -140,7 +138,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>10</id>
     <valueType>
       <types>DataProcessorObject.Путеводитель</types>
     </valueType>
@@ -158,7 +156,7 @@
       <key>ru</key>
       <value>Поле HTML</value>
     </title>
-    <id>2</id>
+    <id>8</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

@@ -19,13 +19,14 @@
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
   <version>1.0.26.1</version>
-  <updateCatalogAddress></updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
     </pages>
   </help>
+  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <requiredMobileApplicationPermissions>
     <permission>Multimedia</permission>
@@ -45,9 +46,7 @@
   <requiredMobileApplicationPermissions>
     <permission>Multimedia</permission>
   </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
+  <usedMobileApplicationFunctionalities/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -82,7 +81,6 @@
       <key>ru</key>
       <value>Русский</value>
     </synonym>
-    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Предприятие</subsystems>
@@ -289,8 +287,8 @@
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.Основной</accountingRegisters>
 </mdclass:Configuration>

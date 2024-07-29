@@ -6,7 +6,7 @@
   </title>
   <items xsi:type="form:Table">
     <name>СписокНастроек</name>
-    <id>2</id>
+    <id>34</id>
     <title>
       <key>ru</key>
       <value>Ранее сохраненные варианты</value>
@@ -32,19 +32,17 @@
     <excludedCommands>SetDeletionMark</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Наименование</name>
-      <id>4</id>
+      <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокНастроек.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокНастроек.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -235,7 +233,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокНастроекExtendedTooltip</name>
+      <name>СписокНастроекРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -251,7 +249,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СписокНастроекКонтекстноеМеню</name>
-      <id>3</id>
+      <id>32</id>
       <items xsi:type="form:Button">
         <name>Удалить</name>
         <id>12</id>
@@ -262,7 +260,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>УдалитьExtendedTooltip</name>
+          <name>УдалитьРасширеннаяПодсказка</name>
           <id>14</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -330,7 +328,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>ИмяСохраняемойНастройки</name>
-    <id>1</id>
+    <id>8</id>
     <title>
       <key>ru</key>
       <value>Имя сохраняемого варианта</value>
@@ -340,15 +338,13 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ИмяСохраняемойНастройки</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИмяСохраняемойНастройки</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
-      <name>ИмяСохраняемойНастройкиExtendedTooltip</name>
+      <name>ИмяСохраняемойНастройкиРасширеннаяПодсказка</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -402,7 +398,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СохранитьExtendedTooltip</name>
+        <name>СохранитьРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -442,7 +438,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменитьExtendedTooltip</name>
+        <name>ОтменитьРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -481,7 +477,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -516,7 +512,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ГруппаExtendedTooltip</name>
+      <name>ГруппаРасширеннаяПодсказка</name>
       <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -565,7 +561,7 @@
       <key>ru</key>
       <value>Список настроек</value>
     </title>
-    <id>1</id>
+    <id>31</id>
     <valueType>
       <types>DynamicList</types>
     </valueType>

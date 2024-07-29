@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ИспользоватьPushУведомления</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ИспользоватьPushУведомления</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -102,10 +100,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспользоватьGCM</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспользоватьGCM</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИспользоватьGCMРасширеннаяПодсказка</name>
@@ -151,10 +147,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.НомерПриложенияGoogleCloud</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НомерПриложенияGoogleCloud</segments>
           </dataPath>
           <extendedTooltip>
             <name>НомерПриложенияРасширеннаяПодсказка</name>
@@ -207,10 +201,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.КлючCервераОтправителяGCM</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.КлючCервераОтправителяGCM</segments>
           </dataPath>
           <extendedTooltip>
             <name>КлючОтправителяРасширеннаяПодсказка</name>
@@ -304,10 +296,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспользоватьAPNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспользоватьAPNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИспользоватьAPNSРасширеннаяПодсказка</name>
@@ -382,10 +372,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СертификатЗагружен</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СертификатЗагружен</segments>
             </dataPath>
             <extendedTooltip>
               <name>СертификатЗагруженРасширеннаяПодсказка</name>
@@ -504,10 +492,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспользоватьWNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспользоватьWNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИспользоватьWNSРасширеннаяПодсказка</name>
@@ -553,10 +539,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИдентификаторПриложенияWNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИдентификаторПриложенияWNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИдентификаторПриложенияWNSРасширеннаяПодсказка</name>
@@ -609,10 +593,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.КлючПриложенияWNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.КлючПриложенияWNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>КлючПриложенияWNSРасширеннаяПодсказка</name>
@@ -739,10 +721,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ЛогинСервисаПередачиPushУведомлений</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЛогинСервисаПередачиPushУведомлений</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЛогинСервисаРасширеннаяПодсказка</name>
@@ -938,7 +918,7 @@
       <key>ru</key>
       <value>Объект</value>
     </title>
-    <id>1</id>
+    <id>10</id>
     <valueType>
       <types>ConstantsSet</types>
     </valueType>
@@ -983,7 +963,7 @@
       <key>ru</key>
       <value>Адрес сертификата</value>
     </title>
-    <id>2</id>
+    <id>11</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

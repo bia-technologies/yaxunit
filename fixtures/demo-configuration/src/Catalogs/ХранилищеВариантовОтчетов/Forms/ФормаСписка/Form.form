@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Table">
     <name>Список</name>
-    <id>1</id>
+    <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -27,13 +27,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.НазваниеВарианта</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НазваниеВарианта</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НазваниеВариантаExtendedTooltip</name>
+        <name>НазваниеВариантаРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -48,7 +46,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НазваниеВарианта_КонтекстноеМеню</name>
+        <name>НазваниеВариантаКонтекстноеМеню</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -69,7 +67,7 @@
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
-      <name>Список_КоманднаяПанель</name>
+      <name>СписокКоманднаяПанель</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -197,7 +195,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -212,7 +210,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Список_КонтекстноеМеню</name>
+      <name>СписокКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -258,7 +256,7 @@
     </extInfo>
   </items>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
