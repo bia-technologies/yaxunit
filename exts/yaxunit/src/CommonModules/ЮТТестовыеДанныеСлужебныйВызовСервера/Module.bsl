@@ -265,7 +265,13 @@
 		КонецЦикла;
 	КонецЦикла;
 	
-	НачатьТранзакцию(РежимУправленияБлокировкойДанных.Управляемый);
+	// BSLLS:BeginTransactionBeforeTryCatch-off 
+	// BSLLS:PairingBrokenTransaction-off
+	// BSLLS:PairingBrokenTransaction-off
+	НачатьТранзакцию(РежимУправленияБлокировкойДанных.Управляемый); 
+	// BSLLS:BeginTransactionBeforeTryCatch-on
+	// BSLLS:PairingBrokenTransaction-on
+	// BSLLS:PairingBrokenTransaction-on
 	//@skip-check lock-out-of-try
 	Блокировка.Заблокировать();
 	ЮТОбщий.Пауза(Длительность);
