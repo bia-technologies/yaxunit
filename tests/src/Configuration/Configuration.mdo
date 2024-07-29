@@ -9,6 +9,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a931567d-d5ce-4b91-84fd-0e88802c11ef"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1fd3bfeb-1675-4087-af3c-439afd61bc7c"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0184ac30-9601-4012-af54-fcaeb13cab2c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="512019b4-0318-45ff-bb33-434c4d019855"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>Расш1_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
