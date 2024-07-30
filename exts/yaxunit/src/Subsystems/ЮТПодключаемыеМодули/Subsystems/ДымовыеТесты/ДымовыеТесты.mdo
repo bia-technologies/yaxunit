@@ -7,6 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonModule.ЮТДымовыеТесты_ОбычныеФормы</content>
+  <content>CommonModule.ЮТДымовыеТесты_ОткрытиеФорм</content>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>
