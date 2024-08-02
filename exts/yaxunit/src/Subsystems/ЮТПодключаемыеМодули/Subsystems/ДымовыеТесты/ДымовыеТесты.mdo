@@ -6,7 +6,5 @@
     <value>Дымовые тесты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonModule.ЮТДымовыеТесты_ОткрытиеФорм</content>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>
