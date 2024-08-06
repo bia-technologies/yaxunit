@@ -896,7 +896,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДеревоТестовКонтекстноеМенюЗапуститьВыделенныеТестыРасширеннаяПодсказка</name>
-            <id>131</id>
+            <id>45</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1528,6 +1528,10 @@
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
