@@ -228,17 +228,51 @@
         <representation>Compact</representation>
       </extInfo>
     </items>
-    <items xsi:type="form:Button">
-      <name>ФормаСформироватьНастройки</name>
-      <id>17</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаТесты</name>
+      <id>173</id>
+      <items xsi:type="form:Button">
+        <name>ТестыПерезагрузить</name>
+        <id>175</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ТестыПерезагрузитьРасширеннаяПодсказка</name>
+          <id>176</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ТестыПерезагрузить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Тесты</value>
+      </title>
       <extendedTooltip>
-        <name>ФормаСформироватьНастройкиРасширеннаяПодсказка</name>
-        <id>115</id>
+        <name>ГруппаТестыРасширеннаяПодсказка</name>
+        <id>174</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -251,12 +285,138 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.СформироватьНастройки</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
+      <type>Popup</type>
+      <extInfo xsi:type="form:PopupGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.ЮТСтруктура</picture>
+        </picture>
+        <representation>PictureAndText</representation>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаПараметры</name>
+      <id>165</id>
+      <items xsi:type="form:Button">
+        <name>НастройкиЗагрузить</name>
+        <id>167</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НастройкиЗагрузитьРасширеннаяПодсказка</name>
+          <id>168</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.НастройкиЗагрузить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>НастройкиРедактировать</name>
+        <id>169</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НастройкиРедактироватьРасширеннаяПодсказка</name>
+          <id>170</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.НастройкиРедактировать</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>НастройкиПерезагрузить</name>
+        <id>171</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НастройкиПерезагрузитьРасширеннаяПодсказка</name>
+          <id>172</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.НастройкиПерезагрузить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Параметры</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаПараметрыРасширеннаяПодсказка</name>
+        <id>166</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Popup</type>
+      <extInfo xsi:type="form:PopupGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.ЮТНастройки</picture>
+        </picture>
+        <representation>PictureAndText</representation>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1646,7 +1806,6 @@
     <name>ПередЗакрытием</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1726,7 +1885,7 @@
         <key>ru</key>
         <value>Время выполнения</value>
       </title>
-      <id>7</id>
+      <id>46</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1744,7 +1903,7 @@
         <key>ru</key>
         <value>Иконка</value>
       </title>
-      <id>8</id>
+      <id>17</id>
       <valueType>
         <types>Picture</types>
       </valueType>
@@ -1761,7 +1920,7 @@
         <key>ru</key>
         <value>Ошибки</value>
       </title>
-      <id>9</id>
+      <id>47</id>
       <valueType>
         <types>ValueTable</types>
       </valueType>
@@ -1892,7 +2051,7 @@
           <key>ru</key>
           <value>Сообщение</value>
         </title>
-        <id>10</id>
+        <id>57</id>
         <valueType>
           <types>String</types>
           <stringQualifiers/>
@@ -2070,6 +2229,24 @@
     </settingsSavedData>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>ИмяФайлаПараметров</name>
+    <title>
+      <key>ru</key>
+      <value>Имя файла параметров</value>
+    </title>
+    <id>132</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Сравнить</name>
     <title>
@@ -2092,21 +2269,21 @@
     <associatedTableElementId>59</associatedTableElementId>
   </formCommands>
   <formCommands>
-    <name>СформироватьНастройки</name>
+    <name>НастройкиРедактировать</name>
     <title>
       <key>ru</key>
-      <value>Сформировать настройки</value>
+      <value>Редактировать настройки</value>
     </title>
     <id>2</id>
     <use>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.ReportSettings</picture>
+      <picture>CommonPicture.ЮТРедактировать</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>СформироватьНастройки</name>
+        <name>НастройкиРедактировать</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
@@ -2194,6 +2371,75 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НастройкиЗагрузить</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить настройки</value>
+    </title>
+    <id>7</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЮТИмпорт</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НастройкиЗагрузить</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НастройкиПерезагрузить</name>
+    <title>
+      <key>ru</key>
+      <value>Перезагрузить настройки</value>
+    </title>
+    <id>8</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НастройкиПерезагрузить</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ТестыПерезагрузить</name>
+    <title>
+      <key>ru</key>
+      <value>Перезагрузить дерево тестов</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ТестыПерезагрузить</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Команда1</name>
+    <id>10</id>
+    <use>
+      <common>true</common>
+    </use>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>

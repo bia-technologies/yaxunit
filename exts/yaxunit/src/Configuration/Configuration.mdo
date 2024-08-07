@@ -33,12 +33,16 @@
   <subsystems>Subsystem.ЮТПодключаемыеМодули</subsystems>
   <subsystems>Subsystem.ЮТПубличный</subsystems>
   <commonPictures>CommonPicture.ЮТЗапустить</commonPictures>
+  <commonPictures>CommonPicture.ЮТИмпорт</commonPictures>
+  <commonPictures>CommonPicture.ЮТНастройки</commonPictures>
   <commonPictures>CommonPicture.ЮТНеизвестный</commonPictures>
   <commonPictures>CommonPicture.ЮТОшибка</commonPictures>
   <commonPictures>CommonPicture.ЮТПерезапуститьУпавшие</commonPictures>
   <commonPictures>CommonPicture.ЮТПодсистема</commonPictures>
   <commonPictures>CommonPicture.ЮТПропущен</commonPictures>
+  <commonPictures>CommonPicture.ЮТРедактировать</commonPictures>
   <commonPictures>CommonPicture.ЮТСравнить</commonPictures>
+  <commonPictures>CommonPicture.ЮТСтруктура</commonPictures>
   <commonPictures>CommonPicture.ЮТУпал</commonPictures>
   <commonPictures>CommonPicture.ЮТУспешно</commonPictures>
   <commonPictures>CommonPicture.ЮТЭлементыТестов</commonPictures>
@@ -116,6 +120,7 @@
   <commonModules>CommonModule.ЮТПодражательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПодражательСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПодражательСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ЮТПользовательскийИнтерфейсСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ЮТПредикатыСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТПреобразованияСлужебный</commonModules>
