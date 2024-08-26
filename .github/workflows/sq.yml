@@ -14,10 +14,13 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: refs/pull/${{ github.event.number }}/merge # Для поддержки pull_request и pull_request_target
+        fetch-depth: 0 # Fetch all history for all tags and branches
       
     - name: Checkout ${{ github.ref_name }}
       if: github.event_name == 'push'
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Fetch all history for all tags and branches
 
     - name: Configure env vars for SonarCloud scan
       env:  
