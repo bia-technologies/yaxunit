@@ -103,6 +103,7 @@
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетоды</commonModules>
   <commonModules>CommonModule.ЮТМетодыСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТМетодыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийСлужебный</commonModules>
