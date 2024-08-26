@@ -7,7 +7,7 @@
         <lastBuildDate>Tue, 07 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>ru</language>
         <item>
             <title><![CDATA[YaxUnit. Версия 24.04]]></title>
             <link>https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release</link>
@@ -15,26 +15,26 @@
             <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 24.04]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/24.04" target="_blank" rel="noopener noreferrer">Release 24.04</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>[NEW] Метод <code>УстановитьСсылкуНового</code> в конструкторе объектов <a href="https://github.com/bia-technologies/yaxunit/issues/310" target="_blank" rel="noopener noreferrer">#310</a>, спасибо <a href="https://github.com/alexandr-yang" target="_blank" rel="noopener noreferrer">@alexandr-yang</a></li>
 <li>Удаление тестовых данных без учета прав <a href="https://github.com/bia-technologies/yaxunit/issues/309" target="_blank" rel="noopener noreferrer">#309</a>, спасибо <a href="https://github.com/goodwinvu" target="_blank" rel="noopener noreferrer">@goodwinvu</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="зависимости">Зависимости<a class="hash-link" aria-label="Direct link to Зависимости" title="Direct link to Зависимости" href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="зависимости">Зависимости<a href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8" class="hash-link" aria-label="Прямая ссылка на Зависимости" title="Прямая ссылка на Зависимости">​</a></h3>
 <ul>
 <li>[NEW] Зависимости тестов <a href="https://github.com/bia-technologies/yaxunit/issues/314" target="_blank" rel="noopener noreferrer">#314</a></li>
 <li>[NEW] Добавить возможность указывать рабочий каталог в параметрах запуска <a href="https://github.com/bia-technologies/yaxunit/issues/313" target="_blank" rel="noopener noreferrer">#313</a></li>
 <li>[NEW] Зависимости тестов. Фабрика XDTO <a href="https://github.com/bia-technologies/yaxunit/issues/322" target="_blank" rel="noopener noreferrer">#322</a></li>
 </ul>
 <p>Подробнее о зависимостях вы можете узнать из <a href="https://bia-technologies.github.io/yaxunit/docs/features/dependencies">документации</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>Рефакторинг механизма событий <a href="https://github.com/bia-technologies/yaxunit/issues/315" target="_blank" rel="noopener noreferrer">#315</a><br>
 <!-- -->Добавлена возможность создавать обработчики событий за пределами расширения движка, подробнее в <a href="https://bia-technologies.github.io/yaxunit/docs/features/events">документации</a></li>
 <li>Добавлен шаблон PR</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a class="hash-link" aria-label="Direct link to Исправленные ошибки" title="Direct link to Исправленные ошибки" href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2024/05/07/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Прямая ссылка на Исправленные ошибки" title="Прямая ссылка на Исправленные ошибки">​</a></h2>
 <ul>
 <li>[Bug]: Не работает формат выбода ошибки HTML на Mac <a href="https://github.com/bia-technologies/yaxunit/issues/319" target="_blank" rel="noopener noreferrer">#319</a>, спасибо <a href="https://github.com/alexandr-yang" target="_blank" rel="noopener noreferrer">@alexandr-yang</a></li>
 <li>Мелкие исправления в документации <a href="https://github.com/bia-technologies/yaxunit/issues/320" target="_blank" rel="noopener noreferrer">#320</a>, спасибо <a href="https://github.com/alexandr-yang" target="_blank" rel="noopener noreferrer">@alexandr-yang</a></li>
@@ -50,13 +50,13 @@
             <pubDate>Fri, 29 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 24.03]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/24.03" target="_blank" rel="noopener noreferrer">Release 24.03</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="документация">Документация<a class="hash-link" aria-label="Direct link to Документация" title="Direct link to Документация" href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="документация">Документация<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Документация" title="Прямая ссылка на Документация">​</a></h3>
 <ul>
 <li>Переписана вся <a href="https://bia-technologies.github.io/yaxunit/" target="_blank" rel="noopener noreferrer">документация</a></li>
 <li>Включить поиск по документации <a href="https://github.com/bia-technologies/yaxunit/issues/289" target="_blank" rel="noopener noreferrer">#289</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Добавить методы генерации случайной даты <a href="https://github.com/bia-technologies/yaxunit/issues/269" target="_blank" rel="noopener noreferrer">#269</a></li>
 <li>Добавить конструктор объектов для XDTO <a href="https://github.com/bia-technologies/yaxunit/issues/271" target="_blank" rel="noopener noreferrer">#271</a></li>
@@ -64,22 +64,22 @@
 <li>Добавить метод в КонструкторОбъекта для установки реквизитов по коллекции <a href="https://github.com/bia-technologies/yaxunit/issues/249" target="_blank" rel="noopener noreferrer">#249</a></li>
 <li>Поддержка записи в режиме обмен данными загрузка для регистров из конструктора объекта <a href="https://github.com/bia-technologies/yaxunit/issues/270" target="_blank" rel="noopener noreferrer">#270</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения" href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Утверждения" title="Прямая ссылка на Утвержд�ения">​</a></h3>
 <ul>
 <li>Добавить утверждение/предикат <code>ВСписке</code> <a href="https://github.com/bia-technologies/yaxunit/issues/283" target="_blank" rel="noopener noreferrer">#283</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>Добавить возможность задавать разные описания для тестов с параметрами <a href="https://github.com/bia-technologies/yaxunit/issues/276" target="_blank" rel="noopener noreferrer">#276</a></li>
 <li>Сбор лога выполнения теста <a href="https://github.com/bia-technologies/yaxunit/issues/282" target="_blank" rel="noopener noreferrer">#282</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a class="hash-link" aria-label="Direct link to Исправленные ошибки" title="Direct link to Исправленные ошибки" href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Прямая ссылка на Исправленные ошибки" title="Прямая ссылка на Исправленные ошибки">​</a></h2>
 <ul>
 <li>Падает с ошибкой создание элемента справочника с настройкой <code>ОбменДаннымиЗагрузка = Истина</code> <a href="https://github.com/bia-technologies/yaxunit/issues/273" target="_blank" rel="noopener noreferrer">#273</a></li>
 <li>При повторном запуске упавшего теста из Предприятия реального вызова не происходит <a href="https://github.com/bia-technologies/yaxunit/issues/248" target="_blank" rel="noopener noreferrer">#248</a></li>
 <li>Исправить описания устаревших методов, чтобы EDT их подсвечивала. <a href="https://github.com/bia-technologies/yaxunit/issues/304" target="_blank" rel="noopener noreferrer">#304</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="важно">Важно<a class="hash-link" aria-label="Direct link to Важно" title="Direct link to Важно" href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="важно">Важно<a href="https://bia-technologies.github.io/yaxunit/blog/2024/03/29/engine-release#%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE" class="hash-link" aria-label="Прямая ссылка на Важно" title="Прямая ссылка на Важно">​</a></h2>
 <p>Выполнен <strong>рефакторинг</strong> модулей YAxUnit для физического разделения публичного и служебного программного интерфейса.<br>
 <!-- -->Попытался по максимуму сохранить обратную совместимость.</p>]]></content:encoded>
             <category>releases</category>
@@ -92,30 +92,30 @@
             <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 24.02]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/24.02" target="_blank" rel="noopener noreferrer">Release 24.02</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Добавлен метод генерации случайного номера телефона <a href="https://github.com/bia-technologies/yaxunit/issues/175" target="_blank" rel="noopener noreferrer">#175</a></li>
 <li>Добавлен метод для получения случайного значения предопределенных данных <a href="https://github.com/bia-technologies/yaxunit/issues/246" target="_blank" rel="noopener noreferrer">#246</a></li>
 <li>Внесен метод генерации случайного значения по описанию типов в публичный интерфейс. <a href="https://github.com/bia-technologies/yaxunit/issues/250" target="_blank" rel="noopener noreferrer">#250</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Утверждения" title="Прямая ссылка на Утверждения">​</a></h3>
 <ul>
 <li>Метод утверждений ИмеетДлину не выводит в тексте ошибки фактическую длину (размер) <a href="https://github.com/bia-technologies/yaxunit/issues/203" target="_blank" rel="noopener noreferrer">#203</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование">Мокирование<a class="hash-link" aria-label="Direct link to Мокирование" title="Direct link to Мокирование" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование">Мокирование<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" class="hash-link" aria-label="Прямая ссылка на Мокирование" title="Прямая ссылка на Мокирование">​</a></h3>
 <ul>
 <li>Добавить методы для мокирования ADO.RecordSet <a href="https://github.com/bia-technologies/yaxunit/issues/222" target="_blank" rel="noopener noreferrer">#222</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запуск">Запуск<a class="hash-link" aria-label="Direct link to Запуск" title="Direct link to Запуск" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запуск">Запуск<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA" class="hash-link" aria-label="Прямая ссылка на Запуск" title="Прямая ссылка на Запуск">​</a></h3>
 <ul>
 <li>Добавить запуск выделенных тестов в обработке запуска тестов по Ctrl+Enter <a href="https://github.com/bia-technologies/yaxunit/issues/251" target="_blank" rel="noopener noreferrer">#251</a>. Спасибо <a href="https://github.com/1cgh" target="_blank" rel="noopener noreferrer">@1cgh</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="отчет-о-тестировании">Отчет о тестировании<a class="hash-link" aria-label="Direct link to Отчет о тестировании" title="Direct link to Отчет о тестировании" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%BE%D1%82%D1%87%D0%B5%D1%82-%D0%BE-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="отчет-о-тестировании">Отчет о тестировании<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%BE%D1%82%D1%87%D0%B5%D1%82-%D0%BE-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Отчет о тестировании" title="Прямая ссылка на Отчет о тестировании">​</a></h3>
 <ul>
 <li>Отчет в формате allure <a href="https://github.com/bia-technologies/yaxunit/issues/255" target="_blank" rel="noopener noreferrer">#255</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a class="hash-link" aria-label="Direct link to Исправленные ошибки" title="Direct link to Исправленные ошибки" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Прямая ссылка на Исправленные ошибки" title="Прямая ссылка на Исправленные ошибки">​</a></h2>
 <ul>
 <li>Если в ИсполняемыеСценарии выпадает ошибка, то тесты просто не определяются и ошибка нигде не отображается <a href="https://github.com/bia-technologies/yaxunit/issues/198" target="_blank" rel="noopener noreferrer">#198</a></li>
 <li>Использование метода ЮТест.Пропустить влечет запись кода 1 (ошибка) в файл с результатом проверки <a href="https://github.com/bia-technologies/yaxunit/issues/216" target="_blank" rel="noopener noreferrer">#216</a></li>
@@ -133,14 +133,14 @@
             <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 24.02]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/edt-test-runner/releases/tag/24.02" target="_blank" rel="noopener noreferrer">Release 24.02</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/plugin-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/plugin-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
 <ul>
 <li>Реализована генерация тестовых модулей и тестов</li>
 <li>Реализована генерация моков для методов конфигурации</li>
 <li>Небольшие доработки UI</li>
 </ul>
 <p>Подробнее смотрите в <a href="https://github.com/bia-technologies/edt-test-runner/blob/24.02/docs/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8.md#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA%D0%B8" target="_blank" rel="noopener noreferrer">документации</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправлены-ошибки">Исправлены ошибки<a class="hash-link" aria-label="Direct link to Исправлены ошибки" title="Direct link to Исправлены ошибки" href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/plugin-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%8B-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправлены-ошибки">Исправлены ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2024/02/29/plugin-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%8B-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Прямая ссылка на Исправлены ошибки" title="Прямая ссылка на Исправлены ошибки">​</a></h2>
 <ul>
 <li>Исправлена ошибка "Не удалось найти тестовый метод"</li>
 </ul>]]></content:encoded>
@@ -154,14 +154,14 @@
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 24.01]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/24.01" target="_blank" rel="noopener noreferrer">Release 24.01</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Добавить возможность передать дополнительные свойства и режим загрузки в методы СоздатьЭлемент и СоздатьДокумент <a href="https://github.com/bia-technologies/yaxunit/issues/181" target="_blank" rel="noopener noreferrer">#181</a> Спасибо <a href="https://github.com/SeiOkami" target="_blank" rel="noopener noreferrer">@SeiOkami</a></li>
 <li>Конструктор тестовых данных. Добавить метод перехода с заполнения табличной части на объект <a href="https://github.com/bia-technologies/yaxunit/issues/167" target="_blank" rel="noopener noreferrer">#167</a></li>
 <li>Конструктор тестовых данных, добавить метод создания записи, который возвращает сам конструктор. <a href="https://github.com/bia-technologies/yaxunit/issues/243" target="_blank" rel="noopener noreferrer">#243</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Утверждения" title="Прямая ссылка на Утверждения">​</a></h3>
 <ul>
 <li>Новое утверждение <code>ОжидаетЧто(Объект).ИмеетМетод(ИмяМетода)</code> <a href="https://github.com/bia-technologies/yaxunit/issues/224" target="_blank" rel="noopener noreferrer">#224</a></li>
 <li>Добавить поддержку передачи значения по умолчанию <a href="https://github.com/bia-technologies/yaxunit/issues/207" target="_blank" rel="noopener noreferrer">#207</a> Спасибо <a href="https://github.com/stolya" target="_blank" rel="noopener noreferrer">@stolya</a></li>
@@ -172,12 +172,12 @@
 <li>Перевод утверждений на использование предикатов <a href="https://github.com/bia-technologies/yaxunit/issues/162" target="_blank" rel="noopener noreferrer">#162</a></li>
 <li>Сравнение табличных документов по содержимому <a href="https://github.com/bia-technologies/yaxunit/issues/36" target="_blank" rel="noopener noreferrer">#36</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование">Мокирование<a class="hash-link" aria-label="Direct link to Мокирование" title="Direct link to Мокирование" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование">Мокирование<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" class="hash-link" aria-label="Прямая ссылка на Мокирование" title="Прямая ссылка на Мокирование">​</a></h3>
 <ul>
 <li>Мокито. Навести порядок с мокированием ссылочных объектов. <a href="https://github.com/bia-technologies/yaxunit/issues/231" target="_blank" rel="noopener noreferrer">#231</a></li>
 <li>Настройка мокирования. Сократить настройку мокирования цепочки вызовов одного метода. <a href="https://github.com/bia-technologies/yaxunit/issues/223" target="_blank" rel="noopener noreferrer">#223</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>Поддержка англоязычных конфигураций <a href="https://github.com/bia-technologies/yaxunit/issues/238" target="_blank" rel="noopener noreferrer">#238</a> Спасибо <a href="https://github.com/RichardTheLionJokes" target="_blank" rel="noopener noreferrer">@RichardTheLionJokes</a></li>
 <li>Вынести в ППИ метод получения свойства по по пути <a href="https://github.com/bia-technologies/yaxunit/issues/214" target="_blank" rel="noopener noreferrer">#214</a></li>
@@ -187,27 +187,27 @@
 <li>Метод установки реквизита ссылки <a href="https://github.com/bia-technologies/yaxunit/issues/158" target="_blank" rel="noopener noreferrer">#158</a></li>
 <li>Проверка зависших транзакций <a href="https://github.com/bia-technologies/yaxunit/issues/143" target="_blank" rel="noopener noreferrer">#143</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a class="hash-link" aria-label="Direct link to Исправленные ошибки" title="Direct link to Исправленные ошибки" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запуск">Запуск<a class="hash-link" aria-label="Direct link to Запуск" title="Direct link to Запуск" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Прямая ссылка на Исправленные ошибки" title="Прямая ссылка на Исправленные ошибки">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запуск">Запуск<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA" class="hash-link" aria-label="Прямая ссылка на Запуск" title="Прямая ссылка на Запуск">​</a></h3>
 <ul>
 <li>Ошибка при чтении параметров запуска <a href="https://github.com/bia-technologies/yaxunit/issues/241" target="_blank" rel="noopener noreferrer">#241</a> Спасибо <a href="https://github.com/1cgh" target="_blank" rel="noopener noreferrer">@1cgh</a></li>
 <li>Добавить поддержку работу инструмента под не полноправным пользователем <a href="https://github.com/bia-technologies/yaxunit/issues/212" target="_blank" rel="noopener noreferrer">#212</a> Спасибо <a href="https://github.com/stolya" target="_blank" rel="noopener noreferrer">@stolya</a></li>
 <li>Добавить возможность внутри тестов создавать внешнюю обработку по имени <a href="https://github.com/bia-technologies/yaxunit/issues/193" target="_blank" rel="noopener noreferrer">#193</a> Спасибо <a href="https://github.com/SeiOkami" target="_blank" rel="noopener noreferrer">@SeiOkami</a></li>
 <li>Ошибка запуска тестов из файла настроек при запрещенных синхронных вызовах <a href="https://github.com/bia-technologies/yaxunit/issues/188" target="_blank" rel="noopener noreferrer">#188</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование-1">Мокирование<a class="hash-link" aria-label="Direct link to Мокирование" title="Direct link to Мокирование" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-1">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование-1">Мокирование<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-1" class="hash-link" aria-label="Прямая ссылка на Мокирование" title="Прямая ссылка на Мокирование">​</a></h3>
 <ul>
 <li>Не работает мокирование методов обработки, при обучении через менеджер <a href="https://github.com/bia-technologies/yaxunit/issues/217" target="_blank" rel="noopener noreferrer">#217</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные-1">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-1">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные-1">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-1" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Ошибка генерации случайного отрицательного числа без параметров <a href="https://github.com/bia-technologies/yaxunit/issues/211" target="_blank" rel="noopener noreferrer">#211</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ci">CI<a class="hash-link" aria-label="Direct link to CI" title="Direct link to CI" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#ci">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ci">CI<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#ci" class="hash-link" aria-label="Прямая ссылка на CI" title="Прямая ссылка на CI">​</a></h3>
 <ul>
 <li>Починить тесты движка для английской локали <a href="https://github.com/bia-technologies/yaxunit/issues/160" target="_blank" rel="noopener noreferrer">#160</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее-1">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5-1">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее-1">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2024/01/15/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5-1" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>При поломке контекста движка в рамках теста возникает необработаная ошибка <a href="https://github.com/bia-technologies/yaxunit/issues/234" target="_blank" rel="noopener noreferrer">#234</a></li>
 </ul>]]></content:encoded>
@@ -221,31 +221,31 @@
             <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 23.08]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/23.08" target="_blank" rel="noopener noreferrer">Release 23.08</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Загрузка данных из табличного документа или таблицы markdown <a href="https://github.com/bia-technologies/yaxunit/issues/133" target="_blank" rel="noopener noreferrer">#133</a>, <a href="https://bia-technologies.github.io/yaxunit/docs/features/test-data/#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%B8%D0%B7-%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%B2" target="_blank" rel="noopener noreferrer">документация</a>. Спасибо <a href="https://github.com/dlyubanevich" target="_blank" rel="noopener noreferrer">@dlyubanevich</a></li>
 <li>Добавить возможность указывать тип фикции <a href="https://github.com/bia-technologies/yaxunit/issues/121" target="_blank" rel="noopener noreferrer">#121</a></li>
 <li>Добавить возможность получать случайное значение перечисления <a href="https://github.com/bia-technologies/yaxunit/issues/132" target="_blank" rel="noopener noreferrer">#132</a></li>
 <li>Тестовые данные, добавить метод СлучайныйИдентификатор <a href="https://github.com/bia-technologies/yaxunit/issues/102" target="_blank" rel="noopener noreferrer">#102</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения" href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Утверждения" title="Прямая ссылка на Утверждения">​</a></h3>
 <ul>
 <li>Добавить в ассерты и предикаты поддержку проверки по регулярному выражению <a href="https://github.com/bia-technologies/yaxunit/issues/138" target="_blank" rel="noopener noreferrer">#138</a>. Спасибо <a href="https://github.com/Daabramov" target="_blank" rel="noopener noreferrer">@Daabramov</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на �Прочее">​</a></h3>
 <ul>
 <li>Запуск и перезапуск тестов из предприятия <a href="https://github.com/bia-technologies/yaxunit/issues/49" target="_blank" rel="noopener noreferrer">#49</a>, <a href="https://bia-technologies.github.io/yaxunit/docs/yaxunit-ui" target="_blank" rel="noopener noreferrer">документация</a></li>
 <li>Пауза <a href="https://github.com/bia-technologies/yaxunit/issues/136" target="_blank" rel="noopener noreferrer">#136</a></li>
 <li>Унифицированный механизм подключения внешних компонент - тихая установка, работа с отключенными синхронными вызовами.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ci">CI<a class="hash-link" aria-label="Direct link to CI" title="Direct link to CI" href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#ci">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ci">CI<a href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#ci" class="hash-link" aria-label="Прямая ссылка на CI" title="Прямая ссылка на CI">​</a></h3>
 <ul>
 <li>Github CI, реализовано автотестирование движка под windows и linux <a href="https://github.com/bia-technologies/yaxunit/pull/142" target="_blank" rel="noopener noreferrer">#142</a></li>
 <li>Вывод лога выполнения тестирования в консоль <a href="https://github.com/bia-technologies/yaxunit/issues/144" target="_blank" rel="noopener noreferrer">#144</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a class="hash-link" aria-label="Direct link to Исправленные ошибки" title="Direct link to Исправленные ошибки" href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее-1">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5-1">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Прямая ссылка на Исправленные ошибки" title="Прямая ссылка на Исправленные ошибки">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее-1">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2023/09/05/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5-1" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>Подтягиваются глобальные общие модули <a href="https://github.com/bia-technologies/yaxunit/pull/148" target="_blank" rel="noopener noreferrer">#148</a>. Спасибо <a href="https://github.com/SeiOkami" target="_blank" rel="noopener noreferrer">@SeiOkami</a></li>
 <li>Исправлены выявленные ошибки <a href="https://github.com/bia-technologies/yaxunit/pull/130" target="_blank" rel="noopener noreferrer">#130</a>. Спасибо <a href="https://github.com/potoyalo" target="_blank" rel="noopener noreferrer">@potoyalo</a></li>
@@ -260,29 +260,29 @@
             <pubDate>Mon, 31 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 23.07]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/23.07" target="_blank" rel="noopener noreferrer">Release 23.07</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Faker for YaxUnit (Генерация валидных бизнес), <a href="https://github.com/bia-technologies/yaxunit/issues/88" target="_blank" rel="noopener noreferrer">#88</a>, <a href="https://github.com/bia-technologies/yaxunit/issues/80" target="_blank" rel="noopener noreferrer">#80</a>. Спасибо <a href="https://github.com/Daabramov" target="_blank" rel="noopener noreferrer">@Daabramov</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запросы">Запросы<a class="hash-link" aria-label="Direct link to Запросы" title="Direct link to Запросы" href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запросы">Запросы<a href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B" class="hash-link" aria-label="Прямая ссылка на Запросы" title="Прямая ссылка на Запросы">​</a></h3>
 <ul>
 <li>Добавлены новые методы модуля ЮТЗапросы, <a href="https://github.com/bia-technologies/yaxunit/pull/122" target="_blank" rel="noopener noreferrer">#122</a>. Спасибо <a href="https://github.com/potoyalo" target="_blank" rel="noopener noreferrer">@potoyalo</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>Переопределение обработчиков событий тестового модуля, <a href="https://github.com/bia-technologies/yaxunit/pull/124" target="_blank" rel="noopener noreferrer">#124</a>. Спасибо <a href="https://github.com/potoyalo" target="_blank" rel="noopener noreferrer">@potoyalo</a></li>
 <li>Необязательное значение дополнительного свойства  <a href="https://github.com/bia-technologies/yaxunit/pull/106" target="_blank" rel="noopener noreferrer">#106</a>. Спасибо <a href="https://github.com/alexandr-yang" target="_blank" rel="noopener noreferrer">@alexandr-yang</a></li>
 <li>В репозиторий добавлена конфигурация для прогона тестов, <a href="https://github.com/bia-technologies/yaxunit/pull/123" target="_blank" rel="noopener noreferrer">#123</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a class="hash-link" aria-label="Direct link to Исправленные ошибки" title="Direct link to Исправленные ошибки" href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокито">Мокито<a class="hash-link" aria-label="Direct link to Мокито" title="Direct link to Мокито" href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%82%D0%BE">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправленные-ошибки">Исправленные ошибки<a href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8" class="hash-link" aria-label="Прямая ссылка на Исправленные ошибки" title="Прямая ссылка на Исправленные ошибки">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокито">Мокито<a href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%82%D0%BE" class="hash-link" aria-label="Прямая ссылка на Мокито" title="Прямая ссылка на Мокито">​</a></h3>
 <ul>
 <li>Исправлена ошибка определения предикатов при обучении, <a href="https://github.com/bia-technologies/yaxunit/issues/108" target="_blank" rel="noopener noreferrer">#108</a>. Спасибо <a href="https://github.com/dlyubanevich" target="_blank" rel="noopener noreferrer">@dlyubanevich</a></li>
 <li>Исправлена ошибка анализа количества вызовов мокируемого метода, <a href="https://github.com/bia-technologies/yaxunit/pull/118" target="_blank" rel="noopener noreferrer">#118</a></li>
 <li>Исправлена ошибка при мокировании метода вызываемого при установке параметров сеанса, <a href="https://github.com/bia-technologies/yaxunit/issues/116" target="_blank" rel="noopener noreferrer">#116</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения" href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2023/07/31/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Утверждения" title="Прямая ссылка на Утверждения">​</a></h3>
 <ul>
 <li>Исправлена ошибка проверки равенства значения соответствия, если ключом соответствия является не строка, <a href="https://github.com/bia-technologies/yaxunit/issues/114" target="_blank" rel="noopener noreferrer">#114</a>. Спасибо <a href="https://github.com/alexandr-yang" target="_blank" rel="noopener noreferrer">@alexandr-yang</a></li>
 </ul>]]></content:encoded>
@@ -296,8 +296,8 @@
             <pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 23.05]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/23.05" target="_blank" rel="noopener noreferrer">Release 23.05</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Научили конструктор тестовых данных создавать данные в регистрах <a href="https://github.com/bia-technologies/yaxunit/pull/69" target="_blank" rel="noopener noreferrer">#69</a></li>
 <li>Реализовано удаление тестовых данных созданных на клиенте <a href="https://github.com/bia-technologies/yaxunit/pull/74" target="_blank" rel="noopener noreferrer">#74</a></li>
@@ -308,21 +308,21 @@
 <li>Возможность создавать несколько конструкторов тестовых данных  <a href="https://github.com/bia-technologies/yaxunit/pull/55" target="_blank" rel="noopener noreferrer">#55</a></li>
 <li>В конструктор тестовых данных добавлен метод заполнения обязательных полей фиктивными данными <a href="https://github.com/bia-technologies/yaxunit/pull/93" target="_blank" rel="noopener noreferrer">#93</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокито">Мокито<a class="hash-link" aria-label="Direct link to Мокито" title="Direct link to Мокито" href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%82%D0%BE">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокито">Мокито<a href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%82%D0%BE" class="hash-link" aria-label="Прямая с�сылка на Мокито" title="Прямая ссылка на Мокито">​</a></h3>
 <ul>
 <li>Использование предикатов при указании параметров мокируемого метода <a href="https://github.com/bia-technologies/yaxunit/pull/98" target="_blank" rel="noopener noreferrer">#98</a></li>
 <li>Исправлена ошибка неправильного сравнение параметров при проверке вызовов Мокито <a href="https://github.com/bia-technologies/yaxunit/pull/76" target="_blank" rel="noopener noreferrer">#76</a>. Спасибо <a href="https://github.com/alexandr-yang" target="_blank" rel="noopener noreferrer">@alexandr-yang</a></li>
 <li>Исправлена ошибка подбора реакции Мокито <a href="https://github.com/bia-technologies/yaxunit/pull/62" target="_blank" rel="noopener noreferrer">#62</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения" href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Утверждения" title="Прямая ссылка на Утверждения">​</a></h3>
 <ul>
 <li>Утверждения для проверки таблиц информационной базы <a href="https://github.com/bia-technologies/yaxunit/pull/70" target="_blank" rel="noopener noreferrer">#70</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запросы">Запросы<a class="hash-link" aria-label="Direct link to Запросы" title="Direct link to Запросы" href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="запросы">Запросы<a href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B" class="hash-link" aria-label="Прямая ссылка на Запросы" title="Прямая ссылка на Запросы">​</a></h3>
 <ul>
 <li>Расширение API для работы с запросами <a href="https://github.com/bia-technologies/yaxunit/pull/94" target="_blank" rel="noopener noreferrer">#94</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2023/05/25/engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>Добавлена картинка подсистемы 16*16 <a href="https://github.com/bia-technologies/yaxunit/pull/78" target="_blank" rel="noopener noreferrer">#78</a>. Спасибо <a href="https://github.com/petypen" target="_blank" rel="noopener noreferrer">@petypen</a></li>
 <li>Исправлены некоторые ошибки <a href="https://github.com/bia-technologies/yaxunit/pull/85" target="_blank" rel="noopener noreferrer">#85</a>. Спасибо <a href="https://github.com/potoyalo" target="_blank" rel="noopener noreferrer">@potoyalo</a></li>
@@ -349,28 +349,28 @@
             <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 23.04]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/yaxunit/releases/tag/23.04" target="_blank" rel="noopener noreferrer">Release 23.04</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a class="hash-link" aria-label="Direct link to Тестовые данные" title="Direct link to Тестовые данные" href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="тестовые-данные">Тестовые данные<a href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5" class="hash-link" aria-label="Прямая ссылка на Тестовые данные" title="Прямая ссылка на Тестовые данные">​</a></h3>
 <ul>
 <li>Новые ф-ии для удаления тестовых данных по ссылкам</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокирование">Мокирование<a class="hash-link" aria-label="Direct link to Мокирование" title="Direct link to Мокирование" href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="мокиро�вание">Мокирование<a href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%BC%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" class="hash-link" aria-label="Прямая ссылка на Мокирование" title="Прямая ссылка на Мокирование">​</a></h3>
 <ul>
 <li>Восстановлена потерянная возможность задавать различное поведение для цепочки одинаковых вызовов</li>
 <li>Доступ к статистике вызовов методов при проверке</li>
 <li>Сброс статистики вызовов методов при нескольких "прогонах" в одном тесте</li>
 <li>Реализована возможность мокирования HTTP сервисов</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a class="hash-link" aria-label="Direct link to Утверждения" title="Direct link to Утверждения" href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="утверждения">Утверждения<a href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Утверждения" title="Прямая ссылка на Утверждения">​</a></h3>
 <ul>
 <li>Новое утверждение для сравнения коллекций (by <a href="https://github.com/ViktorErmakov" target="_blank" rel="noopener noreferrer">@ViktorErmakov</a>)</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="документация">Документация<a class="hash-link" aria-label="Direct link to Документация" title="Direct link to Документация" href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="документация">Документация<a href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на Документация" title="Прямая ссылка на Документация">​</a></h3>
 <ul>
 <li>Создан статический сайт с документацией в удобном виде</li>
 <li>Обновлена и дополнена документация</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a class="hash-link" aria-label="Direct link to Прочее" title="Direct link to Прочее" href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="прочее">Прочее<a href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/02-engine-release#%D0%BF%D1%80%D0%BE%D1%87%D0%B5%D0%B5" class="hash-link" aria-label="Прямая ссылка на Прочее" title="Прямая ссылка на Прочее">​</a></h3>
 <ul>
 <li>Внесены доработки для более удобного использования в CI</li>
 <li>Доработан движок для работы в режиме без использования синхронных методов</li>
@@ -386,7 +386,7 @@
             <pubDate>Sat, 29 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Release 23.04]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/bia-technologies/edt-test-runner/releases/tag/23.04" target="_blank" rel="noopener noreferrer">Release 23.04</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a class="hash-link" aria-label="Direct link to Новое в версии" title="Direct link to Новое в версии" href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/03-plugin-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="новое-в-версии">Новое в версии<a href="https://bia-technologies.github.io/yaxunit/blog/2023/04/29/03-plugin-release#%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8" class="hash-link" aria-label="Прямая ссылка на Новое в версии" title="Прямая ссылка на Новое в версии">​</a></h2>
 <ul>
 <li>Модернизирована панель просмотра ошибок тестов</li>
 <li>Реализована навигация между тестом и тестируемым методом</li>

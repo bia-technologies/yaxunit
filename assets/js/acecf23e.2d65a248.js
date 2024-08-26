@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/yaxunit/blog","blogTitle":"\u0417\u0430\u043c\u0435\u0442\u043a\u0438"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[3749],{9988:t=>{t.exports=JSON.parse('{"authors":[{"name":"alkoleft","title":"\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a YAxUnit","url":"https://github.com/alkoleft","imageURL":"https://github.com/alkoleft.png","key":"alkoleft","page":null,"count":11}]}')}}]);
