@@ -1,4 +1,4 @@
-name: Build and test
+name: Тестирование
 on:
   push:
     branches: 
@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   export_to_designer:
-    name: Export to designer xml
+    name: Конвертация в формат конфигуратора
     uses: ./.github/workflows/step-export-xml.yml
     with:
       edt_version: 2023.1.2
@@ -27,7 +27,7 @@ jobs:
     secrets: inherit
   
   build_artifacts:
-    name: Build artifacts
+    name: Сборка артифактов
     uses: ./.github/workflows/step-build-artifacts-windows.yml
     needs: export_to_designer
     with:
@@ -35,6 +35,7 @@ jobs:
     secrets: inherit
 
   tests_windows:
+    name: Тестирование в Windows
     strategy:
       fail-fast: false
       matrix:
@@ -51,6 +52,7 @@ jobs:
     secrets: inherit
 
   tests_linux:
+    name: Тестирование в Linux
     strategy:
       fail-fast: false
       matrix:

@@ -1,4 +1,4 @@
-name: Build release
+name: Создание черновика релиза
 on:
   push:
     tags:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   export_to_designer:
-    name: Export to designer xml
+    name: Конвертация исходников в формат конфигуратора
     uses: ./.github/workflows/step-export-xml.yml
     with:
       edt_version: 2023.1.2
@@ -22,11 +22,12 @@ jobs:
     secrets: inherit
   
   build_artifacts:
+    name: Сборка артифактов
     runs-on: ubuntu-latest
     needs: export_to_designer
     
     steps:
-      - name: install 8.3.21.1895
+      - name: Установка 1С:Предприятие 8.3.21.1895
         uses: alkoleft/onec-setup-build-env-action@develop
         with:
           type: onec
@@ -36,35 +37,36 @@ jobs:
           ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
           ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
         timeout-minutes: 10
-          
-      - name: download artifact
+
+      - name: Загрузка исходников в формате конфигуратора
         uses: actions/download-artifact@v4
         with:
           name: designer-src
-      - name: extract artifacts
+
+      - name: Распаковка исходников
         run: |
           mkdir export
           cd export
           7z x ../export.7z -y
 
-      - name: create IB
+      - name: Создание пустой информационной базы
         run: ibcmd infobase create --db-path=file-db
         timeout-minutes: 5
   
-      - name: import yaxunit
+      - name: Импорт YAxUnit из исходников
         run: ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export/yaxunit
         timeout-minutes: 5
     
-      - name: save yaxunit
+      - name: Сохрание расширения YAxUnit
         run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT YAxUnit-${{ needs.export_to_designer.outputs.yaxunit_version }}.cfe
         timeout-minutes: 5
         
-      - name: Release
+      - name: Создание черновика релиза ${{ needs.export_to_designer.outputs.yaxunit_version }}
         uses: softprops/action-gh-release@v2
         if: ${{ success() }}
         with:
           draft: true
-          files: YAxUnit-*.cfe
+          files: '*.cfe'
           fail_on_unmatched_files: true
           generate_release_notes: true
           append_body: false

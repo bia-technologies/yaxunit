@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Извлечение исходников PR
-      if: github.event_name != 'push'
+      if: github.event_name == 'pull_request_target' || github.event_name == 'pull_request'
       uses: actions/checkout@v4
       with:
         ref: refs/pull/${{ github.event.number }}/merge # Для поддержки pull_request и pull_request_target
@@ -46,7 +46,7 @@ jobs:
     # Анализ проекта в SonarQube (PR)
     # https://docs.sonarqube.org/latest/analysis/pull-request/
     - name: Анализ в SonarQube (pull-request ${{ github.event.number }})
-      if: github.event_name != 'push'
+      if: github.event_name == 'pull_request_target' || github.event_name == 'pull_request'
       env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: sonar-scanner

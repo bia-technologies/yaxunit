@@ -1,4 +1,4 @@
-name: Run tests on Windows
+name: Тестирование в Windows
 
 on:
   workflow_call:
@@ -29,6 +29,7 @@ concurrency:
 
 jobs:
   execute-tests:
+    name: Тестирование
     runs-on: windows-latest
     defaults:
       run:
@@ -36,13 +37,13 @@ jobs:
 
     steps:
 
-    - name: download artifact
+    - name: Загрузка артифактов
       uses: actions/download-artifact@v4
       with:
         name: ${{ inputs.artifact_name }}
         path: binary
 
-    - name: install platform
+    - name: Установка 1С:Предприятие
       uses: alkoleft/onec-setup-build-env-action@develop
       with:
         type: onec
@@ -52,27 +53,27 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 10
 
-    - name: create IB
+    - name: Создание информационной базы
       run: |
         mkdir data\data
         ibcmd.exe infobase create --data=data --load=binary\configuration.cf --apply --force
       timeout-minutes: 5
 
-    - name: load yaxunit
+    - name: Загрузка расширения YAxUnit
       run: |
         ibcmd.exe infobase config load --data=data --extension=YAXUNIT --force binary\yaxunit.cfe
         ibcmd.exe infobase config apply --data=data --extension=YAXUNIT --force
         ibcmd.exe infobase config extension update --data=data --name=YAXUNIT --safe-mode=no --unsafe-action-protection=no
       timeout-minutes: 5
 
-    - name: load tests
+    - name: Загрузка расширения с тестами
       run: |
         ibcmd.exe infobase config load --data=data --extension=tests --force binary\tests.cfe
         ibcmd.exe infobase config apply --data=data --extension=tests --force
         ibcmd.exe infobase config extension update --data=data --name=tests --safe-mode=no --unsafe-action-protection=no
       timeout-minutes: 5
 
-    - name: create test-config
+    - name: Создание файла конфигурации тестирования
       uses: DamianReeves/write-file-action@master
       with:
         path: unit.json
@@ -87,12 +88,12 @@ jobs:
             }
           }
     
-    - name: set short_locale
+    - name: Определение "короткой" локали
       id: short_locale
       run: |
         Write-Output "substring=$('${{ inputs.locale }}'.Substring(0, 2))" >> $Env:GITHUB_OUTPUT
 
-    - name: Test
+    - name: Запуск тестирования
       run: |
         Start-Process ibsrv.exe -ArgumentList "--data=data"
         Start-Process -NoNewWindow -PassThru -Wait 1cv8c.exe -ArgumentList '/WS "http://localhost:8314" /C"RunUnitTests=unit.json" /L ${{ steps.short_locale.outputs.substring }} /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out 1cv8c-output.log'
@@ -102,17 +103,17 @@ jobs:
     #   if: always()
     #   run: type execute.log
 
-    - name: view output
-      if: always()
-      run: type 1cv8c-output.log
+    # - name: view output
+    #   if: always()
+    #   run: type 1cv8c-output.log
     
-    - name: upload-artifact
+    - name: Сохранение файла отчета
       uses: actions/upload-artifact@v4
       with:
         name: Tests report. Windows ${{ inputs.v8_version }} ${{ inputs.locale }}
         path: reports/
             
-    - name: Publish Test Report
+    - name: Публикация отчета о тестировании
       uses: 1CDevFlow/action-onec-junit-report@main
       with:
         job_name: Tests Windows ${{ inputs.v8_version }} ${{ inputs.locale }}

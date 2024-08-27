@@ -1,4 +1,4 @@
-name: Export to designer xml
+name: Конвертация исходников в формат конфигуратора
 on:
   workflow_call:
     inputs:
@@ -24,28 +24,29 @@ concurrency:
 
 jobs:
   export:
+    name: Конвертация исходников
     runs-on: ubuntu-latest
     outputs:
       yaxunit_version: ${{ steps.extract_version.outputs.version }}
+    
     steps:
-    - name: Checkout PR
+    - name: Извлечение исходников PR
       if: github.event_name == 'pull_request_target' || github.event_name == 'pull_request'
       uses: actions/checkout@v4
       with:
-        # Для поддержки pull_request и pull_request_target
-        # https://github.com/android-password-store/Android-Password-Store/pull/1247
-        ref: refs/pull/${{ github.event.number }}/merge
+        ref: refs/pull/${{ github.event.number }}/merge # Для поддержки pull_request и pull_request_target
+
       
-    - name: Checkout ${{github.ref}}
+    - name: Извлечение исходников ветки ${{ github.ref_name }}
       if: github.event_name == 'push'
       uses: actions/checkout@v4
 
-    - name: Extract version
+    - name: Извлечение версии проекта
       shell: bash
       run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
       id: extract_version
 
-    - name: install EDT
+    - name: Установка 1C:EDT
       uses: alkoleft/onec-setup-build-env-action@develop
       with:
         type: edt
@@ -56,7 +57,7 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 30
         
-    - name: convert configuration src
+    - name: Ковертация исходников конфигурации
       if: ${{ !inputs.engine_only }}
       uses: alkoleft/onec-edtcli-command-action@main
       with:
@@ -66,7 +67,7 @@ jobs:
         timeout: 5
       timeout-minutes: 10
       
-    - name: convert yaxunit src
+    - name: Ковертация исходников YAxUnit
       uses: alkoleft/onec-edtcli-command-action@main
       with:
         export: true
@@ -75,7 +76,7 @@ jobs:
         timeout: 5
       timeout-minutes: 10
       
-    - name: convert tests src
+    - name: Ковертация исходников тестов
       if: ${{ !inputs.engine_only }}
       uses: alkoleft/onec-edtcli-command-action@main
       with:
@@ -85,11 +86,12 @@ jobs:
         timeout: 5
       timeout-minutes: 10
     
-    - run: |
+    - name: Упаковка исходников в архив
+      run: |
         cd export
         7za a -t7z ../export.7z ./
 
-    - name: upload-artifact
+    - name: Публикация исходников в формате конфигуратора
       uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.artifact_name }}

@@ -1,4 +1,4 @@
-name: Run tests on Linux
+name: Тестирование в Linux
 
 on:
   workflow_call:
@@ -34,23 +34,24 @@ concurrency:
 
 jobs:
   execute-tests:
+    name: Тестирование
     runs-on: ubuntu-latest
     steps:
 
-    - name: download artifact
+    - name: Загрузка артифактов
       uses: actions/download-artifact@v4
       with:
         name: ${{ inputs.artifact_name }}
         path: binary
 
-    - name: prepare
+    - name: Подготовка окружения
       run: |
         sudo DEBIAN_FRONTEND=noninteractive apt-get install -y locales 
         sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
         sudo localedef -i ${{ inputs.locale }} -c -f UTF-8 -A /usr/share/locale/locale.alias ${{ inputs.locale }}.UTF-8
         mkdir reports -p
 
-    - name: install platform
+    - name: Установка 1С:Предприятие
       uses: alkoleft/onec-setup-build-env-action@develop
       with:
         type: onec
@@ -61,16 +62,16 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 10
 
-    - name: install x11
+    - name: Установка x11
       run: sudo apt-get install -y x11-xserver-utils
       continue-on-error: true
       timeout-minutes: 5
     
-    - name: install xserver-dummy
+    - name: Установка xserver-dummy
       run: sudo apt-get install -y xserver-xorg-video-dummy
       timeout-minutes: 5
     
-    - name: create dummy-config
+    - name: Настройка dummy
       uses: DamianReeves/write-file-action@master
       with:
         path: dummy-1920x1080.conf
@@ -99,32 +100,32 @@ jobs:
             EndSubSection
           EndSection
     
-    - name: start xserver
+    - name: Запуск xserver
       run: sudo X :99 -config dummy-1920x1080.conf &
       timeout-minutes: 5
     
-    - name: create IB
+    - name: Создание информационной базы
       run: ibcmd infobase create --db-path=file-db --load=binary/configuration.cf --apply --force
       timeout-minutes: 5
 
-    - name: load yaxunit
+    - name: Загрузка расширения YAxUnit
       run: |
         ibcmd infobase config load --db-path=file-db --extension=YAXUNIT --force binary/yaxunit.cfe
         ibcmd infobase config apply --db-path=file-db --extension=YAXUNIT --force
         ibcmd infobase config extension update --db-path=file-db --name=YAXUNIT --safe-mode=no --unsafe-action-protection=no
       timeout-minutes: 5
 
-    - name: load tests
+    - name: Загрузка расширения с тестами
       run: |
         ibcmd infobase config load --db-path=file-db --extension=tests --force binary/tests.cfe
         ibcmd infobase config apply --db-path=file-db --extension=tests --force
         ibcmd infobase config extension update --db-path=file-db --name=tests --safe-mode=no --unsafe-action-protection=no
       timeout-minutes: 5
 
-    - name: run server
+    - name: Запуск сервера (ibsrv)
       run: ibsrv --db-path=file-db --daemon
     
-    - name: create test-config
+    - name: Создание файла конфигурации тестирования
       uses: DamianReeves/write-file-action@master
       with:
         path: unit.json
@@ -139,7 +140,7 @@ jobs:
             }
           }
     
-    - name: run tests
+    - name: Запуск тестирования
       run: 1cv8c /WS "http://localhost:8314" /C"RunUnitTests=${{github.workspace}}/unit.json" /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out ${{github.workspace}}/output.log
       timeout-minutes: 5
       env:
@@ -150,18 +151,18 @@ jobs:
     #   if: always()
     #   run: cat ./execute.log
 
-    - name: view output
-      if: always()
-      run: cat ./output.log
+    # - name: view output
+    #   if: always()
+    #   run: cat ./output.log
     
-    - name: upload-artifact
+    - name: Сохранение файла отчета
       uses: actions/upload-artifact@v4
       if: always()
       with:
         name: Tests report. Linux ${{ inputs.v8_version }} ${{ inputs.locale }}
         path: reports/*.*
         
-    - name: Publish Test Report
+    - name: Публикация отчета о тестировании
       uses: 1CDevFlow/action-onec-junit-report@main
       if: always()
       with:

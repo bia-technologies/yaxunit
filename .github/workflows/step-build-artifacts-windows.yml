@@ -1,4 +1,4 @@
-name: Build
+name: Сборка артефактов
 on:
   workflow_call:
     inputs:
@@ -22,13 +22,14 @@ concurrency:
 
 jobs:
   build:
+    name: Сборка артефактов
     runs-on: windows-latest
     defaults:
       run:
         shell: pwsh
     steps:
 
-    - name: install Onec Platform
+    - name: Установка 1С:Предприятие
       uses: alkoleft/onec-setup-build-env-action@develop
       with:
         type: onec
@@ -39,42 +40,43 @@ jobs:
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 10
         
-    - name: download artifact
+    - name: Загрузка исходников в формате конфигуратора
       uses: actions/download-artifact@v4
       with:
         name: ${{ inputs.src_artifact_name }}
       
-    - run: |
+    - name: Распаковка исходников
+      run: |
         mkdir export
         mkdir binary
         cd export
         7z x ../export.7z -y
     
-    - name: create IB
+    - name: Создание информационной базы
       run: ibcmd infobase create --db-path=file-db --import=export\configuration --apply --force
       timeout-minutes: 5
 
-    - name: import yaxunit
+    - name: Импорт YAxUnit из исходников
       run: ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export\yaxunit
       timeout-minutes: 5
 
-    - name: import tests
+    - name: Импорт тестов из исходников
       run: ibcmd infobase config import --db-path=file-db --extension=tests export\tests
       timeout-minutes: 5
 
-    - name: save yaxunit
+    - name: Сохрание расширения YAxUnit
       run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT binary\yaxunit.cfe
       timeout-minutes: 5
       
-    - name: save tests
+    - name: Сохрание расширения с тестами
       run: ibcmd infobase config save --db-path=file-db --extension=tests binary\tests.cfe
       timeout-minutes: 5
       
-    - name: save configuration
+    - name: Сохрание тестовой конфигурации
       run: ibcmd infobase config save --db-path=file-db binary\configuration.cf
       timeout-minutes: 5
       
-    - name: upload-artifact
+    - name: Публикация артефактов
       uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.artifact_name }}
