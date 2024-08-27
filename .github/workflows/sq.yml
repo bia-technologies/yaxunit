@@ -6,42 +6,35 @@ on:
 
 jobs:
   SonarQualityGate:
+    name: Проверка Sonar
     runs-on: ubuntu-latest
     steps:
-
-    - name: Checkout PR
+    - name: Извлечение исходников PR
       if: github.event_name != 'push'
       uses: actions/checkout@v4
       with:
         ref: refs/pull/${{ github.event.number }}/merge # Для поддержки pull_request и pull_request_target
-        fetch-depth: 0 # Fetch all history for all tags and branches
+        fetch-depth: 0 # Получение полной истории (все тэги и ветки)
       
-    - name: Checkout ${{ github.ref_name }}
+    - name: Извлечение исходников ветки ${{ github.ref_name }}
       if: github.event_name == 'push'
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0 # Fetch all history for all tags and branches
+        fetch-depth: 0 # Получение полной истории (все тэги и ветки)
 
-    - name: Configure env vars for SonarCloud scan
-      env:  
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-      run: |
-        echo "::set-env name=PATH::/opt/sonar-scanner/bin:$PATH"
-    
-    - name: Extract version
+    - name: Извлечение версии проекта
       if: github.event_name == 'push'
       shell: bash
       run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
       id: extract_version
 
-    - name: Setup sonarqube
+    - name: Установка сканера Sonar
       uses: warchant/setup-sonar-scanner@v8
         
     # Анализ проекта в SonarQube (ветка)
     - name: Анализ в SonarQube (${{ github.ref_name }})
       if: github.event_name == 'push'
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: sonar-scanner
           -Dsonar.host.url=https://sonar.openbsl.ru
@@ -50,12 +43,11 @@ jobs:
           -Dsonar.qualitygate.wait=true
           -Dsonar.qualitygate.timeout=300
 
-      # Анализ проекта в SonarQube (PR)
-      # https://docs.sonarqube.org/latest/analysis/pull-request/
+    # Анализ проекта в SonarQube (PR)
+    # https://docs.sonarqube.org/latest/analysis/pull-request/
     - name: Анализ в SonarQube (pull-request ${{ github.event.number }})
       if: github.event_name != 'push'
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: sonar-scanner
           -Dsonar.host.url=https://sonar.openbsl.ru
@@ -66,7 +58,7 @@ jobs:
           -Dsonar.qualitygate.wait=true
           -Dsonar.qualitygate.timeout=300
 
-    - name: Publish report (pull-request)
+    - name: Публикация результата проверки PR
       if: github.event_name != 'push' && (success()||failure())
       uses: 1CDevFlow/sonar-review-action@main
       with:
