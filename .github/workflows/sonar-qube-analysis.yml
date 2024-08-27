@@ -23,10 +23,14 @@ jobs:
 
     - name: Извлечение версии проекта
       uses: ./.github/actions/extract-version
+      with:
+        path: ./exts/yaxunit/src
       id: extract_version
 
     - name: Установка сканера Sonar
       uses: warchant/setup-sonar-scanner@v8
+      with:
+        version: 6.1.0.4477
         
     # Анализ проекта в SonarQube (ветка)
     - name: Анализ в SonarQube (${{ github.ref_name }})

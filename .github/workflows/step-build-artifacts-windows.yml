@@ -17,7 +17,7 @@ on:
         default: build-artifacts
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-build
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-build
   cancel-in-progress: true
 
 jobs:

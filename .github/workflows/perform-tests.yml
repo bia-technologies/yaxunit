@@ -9,7 +9,7 @@ on:
     branches: [ develop ]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-main
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-main
   cancel-in-progress: true
 
 permissions:
@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   export_to_designer:
-    name: Конвертация исходников в формат конфигуратора
+    name: Конвертация исходников
     uses: ./.github/workflows/step-export-xml.yml
     with:
       edt_version: 2023.1.2
@@ -27,43 +27,31 @@ jobs:
     secrets: inherit
   
   build_artifacts:
-    name: Сборка артифактов
+    name: Сборка
     uses: ./.github/workflows/step-build-artifacts-windows.yml
     needs: export_to_designer
     with:
       v8_version: 8.3.21.1895
     secrets: inherit
 
-  tests_windows:
-    name: Тестирование в Windows
+  tests:
+    name: Тест
     strategy:
       fail-fast: false
       matrix:
-        v8_version:
+        version:
           - 8.3.21.1895
         locale:
           - ru_RU
           - en_US
-    uses: ./.github/workflows/step-run-tests-windows.yml
-    needs: build_artifacts
-    with:
-      v8_version: ${{ matrix.v8_version }}
-      locale: ${{ matrix.locale }}
-    secrets: inherit
+        os:
+          - windows-latest
+          - ubuntu-latest
 
-  tests_linux:
-    name: Тестирование в Linux
-    strategy:
-      fail-fast: false
-      matrix:
-        v8_version:
-          - 8.3.21.1895
-        locale:
-          - ru_RU
-          - en_US
-    uses: ./.github/workflows/step-run-tests-linux.yml
+    uses: ./.github/workflows/step-run-tests.yml
     needs: build_artifacts
     with:
-      v8_version: ${{ matrix.v8_version }}
+      v8_version: ${{ matrix.version }}
       locale: ${{ matrix.locale }}
+      os: ${{ matrix.os }}
     secrets: inherit

@@ -19,12 +19,12 @@ on:
         value: ${{ jobs.export.outputs.yaxunit_version }}
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.number }}-export
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-export
   cancel-in-progress: true
 
 jobs:
   export:
-    name: Конвертация исходников
+    name: Конвертация
     runs-on: ubuntu-latest
     outputs:
       yaxunit_version: ${{ steps.extract_version.outputs.version }}
@@ -43,6 +43,8 @@ jobs:
 
     - name: Извлечение версии проекта
       uses: ./.github/actions/extract-version
+      with:
+        path: ./exts/yaxunit/src
       id: extract_version
 
     - name: Установка 1C:EDT
