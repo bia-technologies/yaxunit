@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   build:
-    name: Сборка артефактов
+    name: Сборка
     runs-on: windows-latest
     defaults:
       run:

@@ -1,4 +1,4 @@
-name: SonarQualityGate
+name: Проверка Sonar
 
 on: 
   - push
@@ -6,7 +6,6 @@ on:
 
 jobs:
   SonarQualityGate:
-    name: Проверка Sonar
     runs-on: ubuntu-latest
     steps:
     - name: Извлечение исходников PR
@@ -23,9 +22,7 @@ jobs:
         fetch-depth: 0 # Получение полной истории (все тэги и ветки)
 
     - name: Извлечение версии проекта
-      if: github.event_name == 'push'
-      shell: bash
-      run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
+      uses: ./.github/actions/extract-version
       id: extract_version
 
     - name: Установка сканера Sonar

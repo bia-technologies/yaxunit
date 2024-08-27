@@ -1,0 +1,13 @@
+name: Извлечение версии
+description: Извлечение версии из исходников
+outputs:
+  version:
+    description: 'Версия'
+    value: ${{ steps.extract_version.outputs.version }}
+runs:
+  using: "composite"
+  steps:
+    - name: Извлечение версии
+      shell: bash
+      run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
+      id: extract_version

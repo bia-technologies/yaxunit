@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   export_to_designer:
-    name: Конвертация в формат конфигуратора
+    name: Конвертация исходников в формат конфигуратора
     uses: ./.github/workflows/step-export-xml.yml
     with:
       edt_version: 2023.1.2

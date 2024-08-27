@@ -55,23 +55,21 @@ jobs:
 
     - name: Создание информационной базы
       run: |
-        mkdir data\data
-        ibcmd.exe infobase create --data=data --load=binary\configuration.cf --apply --force
+        mkdir file-db\data
+        ibcmd.exe infobase create --data=file-db --load=binary\configuration.cf --apply --force
       timeout-minutes: 5
 
     - name: Загрузка расширения YAxUnit
-      run: |
-        ibcmd.exe infobase config load --data=data --extension=YAXUNIT --force binary\yaxunit.cfe
-        ibcmd.exe infobase config apply --data=data --extension=YAXUNIT --force
-        ibcmd.exe infobase config extension update --data=data --name=YAXUNIT --safe-mode=no --unsafe-action-protection=no
-      timeout-minutes: 5
+      uses: ./.github/actions/load-extension
+      with:
+        name: YAXUNIT
+        path: binary\yaxunit.cfe
 
-    - name: Загрузка расширения с тестами
-      run: |
-        ibcmd.exe infobase config load --data=data --extension=tests --force binary\tests.cfe
-        ibcmd.exe infobase config apply --data=data --extension=tests --force
-        ibcmd.exe infobase config extension update --data=data --name=tests --safe-mode=no --unsafe-action-protection=no
-      timeout-minutes: 5
+    - name: Загрузка расширения c тестами
+      uses: ./.github/actions/load-extension
+      with:
+        name: tests
+        path: binary\tests.cfe
 
     - name: Создание файла конфигурации тестирования
       uses: DamianReeves/write-file-action@master
@@ -95,7 +93,7 @@ jobs:
 
     - name: Запуск тестирования
       run: |
-        Start-Process ibsrv.exe -ArgumentList "--data=data"
+        Start-Process ibsrv.exe -ArgumentList "--data=file-db"
         Start-Process -NoNewWindow -PassThru -Wait 1cv8c.exe -ArgumentList '/WS "http://localhost:8314" /C"RunUnitTests=unit.json" /L ${{ steps.short_locale.outputs.substring }} /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out 1cv8c-output.log'
       timeout-minutes: 10
    

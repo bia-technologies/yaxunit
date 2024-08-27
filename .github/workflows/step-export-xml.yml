@@ -42,8 +42,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Извлечение версии проекта
-      shell: bash
-      run: echo "version=$(cat ./exts/yaxunit/src/Configuration/Configuration.mdo | grep -oP '(?<=<version>)[\d.]+')" >> $GITHUB_OUTPUT
+      uses: ./.github/actions/extract-version
       id: extract_version
 
     - name: Установка 1C:EDT

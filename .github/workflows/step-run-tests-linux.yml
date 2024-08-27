@@ -109,18 +109,16 @@ jobs:
       timeout-minutes: 5
 
     - name: Загрузка расширения YAxUnit
-      run: |
-        ibcmd infobase config load --db-path=file-db --extension=YAXUNIT --force binary/yaxunit.cfe
-        ibcmd infobase config apply --db-path=file-db --extension=YAXUNIT --force
-        ibcmd infobase config extension update --db-path=file-db --name=YAXUNIT --safe-mode=no --unsafe-action-protection=no
-      timeout-minutes: 5
+      uses: ./.github/actions/load-extension
+      with:
+        name: YAXUNIT
+        path: binary/yaxunit.cfe
 
-    - name: Загрузка расширения с тестами
-      run: |
-        ibcmd infobase config load --db-path=file-db --extension=tests --force binary/tests.cfe
-        ibcmd infobase config apply --db-path=file-db --extension=tests --force
-        ibcmd infobase config extension update --db-path=file-db --name=tests --safe-mode=no --unsafe-action-protection=no
-      timeout-minutes: 5
+    - name: Загрузка расширения c тестами
+      uses: ./.github/actions/load-extension
+      with:
+        name: tests
+        path: binary/tests.cfe
 
     - name: Запуск сервера (ibsrv)
       run: ibsrv --db-path=file-db --daemon
