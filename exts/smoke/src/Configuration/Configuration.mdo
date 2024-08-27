@@ -18,6 +18,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
+  <version>0.2.1</version>
   <subsystems>Subsystem.ДТ_ЮТПодключаемыеМодули</subsystems>
   <commonModules>CommonModule.ДТОткрытиеФорм</commonModules>
 </mdclass:Configuration>
