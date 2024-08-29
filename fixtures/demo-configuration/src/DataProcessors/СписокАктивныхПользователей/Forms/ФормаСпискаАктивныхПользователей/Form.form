@@ -968,7 +968,6 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -1264,7 +1263,6 @@
         <name>ОбновитьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СортировкаПоВозрастанию</name>
@@ -1288,7 +1286,6 @@
         <name>СортироватьПоВозрастанию</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СортировкаПоУбыванию</name>
@@ -1312,7 +1309,6 @@
         <name>СортироватьПоУбыванию</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

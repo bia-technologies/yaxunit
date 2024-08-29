@@ -328,7 +328,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Button">
@@ -476,13 +475,11 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -587,13 +584,11 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -698,13 +693,11 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Button">
@@ -953,7 +946,6 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -996,7 +988,6 @@
         <name>ВыбратьФайлСДискаИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПрочитатьФайлИСохранитьНаДиск</name>
@@ -1017,7 +1008,6 @@
         <name>ПрочитатьФайлИСохранитьНаДиск</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Подписать</name>
@@ -1038,7 +1028,6 @@
         <name>Подписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПроверитьПодпись</name>
@@ -1059,7 +1048,6 @@
         <name>ПроверитьПодпись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПоместитьЗашифрованныйНаСервер</name>
@@ -1080,7 +1068,6 @@
         <name>ПоместитьЗашифрованныйНаСервер</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПолучитьСРасшифровкой</name>
@@ -1101,7 +1088,6 @@
         <name>ПолучитьСРасшифровкой</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Зашифровать</name>
@@ -1122,7 +1108,6 @@
         <name>Зашифровать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьСохраненноеАудиоИЗаписать</name>
@@ -1143,7 +1128,6 @@
         <name>ДобавитьСохраненноеАудиоИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьСохраненноеВидеоИЗаписать</name>
@@ -1164,7 +1148,6 @@
         <name>ДобавитьСохраненноеВидеоИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьСохраненноеФотоИЗаписать</name>
@@ -1185,7 +1168,6 @@
         <name>ДобавитьСохраненноеФотоИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьАудиозаписьИЗаписать</name>
@@ -1206,7 +1188,6 @@
         <name>СделатьАудиозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьВидеозаписьИЗаписать</name>
@@ -1227,7 +1208,6 @@
         <name>СделатьВидеозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьФотоснимокИЗаписать</name>
@@ -1248,7 +1228,6 @@
         <name>СделатьФотоснимок</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

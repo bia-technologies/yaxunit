@@ -985,7 +985,6 @@
           <color>Web.Gainsboro</color>
         </backColor>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1018,13 +1017,11 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1052,7 +1049,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -1116,7 +1112,6 @@
       <cmiFragmentRecord>
         <command>CommonCommand.УстановитьСканерШтрихкодов</command>
         <type>Added</type>
-        <group>FormCommandBarImportant</group>
         <index>0</index>
         <userVisible>
           <common>true</common>
@@ -1125,7 +1120,6 @@
       <cmiFragmentRecord>
         <command>CommonCommand.НастроитьСканерШтрихКодов</command>
         <type>Added</type>
-        <group>FormCommandBarImportant</group>
         <index>1</index>
         <userVisible>
           <common>true</common>

@@ -473,7 +473,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -574,7 +573,6 @@
         <name>ЗагрузитьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>КлючОбъекта</name>
