@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Содержит подсистемы с динамически подключаемой (загружаемой) функциональностью</value>
   </explanation>
+  <subsystems>ДымовыеТесты</subsystems>
   <subsystems>ОбработчикиСобытий</subsystems>
   <subsystems>ФормированиеОтчета</subsystems>
 </mdclass:Subsystem>

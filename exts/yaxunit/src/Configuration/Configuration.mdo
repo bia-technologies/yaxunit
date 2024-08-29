@@ -64,6 +64,10 @@
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТДымовыеТесты</commonModules>
+  <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
   <commonModules>CommonModule.ЮТЗависимости</commonModules>
   <commonModules>CommonModule.ЮТЗависимостиСлужебный</commonModules>
@@ -99,6 +103,7 @@
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетоды</commonModules>
   <commonModules>CommonModule.ЮТМетодыСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТМетодыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ЮТОбщий</commonModules>
   <commonModules>CommonModule.ЮТОбщийСлужебный</commonModules>

@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Внутренняя реализация инструмента</value>
   </explanation>
+  <subsystems>ПоддержкаДымовыхТестов</subsystems>
   <subsystems>ЮТИсполнитель</subsystems>
   <subsystems>ЮТКонтекст</subsystems>
   <subsystems>ЮТМокирование</subsystems>

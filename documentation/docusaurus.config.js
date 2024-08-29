@@ -170,7 +170,7 @@ const config = {
       prism: {
         theme: prismThemes.vsLight,
         darkTheme: prismThemes.vsDark,
-        additionalLanguages: ['bsl'],
+        additionalLanguages: ['bsl', 'json'],
       },
     }),
     markdown: {
