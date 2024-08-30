@@ -57,8 +57,16 @@ jobs:
         run: ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export/yaxunit
         timeout-minutes: 5
     
+      - name: Импорт Smoke из исходников
+        run: ibcmd infobase config import --db-path=file-db --extension=Smoke export/smoke
+        timeout-minutes: 5
+    
       - name: Сохрание расширения YAxUnit
         run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT YAxUnit-${{ needs.export_to_designer.outputs.yaxunit_version }}.cfe
+        timeout-minutes: 5
+        
+      - name: Сохрание расширения Smoke
+        run: ibcmd infobase config save --db-path=file-db --extension=Smoke Smoke-${{ needs.export_to_designer.outputs.smoke_version }}.cfe
         timeout-minutes: 5
         
       - name: Создание черновика релиза ${{ needs.export_to_designer.outputs.yaxunit_version }}

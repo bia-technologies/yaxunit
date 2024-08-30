@@ -78,17 +78,23 @@ jobs:
         ibcmd infobase create --db-path=file-db --load=binary/configuration.cf --apply --force
       timeout-minutes: 5
 
-    - name: Загрузка расширения YAxUnit
-      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
-      with:
-        name: YAXUNIT
-        path: binary/yaxunit.cfe
-
     - name: Загрузка расширения c тестами
       uses: alkoleft/yaxunit/.github/actions/load-extension@develop
       with:
         name: tests
         path: binary/tests.cfe
+
+    - name: Загрузка расширения c дымовыми тестами
+      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      with:
+        name: Smoke
+        path: binary/smoke.cfe
+
+    - name: Загрузка расширения YAxUnit
+      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      with:
+        name: YAXUNIT
+        path: binary/yaxunit.cfe
 
     - name: Создание файла конфигурации тестирования
       uses: DamianReeves/write-file-action@master

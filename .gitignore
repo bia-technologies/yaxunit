@@ -35,4 +35,5 @@ tests/.settings/*
 #wsdl
 /fixtures/wsdl
 documentation/api/
-documentation/bsldoc.jar
+*.jar
+/tools/**/distr/

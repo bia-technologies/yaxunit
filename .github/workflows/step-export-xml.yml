@@ -17,6 +17,9 @@ on:
     outputs:
       yaxunit_version:
         value: ${{ jobs.export.outputs.yaxunit_version }}
+    
+      smoke_version:
+        value: ${{ jobs.export.outputs.smoke_version }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-export
@@ -28,6 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       yaxunit_version: ${{ steps.extract_version.outputs.version }}
+      smoke_version: ${{ steps.extract_smoke_version.outputs.version }}
     
     steps:
     - name: Извлечение исходников PR
@@ -41,11 +45,17 @@ jobs:
       if: github.event_name == 'push'
       uses: actions/checkout@v4
 
-    - name: Извлечение версии проекта
+    - name: Извлечение версии YAxUnit
       uses: ./.github/actions/extract-version
       with:
         path: ./exts/yaxunit/src
       id: extract_version
+
+    - name: Извлечение версии Smoke
+      uses: ./.github/actions/extract-version
+      with:
+        path: ./exts/yaxunit/src
+      id: extract_smoke_version
 
     - name: Установка 1C:EDT
       uses: alkoleft/onec-setup-build-env-action@develop
@@ -87,6 +97,15 @@ jobs:
         timeout: 5
       timeout-minutes: 10
     
+    - name: Ковертация исходников дымовых тестов
+      uses: alkoleft/onec-edtcli-command-action@main
+      with:
+        export: true
+        from: exts/smoke
+        to: export/smoke
+        timeout: 5
+      timeout-minutes: 10
+      
     - name: Упаковка исходников в архив
       run: |
         cd export

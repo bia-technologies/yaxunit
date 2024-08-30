@@ -64,6 +64,10 @@ jobs:
       run: ibcmd infobase config import --db-path=file-db --extension=tests export\tests
       timeout-minutes: 5
 
+    - name: Импорт дымовых тестов из исходников
+      run: ibcmd infobase config import --db-path=file-db --extension=Smoke export\smoke
+      timeout-minutes: 5
+
     - name: Сохрание расширения YAxUnit
       run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT binary\yaxunit.cfe
       timeout-minutes: 5
@@ -71,11 +75,15 @@ jobs:
     - name: Сохрание расширения с тестами
       run: ibcmd infobase config save --db-path=file-db --extension=tests binary\tests.cfe
       timeout-minutes: 5
-      
+
+    - name: Сохрание расширения с дымовыми тестами
+      run: ibcmd infobase config save --db-path=file-db --extension=Smoke binary\smoke.cfe
+      timeout-minutes: 5
+
     - name: Сохрание тестовой конфигурации
       run: ibcmd infobase config save --db-path=file-db binary\configuration.cf
       timeout-minutes: 5
-      
+
     - name: Публикация артефактов
       uses: actions/upload-artifact@v4
       with:
