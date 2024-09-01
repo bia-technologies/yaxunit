@@ -18,12 +18,12 @@
   <dataHistory>Use</dataHistory>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЦеныТоваров.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -33,7 +33,6 @@
     <name>LineNumber</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -43,7 +42,6 @@
     <name>Recorder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -54,7 +52,6 @@
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -106,7 +103,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>Use</createOnInput>
-    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
@@ -129,7 +125,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
@@ -152,11 +147,19 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.ВидыЦен.EmptyRef</value>
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="48a2125e-1ffb-4cf7-8986-1df6c0e39123">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

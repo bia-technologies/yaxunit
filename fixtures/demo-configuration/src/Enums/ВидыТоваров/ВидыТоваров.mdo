@@ -13,6 +13,7 @@
   <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ВидыТоваров.Form.ФормаВыбора</defaultChoiceForm>
   <enumValues uuid="8b34502a-e8b9-444d-92f3-0631ccef1842">
     <name>Товар</name>
     <synonym>
@@ -29,4 +30,13 @@
     </synonym>
     <comment></comment>
   </enumValues>
+  <forms uuid="8286ac59-fb39-4a33-a505-5cf4c53e88f3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Enum>

@@ -1,0 +1,24 @@
+services:
+  onec-server:
+    image: onec-server:${echo }
+    container_name: onec-server
+    restart: always
+    depends_on:
+      - postgres
+    network_mode: host
+    # networks:
+    #   - private
+    # ports:
+    #   - "1541"
+    #   - "1540"
+    #   - "1560-1591"
+  postgres:
+    image: rsyuzyov/docker-postgresql-pro-1c
+    container_name: postgresql-pro-1c
+    restart: always
+    network_mode: host
+#     networks:
+#       - private
+# networks:
+#   private:
+#     driver: bridge

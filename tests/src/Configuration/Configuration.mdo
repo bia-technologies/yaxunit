@@ -31,6 +31,7 @@
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
   <commonModules>CommonModule.ОМ_ДТОткрытиеФорм</commonModules>
+  <commonModules>CommonModule.ОМ_ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
   <commonModules>CommonModule.ОМ_МокитоСлужебный</commonModules>
