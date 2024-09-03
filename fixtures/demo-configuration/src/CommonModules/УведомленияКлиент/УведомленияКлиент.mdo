@@ -7,4 +7,5 @@
   </synonym>
   <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
