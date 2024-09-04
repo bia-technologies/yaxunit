@@ -30,13 +30,11 @@
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
-  <commonModules>CommonModule.ОМ_ДТОткрытиеФорм</commonModules>
+  <commonModules>CommonModule.ОМ_ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
   <commonModules>CommonModule.ОМ_МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТДымовыеТестыСлужебныйВызовСервера</commonModules>
-  <commonModules>CommonModule.ОМ_ЮТДымовыеТестыСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗависимостиСлужебный</commonModules>

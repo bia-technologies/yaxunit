@@ -6,6 +6,5 @@
     <value>Инициализация</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonModule.ДТОткрытиеФорм</content>
   <parentSubsystem>Subsystem.ДТ_ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
 </mdclass:Subsystem>

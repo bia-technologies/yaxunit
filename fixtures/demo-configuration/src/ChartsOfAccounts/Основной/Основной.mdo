@@ -20,7 +20,6 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <fullTextSearch>DontUse</fullTextSearch>
   <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
   <maxExtDimensionCount>3</maxExtDimensionCount>
   <codeLength>9</codeLength>
@@ -57,6 +56,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ChartOfAccounts.Основной.Form.ФормаСписка</defaultListForm>
   <attributes uuid="da531e8a-7252-4b48-ac7f-8a0f3ed21a71">
     <name>Реквизит</name>
     <synonym>
@@ -72,7 +72,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="13af0107-5c44-4082-8625-316147b8a0ae">
@@ -100,7 +99,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
-      <fullTextSearch>DontUse</fullTextSearch>
     </attributes>
   </tabularSections>
   <accountingFlags uuid="b4c92484-b72c-499d-bb7d-3f1fd1c08c0e">
@@ -201,4 +199,13 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </extDimensionAccountingFlags>
+  <forms uuid="2d44e514-6edc-4180-91ec-c2e349827f73">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ChartOfAccounts>

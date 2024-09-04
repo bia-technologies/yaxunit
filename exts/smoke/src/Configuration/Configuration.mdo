@@ -20,5 +20,8 @@
   <scriptVariant>Russian</scriptVariant>
   <version>0.2.1</version>
   <subsystems>Subsystem.ДТ_ЮТПодключаемыеМодули</subsystems>
+  <commonTemplates>CommonTemplate.ДТОткрытиеФормТипыТестов</commonTemplates>
   <commonModules>CommonModule.ДТОткрытиеФорм</commonModules>
+  <commonModules>CommonModule.ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ДТОткрытиеФормСлужебныйКлиентСервер</commonModules>
 </mdclass:Configuration>

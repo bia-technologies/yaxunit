@@ -19,7 +19,7 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <fullTextSearch>Use</fullTextSearch>
+  <fullTextSearch>DontUse</fullTextSearch>
   <type>
     <types>CatalogRef.ВидыЦен</types>
     <types>CatalogRef.Валюты</types>
@@ -80,4 +80,14 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ВидыСубконто.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="1aafe6d5-41d1-43e6-a1be-e40e00e4e11b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ChartOfCharacteristicTypes>
