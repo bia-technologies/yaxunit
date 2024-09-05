@@ -1,0 +1,6 @@
+JOB_NAME=ThickManagmentApplication
+TEMP_DB_PATH=$DB_PATH/$JOB_NAME
+
+$SCRIPTPATH/create-ib.sh /F$TEMP_DB_PATH $JOB_NAME
+
+$SCRIPTPATH/run-tests.sh thick /F$TEMP_DB_PATH $JOB_NAME
