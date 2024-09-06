@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+    <log location="/var/log/1C" history="1">
+        <event>
+            <eq property="name" value="excp"/>
+        </event>
+	<property name="all"/>
+    </log>
+</config>

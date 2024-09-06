@@ -38,3 +38,4 @@ documentation/api/
 *.jar
 /tools/**/distr/
 workpath/
+.env
