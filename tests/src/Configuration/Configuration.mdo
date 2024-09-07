@@ -24,6 +24,7 @@
   </languages>
   <subsystems>Subsystem.Тесты_ЮТПодключаемыеМодули</subsystems>
   <commonTemplates>CommonTemplate.ЮТ_МакетТестовыхДанных</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СравнениеТабличныхДокументов</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_ТестовыеДанныеMarkdown</commonTemplates>
   <commonModules>CommonModule.Интеграция</commonModules>
   <commonModules>CommonModule.НастройкаYAxUnit</commonModules>
