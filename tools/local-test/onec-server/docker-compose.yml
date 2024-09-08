@@ -1,6 +1,6 @@
 services:
   onec-server:
-    image: onec-server:${echo }
+    image: onec-server:${ONEC_VERSION}
     container_name: onec-server
     restart: always
     depends_on:

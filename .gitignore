@@ -37,3 +37,5 @@ tests/.settings/*
 documentation/api/
 *.jar
 /tools/**/distr/
+workpath/
+.env

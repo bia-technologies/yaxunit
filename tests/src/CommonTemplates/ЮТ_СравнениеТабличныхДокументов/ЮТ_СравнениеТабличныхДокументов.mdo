@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="071892ea-a320-47ce-85f7-e06f7a9a1d75">
+  <name>ЮТ_СравнениеТабличныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ю т сравнение табличных документов</value>
+  </synonym>
+</mdclass:CommonTemplate>
