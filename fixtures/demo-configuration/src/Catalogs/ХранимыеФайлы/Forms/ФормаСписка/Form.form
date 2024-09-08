@@ -33,17 +33,15 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
     <name>Список</name>
-    <id>1</id>
+    <id>42</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -67,14 +65,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Description</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>СписокНаименованиеExtendedTooltip</name>
+        <name>СписокНаименованиеРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -120,13 +116,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Code</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокКодExtendedTooltip</name>
+        <name>СписокКодРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -168,13 +162,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Подписан</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Подписан</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокПодписанExtendedTooltip</name>
+        <name>СписокПодписанРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -213,13 +205,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Зашифрован</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Зашифрован</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокЗашифрованExtendedTooltip</name>
+        <name>СписокЗашифрованРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -380,7 +370,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -396,7 +386,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СписокКонтекстноеМеню</name>
-      <id>2</id>
+      <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -452,7 +442,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СоздатьExtendedTooltip</name>
+        <name>СоздатьРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -485,7 +475,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ЗагрузитьФайлыExtendedTooltip</name>
+          <name>ЗагрузитьФайлыРасширеннаяПодсказка</name>
           <id>21</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -515,7 +505,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОткрытьФайлExtendedTooltip</name>
+          <name>ОткрытьФайлРасширеннаяПодсказка</name>
           <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -549,7 +539,7 @@
         <value>Расширенные</value>
       </toolTip>
       <extendedTooltip>
-        <name>РасширенныеExtendedTooltip</name>
+        <name>РасширенныеРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -582,7 +572,7 @@
         <value>Основные</value>
       </toolTip>
       <extendedTooltip>
-        <name>ОсновныеExtendedTooltip</name>
+        <name>ОсновныеРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -610,7 +600,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СкопироватьExtendedTooltip</name>
+        <name>СкопироватьРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -641,7 +631,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -670,7 +660,6 @@
   </autoCommandBar>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -678,7 +667,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Список</name>
-    <id>1</id>
+    <id>43</id>
     <valueType>
       <types>DynamicList</types>
     </valueType>
@@ -722,7 +711,6 @@
         <name>ЗагрузитьФайлы</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОткрытьФайл</name>

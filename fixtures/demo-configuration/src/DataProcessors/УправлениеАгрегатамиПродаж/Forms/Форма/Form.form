@@ -2,23 +2,21 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>РежимАгрегатов</name>
-    <id>1</id>
+    <id>9</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>РежимАгрегатов</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>РежимАгрегатов</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>РежимАгрегатовПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>РежимАгрегатовExtendedTooltip</name>
+      <name>РежимАгрегатовРасширеннаяПодсказка</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -34,7 +32,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>РежимАгрегатовКонтекстноеМеню</name>
-      <id>2</id>
+      <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -54,23 +52,21 @@
     <id>12</id>
     <items xsi:type="form:FormField">
       <name>РегламентноеОбновление</name>
-      <id>7</id>
+      <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РегламентноеОбновление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РегламентноеОбновление</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
         <name>РегламентноеОбновлениеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>РегламентноеОбновлениеExtendedTooltip</name>
+        <name>РегламентноеОбновлениеРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -86,7 +82,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>РегламентноеОбновлениеКонтекстноеМеню</name>
-        <id>8</id>
+        <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -111,7 +107,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОбновитьExtendedTooltip</name>
+        <name>ОбновитьРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -141,14 +137,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Обновлено</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Обновлено</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ОбновленоExtendedTooltip</name>
+        <name>ОбновленоРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -196,7 +190,7 @@
       <value>Группа обновления</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаОбновленияExtendedTooltip</name>
+      <name>ГруппаОбновленияРасширеннаяПодсказка</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -215,7 +209,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -223,23 +216,21 @@
     <id>11</id>
     <items xsi:type="form:FormField">
       <name>РегламентноеПерестроение</name>
-      <id>5</id>
+      <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РегламентноеПерестроение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РегламентноеПерестроение</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
         <name>РегламентноеПерестроениеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>РегламентноеПерестроениеExtendedTooltip</name>
+        <name>РегламентноеПерестроениеРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -255,7 +246,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>РегламентноеПерестроениеКонтекстноеМеню</name>
-        <id>6</id>
+        <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -280,7 +271,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПерестроитьИспользованиеExtendedTooltip</name>
+        <name>ПерестроитьИспользованиеРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -310,14 +301,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Перестроение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Перестроение</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПерестроениеExtendedTooltip</name>
+        <name>ПерестроениеРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -367,7 +356,7 @@
       <value>Группа перестроение</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаПерестроениеExtendedTooltip</name>
+      <name>ГруппаПерестроениеРасширеннаяПодсказка</name>
       <id>27</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -386,7 +375,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -402,7 +390,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОпределитьОптимальныеExtendedTooltip</name>
+        <name>ОпределитьОптимальныеРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -431,14 +419,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Оптимальность</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Оптимальность</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ОптимальностьExtendedTooltip</name>
+        <name>ОптимальностьРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -488,7 +474,7 @@
       <value>Группа оптимальность</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаОптимальностьExtendedTooltip</name>
+      <name>ГруппаОптимальностьРасширеннаяПодсказка</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -507,7 +493,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -528,7 +513,6 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -536,7 +520,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>34</id>
     <valueType>
       <types>DataProcessorObject.УправлениеАгрегатамиПродаж</types>
     </valueType>
@@ -554,7 +538,7 @@
       <key>ru</key>
       <value>Режим агрегатов</value>
     </title>
-    <id>2</id>
+    <id>36</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -672,7 +656,6 @@
         <name>ОбновитьНажатие</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Перестроить</name>
@@ -693,7 +676,6 @@
         <name>Перестроить</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОпределитьОптимальные</name>
@@ -714,7 +696,6 @@
         <name>ОпределитьОптимальные</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

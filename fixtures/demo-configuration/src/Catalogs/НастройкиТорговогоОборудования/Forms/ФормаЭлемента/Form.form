@@ -8,13 +8,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Code</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Code</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КодExtendedTooltip</name>
+      <name>КодРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -29,7 +27,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Код_КонтекстноеМеню</name>
+      <name>КодКонтекстноеМеню</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -60,14 +58,12 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -82,7 +78,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Наименование_КонтекстноеМеню</name>
+      <name>НаименованиеКонтекстноеМеню</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -113,13 +109,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.БитДанных</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.БитДанных</segments>
     </dataPath>
     <extendedTooltip>
-      <name>БитДанныхExtendedTooltip</name>
+      <name>БитДанныхРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -134,7 +128,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>БитДанных_КонтекстноеМеню</name>
+      <name>БитДанныхКонтекстноеМеню</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -165,13 +159,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Скорость</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Скорость</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СкоростьExtendedTooltip</name>
+      <name>СкоростьРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -186,7 +178,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Скорость_КонтекстноеМеню</name>
+      <name>СкоростьКонтекстноеМеню</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -217,13 +209,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Порт</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Порт</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПортExtendedTooltip</name>
+      <name>ПортРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -238,7 +228,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Порт_КонтекстноеМеню</name>
+      <name>ПортКонтекстноеМеню</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -262,7 +252,7 @@
     </extInfo>
   </items>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -279,7 +269,6 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

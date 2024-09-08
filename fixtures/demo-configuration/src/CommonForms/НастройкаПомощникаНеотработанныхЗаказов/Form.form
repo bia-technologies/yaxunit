@@ -9,16 +9,14 @@
     <id>18</id>
     <items xsi:type="form:FormField">
       <name>КоличествоДней</name>
-      <id>1</id>
+      <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоДней</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоДней</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -26,7 +24,7 @@
       </handlers>
       <extendedTooltip>
         <name>КоличествоДнейРасширеннаяПодсказка</name>
-        <id>3</id>
+        <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -41,7 +39,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>КоличествоДнейКонтекстноеМеню</name>
-        <id>2</id>
+        <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -74,10 +72,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КоличествоДнейСтрока</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоДнейСтрока</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -148,7 +144,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -166,10 +161,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ПериодПроверкиНеотработанныхЗаказов</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ПериодПроверкиНеотработанныхЗаказов</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -225,10 +218,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИнтервалПроверкиСтрока</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИнтервалПроверкиСтрока</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -299,7 +290,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -401,12 +391,10 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -430,7 +418,6 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

@@ -11,7 +11,10 @@
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоВзаиморасчетам.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОтчетПоВзаиморасчетам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ОтчетПоВзаиморасчетам.Form.ФормаНастроек</defaultSettingsForm>
+  <defaultVariantForm>Report.ОтчетПоВзаиморасчетам.Form.ФормаВарианта</defaultVariantForm>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -26,6 +29,33 @@
     <key>ru</key>
     <value>Отчет по взаиморасчетам с контрагентами</value>
   </explanation>
+  <forms uuid="73708643-e31b-479e-8893-658e0530daf1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83ef68a6-39ee-485b-980d-69411c8543d1">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c38696af-f973-446b-ac05-de45faadbfd4">
+    <name>ФормаВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма варианта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="360d9f87-40dc-4e7a-aa3b-a4fd4d7ac2df">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

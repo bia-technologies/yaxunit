@@ -10,7 +10,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>УправлениеНастройкамиФормExtendedTooltip</name>
+      <name>УправлениеНастройкамиФормРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -50,7 +50,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>УправлениеПолнотекстовымПоискомExtendedTooltip</name>
+      <name>УправлениеПолнотекстовымПоискомРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -90,7 +90,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>УдалениеПомеченныхОбъектовExtendedTooltip</name>
+      <name>УдалениеПомеченныхОбъектовРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -130,7 +130,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>УправлениеАгрегатамиПродажExtendedTooltip</name>
+      <name>УправлениеАгрегатамиПродажРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -153,7 +153,7 @@
   </items>
   <items xsi:type="form:Button">
     <name>ОчиститьИсторию</name>
-    <id>1</id>
+    <id>2</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -161,7 +161,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>ОчиститьИсториюExtendedTooltip</name>
+      <name>ОчиститьИсториюРасширеннаяПодсказка</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -193,7 +193,7 @@
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -205,7 +205,6 @@
   </autoCommandBar>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -213,7 +212,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>12</id>
     <valueType>
       <types>DataProcessorObject.АдминистративныйСервис</types>
     </valueType>
@@ -244,7 +243,6 @@
         <name>ОчиститьИсториюВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

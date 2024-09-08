@@ -12,7 +12,7 @@
       <id>50</id>
       <items xsi:type="form:Table">
         <name>СписокТоваров</name>
-        <id>2</id>
+        <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -32,13 +32,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокТоваров.Наименование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров.Наименование</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НаименованиеExtendedTooltip</name>
+            <name>НаименованиеРасширеннаяПодсказка</name>
             <id>70</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -82,13 +80,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокТоваров.Код</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров.Код</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КодExtendedTooltip</name>
+            <name>КодРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -258,7 +254,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокТоваровExtendedTooltip</name>
+          <name>СписокТоваровРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -327,7 +323,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>Группа1ExtendedTooltip</name>
+        <name>Группа1РасширеннаяПодсказка</name>
         <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -346,7 +342,6 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -359,7 +354,7 @@
       <value>Список товаров</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСпискаТоваровExtendedTooltip</name>
+      <name>ГруппаСпискаТоваровРасширеннаяПодсказка</name>
       <id>64</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -375,7 +370,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <format>
@@ -383,7 +377,6 @@
         <value>Список товаров</value>
       </format>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -414,13 +407,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Товары.Товар</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Товары.Товар</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТоварыТоварExtendedTooltip</name>
+          <name>ТоварыТоварРасширеннаяПодсказка</name>
           <id>77</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -469,17 +460,15 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Товары.Количество</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Товары.Количество</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
           <name>ТоварыКоличествоПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ТоварыКоличествоExtendedTooltip</name>
+          <name>ТоварыКоличествоРасширеннаяПодсказка</name>
           <id>78</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -651,7 +640,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ТоварыExtendedTooltip</name>
+        <name>ТоварыРасширеннаяПодсказка</name>
         <id>76</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -712,7 +701,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ГруппаОтобранныеТоварыExtendedTooltip</name>
+      <name>ГруппаОтобранныеТоварыРасширеннаяПодсказка</name>
       <id>74</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -728,7 +717,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <format>
@@ -736,7 +724,6 @@
         <value>Отобранные товары</value>
       </format>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -752,7 +739,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОКExtendedTooltip</name>
+        <name>ОКРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -783,7 +770,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -849,7 +836,6 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -862,7 +848,7 @@
       <key>ru</key>
       <value>Товары</value>
     </title>
-    <id>1</id>
+    <id>12</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -878,7 +864,7 @@
         <key>ru</key>
         <value>Товар</value>
       </title>
-      <id>1</id>
+      <id>13</id>
       <valueType>
         <types>CatalogRef.Товары</types>
       </valueType>
@@ -895,7 +881,7 @@
         <key>ru</key>
         <value>Количество</value>
       </title>
-      <id>2</id>
+      <id>7</id>
       <valueType>
         <types>Number</types>
         <numberQualifiers>
@@ -916,7 +902,7 @@
       <key>ru</key>
       <value>Список товаров</value>
     </title>
-    <id>2</id>
+    <id>11</id>
     <valueType>
       <types>DynamicList</types>
     </valueType>
@@ -983,7 +969,6 @@
         <name>ОКВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>НачатьСканирование</name>
@@ -1007,7 +992,6 @@
         <name>НачатьСканирование</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>
     <name>АдресТоваровДокумента</name>

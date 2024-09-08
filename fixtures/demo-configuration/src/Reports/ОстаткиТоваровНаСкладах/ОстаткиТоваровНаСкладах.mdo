@@ -11,6 +11,7 @@
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстаткиТоваровНаСкладах.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОстаткиТоваровНаСкладах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -22,6 +23,15 @@
     <key>ru</key>
     <value>Отчет по остаткам товаров на складах</value>
   </explanation>
+  <forms uuid="6c84ba5f-25ed-4de0-82be-98c0425e1361">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="f42fc5da-bdba-4312-a64d-a0e0ef4c17bf">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

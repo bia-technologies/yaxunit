@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НаборКонстант.ВыборПровайдераГеопозиционирования</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ВыборПровайдераГеопозиционирования</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <handlers>
@@ -83,10 +81,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>НаборКонстант.ИмяПровайдера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ИмяПровайдера</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <handlers>
@@ -148,10 +144,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ТолькоБесплатные</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ТолькоБесплатные</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -197,10 +191,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ИспользоватьСотовуюСеть</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьСотовуюСеть</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -246,10 +238,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ИспользоватьСетьПередачиДанных</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьСетьПередачиДанных</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -295,10 +285,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ИспользоватьСпутники</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьСпутники</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -366,13 +354,11 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
           <representation>WeakSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -405,7 +391,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -427,10 +412,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НаборКонстант.ВоспроизводитьТекстУведомления</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ВоспроизводитьТекстУведомления</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -498,13 +481,11 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
           <representation>WeakSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -537,7 +518,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -572,7 +552,6 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -597,7 +576,6 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

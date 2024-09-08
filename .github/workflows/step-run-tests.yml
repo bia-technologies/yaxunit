@@ -1,0 +1,148 @@
+name: Тестирование
+
+on:
+  workflow_call:
+    inputs:
+      v8_version:
+        description: 'Версия 1С:Предприятие'
+        type: string
+        required: true
+
+      locale:
+        type: string
+        required: false
+        default: ru_RU
+
+      artifact_name:
+        type: string
+        required: false
+        default: build-artifacts
+        
+      fail_on_failure:
+        type: boolean
+        required: false
+        default: true
+
+      os:
+        type: string
+        required: true
+
+permissions:
+    contents: read
+    checks: write
+    id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ inputs.v8_version }}-${{ inputs.locale }}-${{ github.event.number }}-${{inputs.os}}
+  cancel-in-progress: true
+
+jobs:
+  execute-tests:
+    name: Тестирование
+    runs-on: ${{inputs.os}}
+    steps:
+
+    - name: Загрузка артифактов
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ inputs.artifact_name }}
+        path: binary
+
+    - name: Подготовка окружения (Linux)
+      if: runner.os == 'Linux'
+      run: |
+        sudo DEBIAN_FRONTEND=noninteractive apt-get install -y locales 
+        sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
+        sudo localedef -i ${{ inputs.locale }} -c -f UTF-8 -A /usr/share/locale/locale.alias ${{ inputs.locale }}.UTF-8
+
+    - name: Определение "короткой" локали
+      id: short_locale
+      shell: pwsh
+      run: |
+        Write-Output "substring=$('${{ inputs.locale }}'.Substring(0, 2))" >> $Env:GITHUB_OUTPUT
+
+    - name: Установка 1С:Предприятие
+      uses: alkoleft/onec-setup-build-env-action@develop
+      with:
+        type: onec
+        onec_version: ${{ inputs.v8_version }}
+        cache: ${{runner.os == 'Windows'}}
+      env: 
+        ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+        ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+      timeout-minutes: 10
+
+    - name: Создание информационной базы
+      shell: bash
+      run: |
+        ibcmd infobase create --db-path=file-db --load=binary/configuration.cf --apply --force
+      timeout-minutes: 5
+
+    - name: Загрузка расширения c тестами
+      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      with:
+        name: tests
+        path: binary/tests.cfe
+
+    - name: Загрузка расширения c дымовыми тестами
+      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      with:
+        name: Smoke
+        path: binary/smoke.cfe
+
+    - name: Загрузка расширения YAxUnit
+      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      with:
+        name: YAXUNIT
+        path: binary/yaxunit.cfe
+
+    - name: Создание файла конфигурации тестирования
+      uses: DamianReeves/write-file-action@master
+      with:
+        path: yaxunit-config.json
+        contents: |
+          {
+            "reportFormat": "jUnit",
+            "reportPath": "report.xml",
+            "closeAfterTests": true,
+            "exitCode": "exit-code.txt",
+            "logging": {
+              "console": true
+            }
+          }
+
+    - name: Запуск тестирования (Linux)
+      if: runner.os == 'Linux'
+      uses: coactions/setup-xvfb@v1
+      with:
+        run: |
+          ibsrv --db-path=file-db --daemon
+          1cv8c /WS "http://localhost:8314" /C"RunUnitTests=yaxunit-config.json" /L ${{ steps.short_locale.outputs.substring }} /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out output.log
+      env:
+        LANG: "${{ inputs.locale }}.UTF-8"
+      timeout-minutes: 10
+
+    - name: Запуск тестирования (Windows)
+      if: runner.os == 'Windows'
+      shell: pwsh
+      run: |
+        Start-Process ibsrv.exe -ArgumentList "--db-path=file-db"
+        Start-Process -NoNewWindow -PassThru -Wait 1cv8c.exe -ArgumentList '/WS "http://localhost:8314" /C"RunUnitTests=yaxunit-config.json" /L ${{ steps.short_locale.outputs.substring }} /VL ${{ inputs.locale }} /DisableStartupDialogs /DisableStartupMessages /DisableUnrecoverableErrorMessage /Out 1cv8c-output.log'
+      timeout-minutes: 10
+
+    - name: Сохранение файла отчета
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: Tests report. ${{runner.os}} ${{ inputs.v8_version }} ${{ inputs.locale }}
+        path: report.xml
+        
+    - name: Публикация отчета о тестировании
+      uses: 1CDevFlow/action-onec-junit-report@main
+      if: always()
+      with:
+        job_name: Тестирование
+        check_name: Tests report. ${{runner.os}} ${{ inputs.v8_version }} ${{ inputs.locale }}
+        report_paths: report.xml
+        fail_on_failure: true
+        require_passed_tests: true

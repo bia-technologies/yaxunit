@@ -6,22 +6,20 @@
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаДаты</name>
-    <id>4</id>
+    <id>30</id>
     <items xsi:type="form:FormField">
       <name>ДатаНачала</name>
-      <id>7</id>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДатаНачала</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДатаНачала</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаНачалаExtendedTooltip</name>
+        <name>ДатаНачалаРасширеннаяПодсказка</name>
         <id>194</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -37,7 +35,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДатаНачалаКонтекстноеМеню</name>
-        <id>8</id>
+        <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -65,19 +63,17 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ДатаОкончания</name>
-      <id>5</id>
+      <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДатаОкончания</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДатаОкончания</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаОкончанияExtendedTooltip</name>
+        <name>ДатаОкончанияРасширеннаяПодсказка</name>
         <id>195</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -93,7 +89,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДатаОкончанияКонтекстноеМеню</name>
-        <id>6</id>
+        <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -126,7 +122,7 @@
     </userVisible>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
-      <name>ГруппаДатыExtendedTooltip</name>
+      <name>ГруппаДатыРасширеннаяПодсказка</name>
       <id>193</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -145,7 +141,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -162,13 +157,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Пользователи</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Пользователи</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПользователиExtendedTooltip</name>
+          <name>ПользователиРасширеннаяПодсказка</name>
           <id>198</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -220,13 +213,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>События</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>События</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СобытияExtendedTooltip</name>
+          <name>СобытияРасширеннаяПодсказка</name>
           <id>199</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -278,13 +269,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Компьютеры</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Компьютеры</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КомпьютерыExtendedTooltip</name>
+          <name>КомпьютерыРасширеннаяПодсказка</name>
           <id>200</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -336,13 +325,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Приложения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Приложения</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПриложенияExtendedTooltip</name>
+          <name>ПриложенияРасширеннаяПодсказка</name>
           <id>201</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -394,13 +381,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Комментарий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Комментарий</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>202</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -455,7 +440,7 @@
         <value>Группа основные строковые</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаОсновныеСтроковыеExtendedTooltip</name>
+        <name>ГруппаОсновныеСтроковыеРасширеннаяПодсказка</name>
         <id>197</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -471,11 +456,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -501,7 +484,7 @@
             <value>Надпись важность</value>
           </toolTip>
           <extendedTooltip>
-            <name>НадписьВажностьExtendedTooltip</name>
+            <name>НадписьВажностьРасширеннаяПодсказка</name>
             <id>205</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -549,7 +532,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ВажностьУстановитьВсеExtendedTooltip</name>
+                <name>ВажностьУстановитьВсеРасширеннаяПодсказка</name>
                 <id>207</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -588,7 +571,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ВажностьСнятьВсеExtendedTooltip</name>
+                <name>ВажностьСнятьВсеРасширеннаяПодсказка</name>
                 <id>208</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -664,7 +647,7 @@
           </toolTip>
           <width>8</width>
           <extendedTooltip>
-            <name>ВажностьПанельExtendedTooltip</name>
+            <name>ВажностьПанельРасширеннаяПодсказка</name>
             <id>206</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -697,7 +680,7 @@
           <value>Группа важность шапка</value>
         </toolTip>
         <extendedTooltip>
-          <name>ГруппаВажностьШапкаExtendedTooltip</name>
+          <name>ГруппаВажностьШапкаРасширеннаяПодсказка</name>
           <id>204</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -716,7 +699,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Table">
@@ -740,13 +722,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Важность.Check</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Важность.Check</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПометкаВажностиExtendedTooltip</name>
+            <name>ПометкаВажностиРасширеннаяПодсказка</name>
             <id>210</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -786,13 +766,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Важность.Value</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Важность.Value</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ЗначениеВажностиExtendedTooltip</name>
+            <name>ЗначениеВажностиРасширеннаяПодсказка</name>
             <id>211</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -963,7 +941,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ВажностьExtendedTooltip</name>
+          <name>ВажностьРасширеннаяПодсказка</name>
           <id>209</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1016,7 +994,7 @@
         <value>Важность:</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаВажностьExtendedTooltip</name>
+        <name>ГруппаВажностьРасширеннаяПодсказка</name>
         <id>203</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1032,12 +1010,10 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1054,7 +1030,7 @@
       <value>Основные свойства</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаОсновныеСвойстваExtendedTooltip</name>
+      <name>ГруппаОсновныеСвойстваРасширеннаяПодсказка</name>
       <id>196</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1076,7 +1052,6 @@
       <slaveItemsWidth>LeftWide</slaveItemsWidth>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1090,13 +1065,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Метаданные</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Метаданные</segments>
       </dataPath>
       <extendedTooltip>
-        <name>МетаданныеExtendedTooltip</name>
+        <name>МетаданныеРасширеннаяПодсказка</name>
         <id>213</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1148,13 +1121,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Данные</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Данные</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДанныеExtendedTooltip</name>
+        <name>ДанныеРасширеннаяПодсказка</name>
         <id>214</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1204,13 +1175,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеДанных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеДанных</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПредставлениеДанныхExtendedTooltip</name>
+        <name>ПредставлениеДанныхРасширеннаяПодсказка</name>
         <id>215</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1266,7 +1235,7 @@
       <value>Данные</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаДанныеСвойстваExtendedTooltip</name>
+      <name>ГруппаДанныеСвойстваРасширеннаяПодсказка</name>
       <id>212</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1282,13 +1251,11 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1317,7 +1284,7 @@
             <value>Надпись статус транзакции</value>
           </toolTip>
           <extendedTooltip>
-            <name>НадписьСтатусТранзакцииExtendedTooltip</name>
+            <name>НадписьСтатусТранзакцииРасширеннаяПодсказка</name>
             <id>219</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1365,7 +1332,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>СтатусТранзакцииУстановитьВсеExtendedTooltip</name>
+                <name>СтатусТранзакцииУстановитьВсеРасширеннаяПодсказка</name>
                 <id>221</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1404,7 +1371,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>СтатусТранзакцииСнятьВсеExtendedTooltip</name>
+                <name>СтатусТранзакцииСнятьВсеРасширеннаяПодсказка</name>
                 <id>222</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1479,7 +1446,7 @@
             <value>Статус транзакции панель</value>
           </toolTip>
           <extendedTooltip>
-            <name>СтатусТранзакцииПанельExtendedTooltip</name>
+            <name>СтатусТранзакцииПанельРасширеннаяПодсказка</name>
             <id>220</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1512,7 +1479,7 @@
           <value>Группа статус транзакции шапка</value>
         </toolTip>
         <extendedTooltip>
-          <name>ГруппаСтатусТранзакцииШапкаExtendedTooltip</name>
+          <name>ГруппаСтатусТранзакцииШапкаРасширеннаяПодсказка</name>
           <id>218</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1531,7 +1498,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Table">
@@ -1555,13 +1521,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СтатусТранзакции.Check</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СтатусТранзакции.Check</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПометкаСтатусаExtendedTooltip</name>
+            <name>ПометкаСтатусаРасширеннаяПодсказка</name>
             <id>224</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1601,13 +1565,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СтатусТранзакции.Value</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СтатусТранзакции.Value</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ЗначениеСтатусаExtendedTooltip</name>
+            <name>ЗначениеСтатусаРасширеннаяПодсказка</name>
             <id>225</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1778,7 +1740,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СтатусТранзакцииExtendedTooltip</name>
+          <name>СтатусТранзакцииРасширеннаяПодсказка</name>
           <id>223</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1829,14 +1791,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Транзакция</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Транзакция</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>ТранзакцияExtendedTooltip</name>
+          <name>ТранзакцияРасширеннаяПодсказка</name>
           <id>226</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1884,7 +1844,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ГруппаТранзакцияExtendedTooltip</name>
+        <name>ГруппаТранзакцияРасширеннаяПодсказка</name>
         <id>217</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1900,11 +1860,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1918,14 +1876,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СтрСоединения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтрСоединения</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
-          <name>СоединенияExtendedTooltip</name>
+          <name>СоединенияРасширеннаяПодсказка</name>
           <id>228</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1978,14 +1934,12 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>РабочиеСерверы</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>РабочиеСерверы</segments>
           </dataPath>
           <titleLocation>Top</titleLocation>
           <extendedTooltip>
-            <name>РабочиеСерверыExtendedTooltip</name>
+            <name>РабочиеСерверыРасширеннаяПодсказка</name>
             <id>230</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2037,13 +1991,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ОсновныеIPПорты</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОсновныеIPПорты</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОсновныеIPПортыExtendedTooltip</name>
+            <name>ОсновныеIPПортыРасширеннаяПодсказка</name>
             <id>231</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2095,13 +2047,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВспомогательныеIPПорты</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВспомогательныеIPПорты</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ВспомогательныеIPПортыExtendedTooltip</name>
+            <name>ВспомогательныеIPПортыРасширеннаяПодсказка</name>
             <id>232</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2151,7 +2101,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ГруппаСерверыExtendedTooltip</name>
+          <name>ГруппаСерверыРасширеннаяПодсказка</name>
           <id>229</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2167,12 +2117,10 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
           <representation>WeakSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2181,7 +2129,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ГруппаСоединенияExtendedTooltip</name>
+        <name>ГруппаСоединенияРасширеннаяПодсказка</name>
         <id>227</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2197,12 +2145,10 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -2219,7 +2165,7 @@
       <value>Прочие</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаПрочиеСвойстваExtendedTooltip</name>
+      <name>ГруппаПрочиеСвойстваРасширеннаяПодсказка</name>
       <id>216</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2241,7 +2187,6 @@
       <slaveItemsWidth>LeftNarrow</slaveItemsWidth>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -2312,7 +2257,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ГруппаКнопокФормыExtendedTooltip</name>
+      <name>ГруппаКнопокФормыРасширеннаяПодсказка</name>
       <id>233</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2358,7 +2303,6 @@
   <width>90</width>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -2366,7 +2310,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>20</id>
     <valueType>
       <types>DataProcessorObject.СписокАктивныхПользователей</types>
     </valueType>
@@ -2384,7 +2328,7 @@
       <key>ru</key>
       <value>Дата начала</value>
     </title>
-    <id>2</id>
+    <id>27</id>
     <valueType>
       <types>Date</types>
       <dateQualifiers/>
@@ -2562,7 +2506,7 @@
       <key>ru</key>
       <value>Комментарий</value>
     </title>
-    <id>9</id>
+    <id>25</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -2580,7 +2524,7 @@
       <key>ru</key>
       <value>Метаданные</value>
     </title>
-    <id>10</id>
+    <id>24</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -2647,7 +2591,7 @@
       <key>ru</key>
       <value>Статус транзакции</value>
     </title>
-    <id>13</id>
+    <id>23</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -2679,7 +2623,7 @@
       <key>ru</key>
       <value>Транзакция</value>
     </title>
-    <id>14</id>
+    <id>22</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -2876,7 +2820,6 @@
         <name>ВажностьУстановитьВсе</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ВажностьСнятьВсе</name>
@@ -2900,7 +2843,6 @@
         <name>ВажностьСнятьВсе</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СтатусТранзакцииУстановитьВсе</name>
@@ -2924,7 +2866,6 @@
         <name>СтатусТранзакцииУстановитьВсе</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СтатусТранзакцииСнятьВсе</name>
@@ -2948,7 +2889,6 @@
         <name>СтатусТранзакцииСнятьВсе</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОК</name>
@@ -2969,7 +2909,6 @@
         <name>ОК</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Отмена</name>
@@ -2990,7 +2929,6 @@
         <name>Отмена</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>
     <name>Отбор</name>

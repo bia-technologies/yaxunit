@@ -8,13 +8,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Запись.Объект</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.Объект</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТоварExtendedTooltip</name>
+      <name>ТоварРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -29,7 +27,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Товар_КонтекстноеМеню</name>
+      <name>ТоварКонтекстноеМеню</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -60,13 +58,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Запись.ВидХарактеристики</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.ВидХарактеристики</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВидХарактеристикиExtendedTooltip</name>
+      <name>ВидХарактеристикиРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -81,7 +77,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВидХарактеристики_КонтекстноеМеню</name>
+      <name>ВидХарактеристикиКонтекстноеМеню</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -112,13 +108,11 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Запись.Значение</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.Значение</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ЗначениеExtendedTooltip</name>
+      <name>ЗначениеРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -133,7 +127,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Значение_КонтекстноеМеню</name>
+      <name>ЗначениеКонтекстноеМеню</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -171,7 +165,7 @@
     </extInfo>
   </items>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -184,7 +178,6 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

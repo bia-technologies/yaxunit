@@ -19,7 +19,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КомандаНовоеПисьмоExtendedTooltip</name>
+          <name>КомандаНовоеПисьмоРасширеннаяПодсказка</name>
           <id>49</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -107,7 +107,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаОтветитьExtendedTooltip</name>
+        <name>КомандаОтветитьРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -139,7 +139,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КомандаПолучитьПисьмаExtendedTooltip</name>
+          <name>КомандаПолучитьПисьмаРасширеннаяПодсказка</name>
           <id>48</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -200,7 +200,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаСоздатьПочтовыйЯщикIMAPExtendedTooltip</name>
+        <name>КомандаСоздатьПочтовыйЯщикIMAPРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -230,7 +230,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -259,7 +259,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаНастройкаПочтыExtendedTooltip</name>
+        <name>КомандаНастройкаПочтыРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -294,7 +294,7 @@
       <value>Группа командная панель</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаКоманднаяПанельExtendedTooltip</name>
+      <name>ГруппаКоманднаяПанельРасширеннаяПодсказка</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -326,17 +326,15 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПочтовыйЯщикIMAP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПочтовыйЯщикIMAP</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
           <name>ПочтовыйЯщикIMAPПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ПочтовыйЯщикIMAPExtendedTooltip</name>
+          <name>ПочтовыйЯщикIMAPРасширеннаяПодсказка</name>
           <id>56</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -578,12 +576,11 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Table">
         <name>СписокВходящие</name>
-        <id>1</id>
+        <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -599,19 +596,17 @@
         <excludedCommands>SetDeletionMark</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ДатаВходящие</name>
-          <id>6</id>
+          <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВходящие.Дата</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.Дата</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДатаВходящиеExtendedTooltip</name>
+            <name>ДатаВходящиеРасширеннаяПодсказка</name>
             <id>58</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -647,20 +642,18 @@
         </items>
         <items xsi:type="form:FormField">
           <name>НаименованиеВходящие</name>
-          <id>4</id>
+          <id>20</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВходящие.Description</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.Description</segments>
           </dataPath>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
-            <name>НаименованиеВходящиеExtendedTooltip</name>
+            <name>НаименованиеВходящиеРасширеннаяПодсказка</name>
             <id>59</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -676,7 +669,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>НаименованиеВходящиеКонтекстноеМеню</name>
-            <id>5</id>
+            <id>39</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -702,13 +695,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВходящие.Отправитель</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.Отправитель</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокВходящиеОтправительExtendedTooltip</name>
+            <name>СписокВходящиеОтправительРасширеннаяПодсказка</name>
             <id>60</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -750,13 +741,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокВходящие.ПочтовыйЯщик</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.ПочтовыйЯщик</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокВходящиеПочтовыйЯщикExtendedTooltip</name>
+            <name>СписокВходящиеПочтовыйЯщикРасширеннаяПодсказка</name>
             <id>61</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -797,7 +786,7 @@
         <commandBarLocation>None</commandBarLocation>
         <autoCommandBar>
           <name>СписокВходящиеКоманднаяПанель</name>
-          <id>3</id>
+          <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -924,7 +913,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокВходящиеExtendedTooltip</name>
+          <name>СписокВходящиеРасширеннаяПодсказка</name>
           <id>57</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -940,7 +929,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>СписокВходящиеКонтекстноеМеню</name>
-          <id>2</id>
+          <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -998,7 +987,7 @@
         <value>Группа входящие</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаВходящиеExtendedTooltip</name>
+        <name>ГруппаВходящиеРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1014,7 +1003,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -1222,7 +1210,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Table">
@@ -1248,13 +1235,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокИсходящие.Дата</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Дата</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДатаИсходящиеExtendedTooltip</name>
+            <name>ДатаИсходящиеРасширеннаяПодсказка</name>
             <id>64</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1296,13 +1281,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокИсходящие.Description</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Description</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НаименованиеИсходящиеExtendedTooltip</name>
+            <name>НаименованиеИсходящиеРасширеннаяПодсказка</name>
             <id>65</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1344,13 +1327,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокИсходящие.Получатель</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Получатель</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокИсходящиеПолучательExtendedTooltip</name>
+            <name>СписокИсходящиеПолучательРасширеннаяПодсказка</name>
             <id>66</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1392,13 +1373,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокИсходящие.Отправлено</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Отправлено</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокИсходящиеОтправленоExtendedTooltip</name>
+            <name>СписокИсходящиеОтправленоРасширеннаяПодсказка</name>
             <id>67</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1559,7 +1538,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокИсходящиеExtendedTooltip</name>
+          <name>СписокИсходящиеРасширеннаяПодсказка</name>
           <id>63</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1633,7 +1612,7 @@
         <value>Группа исходящие</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаИсходящиеExtendedTooltip</name>
+        <name>ГруппаИсходящиеРасширеннаяПодсказка</name>
         <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1649,7 +1628,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -1667,7 +1645,7 @@
       <value>Группа страницы</value>
     </toolTip>
     <extendedTooltip>
-      <name>ГруппаСтраницыExtendedTooltip</name>
+      <name>ГруппаСтраницыРасширеннаяПодсказка</name>
       <id>54</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1684,7 +1662,6 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -1710,7 +1687,6 @@
   <width>80</width>
   <height>80</height>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -1723,7 +1699,7 @@
       <key>ru</key>
       <value>Список входящие</value>
     </title>
-    <id>1</id>
+    <id>9</id>
     <valueType>
       <types>DynamicList</types>
     </valueType>
@@ -1767,7 +1743,7 @@
       <key>ru</key>
       <value>Список исходящие</value>
     </title>
-    <id>2</id>
+    <id>34</id>
     <valueType>
       <types>DynamicList</types>
     </valueType>
@@ -1806,7 +1782,7 @@
       <key>ru</key>
       <value>Использовать IMAP</value>
     </title>
-    <id>3</id>
+    <id>36</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -1823,7 +1799,7 @@
       <key>ru</key>
       <value>Почтовый ящик</value>
     </title>
-    <id>4</id>
+    <id>21</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -1854,7 +1830,6 @@
         <name>КомандаНовоеПисьмо</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаПолучитьПисьма</name>
@@ -1875,7 +1850,6 @@
         <name>КомандаПолучитьПисьма</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаОтветить</name>
@@ -1896,7 +1870,6 @@
         <name>КомандаОтветить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
@@ -1917,7 +1890,6 @@
         <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаНастроить</name>
@@ -1938,7 +1910,6 @@
         <name>КомандаНастройкаПочты</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаНовоеПисьмоПоШаблону</name>
@@ -1959,7 +1930,6 @@
         <name>КомандаНовоеПисьмоПоШаблону</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

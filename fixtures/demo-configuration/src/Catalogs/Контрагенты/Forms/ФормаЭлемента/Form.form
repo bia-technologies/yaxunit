@@ -8,20 +8,18 @@
       <id>39</id>
       <items xsi:type="form:FormField">
         <name>Наименование</name>
-        <id>3</id>
+        <id>118</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Description</segments>
         </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
-          <name>НаименованиеExtendedTooltip</name>
+          <name>НаименованиеРасширеннаяПодсказка</name>
           <id>44</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -61,19 +59,17 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Родитель</name>
-        <id>4</id>
+        <id>110</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Parent</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Parent</segments>
         </dataPath>
         <extendedTooltip>
-          <name>РодительExtendedTooltip</name>
+          <name>РодительРасширеннаяПодсказка</name>
           <id>45</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -122,13 +118,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ВидЦен</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ВидЦен</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ВидЦенExtendedTooltip</name>
+            <name>ВидЦенРасширеннаяПодсказка</name>
             <id>46</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -180,7 +174,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>НовыйРасчетныйСчетExtendedTooltip</name>
+            <name>НовыйРасчетныйСчетРасширеннаяПодсказка</name>
             <id>65</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -243,7 +237,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -252,7 +245,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОсновноеЛеваяExtendedTooltip</name>
+        <name>ОсновноеЛеваяРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -268,11 +261,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -280,19 +271,17 @@
       <id>38</id>
       <items xsi:type="form:FormField">
         <name>Код</name>
-        <id>2</id>
+        <id>108</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Code</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Code</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КодExtendedTooltip</name>
+          <name>КодРасширеннаяПодсказка</name>
           <id>48</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -336,7 +325,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОсновноеПраваяExtendedTooltip</name>
+        <name>ОсновноеПраваяРасширеннаяПодсказка</name>
         <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -355,7 +344,6 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -368,7 +356,7 @@
       <value>Основные</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОсновныеExtendedTooltip</name>
+      <name>ГруппаОсновныеРасширеннаяПодсказка</name>
       <id>42</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -393,7 +381,6 @@
       </format>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -404,19 +391,17 @@
       <id>17</id>
       <items xsi:type="form:FormField">
         <name>Регион</name>
-        <id>5</id>
+        <id>111</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Регион</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Регион</segments>
         </dataPath>
         <extendedTooltip>
-          <name>РегионExtendedTooltip</name>
+          <name>РегионРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -456,19 +441,17 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Страна</name>
-        <id>6</id>
+        <id>112</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Страна</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Страна</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СтранаExtendedTooltip</name>
+          <name>СтранаРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -508,19 +491,17 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Город</name>
-        <id>8</id>
+        <id>114</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Город</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Город</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ГородExtendedTooltip</name>
+          <name>ГородРасширеннаяПодсказка</name>
           <id>53</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -566,13 +547,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Улица</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Улица</segments>
         </dataPath>
         <extendedTooltip>
-          <name>УлицаExtendedTooltip</name>
+          <name>УлицаРасширеннаяПодсказка</name>
           <id>54</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -612,7 +591,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Дом</name>
-        <id>9</id>
+        <id>115</id>
         <title>
           <key>ru</key>
           <value>Дом (стр.)</value>
@@ -622,13 +601,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Дом</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Дом</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДомExtendedTooltip</name>
+          <name>ДомРасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -668,19 +645,17 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Индекс</name>
-        <id>7</id>
+        <id>113</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Индекс</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Индекс</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ИндексExtendedTooltip</name>
+          <name>ИндексРасширеннаяПодсказка</name>
           <id>56</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -728,7 +703,7 @@
         <value>Адрес</value>
       </title>
       <extendedTooltip>
-        <name>АдресExtendedTooltip</name>
+        <name>АдресРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -744,7 +719,6 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <format>
@@ -752,7 +726,6 @@
           <value>Адрес</value>
         </format>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -770,13 +743,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.КонтактноеЛицо</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.КонтактноеЛицо</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КонтактноеЛицоExtendedTooltip</name>
+          <name>КонтактноеЛицоРасширеннаяПодсказка</name>
           <id>62</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -816,19 +787,17 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ЭлектроннаяПочта</name>
-        <id>11</id>
+        <id>117</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ЭлектроннаяПочта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ЭлектроннаяПочта</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЭлектроннаяПочтаExtendedTooltip</name>
+          <name>ЭлектроннаяПочтаРасширеннаяПодсказка</name>
           <id>58</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -874,13 +843,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ВебСайт</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ВебСайт</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВебСайтExtendedTooltip</name>
+          <name>ВебСайтРасширеннаяПодсказка</name>
           <id>60</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -926,19 +893,17 @@
           <id>106</id>
           <items xsi:type="form:FormField">
             <name>Телефон</name>
-            <id>10</id>
+            <id>116</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Объект.Телефон</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Телефон</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ТелефонExtendedTooltip</name>
+              <name>ТелефонРасширеннаяПодсказка</name>
               <id>59</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1066,11 +1031,9 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>AlwaysHorizontal</group>
             <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <currentRowUse>DontUse</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -1081,13 +1044,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Факс</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Факс</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ФаксExtendedTooltip</name>
+            <name>ФаксРасширеннаяПодсказка</name>
             <id>61</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1155,11 +1116,9 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1172,7 +1131,7 @@
         <value>Контакты</value>
       </title>
       <extendedTooltip>
-        <name>КонтактыExtendedTooltip</name>
+        <name>КонтактыРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1188,7 +1147,6 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <format>
@@ -1196,7 +1154,6 @@
           <value>Контакты</value>
         </format>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1209,7 +1166,7 @@
       <value>Адреса и контакты</value>
     </title>
     <extendedTooltip>
-      <name>АдресаИКонтактыExtendedTooltip</name>
+      <name>АдресаИКонтактыРасширеннаяПодсказка</name>
       <id>49</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1225,14 +1182,12 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <behavior>PopUp</behavior>
       <controlRepresentation>Picture</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1246,10 +1201,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Широта</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Широта</segments>
       </dataPath>
       <extendedTooltip>
         <name>ШиротаРасширеннаяПодсказка</name>
@@ -1299,10 +1252,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Долгота</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Долгота</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДолготаРасширеннаяПодсказка</name>
@@ -1374,7 +1325,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
       <controlRepresentation>Picture</controlRepresentation>
       <representation>NormalSeparation</representation>
@@ -1382,7 +1332,6 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1396,14 +1345,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ДополнительнаяИнформация</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ДополнительнаяИнформация</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ДополнительнаяИнформацияExtendedTooltip</name>
+        <name>ДополнительнаяИнформацияРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1454,7 +1401,7 @@
       <value>Дополнительная информация</value>
     </title>
     <extendedTooltip>
-      <name>ПрочееExtendedTooltip</name>
+      <name>ПрочееРасширеннаяПодсказка</name>
       <id>63</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1470,8 +1417,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
-      <behavior>Collapsible</behavior>
       <controlRepresentation>Picture</controlRepresentation>
       <representation>NormalSeparation</representation>
       <united>true</united>
@@ -1481,7 +1426,6 @@
       </format>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1841,7 +1785,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -1849,7 +1792,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>76</id>
     <valueType>
       <types>CatalogObject.Контрагенты</types>
     </valueType>
@@ -1868,7 +1811,7 @@
       <key>ru</key>
       <value>Таблица сертификатов криптографии</value>
     </title>
-    <id>2</id>
+    <id>109</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -1884,7 +1827,7 @@
         <key>ru</key>
         <value>Представление сертификата криптографии</value>
       </title>
-      <id>1</id>
+      <id>77</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1916,7 +1859,6 @@
         <name>НовыйРасчетныйСчетВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьФотоснимок</name>
@@ -1937,7 +1879,6 @@
         <name>СделатьФотоснимок</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьВидеозапись</name>
@@ -1958,7 +1899,6 @@
         <name>СделатьВидеозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьАудиозапись</name>
@@ -1979,7 +1919,6 @@
         <name>СделатьАудиозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПостроитьМаршрут</name>
@@ -2000,7 +1939,6 @@
         <name>ПостроитьМаршрут</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПоказатьКарту</name>
@@ -2021,7 +1959,6 @@
         <name>ПоказатьКарту</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Позвонить</name>
@@ -2045,7 +1982,6 @@
         <name>Позвонить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОтправитьСМС</name>
@@ -2069,7 +2005,6 @@
         <name>ОтправитьСМС</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>НапомнитьОЗвонке</name>
@@ -2090,7 +2025,6 @@
         <name>НапомнитьОЗвонке</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ИспользоватьТекущееМестоположение</name>
@@ -2111,7 +2045,6 @@
         <name>ИспользоватьТекущееМестоположение</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ИзКонтактов</name>
@@ -2132,7 +2065,6 @@
         <name>ЗаполнитьИзКонтактов</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel>

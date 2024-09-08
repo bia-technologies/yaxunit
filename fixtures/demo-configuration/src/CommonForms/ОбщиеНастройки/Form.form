@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Константы.РаботаСТорговымОборудованием</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Константы.РаботаСТорговымОборудованием</segments>
     </dataPath>
     <toolTip>
       <key>ru</key>
@@ -20,7 +18,7 @@
     </toolTip>
     <toolTipRepresentation>Button</toolTipRepresentation>
     <extendedTooltip>
-      <name>РаботаСТорговымОборудованиемExtendedTooltip</name>
+      <name>РаботаСТорговымОборудованиемРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -59,10 +57,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Константы.УчетПоСкладам</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Константы.УчетПоСкладам</segments>
     </dataPath>
     <toolTip>
       <key>ru</key>
@@ -71,7 +67,7 @@
     </toolTip>
     <toolTipRepresentation>Button</toolTipRepresentation>
     <extendedTooltip>
-      <name>УчетПоСкладамExtendedTooltip</name>
+      <name>УчетПоСкладамРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -117,7 +113,6 @@
   <height>8</height>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

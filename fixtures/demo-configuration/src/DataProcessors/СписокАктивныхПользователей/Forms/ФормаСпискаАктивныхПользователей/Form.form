@@ -6,7 +6,7 @@
   </title>
   <items xsi:type="form:FormGroup">
     <name>ОсновнаяКоманднаяПанель</name>
-    <id>1</id>
+    <id>19</id>
     <items xsi:type="form:Button">
       <name>ЖурналРегистрации</name>
       <id>16</id>
@@ -265,7 +265,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>СписокПользователей</name>
-    <id>2</id>
+    <id>60</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -286,16 +286,14 @@
     <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Пользователь</name>
-      <id>4</id>
+      <id>68</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокПользователей.ИмяПользователя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей.ИмяПользователя</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПользовательРасширеннаяПодсказка</name>
@@ -314,7 +312,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ПользовательКонтекстноеМеню</name>
-        <id>5</id>
+        <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -348,10 +346,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокПользователей.Приложение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей.Приложение</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПриложениеРасширеннаяПодсказка</name>
@@ -404,10 +400,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокПользователей.НачалоРаботы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей.НачалоРаботы</segments>
       </dataPath>
       <extendedTooltip>
         <name>НачалоРаботыРасширеннаяПодсказка</name>
@@ -460,10 +454,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокПользователей.Компьютер</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей.Компьютер</segments>
       </dataPath>
       <extendedTooltip>
         <name>КомпьютерРасширеннаяПодсказка</name>
@@ -516,10 +508,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокПользователей.Сеанс</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей.Сеанс</segments>
       </dataPath>
       <extendedTooltip>
         <name>СеансРасширеннаяПодсказка</name>
@@ -710,7 +700,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СписокПользователейКонтекстноеМеню</name>
-      <id>3</id>
+      <id>63</id>
       <items xsi:type="form:Button">
         <name>РаботаПользователя1</name>
         <id>20</id>
@@ -908,16 +898,14 @@
   </items>
   <items xsi:type="form:FormField">
     <name>КоличествоАктивныхПользователей</name>
-    <id>6</id>
+    <id>66</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>КоличествоАктивныхПользователей</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>КоличествоАктивныхПользователей</segments>
     </dataPath>
     <extendedTooltip>
       <name>КоличествоАктивныхПользователейРасширеннаяПодсказка</name>
@@ -936,7 +924,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>КоличествоАктивныхПользователейКонтекстноеМеню</name>
-      <id>7</id>
+      <id>70</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -980,7 +968,6 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -989,7 +976,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>22</id>
     <valueType>
       <types>DataProcessorObject.СписокАктивныхПользователей</types>
     </valueType>
@@ -1007,7 +994,7 @@
       <key>ru</key>
       <value>Список пользователей</value>
     </title>
-    <id>2</id>
+    <id>61</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -1023,7 +1010,7 @@
         <key>ru</key>
         <value>Номер рисунка пользователя</value>
       </title>
-      <id>1</id>
+      <id>56</id>
       <valueType>
         <types>Number</types>
         <numberQualifiers>
@@ -1043,7 +1030,7 @@
         <key>ru</key>
         <value>Пользователь</value>
       </title>
-      <id>2</id>
+      <id>62</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1061,7 +1048,7 @@
         <key>ru</key>
         <value>Приложение</value>
       </title>
-      <id>3</id>
+      <id>64</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1079,7 +1066,7 @@
         <key>ru</key>
         <value>Начало работы</value>
       </title>
-      <id>4</id>
+      <id>69</id>
       <valueType>
         <types>Date</types>
         <dateQualifiers/>
@@ -1097,7 +1084,7 @@
         <key>ru</key>
         <value>Компьютер</value>
       </title>
-      <id>5</id>
+      <id>58</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -1115,7 +1102,7 @@
         <key>ru</key>
         <value>Сеанс</value>
       </title>
-      <id>6</id>
+      <id>67</id>
       <valueType>
         <types>Number</types>
         <numberQualifiers>
@@ -1155,7 +1142,7 @@
       <key>ru</key>
       <value>Количество</value>
     </title>
-    <id>3</id>
+    <id>65</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -1193,7 +1180,7 @@
       <key>ru</key>
       <value>Направление сортировки</value>
     </title>
-    <id>5</id>
+    <id>59</id>
     <valueType>
       <types>String</types>
       <stringQualifiers>
@@ -1276,7 +1263,6 @@
         <name>ОбновитьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СортировкаПоВозрастанию</name>
@@ -1300,7 +1286,6 @@
         <name>СортироватьПоВозрастанию</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СортировкаПоУбыванию</name>
@@ -1324,7 +1309,6 @@
         <name>СортироватьПоУбыванию</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

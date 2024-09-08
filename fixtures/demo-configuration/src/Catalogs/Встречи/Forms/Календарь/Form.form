@@ -2,22 +2,20 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГоризонтальнаяГруппировка</name>
-    <id>1</id>
+    <id>10</id>
     <items xsi:type="form:FormGroup">
       <name>ГруппаСлева</name>
-      <id>3</id>
+      <id>15</id>
       <items xsi:type="form:FormField">
         <name>ДатаОтображения</name>
-        <id>5</id>
+        <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДатаОтображения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДатаОтображения</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -41,7 +39,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ДатаОтображенияКонтекстноеМеню</name>
-          <id>6</id>
+          <id>12</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -91,7 +89,7 @@
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаСлеваРасширеннаяПодсказка</name>
-        <id>4</id>
+        <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -106,11 +104,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -221,10 +217,8 @@
               <role>Role.Продавец</role>
             </for>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ОтображатьВстречиДругихПользователей</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОтображатьВстречиДругихПользователей</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -270,10 +264,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПредставлениеПериода</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПредставлениеПериода</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -320,10 +312,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВариантПериода</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВариантПериода</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <handlers>
@@ -548,7 +538,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -559,10 +548,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Планировщик</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Планировщик</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -658,11 +645,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -680,7 +665,7 @@
     </toolTip>
     <extendedTooltip>
       <name>ГоризонтальнаяГруппировкаРасширеннаяПодсказка</name>
-      <id>2</id>
+      <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -698,7 +683,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -725,7 +709,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -737,7 +720,7 @@
       <key>ru</key>
       <value>Планировщик</value>
     </title>
-    <id>1</id>
+    <id>11</id>
     <valueType>
       <types>Planner</types>
     </valueType>
@@ -902,7 +885,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

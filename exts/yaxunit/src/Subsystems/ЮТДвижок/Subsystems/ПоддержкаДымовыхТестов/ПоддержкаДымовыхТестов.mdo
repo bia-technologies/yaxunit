@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdd1bcd2-6346-4799-9ff6-e7b8dbd77dd1">
+  <name>ПоддержкаДымовыхТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка дымовых тестов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЮТДымовыеТесты</content>
+  <content>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТДымовыеТестыСлужебныйКлиентСервер</content>
+  <content>CommonModule.ЮТДымовыеТестыСлужебныйСервер</content>
+  <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
+</mdclass:Subsystem>
