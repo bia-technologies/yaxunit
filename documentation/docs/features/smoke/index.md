@@ -2,6 +2,11 @@
 
 В YAxUnit реализована поддержка дымовых тестов.
 
+:::info Разработка использует идеи и наработки следующих проектов
+* [yaxunit-smoke](https://github.com/alexandr-yang/yaxunit-smoke) by [@alexandr-yang](https://github.com/alexandr-yang)
+* [add](https://github.com/vanessa-opensource/add/tree)
+:::
+
 :::warning Черновая реализация
 Реализация дымовых тестов может быть изменена.
 :::
