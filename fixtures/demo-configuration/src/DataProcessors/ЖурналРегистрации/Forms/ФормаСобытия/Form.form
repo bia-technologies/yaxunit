@@ -147,11 +147,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -293,11 +291,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -333,7 +329,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -477,12 +472,10 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -679,12 +672,10 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -826,12 +817,10 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -923,11 +912,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1130,7 +1117,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1163,11 +1149,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1205,7 +1189,6 @@
       <united>true</united>
       <slaveItemsWidth>LeftNarrowest</slaveItemsWidth>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1317,12 +1300,10 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -1349,7 +1330,6 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
   <showTitle>true</showTitle>

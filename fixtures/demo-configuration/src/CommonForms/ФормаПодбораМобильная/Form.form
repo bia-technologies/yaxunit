@@ -342,7 +342,6 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -371,7 +370,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <format>
@@ -379,7 +377,6 @@
         <value>Список товаров</value>
       </format>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -720,7 +717,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <format>
@@ -728,7 +724,6 @@
         <value>Отобранные товары</value>
       </format>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -841,7 +836,6 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -975,7 +969,6 @@
         <name>ОКВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>НачатьСканирование</name>
@@ -999,7 +992,6 @@
         <name>НачатьСканирование</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>
     <name>АдресТоваровДокумента</name>

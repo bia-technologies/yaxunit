@@ -238,7 +238,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -327,7 +326,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -361,7 +359,6 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -442,7 +439,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -535,7 +531,6 @@
         <name>Ответить</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>ВходящееПисьмо</name>

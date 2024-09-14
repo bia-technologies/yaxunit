@@ -41,6 +41,7 @@
   <content>CommonModule.ЮТОтчетСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТПодключаемыеМодулиСлужебный</content>
   <content>CommonModule.ЮТПодключаемыеМодулиСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТПользовательскийИнтерфейсСлужебныйКлиент</content>
   <content>CommonModule.ЮТПроверкиСлужебный</content>
   <content>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</content>

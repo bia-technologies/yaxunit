@@ -237,7 +237,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -262,11 +261,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -347,7 +344,6 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -385,7 +381,6 @@
       </format>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -724,7 +719,6 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <format>
@@ -732,7 +726,6 @@
           <value>Адрес</value>
         </format>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1038,11 +1031,9 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>AlwaysHorizontal</group>
             <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <currentRowUse>DontUse</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -1125,11 +1116,9 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1158,7 +1147,6 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <format>
@@ -1166,7 +1154,6 @@
           <value>Контакты</value>
         </format>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1195,14 +1182,12 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <behavior>PopUp</behavior>
       <controlRepresentation>Picture</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1340,7 +1325,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
       <controlRepresentation>Picture</controlRepresentation>
       <representation>NormalSeparation</representation>
@@ -1348,7 +1332,6 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1434,8 +1417,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
-      <behavior>Collapsible</behavior>
       <controlRepresentation>Picture</controlRepresentation>
       <representation>NormalSeparation</representation>
       <united>true</united>
@@ -1445,7 +1426,6 @@
       </format>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1805,7 +1785,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -1880,7 +1859,6 @@
         <name>НовыйРасчетныйСчетВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьФотоснимок</name>
@@ -1901,7 +1879,6 @@
         <name>СделатьФотоснимок</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьВидеозапись</name>
@@ -1922,7 +1899,6 @@
         <name>СделатьВидеозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьАудиозапись</name>
@@ -1943,7 +1919,6 @@
         <name>СделатьАудиозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПостроитьМаршрут</name>
@@ -1964,7 +1939,6 @@
         <name>ПостроитьМаршрут</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПоказатьКарту</name>
@@ -1985,7 +1959,6 @@
         <name>ПоказатьКарту</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Позвонить</name>
@@ -2009,7 +1982,6 @@
         <name>Позвонить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОтправитьСМС</name>
@@ -2033,7 +2005,6 @@
         <name>ОтправитьСМС</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>НапомнитьОЗвонке</name>
@@ -2054,7 +2025,6 @@
         <name>НапомнитьОЗвонке</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ИспользоватьТекущееМестоположение</name>
@@ -2075,7 +2045,6 @@
         <name>ИспользоватьТекущееМестоположение</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ИзКонтактов</name>
@@ -2096,7 +2065,6 @@
         <name>ЗаполнитьИзКонтактов</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel>

@@ -576,7 +576,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Table">
@@ -1004,7 +1003,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -1212,7 +1210,6 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Table">
@@ -1631,7 +1628,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -1666,7 +1662,6 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -1692,7 +1687,6 @@
   <width>80</width>
   <height>80</height>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -1836,7 +1830,6 @@
         <name>КомандаНовоеПисьмо</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаПолучитьПисьма</name>
@@ -1857,7 +1850,6 @@
         <name>КомандаПолучитьПисьма</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаОтветить</name>
@@ -1878,7 +1870,6 @@
         <name>КомандаОтветить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
@@ -1899,7 +1890,6 @@
         <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаНастроить</name>
@@ -1920,7 +1910,6 @@
         <name>КомандаНастройкаПочты</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаНовоеПисьмоПоШаблону</name>
@@ -1941,7 +1930,6 @@
         <name>КомандаНовоеПисьмоПоШаблону</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

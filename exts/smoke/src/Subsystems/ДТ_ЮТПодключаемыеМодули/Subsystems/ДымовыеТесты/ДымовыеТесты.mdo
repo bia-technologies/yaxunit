@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac841546-b155-4b82-8724-a8a3fc9a07b4">
+  <name>ДымовыеТесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дымовые тесты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ДТОткрытиеФорм</content>
+  <parentSubsystem>Subsystem.ДТ_ЮТПодключаемыеМодули</parentSubsystem>
+</mdclass:Subsystem>

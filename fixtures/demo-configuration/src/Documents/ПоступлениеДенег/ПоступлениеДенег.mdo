@@ -21,7 +21,7 @@
     <name>Posted</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -31,7 +31,7 @@
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -41,7 +41,7 @@
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -52,7 +52,7 @@
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -62,7 +62,7 @@
     <name>Number</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -76,7 +76,7 @@
       <lang>ru</lang>
     </pages>
   </help>
-  <fullTextSearch>Use</fullTextSearch>
+  <fullTextSearch>DontUse</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
     <value>Поступление денег</value>
@@ -96,6 +96,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПоступлениеДенег.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПоступлениеДенег.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -117,7 +118,7 @@
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Контрагенты.EmptyRef</value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="eee0660d-aea1-41b6-84d3-eeb0db70a9c1">
@@ -145,7 +146,7 @@
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.РасчетныеСчетаКонтрагентов.EmptyRef</value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="1f6d6046-8499-4780-887a-7103ff0b7a91">
@@ -173,7 +174,7 @@
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.РасчетныеСчета.EmptyRef</value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b634cc7c-d8f5-46ea-bc19-0d2313390961">
@@ -197,7 +198,7 @@
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Валюты.EmptyRef</value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4cbc7bfd-b1ae-4101-af5b-8427df8a387c">
@@ -228,7 +229,7 @@
     <fillValue xsi:type="core:NumberValue">
       <value>0</value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="527459d5-1705-4bac-878f-61648b3ff08f">
@@ -248,7 +249,7 @@
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Организации.EmptyRef</value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="0c5d1b45-8b7d-413e-ab11-f0192f59101c">
@@ -258,6 +259,15 @@
       <value>Форма документа</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e035eb4d-b4f6-42ae-8b8c-e1371d77b7aa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

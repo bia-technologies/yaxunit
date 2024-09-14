@@ -543,7 +543,6 @@
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -631,7 +630,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьКаталог</name>
@@ -656,7 +654,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Загрузить</name>
@@ -677,7 +674,6 @@
         <name>Загрузить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

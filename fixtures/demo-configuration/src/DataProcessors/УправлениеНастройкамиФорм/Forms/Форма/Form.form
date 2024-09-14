@@ -187,7 +187,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
@@ -577,7 +576,6 @@
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -767,7 +765,6 @@
         <name>ОбновитьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Скопировать</name>
@@ -788,7 +785,6 @@
         <name>СкопироватьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Удалить</name>
@@ -809,7 +805,6 @@
         <name>УдалитьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Искать</name>
@@ -830,7 +825,6 @@
         <name>ИскатьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

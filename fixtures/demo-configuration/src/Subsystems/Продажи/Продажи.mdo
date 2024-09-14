@@ -11,17 +11,16 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ПодсистемаПродажи</picture>
   </picture>
-  <content>Catalog.Товары</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>AccumulationRegister.ТоварныеЗапасы</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.РасчетныеСчетаКонтрагентов</content>
-  <content>Document.РасходТовара</content>
-  <content>Report.ОстаткиТоваровНаСкладах</content>
-  <content>Report.ДинамикаПродаж</content>
-  <content>Report.ОтчетПоВзаиморасчетам</content>
-  <content>AccumulationRegister.ТоварныеЗапасы</content>
-  <content>AccumulationRegister.Продажи</content>
+  <content>Catalog.Товары</content>
   <content>Document.Заказ</content>
-  <content>Enum.СостоянияЗаказов</content>
+  <content>Document.РасходТовара</content>
   <content>DocumentJournal.ДокументыПродаж</content>
+  <content>Enum.СостоянияЗаказов</content>
   <content>Report.ВзаимосвязьПродажТоваров</content>
+  <content>Report.ОстаткиТоваровНаСкладах</content>
+  <content>Report.ОтчетПоВзаиморасчетам</content>
 </mdclass:Subsystem>

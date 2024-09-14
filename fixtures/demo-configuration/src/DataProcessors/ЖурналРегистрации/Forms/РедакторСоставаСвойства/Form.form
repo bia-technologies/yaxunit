@@ -135,7 +135,6 @@
       </extendedTooltip>
       <type>ColumnGroup</type>
       <extInfo xsi:type="form:ColumnGroupExtInfo">
-        <group>InCell</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -557,7 +556,6 @@
   </autoCommandBar>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -670,7 +668,6 @@
         <name>УстановитьВсеФлажки</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СнятьВсе</name>
@@ -694,7 +691,6 @@
         <name>СнятьВсеФлажки</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

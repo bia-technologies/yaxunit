@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e87fc0b5-ccdc-4353-a26b-a4f9cdf2fd72">
+  <name>Smoke</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дымовые тесты</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="96b1a386-cf7f-48a9-8b75-fb51f81d7d6b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c9df209e-ae61-4888-9e79-953938f50577"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bdc43e79-22b7-4b45-9e2b-7e3cb5b70e63"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="653a4972-b3ed-4f32-95a7-b6d9a875332f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3f3e9f19-f678-4892-82b8-d632486a6750"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fb37dc73-7af1-4bb9-b82b-e51039b90cc7"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ДТ</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <version>0.2.1</version>
+  <subsystems>Subsystem.ДТ_ЮТПодключаемыеМодули</subsystems>
+  <commonTemplates>CommonTemplate.ДТОткрытиеФормТипыТестов</commonTemplates>
+  <commonModules>CommonModule.ДТОткрытиеФорм</commonModules>
+  <commonModules>CommonModule.ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ДТОткрытиеФормСлужебныйКлиентСервер</commonModules>
+</mdclass:Configuration>

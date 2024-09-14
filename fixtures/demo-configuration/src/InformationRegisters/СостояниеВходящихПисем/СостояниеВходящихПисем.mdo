@@ -17,6 +17,8 @@
   <comment></comment>
   <dataHistory>Use</dataHistory>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СостояниеВходящихПисем.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СостояниеВходящихПисем.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="a32a1d54-a99e-4216-86b5-cfa5eaeb2e99">
     <name>Прочитано</name>
@@ -31,7 +33,7 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
@@ -50,11 +52,29 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
+    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="87f38e58-96be-462f-8da4-679dab78a791">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edb35de3-1952-4b19-b08a-e24895d3de90">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
