@@ -62,7 +62,7 @@ jobs:
         Write-Output "substring=$('${{ inputs.locale }}'.Substring(0, 2))" >> $Env:GITHUB_OUTPUT
 
     - name: Установка 1С:Предприятие
-      uses: alkoleft/onec-setup-build-env-action@develop
+      uses: 1CDevFlow/onec-setup-action@main
       with:
         type: onec
         onec_version: ${{ inputs.v8_version }}
@@ -79,19 +79,19 @@ jobs:
       timeout-minutes: 5
 
     - name: Загрузка расширения c тестами
-      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      uses: 1CDevFlow/workflows/actions/load-extension@main
       with:
         name: tests
         path: binary/tests.cfe
 
     - name: Загрузка расширения c дымовыми тестами
-      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      uses: 1CDevFlow/workflows/actions/load-extension@main
       with:
         name: Smoke
         path: binary/smoke.cfe
 
     - name: Загрузка расширения YAxUnit
-      uses: alkoleft/yaxunit/.github/actions/load-extension@develop
+      uses: 1CDevFlow/workflows/actions/load-extension@main
       with:
         name: YAXUNIT
         path: binary/yaxunit.cfe

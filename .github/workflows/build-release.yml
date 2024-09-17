@@ -28,7 +28,7 @@ jobs:
     
     steps:
       - name: Установка 1С:Предприятие 8.3.21.1895
-        uses: alkoleft/onec-setup-build-env-action@develop
+        uses: 1CDevFlow/onec-setup-action@main
         with:
           type: onec
           onec_version: 8.3.21.1895
