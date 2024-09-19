@@ -505,8 +505,9 @@
 		
 	КонецЦикла;
 	
-	Возврат СтрШаблон("<svg version=""1.1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink"" x=""0px"" y=""0px"" width=""%1px"" height=""%2px""
-					  |	 viewBox=""0 0 %1 %2"">
+	Возврат СтрШаблон("<svg version=""1.1"" xmlns=""http://www.w3.org/2000/svg"" xmlns:xlink=""http://www.w3.org/1999/xlink""
+					  |  x=""0px"" y=""0px"" width=""%1px"" height=""%2px""
+					  |  viewBox=""0 0 %1 %2"">
 					  |	%3
 					  |</svg>", Сдвиг, Высота + 2, Текст);
 	
