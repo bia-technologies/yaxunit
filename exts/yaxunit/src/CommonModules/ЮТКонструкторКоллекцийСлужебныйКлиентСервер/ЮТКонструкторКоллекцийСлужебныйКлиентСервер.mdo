@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77eb74a9-f72f-4221-ae79-5ca4149f0e48">
-  <name>ЮТКонструкторКоллекций</name>
+  <name>ЮТКонструкторКоллекцийСлужебныйКлиентСервер</name>
   <synonym>
     <key>ru</key>
     <value>Конструктор коллекций</value>
   </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

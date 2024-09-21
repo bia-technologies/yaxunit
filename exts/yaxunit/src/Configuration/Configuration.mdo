@@ -87,8 +87,8 @@
   <commonModules>CommonModule.ЮТКомпонентыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТКомпонентыСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
+  <commonModules>CommonModule.ЮТКонструкторКоллекцийСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТКонструкторКоллекций</commonModules>
   <commonModules>CommonModule.ЮТКонтекстИсполненияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебныйВызовСервера</commonModules>
@@ -160,6 +160,7 @@
   <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
   <dataProcessors>DataProcessor.ЮТRecordSet</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТКонструкторДвижений</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторОбъектаXDTO</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>

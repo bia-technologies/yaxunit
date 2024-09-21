@@ -30,6 +30,7 @@
   <commonModules>CommonModule.НастройкаYAxUnit</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
+  <commonModules>CommonModule.Обр_ЮТКонструкторДвижений_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
   <commonModules>CommonModule.ОМ_ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
@@ -43,6 +44,7 @@
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКоллекции</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТКонструкторКоллекцийСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОбщий</commonModules>
