@@ -18,7 +18,7 @@
   <dataHistory>Use</dataHistory>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.ЦеныТоваров.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЦеныТоваров.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -57,6 +57,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -153,11 +154,11 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="48a2125e-1ffb-4cf7-8986-1df6c0e39123">
-    <name>ФормаЗаписи</name>
+  <forms uuid="7a5e9417-fef0-4e2d-b2cf-43a00d73f0b8">
+    <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
-      <value>Форма записи</value>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

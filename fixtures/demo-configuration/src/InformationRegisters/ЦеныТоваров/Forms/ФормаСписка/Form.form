@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
-    <id>40</id>
+    <id>34</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -52,7 +52,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Счет</name>
+      <name>Период</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -60,11 +60,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Account</segments>
+        <segments>Список.Period</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>СчетРасширеннаяПодсказка</name>
+        <name>ПериодРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -79,7 +79,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СчетКонтекстноеМеню</name>
+        <name>ПериодКонтекстноеМеню</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -99,7 +99,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Период</name>
+      <name>Регистратор</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -107,10 +107,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Period</segments>
+        <segments>Список.Recorder</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПериодРасширеннаяПодсказка</name>
+        <name>РегистраторРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -125,7 +125,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПериодКонтекстноеМеню</name>
+        <name>РегистраторКонтекстноеМеню</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -145,7 +145,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Регистратор</name>
+      <name>НомерСтроки</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -153,10 +153,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Recorder</segments>
+        <segments>Список.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РегистраторРасширеннаяПодсказка</name>
+        <name>НомерСтрокиРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -171,7 +171,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>РегистраторКонтекстноеМеню</name>
+        <name>НомерСтрокиКонтекстноеМеню</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -191,7 +191,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>НомерСтроки</name>
+      <name>Товар</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -199,10 +199,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.LineNumber</segments>
+        <segments>Список.Товар</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НомерСтрокиРасширеннаяПодсказка</name>
+        <name>ТоварРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -217,7 +217,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НомерСтрокиКонтекстноеМеню</name>
+        <name>ТоварКонтекстноеМеню</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -237,7 +237,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Активность</name>
+      <name>ВидЦен</name>
       <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -245,10 +245,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Active</segments>
+        <segments>Список.ВидЦен</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АктивностьРасширеннаяПодсказка</name>
+        <name>ВидЦенРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -263,7 +263,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>АктивностьКонтекстноеМеню</name>
+        <name>ВидЦенКонтекстноеМеню</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -283,19 +283,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Организация</name>
-      <id>34</id>
+      <name>Цена</name>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Организация</segments>
+        <segments>Список.Цена</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОрганизацияРасширеннаяПодсказка</name>
-        <id>36</id>
+        <name>ЦенаРасширеннаяПодсказка</name>
+        <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -309,54 +309,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОрганизацияКонтекстноеМеню</name>
-        <id>35</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>Сумма</name>
-      <id>37</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Сумма</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СуммаРасширеннаяПодсказка</name>
-        <id>39</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СуммаКонтекстноеМеню</name>
-        <id>38</id>
+        <name>ЦенаКонтекстноеМеню</name>
+        <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -576,6 +530,7 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
@@ -593,7 +548,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>AccountingRegister.Основной.RecordsWithExtDimensions</mainTable>
+      <mainTable>InformationRegister.ЦеныТоваров</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>
