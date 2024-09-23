@@ -10,4 +10,14 @@
     <value>Конструктор движений</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЮТКонструкторДвижений.Form.КлиентскийКонструктор</defaultForm>
+  <forms uuid="a899ede5-ed2a-4aa6-afb6-179007f12ae4">
+    <name>КлиентскийКонструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентский конструктор</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

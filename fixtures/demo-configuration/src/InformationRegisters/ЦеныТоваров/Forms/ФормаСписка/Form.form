@@ -10,7 +10,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>User settings group</value>
+      <value>Настройки пользователя</value>
     </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -530,7 +530,6 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
