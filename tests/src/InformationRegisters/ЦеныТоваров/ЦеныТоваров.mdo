@@ -12,10 +12,7 @@
   <name>ЦеныТоваров</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:InformationRegisterExtension">
-    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
-    <writeMode>Checked</writeMode>
     <recordSetModule>Extended</recordSetModule>
     <managerModule>Extended</managerModule>
   </extension>
-  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
 </mdclass:InformationRegister>

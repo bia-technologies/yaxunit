@@ -159,6 +159,7 @@
   <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
   <dataProcessors>DataProcessor.ЮТRecordSet</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТКонструкторДвижений</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторОбъектаXDTO</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>

@@ -30,6 +30,7 @@
   <commonModules>CommonModule.НастройкаYAxUnit</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
+  <commonModules>CommonModule.Обр_ЮТКонструкторДвижений_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
   <commonModules>CommonModule.ОМ_ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
