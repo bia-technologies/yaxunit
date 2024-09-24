@@ -1,4 +1,4 @@
-# ![Logo](documentation/static/img/logo.png) YAxUnit. Расширение для запуска тестов
+# ![Logo](documentation/static/img/logo.svg) YAxUnit. Расширение для запуска тестов
 
 ----
 

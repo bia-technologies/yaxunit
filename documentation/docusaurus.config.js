@@ -7,7 +7,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'YAx Unit',
   tagline: 'Модульные тесты для 1С - это не сложно',
-  favicon: 'img/logo.png',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
   url: 'https://bia-technologies.github.io/',
@@ -96,7 +96,7 @@ const config = {
         title: 'YAx Unit',
         logo: {
           alt: 'YAxUnit Logo',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
