@@ -16,7 +16,6 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <chartOfAccounts>ChartOfAccounts.Основной</chartOfAccounts>
-  <correspondence>true</correspondence>
   <defaultListForm>AccountingRegister.Основной.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
