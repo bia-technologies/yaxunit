@@ -72,7 +72,6 @@ const config = {
         path: 'api',
         routeBasePath: 'api',
         sidebarPath: require.resolve('./sidebarsAPI.js'),
-        // ... other options
       },
     ],
     [
@@ -82,7 +81,7 @@ const config = {
         path: 'lessons',
         routeBasePath: 'lessons',
         sidebarPath: require.resolve('./sidebarsLessons.js'),
-        // ... other options
+        editUrl: (args)=>'https://github.com/bia-technologies/yaxunit/edit/develop/documentation/lessons/' + args.docPath,
       },
     ],
     [
@@ -92,7 +91,7 @@ const config = {
         path: 'contributing',
         routeBasePath: 'contributing',
         sidebarPath: require.resolve('./sidebarsContributing.js'),
-        // ... other options
+        editUrl: (args)=>'https://github.com/bia-technologies/yaxunit/edit/develop/documentation/contributing/' + args.docPath,
       },
     ]
   ],
