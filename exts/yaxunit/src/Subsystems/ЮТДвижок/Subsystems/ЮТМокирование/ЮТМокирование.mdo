@@ -18,5 +18,6 @@
   <content>DataProcessor.ЮТHTTPServiceRequest</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <content>DataProcessor.ЮТRecordSet</content>
+  <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>
