@@ -26,7 +26,7 @@ cat >$CONFIG <<EOL
 EOL
 
 echo "=========== Тестирование $JOB_NAME"
-$ONEC_PATH/$APP ENTERPRISE $CONNECTION_STRING /DisableSplash /DisableStartupDialogs /DisableStartupMessages $RUN_MODE /C "RunUnitTests=$CONFIG"
+$ONEC_PATH/$APP ENTERPRISE $CONNECTION_STRING /DisableSplash /DisableStartupDialogs /DisableStartupMessages $RUN_MODE /C "RunUnitTests=$CONFIG" > /dev/null
 
 RESULT=$(head -n 1 $RESULT_PATH/exit-code-$JOB_NAME.txt)
 RESULT=${RESULT:1:1}
