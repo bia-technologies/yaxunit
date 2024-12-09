@@ -4,8 +4,29 @@ export SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 source $SCRIPTPATH/../.env
 
+if [[ -z "${EDT_VERSION}" ]]; then
+    >&2 echo 'Не установлена переменная $EDT_VERSION'
+    exit 1
+fi
+
+if [[ -z "$ONEC_VERSION" ]]; then
+    >&2 echo 'Не установлена переменная $ONEC_VERSION'
+    exit 1
+fi
+
+
 export EDT_PATH=/opt/1C/1CE/components/1c-edt-$EDT_VERSION-x86_64
 export ONEC_PATH=/opt/1cv8/x86_64/$ONEC_VERSION
+
+if [[ ! -d "${EDT_PATH}" ]]; then
+    >&2 echo "Не найдена инсталяция ${EDT_PATH}"
+    exit 1
+fi
+
+if [[ ! -d "$ONEC_PATH" ]]; then
+    >&2 echo "Не найдена инсталяция ${ONEC_PATH}"
+    exit 1
+fi
 
 export WORK_PATH=$(realpath $SCRIPTPATH/../workpath)
 export ROOT_PATH=$(realpath $SCRIPTPATH/../../../)

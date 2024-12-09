@@ -1,15 +1,14 @@
-# ![Logo](documentation/static/img/logo.png) YAxUnit. Расширение для запуска тестов
+# ![Logo](documentation/static/img/logo.svg) YAxUnit. Расширение для запуска тестов
 
 ----
 
-[![Actions Status](https://github.com/bia-technologies/yaxunit/actions/workflows/sq.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions)
-[![Download](https://img.shields.io/github/release/bia-technologies/yaxunit.svg?label=download&style=flat)](https://github.com/bia-technologies/yaxunit/releases/latest)
-[![GitHub Releases](https://img.shields.io/github/downloads/bia-technologies/yaxunit/latest/total?style=flat-square)](https://github.com/bia-technologies/yaxunit/releases)
+[![Проверка Sonar](https://github.com/bia-technologies/yaxunit/actions/workflows/sonar-qube-analysis.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/sonar-qube-analysis.yml)
 [![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
-[![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
-
-[![Build and test](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml)
-[![Build ocumentation](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)
+[![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)  
+[![Тестирование](https://github.com/bia-technologies/yaxunit/actions/workflows/perform-tests.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/perform-tests.yml)
+[![Сборка документации](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)  
+[![Download](https://img.shields.io/github/release/bia-technologies/yaxunit.svg?label=download&style=flat)](https://github.com/bia-technologies/yaxunit/releases/latest)
+[![GitHub Releases](https://img.shields.io/github/downloads/bia-technologies/yaxunit/latest/total?style=flat-square)](https://github.com/bia-technologies/yaxunit/releases)  
 
 Обсудить в [Telegram чате](https://t.me/BIAOpenTools/12)
 

@@ -58,7 +58,7 @@ jobs:
       id: extract_smoke_version
 
     - name: Установка 1C:EDT
-      uses: alkoleft/onec-setup-build-env-action@develop
+      uses: 1CDevFlow/onec-setup-action@main
       with:
         type: edt
         edt_version: ${{ inputs.edt_version }}

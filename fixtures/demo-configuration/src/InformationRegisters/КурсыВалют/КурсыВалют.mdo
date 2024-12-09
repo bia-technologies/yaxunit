@@ -24,7 +24,6 @@
     <name>Active</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -34,7 +33,6 @@
     <name>LineNumber</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -44,7 +42,6 @@
     <name>Recorder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -55,7 +52,6 @@
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>DontUse</fullTextSearch>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -96,7 +92,6 @@
       <numberQualifiers>
         <precision>10</precision>
         <scale>2</scale>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <toolTip>
@@ -109,13 +104,9 @@
     </minValue>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
-    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:NumberValue">
-      <value>0</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="ea36350e-96f1-480f-a16a-1dab6bfedf9e">
     <name>Валюта</name>
@@ -136,7 +127,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>DontUse</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">

@@ -30,7 +30,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <balance>true</balance>
   </dimensions>
   <resources uuid="a44be632-022a-49e2-b349-4c5b20ff7951">
@@ -48,7 +47,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>DontUse</fullTextSearch>
     <balance>true</balance>
   </resources>
   <forms uuid="0c785b4f-817e-45bc-b0eb-40e37d8e2fd7">

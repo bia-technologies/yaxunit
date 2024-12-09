@@ -30,7 +30,7 @@ jobs:
     steps:
 
     - name: Установка 1С:Предприятие
-      uses: alkoleft/onec-setup-build-env-action@develop
+      uses: 1CDevFlow/onec-setup-action@main
       with:
         type: onec
         onec_version: ${{ inputs.v8_version }}

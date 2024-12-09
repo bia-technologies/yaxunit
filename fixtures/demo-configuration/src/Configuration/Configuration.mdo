@@ -232,6 +232,7 @@
   <documents>Document.ПоступлениеДенег</documents>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
+  <documents>Document.УстановкаЦен</documents>
   <documentJournals>DocumentJournal.ДокументыПродаж</documentJournals>
   <documentJournals>DocumentJournal.ФинансовыеДокументы</documentJournals>
   <enums>Enum.PushУведомления</enums>

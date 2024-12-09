@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c3ab9bb-081a-4979-b974-47f71a493102">
+  <producedTypes>
+    <objectType typeId="8b95e761-b1ef-418a-867f-4f2eff0ea331" valueTypeId="b72c1015-520b-4ba0-96a9-8d2e2b06e40a"/>
+    <managerType typeId="f1f3d607-8ecf-4754-9871-36dc64683eb6" valueTypeId="80ba7528-f664-43fb-b283-cb9a57701132"/>
+  </producedTypes>
+  <name>ЮТКонструкторДвижений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор движений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЮТКонструкторДвижений.Form.КлиентскийКонструктор</defaultForm>
+  <forms uuid="a899ede5-ed2a-4aa6-afb6-179007f12ae4">
+    <name>КлиентскийКонструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентский конструктор</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

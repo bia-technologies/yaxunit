@@ -51,4 +51,5 @@
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
+  <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
 </mdclass:Subsystem>
