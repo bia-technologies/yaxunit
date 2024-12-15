@@ -55,6 +55,7 @@
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТRegEx1CAddin</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТV8UnpackWS</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТИнформацияОбОшибке</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
@@ -64,6 +65,7 @@
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТВнешниеОбработкиСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТесты</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйКлиентСервер</commonModules>

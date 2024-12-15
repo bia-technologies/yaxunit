@@ -38,6 +38,7 @@
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
   <commonModules>CommonModule.ОМ_МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТВнешниеОбработкиСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗависимостиСлужебный</commonModules>
