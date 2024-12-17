@@ -21,6 +21,7 @@
   <content>CommonModule.ЮТФильтрацияСлужебный</content>
   <content>CommonModule.ЮТЧитательСлужебный</content>
   <content>CommonModule.ЮТЧитательСлужебныйВызовСервера</content>
+  <content>DataProcessor.ЮТРедакторТестов</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>
