@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c08cb885-86fb-41fb-b8fc-9a407c087f60">
+  <name>ЮТV8UnpackWS</name>
+  <synonym>
+    <key>ru</key>
+    <value>v8unpack рабочий каталог</value>
+  </synonym>
+  <comment>Содержит исполняемые файлы, скрипты и шаблоны обработок</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>
