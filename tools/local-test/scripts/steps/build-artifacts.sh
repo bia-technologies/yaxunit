@@ -1,4 +1,6 @@
 TEMP_DB_PATH=$TMP_PATH/file-db
+. $LIB_PATH/print.sh
+
 rm -rf $TEMP_DB_PATH/*
 
 extensions=("smoke" "tests" "yaxunit")
