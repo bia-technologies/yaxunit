@@ -1,1 +1,1 @@
-v8unpack -B build\unpack build\out.epf
+v8unpack -B build\unpack %1

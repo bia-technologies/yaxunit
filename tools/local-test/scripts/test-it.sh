@@ -38,7 +38,9 @@ export DB_PATH=$WORK_PATH/file-db
 export EXPORT_PATH=$WORK_PATH/export
 export BINARY_PATH=$WORK_PATH/binary
 export RESULT_PATH=$WORK_PATH/result
+export LOGS_PATH=$WORK_PATH/logs
 
+mkdir -p $LOGS_PATH
 mkdir -p $DB_PATH
 mkdir -p $EXPORT_PATH
 mkdir -p $BINARY_PATH
@@ -48,6 +50,7 @@ mkdir -p $RESULT_PATH
 
 rm -rf $TMP_PATH/*
 rm -rf $RESULT_PATH/*
+rm -rf $LOGS_PATH/*
 
 cat >~/.1cv8/1C/1cv8/conf/conf.cfg <<EOL
 DisableUnsafeActionProtection=.*

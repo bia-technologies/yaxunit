@@ -15,10 +15,10 @@ if [ -f $hash_file_name ]; then
 fi
 
 if [[ "$current_hash" != "$old_hash" ]]; then
-    print_warn "$PROJECT_NAME, исходники изменены. Будет выполнена сбора"
+    print_warn "$PROJECT_NAME, исходники изменены. Будет выполнена сборка"
     rm -rf $EXPORT_PATH/$PROJECT_NAME
     rm -rf $BINARY_PATH/$PROJECT_NAME.*
-    echo $current_hash>$hash_file_name
+    echo $current_hash > $hash_file_name
 else
     print_success "$PROJECT_NAME, исходники не изменены. Будут использованы существующие артефакты"
 fi
