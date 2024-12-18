@@ -5,11 +5,11 @@ on:
       edt_version:
         type: string
         required: true
-      
+
       artifact_name:
         type: string
         required: true
-      
+
       engine_only:
         type: boolean
         required: false
@@ -17,7 +17,7 @@ on:
     outputs:
       yaxunit_version:
         value: ${{ jobs.export.outputs.yaxunit_version }}
-    
+
       smoke_version:
         value: ${{ jobs.export.outputs.smoke_version }}
 
@@ -32,7 +32,7 @@ jobs:
     outputs:
       yaxunit_version: ${{ steps.extract_version.outputs.version }}
       smoke_version: ${{ steps.extract_smoke_version.outputs.version }}
-    
+
     steps:
     - name: Извлечение исходников PR
       if: github.event_name == 'pull_request_target' || github.event_name == 'pull_request'
@@ -40,7 +40,7 @@ jobs:
       with:
         ref: refs/pull/${{ github.event.number }}/merge # Для поддержки pull_request и pull_request_target
 
-      
+
     - name: Извлечение исходников ветки ${{ github.ref_name }}
       if: github.event_name == 'push'
       uses: actions/checkout@v4
@@ -63,11 +63,11 @@ jobs:
         type: edt
         edt_version: ${{ inputs.edt_version }}
         cache: true
-      env: 
+      env:
         ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 30
-        
+
     - name: Ковертация исходников конфигурации
       if: ${{ !inputs.engine_only }}
       uses: alkoleft/onec-edtcli-command-action@main
@@ -75,18 +75,18 @@ jobs:
         export: true
         from: fixtures/demo-configuration
         to: export/configuration
-        timeout: 5
-      timeout-minutes: 10
-      
+        timeout: 15
+      timeout-minutes: 15
+
     - name: Ковертация исходников YAxUnit
       uses: alkoleft/onec-edtcli-command-action@main
       with:
         export: true
         from: exts/yaxunit
         to: export/yaxunit
-        timeout: 5
-      timeout-minutes: 10
-      
+        timeout: 15
+      timeout-minutes: 15
+
     - name: Ковертация исходников тестов
       if: ${{ !inputs.engine_only }}
       uses: alkoleft/onec-edtcli-command-action@main
@@ -94,18 +94,18 @@ jobs:
         export: true
         from: tests
         to: export/tests
-        timeout: 5
-      timeout-minutes: 10
-    
+        timeout: 15
+      timeout-minutes: 15
+
     - name: Ковертация исходников дымовых тестов
       uses: alkoleft/onec-edtcli-command-action@main
       with:
         export: true
         from: exts/smoke
         to: export/smoke
-        timeout: 5
-      timeout-minutes: 10
-      
+        timeout: 15
+      timeout-minutes: 15
+
     - name: Упаковка исходников в архив
       run: |
         cd export
