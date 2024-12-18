@@ -33,6 +33,7 @@
   <commonModules>CommonModule.Обр_ЮТКонструкторДвижений_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТСообщениеСервисаИнтеграции</commonModules>
+  <commonModules>CommonModule.ОМ_ВыполнениеТестовОбработки</commonModules>
   <commonModules>CommonModule.ОМ_ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
