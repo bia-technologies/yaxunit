@@ -100,8 +100,8 @@
   <commonModules>CommonModule.ЮТЛогированиеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЛогИсполненияТестаСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданные</commonModules>
-  <commonModules>CommonModule.ЮТМетаданныеСлужебный</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТМетаданныеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТМетаданныеСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТМетоды</commonModules>
   <commonModules>CommonModule.ЮТМетодыСлужебный</commonModules>

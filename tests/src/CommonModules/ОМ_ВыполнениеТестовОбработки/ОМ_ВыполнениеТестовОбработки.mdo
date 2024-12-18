@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23505f33-d1cf-4975-93c1-38fa37ece16d">
+  <name>ОМ_ВыполнениеТестовОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>О м выполнение тестов обработки</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

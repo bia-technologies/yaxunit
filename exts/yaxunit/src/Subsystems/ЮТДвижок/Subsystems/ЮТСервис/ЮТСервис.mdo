@@ -26,8 +26,8 @@
   <content>CommonModule.ЮТЛогированиеСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТЛогИсполненияТестаСлужебный</content>
   <content>CommonModule.ЮТМетаданные</content>
-  <content>CommonModule.ЮТМетаданныеСлужебный</content>
   <content>CommonModule.ЮТМетаданныеСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТМетаданныеСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТМетаданныеСлужебныйПовтИсп</content>
   <content>CommonModule.ЮТМетоды</content>
   <content>CommonModule.ЮТМетодыСлужебный</content>
