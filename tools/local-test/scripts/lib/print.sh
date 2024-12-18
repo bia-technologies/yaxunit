@@ -4,13 +4,17 @@ YELLOW='\033[1;33m'
 NC='\033[0m'
 
 function print_success {
-    echo -e "${GREEN}#${NC} $1"
+    echo -e "  ${GREEN}🟢 ${NC} $1"
 }
 
 function print_error {
-    echo -e "${RED}#${NC} $1"
+    echo -e "  ${RED}🔴 ${NC} $1 "
+}
+
+function print_info {
+    echo -e "  ${GREEN}🛈  ${NC} $1"
 }
 
 function print_warn {
-    echo -e "${YELLOW}#${NC} $1"
+    echo -e "  ${YELLOW}🟠 ${NC} $1"
 }
