@@ -18,6 +18,10 @@ function print_success {
     echo -e "  ${GREEN}🟢 ${RESET} $1"
 }
 
+function print_run {
+    echo -e "  ${BOLD}${GREEN}⭆  ${RESET}${BOLD} $1${RESET}"
+}
+
 function print_error {
     echo -e "  ${RED}🔴 ${RESET} $1 "
 }
