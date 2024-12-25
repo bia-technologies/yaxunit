@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="2589d6d3-8ffb-4a6a-a5ab-7e76a7a6c4ad">
+    <name>ЮТРедакторТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор тестов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>
