@@ -28,6 +28,7 @@
   <commonTemplates>CommonTemplate.ЮТ_ТестовыеДанныеMarkdown</commonTemplates>
   <commonModules>CommonModule.Интеграция</commonModules>
   <commonModules>CommonModule.НастройкаYAxUnit</commonModules>
+  <commonModules>CommonModule.Обр_ЮТHTTPОтвет</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторДвижений_МО</commonModules>
