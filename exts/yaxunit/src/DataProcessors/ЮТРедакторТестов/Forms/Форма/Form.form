@@ -42,7 +42,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <autoFill>true</autoFill>
       </contextMenu>
       <type>HTMLDocumentField</type>
       <editMode>Enter</editMode>
@@ -55,9 +54,7 @@
           <name>EditorURLПриНажатии</name>
         </handlers>
         <width>50</width>
-        <autoMaxWidth>true</autoMaxWidth>
         <height>10</height>
-        <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <borderColor xsi:type="core:ColorRef">
