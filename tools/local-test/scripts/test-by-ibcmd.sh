@@ -50,17 +50,15 @@ mkdir -p $BINARY_PATH
 mkdir -p $TMP_PATH
 mkdir -p $RESULT_PATH
 
-rm -rf $TMP_PATH/*
-rm -rf $RESULT_PATH/*
-rm -rf $LOGS_PATH/*
+rm -rf "${TMP_PATH:?}/"*
+rm -rf "${RESULT_PATH:?}/"*
+rm -rf "${LOGS_PATH:?}/"*
 
 cat >~/.1cv8/1C/1cv8/conf/conf.cfg <<EOL
 DisableUnsafeActionProtection=.*
 EOL
 
-declare -A SOURCES_HASH
 declare -A SOURCE_PATHS=( ["yaxunit"]="exts/yaxunit" ["smoke"]="exts/smoke" ["tests"]="tests" ["configuration"]="fixtures/demo-configuration")
-declare projects=()
 
 echo "=========== Анализ исходников ==========="
 for key in "${!SOURCE_PATHS[@]}"; do

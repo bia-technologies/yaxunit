@@ -55,6 +55,16 @@ jobs:
         sudo ln -s /usr/lib/x86_64-linux-gnu/libenchant-2.so.2 /usr/lib/libenchant.so.1
         sudo localedef -i ${{ inputs.locale }} -c -f UTF-8 -A /usr/share/locale/locale.alias ${{ inputs.locale }}.UTF-8
 
+        mkdir -p ~/.1cv8/1C/1cv8/conf/
+        cat >~/.1cv8/1C/1cv8/conf/conf.cfg <<EOL
+        DisableUnsafeActionProtection=.*
+        EOL
+    - name: Подготовка окружения (Windows)
+      if: runner.os == 'Windows'
+      run: |
+        mkdir -p "C:\Program Files\1cv8\conf"
+        'DisableUnsafeActionProtection=.*`r`n' | Out-File -FilePath "C:\Program Files\1cv8\conf\conf.cfg" -Encoding utf8 -Append
+  
     - name: Определение "короткой" локали
       id: short_locale
       shell: pwsh
