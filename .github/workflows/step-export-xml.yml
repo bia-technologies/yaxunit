@@ -28,7 +28,7 @@ concurrency:
 jobs:
   export:
     name: Конвертация
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     outputs:
       yaxunit_version: ${{ steps.extract_version.outputs.version }}
       smoke_version: ${{ steps.extract_smoke_version.outputs.version }}

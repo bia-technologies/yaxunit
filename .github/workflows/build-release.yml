@@ -23,7 +23,7 @@ jobs:
   
   build_artifacts:
     name: Сборка артефактов
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: export_to_designer
     
     steps:

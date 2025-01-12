@@ -46,7 +46,7 @@ jobs:
           - en_US
         os:
           - windows-latest
-          - ubuntu-latest
+          - ubuntu-22.04
 
     uses: ./.github/workflows/step-run-tests.yml
     needs: build_artifacts
