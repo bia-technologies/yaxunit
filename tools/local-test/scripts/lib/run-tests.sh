@@ -25,14 +25,14 @@ cat >$CONFIG <<EOL
 }
 EOL
 
-echo "=========== Тестирование $JOB_NAME"
-$ONEC_PATH/$APP ENTERPRISE $CONNECTION_STRING /DisableSplash /DisableStartupDialogs /DisableStartupMessages $RUN_MODE /C "RunUnitTests=$CONFIG" > /dev/null
+print_run "=========== Тестирование ${BOLD}$JOB_NAME${RESET}"
+$ONEC_PATH/$APP ENTERPRISE $CONNECTION_STRING /DisableSplash /DisableStartupDialogs /DisableStartupMessages $RUN_MODE /C "RunUnitTests=$CONFIG" >> $LOGS_PATH/$JOB_NAME.log 2>&1
 
 RESULT=$(head -n 1 $RESULT_PATH/exit-code-$JOB_NAME.txt)
 RESULT=${RESULT:1:1}
 
 if [[ "$RESULT" == "0" ]]; then
-    print_success "Тестирование $JOB_NAME завершилось успешно"
+    print_success "Тестирование ${BOLD}$JOB_NAME${RESET} завершилось успешно"
 else 
-    print_error "Тестирование $JOB_NAME завершилось с ошибкой"
+    print_error "Тестирование ${BOLD}$JOB_NAME${RESET} завершилось с ошибкой"
 fi

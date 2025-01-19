@@ -1,4 +1,6 @@
 TEMP_DB_PATH=$TMP_PATH/file-db
+. $LIB_PATH/print.sh
+
 rm -rf $TEMP_DB_PATH/*
 
 extensions=("smoke" "tests" "yaxunit")
@@ -6,13 +8,13 @@ configuration_exists=0
 
 if [[ -f $BINARY_PATH/configuration.cf ]]; then
     configuration_exists=1
-    echo "  Сборка конфигурации не требуется"
+    print_success "  Сборка конфигурации ${BOLD}не требуется${RESET}"
 fi
 
 extensions_set=()
 for key in "${extensions[@]}";do
     if [[ -f $BINARY_PATH/$key.cfe ]]; then
-        echo "  Сборка $key не требуется"
+        print_success "  Сборка $key ${BOLD}не требуется${RESET}"
     else
         extensions_set+=($key)
     fi
@@ -22,17 +24,20 @@ if [[ ${#extensions_set[@]} -eq 0 && $configuration_exists  -eq 1 ]]; then
     exit 0
 fi
 
-echo "  Создание информационной базы"
-$ONEC_PATH/ibcmd infobase create --db-path=$TEMP_DB_PATH --import=$EXPORT_PATH/configuration --apply --force > /dev/null
+print_run "Сборка артефактов"
+
+$ONEC_PATH/ibcmd infobase create --db-path=$TEMP_DB_PATH --import=$EXPORT_PATH/configuration --apply --force >> $LOGS_PATH/configuration.log 2>&1
+print_state 'Создание информационной базы'
 
 if [[ $configuration_exists -eq 0 ]]; then
-    echo "  Сохрание тестовой конфигурации"
-    $ONEC_PATH/ibcmd infobase config save --db-path=$TEMP_DB_PATH $BINARY_PATH/configuration.cf > /dev/null
+    $ONEC_PATH/ibcmd infobase config save --db-path=$TEMP_DB_PATH $BINARY_PATH/configuration.cf >> $LOGS_PATH/configuration.log 2>&1
+    print_state 'Сохрание тестовой конфигурации'
 fi
 
 for key in "${extensions_set[@]}";do
-    echo "  Импорт расширения $key"
-    $ONEC_PATH/ibcmd infobase config import --db-path=$TEMP_DB_PATH --extension=$key $EXPORT_PATH/$key > /dev/null
-    echo "  Сохрание расширения $key"
-    $ONEC_PATH/ibcmd infobase config save --db-path=$TEMP_DB_PATH --extension=$key $BINARY_PATH/$key.cfe > /dev/null
+    $ONEC_PATH/ibcmd infobase config import --db-path=$TEMP_DB_PATH --extension=$key $EXPORT_PATH/$key >> $LOGS_PATH/$key.log 2>&1
+    print_state "Импорт расширения ${BOLD}$key${RESET}"
+    
+    $ONEC_PATH/ibcmd infobase config save --db-path=$TEMP_DB_PATH --extension=$key $BINARY_PATH/$key.cfe >> $LOGS_PATH/$key.log 2>&1
+    print_state "Сохрание расширения ${BOLD}$key${RESET}"
 done
