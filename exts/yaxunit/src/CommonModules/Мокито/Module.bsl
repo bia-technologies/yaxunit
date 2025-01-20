@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2025 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -61,7 +61,7 @@
 //        + `Ложь` - будет выполнено дообучение объекта.
 //
 // Возвращаемое значение:
-//  ОбщийМодуль - см. МокитоОбучение
+//  ОбщийМодуль.МокитоОбучение - см. МокитоОбучение
 Функция Обучение(Объект, СброситьСтарыеНастройки = Истина) Экспорт
 	
 	Режимы = МокитоСлужебный.РежимыРаботы();
