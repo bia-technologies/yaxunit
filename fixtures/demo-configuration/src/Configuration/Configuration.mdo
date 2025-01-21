@@ -54,7 +54,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.24</compatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <defaultConstantsForm>CommonForm.ОбщиеНастройки</defaultConstantsForm>
   <languages uuid="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
     <name>Русский</name>
