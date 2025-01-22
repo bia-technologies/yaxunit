@@ -63,7 +63,7 @@ jobs:
       if: runner.os == 'Windows'
       run: |
         mkdir -p "C:\Program Files\1cv8\conf"
-        'DisableUnsafeActionProtection=.*`r`n' | Out-File -FilePath "C:\Program Files\1cv8\conf\conf.cfg" -Encoding utf8 -Append
+        "DisableUnsafeActionProtection=.*`r`n" | Out-File -FilePath "C:\Program Files\1cv8\conf\conf.cfg" -Encoding utf8
   
     - name: Определение "короткой" локали
       id: short_locale
@@ -144,7 +144,7 @@ jobs:
       uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: Tests report. ${{runner.os}} ${{ inputs.v8_version }} ${{ inputs.locale }}
+        name: Отчет о тестировании. ${{runner.os}} ${{ inputs.v8_version }} ${{ inputs.locale }}
         path: report.xml
         
     - name: Публикация отчета о тестировании
@@ -152,7 +152,7 @@ jobs:
       if: always()
       with:
         job_name: Тестирование
-        check_name: Tests report. ${{runner.os}} ${{ inputs.v8_version }} ${{ inputs.locale }}
+        check_name: Отчет о тестировании. ${{runner.os}} ${{ inputs.v8_version }} ${{ inputs.locale }}
         report_paths: report.xml
         fail_on_failure: true
         require_passed_tests: true
