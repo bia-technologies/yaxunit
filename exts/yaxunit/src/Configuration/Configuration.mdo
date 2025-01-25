@@ -57,6 +57,7 @@
   <commonTemplates>CommonTemplate.ЮТMonacoEditor</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТRegEx1CAddin</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТV8UnpackWS</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТWebSocketAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТИнформацияОбОшибке</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
