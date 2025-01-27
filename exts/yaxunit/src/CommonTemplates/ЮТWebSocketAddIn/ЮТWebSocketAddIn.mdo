@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe4036f-10e3-4a3c-a82e-06158728e7c3">
+  <name>ЮТWebSocketAddIn</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web socket add in</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

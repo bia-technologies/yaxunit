@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2025 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -138,6 +138,16 @@
 Функция ОписаниеКомпонентыРегулярныхВыражений() Экспорт
 
 	Возврат ОписаниеКомпоненты("ОбщийМакет.ЮТRegEx1CAddin", "RegEx1CAddin", "RegEx");
+
+КонецФункции
+
+// Описание компоненты реализующей функциональность регулярных выражений.
+//
+// Возвращаемое значение:
+//  см. ОписаниеКомпоненты
+Функция ОписаниеКомпонентыВебСокет() Экспорт
+
+	Возврат ОписаниеКомпоненты("ОбщийМакет.ЮТWebSocketAddIn", "WebSocket1C", "WebSocket1CAddIn");
 
 КонецФункции
 

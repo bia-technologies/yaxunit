@@ -57,6 +57,7 @@
   <commonTemplates>CommonTemplate.ЮТMonacoEditor</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТRegEx1CAddin</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТV8UnpackWS</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТWebSocketAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТИнформацияОбОшибке</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
@@ -67,6 +68,7 @@
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТВнешниеОбработкиСлужебныйСервер</commonModules>
+  <commonModules>CommonModule.ЮТВнешнийЗапускТестовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТесты</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйКлиентСервер</commonModules>
