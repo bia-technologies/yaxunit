@@ -26,15 +26,18 @@
 
 Особая благодарность авторам и контрибьютерам проектов
 
-- [xUnitFor1C](https://github.com/xDrivenDevelopment/xUnitFor1C/graphs/contributors)
-- [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation/graphs/contributors)
-- [add](https://github.com/vanessa-opensource/add/graphs/contributors)
+* [xUnitFor1C](https://github.com/xDrivenDevelopment/xUnitFor1C/graphs/contributors)
+* [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation/graphs/contributors)
+* [add](https://github.com/vanessa-opensource/add/graphs/contributors)
+* [bsl-language-server](https://github.com/1c-syntax/bsl-language-server)
+* [bsl_console](https://github.com/salexdv/bsl_console)
+* [Любаневич Дмитрию](https://github.com/dlyubanevich) за отзывчивость и компоненту [websocket1c](https://github.com/dlyubanevich/websocket1c)
 
 ----
 
 ## Использованные ресурсы
 
-- В продукте используется иконки из набора [IntelliJ Platform UI](https://jetbrains.design/intellij).  
+* В продукте используется иконки из набора [IntelliJ Platform UI](https://jetbrains.design/intellij).  
   Copyright 2000-2023 JetBrains s.r.o. and contributors. [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Лицензия
