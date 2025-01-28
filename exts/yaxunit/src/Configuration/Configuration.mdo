@@ -54,8 +54,10 @@
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТMonacoEditor</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТRegEx1CAddin</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТV8UnpackWS</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТWebSocketAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТИнформацияОбОшибке</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТОписаниеМетаданных</commonTemplates>
@@ -66,6 +68,7 @@
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТВнешниеОбработкиСлужебныйСервер</commonModules>
+  <commonModules>CommonModule.ЮТВнешнийЗапускТестовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТесты</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйКлиентСервер</commonModules>
@@ -134,6 +137,8 @@
   <commonModules>CommonModule.ЮТПроверкиСлужебный</commonModules>
   <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТРазрешениеЗависимостейСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТРеактивныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТРеактивныйСервер</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ЮТРегистрацияОшибокСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСлужебныйПовторногоИспользования</commonModules>
@@ -166,6 +171,8 @@
   <dataProcessors>DataProcessor.ЮТКонструкторДвижений</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторОбъектаXDTO</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТРедакторТестов</dataProcessors>
   <dataProcessors>DataProcessor.ЮТСообщениеСервисаИнтеграции</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
 </mdclass:Configuration>

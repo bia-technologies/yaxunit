@@ -51,6 +51,8 @@
   <content>DataProcessor.ЮТГенераторКода</content>
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
+  <content>DataProcessor.ЮТРедакторТестов</content>
   <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
+  <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
 </mdclass:Subsystem>
