@@ -48,6 +48,7 @@
   <content>DataProcessor.ЮТHTTPServiceRequest</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <content>DataProcessor.ЮТRecordSet</content>
+  <content>DataProcessor.ЮТГенераторКода</content>
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
   <content>DataProcessor.ЮТРедакторТестов</content>
