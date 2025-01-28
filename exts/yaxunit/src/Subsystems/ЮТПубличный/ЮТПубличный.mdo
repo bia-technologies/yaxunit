@@ -53,4 +53,5 @@
   <content>DataProcessor.ЮТРедакторТестов</content>
   <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
+  <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
 </mdclass:Subsystem>

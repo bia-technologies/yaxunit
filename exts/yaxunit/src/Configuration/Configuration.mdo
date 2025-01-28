@@ -170,6 +170,7 @@
   <dataProcessors>DataProcessor.ЮТКонструкторДвижений</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторОбъектаXDTO</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</dataProcessors>
   <dataProcessors>DataProcessor.ЮТРедакторТестов</dataProcessors>
   <dataProcessors>DataProcessor.ЮТСообщениеСервисаИнтеграции</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
