@@ -52,9 +52,8 @@ rm -rf "${TMP_PATH:?}/"*
 rm -rf "${RESULT_PATH:?}/"*
 rm -rf "${LOGS_PATH:?}/"*
 
-cat >~/.1cv8/1C/1cv8/conf/conf.cfg <<EOL
-DisableUnsafeActionProtection=.*
-EOL
+mkdir -p ~/.1cv8/1C/1cv8/conf/
+echo "DisableUnsafeActionProtection=.*" >>~/.1cv8/1C/1cv8/conf/conf.cfg
 
 declare -A SOURCE_PATHS=( ["yaxunit"]="exts/yaxunit" ["smoke"]="exts/smoke" ["tests"]="tests" ["configuration"]="fixtures/demo-configuration")
 
@@ -72,6 +71,7 @@ echo "=========== Сборка исходников ==========="
 if ! $STEPS_PATH/build-artifacts.sh; then
     exit 1
 fi
+
 
 echo "=========== Запуск сервера 1с в Docker ==========="
 docker compose -f $SCRIPTPATH/../onec-server/docker-compose.yml up -d --force-recreate --renew-anon-volumes

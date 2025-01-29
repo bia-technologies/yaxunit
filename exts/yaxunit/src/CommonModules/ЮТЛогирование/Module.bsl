@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2025 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -52,8 +52,10 @@
 //
 // Параметры:
 //  Сообщение - Строка - Сообщение
-Процедура Ошибка(Сообщение) Экспорт
+//  Ошибка - ИнформацияОбОшибке
+Процедура Ошибка(Знач Сообщение, Ошибка = Неопределено) Экспорт
 	
+	Сообщение = ЮТРегистрацияОшибок.ПредставлениеОшибки(Сообщение, Ошибка);
 	ЮТЛогированиеСлужебный.Записать("ERR", Сообщение, 99);
 	
 КонецПроцедуры

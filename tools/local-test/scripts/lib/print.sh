@@ -19,7 +19,7 @@ function print_success {
 }
 
 function print_run {
-    echo -e "  ${BOLD}${GREEN}⭆  ${RESET}${BOLD} $1${RESET}"
+    echo -e "  ${BOLD}${GREEN}⭆  ${RESET} $1"
 }
 
 function print_error {

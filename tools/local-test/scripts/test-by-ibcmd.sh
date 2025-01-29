@@ -53,6 +53,7 @@ mkdir -p $RESULT_PATH
 rm -rf "${TMP_PATH:?}/"*
 rm -rf "${RESULT_PATH:?}/"*
 rm -rf "${LOGS_PATH:?}/"*
+rm -rf ~/.1cv8/1C/1cv8/standalone-server
 
 cat >~/.1cv8/1C/1cv8/conf/conf.cfg <<EOL
 DisableUnsafeActionProtection=.*
@@ -71,6 +72,8 @@ for key in "${!SOURCE_PATHS[@]}"; do
 done
 
 rm -rf $DB_PATH
+
+echo "=========== Подготовка информационной базы ==========="
 
 print_run "Создание информационной базы"
 $ONEC_PATH/ibcmd infobase create --db-path=$DB_PATH --import=$WORK_PATH/export/configuration --apply --force
