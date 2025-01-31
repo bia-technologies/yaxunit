@@ -172,6 +172,12 @@ const config = {
         darkTheme: prismThemes.vsDark,
         additionalLanguages: ['bsl', 'json'],
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
     }),
     markdown: {
       mermaid: true,
