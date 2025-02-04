@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce28e1f7-27f7-4291-a904-80635f1e790d">
+  <producedTypes>
+    <objectType typeId="6baac8a1-fb90-4001-9f34-eea1045c3f1b" valueTypeId="fe47c455-77a4-437d-890d-a0b0d7c0bbfc"/>
+    <managerType typeId="bdb9af8f-79ac-4991-a135-57203f4fb53a" valueTypeId="a1ed1ebd-1c49-48a0-9d98-eff20e1a8482"/>
+  </producedTypes>
+  <name>ЮТРедакторТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор тестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЮТРедакторТестов.Form.Форма</defaultForm>
+  <forms uuid="d4365291-8d32-4f2d-a8dc-34e575959336">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2589d6d3-8ffb-4a6a-a5ab-7e76a7a6c4ad">
+    <name>ЮТРедакторТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор тестов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

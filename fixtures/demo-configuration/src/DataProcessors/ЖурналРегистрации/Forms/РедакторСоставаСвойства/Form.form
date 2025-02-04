@@ -6,7 +6,7 @@
   </title>
   <items xsi:type="form:Table">
     <name>Список</name>
-    <id>1</id>
+    <id>34</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -28,17 +28,15 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Пометка</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
           <name>ПометкаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ПометкаExtendedTooltip</name>
+          <name>ПометкаРасширеннаяПодсказка</name>
           <id>18</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -77,13 +75,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Список.Представление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Представление</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПредставлениеExtendedTooltip</name>
+          <name>ПредставлениеРасширеннаяПодсказка</name>
           <id>19</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -123,7 +119,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ГруппаExtendedTooltip</name>
+        <name>ГруппаРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -139,13 +135,12 @@
       </extendedTooltip>
       <type>ColumnGroup</type>
       <extInfo xsi:type="form:ColumnGroupExtInfo">
-        <group>InCell</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
-      <id>3</id>
+      <id>40</id>
       <items xsi:type="form:FormGroup">
         <name>КруппаКнопокОтметки</name>
         <id>32</id>
@@ -159,7 +154,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>УстановитьВсеExtendedTooltip</name>
+            <name>УстановитьВсеРасширеннаяПодсказка</name>
             <id>14</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -198,7 +193,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>СнятьВсеExtendedTooltip</name>
+            <name>СнятьВсеРасширеннаяПодсказка</name>
             <id>15</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -384,7 +379,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -400,7 +395,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СписокКонтекстноеМеню</name>
-      <id>2</id>
+      <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -445,7 +440,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>OKExtendedTooltip</name>
+        <name>OKРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -485,7 +480,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -528,7 +523,7 @@
       <value>Кнопки формы</value>
     </toolTip>
     <extendedTooltip>
-      <name>КнопкиФормыExtendedTooltip</name>
+      <name>КнопкиФормыРасширеннаяПодсказка</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -561,7 +556,6 @@
   </autoCommandBar>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -570,7 +564,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>35</id>
     <valueType>
       <types>DataProcessorObject.ЖурналРегистрации</types>
     </valueType>
@@ -588,7 +582,7 @@
       <key>ru</key>
       <value>Список</value>
     </title>
-    <id>2</id>
+    <id>38</id>
     <valueType>
       <types>ValueTree</types>
     </valueType>
@@ -604,7 +598,7 @@
         <key>ru</key>
         <value>Пометка</value>
       </title>
-      <id>1</id>
+      <id>36</id>
       <valueType>
         <types>Boolean</types>
       </valueType>
@@ -621,7 +615,7 @@
         <key>ru</key>
         <value>Значение</value>
       </title>
-      <id>2</id>
+      <id>39</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -674,7 +668,6 @@
         <name>УстановитьВсеФлажки</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СнятьВсе</name>
@@ -698,7 +691,6 @@
         <name>СнятьВсеФлажки</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

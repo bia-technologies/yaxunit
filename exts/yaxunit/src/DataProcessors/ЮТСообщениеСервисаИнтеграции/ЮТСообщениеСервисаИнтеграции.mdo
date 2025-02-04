@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b3f1b1b-792a-43f7-b237-34522342bdbd">
+  <producedTypes>
+    <objectType typeId="6da0f4bb-5c39-49e7-9375-1d9ea3cb0e45" valueTypeId="14ce3a79-9132-405b-b784-0ca65b26bcce"/>
+    <managerType typeId="a85769e7-f289-4126-ad03-e3933be34c9a" valueTypeId="5bcc047f-bbe2-4753-bc76-ff6c993e0af4"/>
+  </producedTypes>
+  <name>ЮТСообщениеСервисаИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мок для СообщениеCервисаBнтеграции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

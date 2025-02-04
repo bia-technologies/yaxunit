@@ -12,42 +12,22 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b8df29d7-0e21-419d-b132-cd99c709210a"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2a793120-c7a1-422e-b404-b0f78b87b1b5"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c7b02cf7-645c-471f-a7d9-81b0d59ca319"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5a2019b4-0318-45ff-bb33-434c4d019855"/>
-  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
   <version>1.0.26.1</version>
-  <updateCatalogAddress></updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>
     </pages>
   </help>
+  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
-  <requiredMobileApplicationPermissions>
-    <permission>Multimedia</permission>
-  </requiredMobileApplicationPermissions>
+  <usedMobileApplicationFunctionalities/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -74,7 +54,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.21</compatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <defaultConstantsForm>CommonForm.ОбщиеНастройки</defaultConstantsForm>
   <languages uuid="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
     <name>Русский</name>
@@ -82,7 +62,6 @@
       <key>ru</key>
       <value>Русский</value>
     </synonym>
-    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Предприятие</subsystems>
@@ -253,6 +232,7 @@
   <documents>Document.ПоступлениеДенег</documents>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
+  <documents>Document.УстановкаЦен</documents>
   <documentJournals>DocumentJournal.ДокументыПродаж</documentJournals>
   <documentJournals>DocumentJournal.ФинансовыеДокументы</documentJournals>
   <enums>Enum.PushУведомления</enums>
@@ -264,7 +244,6 @@
   <enums>Enum.НазначениеХарактеристик</enums>
   <enums>Enum.СостоянияЗаказов</enums>
   <reports>Report.ВзаимосвязьПродажТоваров</reports>
-  <reports>Report.ДинамикаПродаж</reports>
   <reports>Report.ДокументыОплата</reports>
   <reports>Report.ОстаткиТоваровНаСкладах</reports>
   <reports>Report.ОтчетПоВзаиморасчетам</reports>
@@ -289,5 +268,8 @@
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Основной</accountingRegisters>
 </mdclass:Configuration>

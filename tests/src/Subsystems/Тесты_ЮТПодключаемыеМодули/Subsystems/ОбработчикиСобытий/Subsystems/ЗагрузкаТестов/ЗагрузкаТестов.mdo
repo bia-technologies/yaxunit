@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c1c26fe-1188-4ffd-84a4-f14a6378c77a">
+  <name>ЗагрузкаТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка тестов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ФильтрацияЗагрузкиТестов</content>
+  <parentSubsystem>Subsystem.Тесты_ЮТПодключаемыеМодули.Subsystem.ОбработчикиСобытий</parentSubsystem>
+</mdclass:Subsystem>

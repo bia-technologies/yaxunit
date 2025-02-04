@@ -24,17 +24,23 @@
   </languages>
   <subsystems>Subsystem.Тесты_ЮТПодключаемыеМодули</subsystems>
   <commonTemplates>CommonTemplate.ЮТ_МакетТестовыхДанных</commonTemplates>
+  <commonTemplates>CommonTemplate.ЮТ_СравнениеТабличныхДокументов</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТ_ТестовыеДанныеMarkdown</commonTemplates>
   <commonModules>CommonModule.Интеграция</commonModules>
   <commonModules>CommonModule.НастройкаYAxUnit</commonModules>
+  <commonModules>CommonModule.Обр_ЮТHTTPОтвет</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
+  <commonModules>CommonModule.Обр_ЮТКонструкторДвижений_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
+  <commonModules>CommonModule.Обр_ЮТСообщениеСервисаИнтеграции</commonModules>
+  <commonModules>CommonModule.ОМ_ВыполнениеТестовОбработки</commonModules>
+  <commonModules>CommonModule.ОМ_ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОМ_Мокито</commonModules>
   <commonModules>CommonModule.ОМ_МокитоОбучение</commonModules>
   <commonModules>CommonModule.ОМ_МокитоСлужебный</commonModules>
-  <commonModules>CommonModule.ОМ_Общий</commonModules>
   <commonModules>CommonModule.ОМ_ОшибкаЗагрузкиСценариев</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТВнешниеОбработкиСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТест</commonModules>
   <commonModules>CommonModule.ОМ_ЮТестПереопределяемый</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЗависимостиСлужебный</commonModules>
@@ -42,8 +48,10 @@
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКоллекции</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТОбщий</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетAllureСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>
@@ -53,6 +61,7 @@
   <commonModules>CommonModule.ОМ_ЮТПредикатыСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСравнениеСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТСравнениеСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСтроки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ОМ_ЮТТестовыеДанныеСлужебный</commonModules>
@@ -65,7 +74,9 @@
   <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПомощникТестированияВызовСервера</commonModules>
+  <commonModules>CommonModule.ТегиТестов</commonModules>
   <commonModules>CommonModule.ТестовыеДанные</commonModules>
+  <commonModules>CommonModule.ФильтрацияЗагрузкиТестов</commonModules>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <documents>Document.ПриходТовара</documents>

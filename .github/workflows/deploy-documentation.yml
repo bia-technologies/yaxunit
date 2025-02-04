@@ -1,4 +1,4 @@
-name: Documentation
+name: Сборка документации
 
 on:
   push:
@@ -13,28 +13,35 @@ defaults:
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
+    name: Сборка документации
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Download bsl doc
+      - name: Извлечение исходников
+        uses: actions/checkout@v4
+
+      - name: Скачивание BSL-Doc
         run: curl -L https://github.com/alkoleft/bsldoc/releases/download/0.1.0/bsldoc-0.1.0.jar --output ./bsldoc.jar && chmod +7 ./bsldoc.jar
-      - name: Generate API documentation
+
+      - name: Генерация описания API
         run: java -jar ./bsldoc.jar ./../exts/yaxunit ./api -f Docusaurus -s ЮТДвижок
-      - uses: actions/setup-node@v3
+
+      - name: Установка NodeJS
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: yarn
-          cache-dependency-path: 'documentation/package-lock.json'
+          cache-dependency-path: 'documentation/yarn.lock'
 
-      - name: Install dependencies
+      - name: Установка зависимостей Docusaurus
         run: yarn install --frozen-lockfile
-      - name: Build website
+
+      - name: Сборка сайта с документацией
         run: yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
-      - name: Deploy to GitHub Pages
+      - name: Публикация на GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

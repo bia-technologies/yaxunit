@@ -14,13 +14,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДатаНачала</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДатаНачала</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаНачалаExtendedTooltip</name>
+          <name>ДатаНачалаРасширеннаяПодсказка</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -69,13 +67,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДатаОкончания</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДатаОкончания</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаОкончанияExtendedTooltip</name>
+          <name>ДатаОкончанияРасширеннаяПодсказка</name>
           <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -149,7 +145,6 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -160,14 +155,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Проводить</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Проводить</segments>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>ПроводитьExtendedTooltip</name>
+        <name>ПроводитьРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -242,7 +235,7 @@
       <value>Шапка</value>
     </toolTip>
     <extendedTooltip>
-      <name>ШапкаExtendedTooltip</name>
+      <name>ШапкаРасширеннаяПодсказка</name>
       <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -258,11 +251,9 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -270,7 +261,7 @@
     <id>24</id>
     <items xsi:type="form:Table">
       <name>СписокДокументов</name>
-      <id>3</id>
+      <id>6</id>
       <title>
         <key>ru</key>
         <value>Все документы</value>
@@ -293,13 +284,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.СписокДокументов.Presentation</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.СписокДокументов.Presentation</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПредставлениеExtendedTooltip</name>
+          <name>ПредставлениеРасширеннаяПодсказка</name>
           <id>49</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -341,7 +330,7 @@
       </items>
       <autoCommandBar>
         <name>СписокДокументовКоманднаяПанель</name>
-        <id>5</id>
+        <id>11</id>
         <items xsi:type="form:Button">
           <name>Добавить</name>
           <id>26</id>
@@ -352,7 +341,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>ДобавитьExtendedTooltip</name>
+            <name>ДобавитьРасширеннаяПодсказка</name>
             <id>47</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -510,7 +499,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>СписокДокументовExtendedTooltip</name>
+        <name>СписокДокументовРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -526,7 +515,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокДокументовКонтекстноеМеню</name>
-        <id>4</id>
+        <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -580,13 +569,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ВыбранныеДокументы.Presentation</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ВыбранныеДокументы.Presentation</segments>
         </dataPath>
         <extendedTooltip>
-          <name>Представление1ExtendedTooltip</name>
+          <name>Представление1РасширеннаяПодсказка</name>
           <id>46</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -639,7 +626,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>ИсключитьExtendedTooltip</name>
+            <name>ИсключитьРасширеннаяПодсказка</name>
             <id>44</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -797,7 +784,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ВыбранныеДокументыExtendedTooltip</name>
+        <name>ВыбранныеДокументыРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -856,7 +843,7 @@
       <value>Списки</value>
     </toolTip>
     <extendedTooltip>
-      <name>СпискиExtendedTooltip</name>
+      <name>СпискиРасширеннаяПодсказка</name>
       <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -876,7 +863,6 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -892,7 +878,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПровестиExtendedTooltip</name>
+        <name>ПровестиРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -932,7 +918,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СохранитьПараметрыExtendedTooltip</name>
+        <name>СохранитьПараметрыРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -963,7 +949,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ВосстановитьПараметрыExtendedTooltip</name>
+        <name>ВосстановитьПараметрыРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1000,7 +986,6 @@
   <saveDataInSettings>UseList</saveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -1012,7 +997,7 @@
       <key>ru</key>
       <value>Объект</value>
     </title>
-    <id>1</id>
+    <id>10</id>
     <valueType>
       <types>DataProcessorObject.ПроведениеДокументов</types>
     </valueType>
@@ -1036,7 +1021,7 @@
       <key>ru</key>
       <value>Дата начала</value>
     </title>
-    <id>2</id>
+    <id>20</id>
     <valueType>
       <types>Date</types>
       <dateQualifiers>
@@ -1059,7 +1044,7 @@
       <key>ru</key>
       <value>Дата окончания</value>
     </title>
-    <id>3</id>
+    <id>7</id>
     <valueType>
       <types>Date</types>
       <dateQualifiers>
@@ -1136,7 +1121,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Исключить</name>

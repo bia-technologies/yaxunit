@@ -33,12 +33,10 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
@@ -63,13 +61,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Date</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Date</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаExtendedTooltip</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -111,13 +107,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Number</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Number</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НомерExtendedTooltip</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -159,13 +153,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Type</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Type</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТипExtendedTooltip</name>
+        <name>ТипРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -207,13 +199,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Контрагент</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Контрагент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КонтрагентExtendedTooltip</name>
+        <name>КонтрагентРасширеннаяПодсказка</name>
         <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -255,13 +245,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.РасчетныйСчет</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.РасчетныйСчет</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РасчетныйСчетExtendedTooltip</name>
+        <name>РасчетныйСчетРасширеннаяПодсказка</name>
         <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -303,13 +291,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Организация</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Организация</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОрганизацияExtendedTooltip</name>
+        <name>ОрганизацияРасширеннаяПодсказка</name>
         <id>60</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -354,13 +340,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ЖурналДокументовСписок.Сумма</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Сумма</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СуммаExtendedTooltip</name>
+          <name>СуммаРасширеннаяПодсказка</name>
           <id>62</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -401,13 +385,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ЖурналДокументовСписок.Валюта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Валюта</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВалютаExtendedTooltip</name>
+          <name>ВалютаРасширеннаяПодсказка</name>
           <id>63</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -454,7 +436,7 @@
         <value>Сумма документа</value>
       </toolTip>
       <extendedTooltip>
-        <name>СуммаДокументаExtendedTooltip</name>
+        <name>СуммаДокументаРасширеннаяПодсказка</name>
         <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -604,7 +586,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ЖурналДокументовСписокExtendedTooltip</name>
+      <name>ЖурналДокументовСписокРасширеннаяПодсказка</name>
       <id>54</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -675,7 +657,6 @@
   </autoCommandBar>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>

@@ -28,8 +28,10 @@
   <content>CommonModule.ЮТКонтекстТеста</content>
   <content>CommonModule.ЮТЛогирование</content>
   <content>CommonModule.ЮТМетаданные</content>
+  <content>CommonModule.ЮТМетоды</content>
   <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщий</content>
+  <content>CommonModule.ЮТОкружение</content>
   <content>CommonModule.ЮТПодражатель</content>
   <content>CommonModule.ЮТПодражатель_Банки</content>
   <content>CommonModule.ЮТПодражатель_Компании</content>
@@ -46,7 +48,11 @@
   <content>DataProcessor.ЮТHTTPServiceRequest</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <content>DataProcessor.ЮТRecordSet</content>
+  <content>DataProcessor.ЮТГенераторКода</content>
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
+  <content>DataProcessor.ЮТРедакторТестов</content>
+  <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
+  <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
 </mdclass:Subsystem>

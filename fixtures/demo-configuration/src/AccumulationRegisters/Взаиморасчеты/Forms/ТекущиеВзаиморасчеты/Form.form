@@ -21,13 +21,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаОстатков.Контрагент</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков.Контрагент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаОстатковКонтрагентExtendedTooltip</name>
+        <name>ТаблицаОстатковКонтрагентРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -71,13 +69,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаОстатков.Валюта</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков.Валюта</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаОстатковВалютаExtendedTooltip</name>
+        <name>ТаблицаОстатковВалютаРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -115,19 +111,17 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ТаблицаОстатковНашДолг</name>
-      <id>2</id>
+      <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаОстатков.НашДолг</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков.НашДолг</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаОстатковНашДолгExtendedTooltip</name>
+        <name>ТаблицаОстатковНашДолгРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -165,19 +159,17 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ТаблицаОстатковДолгНам</name>
-      <id>3</id>
+      <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаОстатков.ДолгНам</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков.ДолгНам</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаОстатковДолгНамExtendedTooltip</name>
+        <name>ТаблицаОстатковДолгНамРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -347,7 +339,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТаблицаОстатковExtendedTooltip</name>
+      <name>ТаблицаОстатковРасширеннаяПодсказка</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -402,7 +394,7 @@
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>Обновить</name>
-      <id>4</id>
+      <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -410,7 +402,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОбновитьExtendedTooltip</name>
+        <name>ОбновитьРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -449,7 +441,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -488,7 +480,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>НастроитьExtendedTooltip</name>
+        <name>НастроитьРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -531,7 +523,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -544,7 +535,7 @@
       <key>ru</key>
       <value>Таблица остатков</value>
     </title>
-    <id>2</id>
+    <id>34</id>
     <valueType>
       <types>ValueTable</types>
     </valueType>
@@ -560,7 +551,7 @@
         <key>ru</key>
         <value>Контрагент</value>
       </title>
-      <id>1</id>
+      <id>35</id>
       <valueType>
         <types>CatalogRef.Контрагенты</types>
       </valueType>
@@ -654,7 +645,6 @@
         <name>ОбновитьВыполнить</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel>

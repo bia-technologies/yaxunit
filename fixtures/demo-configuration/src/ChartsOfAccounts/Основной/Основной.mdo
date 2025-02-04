@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0439de4d-1169-4848-87fc-74f070638caa">
+  <producedTypes>
+    <objectType typeId="e5e62631-a9f1-44e3-b376-a2515dcc8441" valueTypeId="bc6bd8f3-5c4b-41dd-9f30-8fa23f25156c"/>
+    <refType typeId="4ac5407f-0e0a-4df0-9eb8-0fb6dc241d2e" valueTypeId="9066edeb-4e30-4e6f-816a-33bfda8303a3"/>
+    <selectionType typeId="1515723b-56d4-439a-aff0-3919612e0bd7" valueTypeId="ea676c4d-3d90-436c-ac5f-9c48e07f2c0b"/>
+    <listType typeId="1529a60c-1434-48d5-8ed6-f6c927402fd5" valueTypeId="31a49ec9-d945-4538-957e-63b7ff59bbe8"/>
+    <managerType typeId="8eebadc5-9af3-4c3c-a056-16ae7a929920" valueTypeId="6b781c80-c718-4149-bd6f-3e05e010fbb5"/>
+    <extDimensionTypes typeId="7a45a96f-5cb4-43e3-a7e0-9eff4dc68b3b" valueTypeId="1bbaf6e6-74cd-4d6b-9895-fc0c55651c92"/>
+    <extDimensionTypesRow typeId="9b9cc6bc-1498-451c-a095-6a7dc02c4db8" valueTypeId="6182e263-ca3c-4c66-8c85-1b5005682e94"/>
+  </producedTypes>
+  <name>Основной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.Основной.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfAccounts.Основной.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>3</maxExtDimensionCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="63f293b9-cc39-4dd4-836b-3a729840e6e3">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>1        </code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагент</characteristicType>
+      </extDimensionTypes>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Склад</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="a2ff30fd-ec08-4cb9-971f-eebbeb9264ad">
+      <name>Деньги</name>
+      <description>Деньги</description>
+      <code>2        </code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагент</characteristicType>
+      </extDimensionTypes>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.РасчетныйСчетКонтрагента</characteristicType>
+      </extDimensionTypes>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Валюта</characteristicType>
+      </extDimensionTypes>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ChartOfAccounts.Основной.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="da531e8a-7252-4b48-ac7f-8a0f3ed21a71">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="13af0107-5c44-4082-8625-316147b8a0ae">
+    <producedTypes>
+      <objectType typeId="19f02e17-705b-451d-a4c6-6107716df86f" valueTypeId="f46faccc-4f9b-4fbe-8079-61dc532eed40"/>
+      <rowType typeId="6f607f05-d605-46dd-aa31-96459283dd6c" valueTypeId="fa5e9aaa-0553-42b9-bc1e-67d70bcaede8"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="e56d4b89-8fab-477c-ba8f-2865f8dfa368">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <accountingFlags uuid="b4c92484-b72c-499d-bb7d-3f1fd1c08c0e">
+    <name>ПризнакУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак учета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="eabf4754-67bf-4f7e-998c-247b11f098f5">
+    <name>Валютный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="25a6ae3e-6a4e-426f-ad32-966d3b5ad39e">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <extDimensionAccountingFlags uuid="7e58899e-c1f1-4194-9a97-b9bd016a7141">
+    <name>ПризнакУчетаСубконто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак учета субконто</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="e05cb182-e490-4282-ba73-bd59b42dd74b">
+    <name>Суммовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="68ed24ea-edbd-4d45-819d-6e24ff179fff">
+    <name>Валютный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="5ec47f0b-2452-46e5-9f3d-964ce6f298c2">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <forms uuid="2d44e514-6edc-4180-91ec-c2e349827f73">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfAccounts>

@@ -1,0 +1,93 @@
+name: Сборка артефактов
+on:
+  workflow_call:
+    inputs:
+      v8_version:
+        type: string
+        required: true
+      
+      src_artifact_name:
+        type: string
+        required: false
+        default: designer-src
+      
+      artifact_name:
+        type: string
+        required: false
+        default: build-artifacts
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Сборка
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+
+    - name: Установка 1С:Предприятие
+      uses: 1CDevFlow/onec-setup-action@main
+      with:
+        type: onec
+        onec_version: ${{ inputs.v8_version }}
+        cache: true
+      env: 
+        ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
+        ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
+      timeout-minutes: 10
+        
+    - name: Загрузка исходников в формате конфигуратора
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ inputs.src_artifact_name }}
+      
+    - name: Распаковка исходников
+      run: |
+        mkdir export
+        mkdir binary
+        cd export
+        7z x ../export.7z -y
+    
+    - name: Создание информационной базы
+      run: ibcmd infobase create --db-path=file-db --import=export\configuration --apply --force
+      timeout-minutes: 5
+
+    - name: Импорт YAxUnit из исходников
+      run: ibcmd infobase config import --db-path=file-db --extension=YAXUNIT export\yaxunit
+      timeout-minutes: 5
+
+    - name: Импорт тестов из исходников
+      run: ibcmd infobase config import --db-path=file-db --extension=tests export\tests
+      timeout-minutes: 5
+
+    - name: Импорт дымовых тестов из исходников
+      run: ibcmd infobase config import --db-path=file-db --extension=Smoke export\smoke
+      timeout-minutes: 5
+
+    - name: Сохрание расширения YAxUnit
+      run: ibcmd infobase config save --db-path=file-db --extension=YAXUNIT binary\yaxunit.cfe
+      timeout-minutes: 5
+      
+    - name: Сохрание расширения с тестами
+      run: ibcmd infobase config save --db-path=file-db --extension=tests binary\tests.cfe
+      timeout-minutes: 5
+
+    - name: Сохрание расширения с дымовыми тестами
+      run: ibcmd infobase config save --db-path=file-db --extension=Smoke binary\smoke.cfe
+      timeout-minutes: 5
+
+    - name: Сохрание тестовой конфигурации
+      run: ibcmd infobase config save --db-path=file-db binary\configuration.cf
+      timeout-minutes: 5
+
+    - name: Публикация артефактов
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ inputs.artifact_name }}
+        path: binary\*.*
+        if-no-files-found: error
+        retention-days: 1

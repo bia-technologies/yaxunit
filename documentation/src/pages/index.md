@@ -7,13 +7,13 @@ slug: /
 
 ----
 
-[![Actions Status](https://github.com/bia-technologies/yaxunit/actions/workflows/sq.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions)
-[![Download](https://img.shields.io/github/release/bia-technologies/yaxunit.svg?label=download&style=flat)](https://github.com/bia-technologies/yaxunit/releases/latest)
-[![GitHub Releases](https://img.shields.io/github/downloads/bia-technologies/yaxunit/latest/total?style=flat-square)](https://github.com/bia-technologies/yaxunit/releases)
+[![Проверка Sonar](https://github.com/bia-technologies/yaxunit/actions/workflows/sonar-qube-analysis.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/sonar-qube-analysis.yml)
 [![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
-[![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
-[![Build and test](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/main-build.yml)
-[![Build ocumentation](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)
+[![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)  
+[![Тестирование](https://github.com/bia-technologies/yaxunit/actions/workflows/perform-tests.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/perform-tests.yml)
+[![Сборка документации](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)  
+[![Download](https://img.shields.io/github/release/bia-technologies/yaxunit.svg?label=download&style=flat)](https://github.com/bia-technologies/yaxunit/releases/latest)
+[![GitHub Releases](https://img.shields.io/github/downloads/bia-technologies/yaxunit/latest/total?style=flat-square)](https://github.com/bia-technologies/yaxunit/releases)  
 [![Telegram чате](images/telegram.svg)](https://t.me/BIAOpenTools/12)
 
 ----
@@ -40,14 +40,18 @@ slug: /
 
 Особая благодарность авторам и контрибьютерам проектов
 
-- [xUnitFor1C](https://github.com/xDrivenDevelopment/xUnitFor1C/graphs/contributors)
-- [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation/graphs/contributors)
-- [add](https://github.com/vanessa-opensource/add/graphs/contributors)
+* [xUnitFor1C](https://github.com/xDrivenDevelopment/xUnitFor1C/graphs/contributors)
+* [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation/graphs/contributors)
+* [add](https://github.com/vanessa-opensource/add/graphs/contributors)
+* [bsl-language-server](https://github.com/1c-syntax/bsl-language-server)
+* [bsl_console](https://github.com/salexdv/bsl_console)
+* [v8unpack](https://github.com/e8tools/v8unpack)
+* [Любаневич Дмитрию](https://github.com/dlyubanevich) за отзывчивость и компоненту [websocket1c](https://github.com/dlyubanevich/websocket1c)
 
 ---
 
 ## Лицензия
 
-Copyright © 2023 [BIA-Technologies Limited Liability Company](http://bia-tech.ru/)
+Copyright © 2025 [BIA-Technologies Limited Liability Company](http://bia-tech.ru/)
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)

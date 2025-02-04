@@ -6,10 +6,10 @@
   </title>
   <items xsi:type="form:FormGroup">
     <name>Страницы</name>
-    <id>3</id>
+    <id>9</id>
     <items xsi:type="form:FormGroup">
       <name>СтраницаОтменитьРегистрацию</name>
-      <id>5</id>
+      <id>29</id>
       <items xsi:type="form:FormField">
         <name>ПодтверждениеОтключения</name>
         <id>36</id>
@@ -18,10 +18,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПодтверждениеОтключения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПодтверждениеОтключения</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -115,7 +113,7 @@
       <verticalStretch>true</verticalStretch>
       <extendedTooltip>
         <name>СтраницаОтменитьРегистрациюРасширеннаяПодсказка</name>
-        <id>6</id>
+        <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -130,7 +128,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <horizontalAlign>Center</horizontalAlign>
         <verticalAlign>Center</verticalAlign>
         <showTitle>true</showTitle>
@@ -147,10 +144,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>АдресЭлектроннойПочты</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АдресЭлектроннойПочты</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -213,10 +208,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>АдресСервера</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>АдресСервера</segments>
           </dataPath>
           <extendedTooltip>
             <name>АдресСервераРасширеннаяПодсказка</name>
@@ -270,10 +263,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ИмяИБ</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИмяИБ</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИмяИБРасширеннаяПодсказка</name>
@@ -349,15 +340,12 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
-          <behavior>Collapsible</behavior>
           <collapsed>true</collapsed>
           <representation>NormalSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Button">
@@ -424,7 +412,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -439,10 +426,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>КодРегистрации</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КодРегистрации</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -559,7 +544,6 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
     </items>
@@ -578,7 +562,7 @@
     </toolTip>
     <extendedTooltip>
       <name>СтраницыРасширеннаяПодсказка</name>
-      <id>4</id>
+      <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -593,7 +577,6 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -614,14 +597,13 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>11</id>
     <valueType>
       <types>DataProcessorObject.УправлениеСистемойВзаимодействия</types>
     </valueType>
@@ -639,7 +621,7 @@
       <key>ru</key>
       <value>Код регистрации</value>
     </title>
-    <id>2</id>
+    <id>33</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -657,7 +639,7 @@
       <key>ru</key>
       <value>Адрес электронной почты</value>
     </title>
-    <id>3</id>
+    <id>10</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -741,7 +723,6 @@
         <name>Зарегистрировать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОтменитьРегистрацию</name>
@@ -762,7 +743,6 @@
         <name>ОтменитьРегистрацию</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПолучитьКодРегистрации</name>
@@ -783,7 +763,6 @@
         <name>ПолучитьКодРегистрации</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

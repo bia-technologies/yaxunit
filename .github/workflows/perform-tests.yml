@@ -1,0 +1,57 @@
+name: Тестирование
+on:
+  push:
+    branches: 
+      - feature/**
+      - develop
+
+  pull_request_target:
+    branches: [ develop ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-main
+  cancel-in-progress: true
+
+permissions:
+    contents: write
+    checks: write
+    id-token: write
+
+jobs:
+  export_to_designer:
+    name: Конвертация исходников
+    uses: ./.github/workflows/step-export-xml.yml
+    with:
+      edt_version: 2023.1.2
+      artifact_name: designer-src
+    secrets: inherit
+  
+  build_artifacts:
+    name: Сборка
+    uses: ./.github/workflows/step-build-artifacts-windows.yml
+    needs: export_to_designer
+    with:
+      v8_version: 8.3.21.1895
+    secrets: inherit
+
+  tests:
+    name: Тест
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          - 8.3.21.1895
+        locale:
+          - ru_RU
+          - en_US
+        os:
+          - windows-latest
+          - ubuntu-22.04
+
+    uses: ./.github/workflows/step-run-tests.yml
+    needs: build_artifacts
+    with:
+      v8_version: ${{ matrix.version }}
+      locale: ${{ matrix.locale }}
+      os: ${{ matrix.os }}
+    secrets: inherit

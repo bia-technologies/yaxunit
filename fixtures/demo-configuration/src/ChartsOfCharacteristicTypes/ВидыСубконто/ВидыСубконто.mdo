@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1973fc98-e599-4675-89de-55b9bbfd2bcf">
+  <producedTypes>
+    <objectType typeId="c5986db5-a49c-4435-915d-97effd7afbdf" valueTypeId="b097e311-e118-494f-b9a1-46c62a5216f3"/>
+    <refType typeId="da7e985f-9dbc-4c8b-86f8-8f9f59e75da8" valueTypeId="995ed0d7-e6ea-49cd-82c2-ab74f69b7180"/>
+    <selectionType typeId="c7a144de-5205-468b-bd40-8b209995cb32" valueTypeId="8b6c83a4-cb40-4d4f-b8ff-5eb29c5d1ded"/>
+    <listType typeId="e377b464-210d-4ffc-a2d4-ba03dc6188fb" valueTypeId="2275e99c-15c8-4ece-a588-c87183135c8a"/>
+    <managerType typeId="4b51adb7-ef7b-422f-ae04-c57ee3bd93cf" valueTypeId="58e9e951-685c-4109-a175-7b49971aabbf"/>
+    <containerType typeId="13b90f62-4f0d-4c0c-bc34-33fc74ba976e" valueTypeId="55658c0e-4fe3-43d3-b8ed-79515afe61dd"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>DontUse</fullTextSearch>
+  <type>
+    <types>CatalogRef.ВидыЦен</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.РасчетныеСчета</types>
+    <types>CatalogRef.РасчетныеСчетаКонтрагентов</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Товары</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ff4bfb5d-0ec3-43ca-a254-935a1f2c330c">
+      <name>Контрагент</name>
+      <description>Контрагент</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="4b9b5c81-a5c9-45d1-ade4-e9383082ae7d">
+      <name>Валюта</name>
+      <description>Валюта</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+    </items>
+    <items id="bd0eaf8e-ef51-4867-9631-a34b2cbb10b5">
+      <name>РасчетныйСчет</name>
+      <description>Расчетный счет</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.РасчетныеСчета</types>
+      </type>
+    </items>
+    <items id="7a10ffd0-b176-4751-90f1-2f92e7af1618">
+      <name>Склад</name>
+      <description>Склад</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+    </items>
+    <items id="5347a776-f255-4b8c-8d03-4a5a281ba3b8">
+      <name>РасчетныйСчетКонтрагента</name>
+      <description>Расчетный счет контрагент</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef.РасчетныеСчетаКонтрагентов</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ВидыСубконто.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="1aafe6d5-41d1-43e6-a1be-e40e00e4e11b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

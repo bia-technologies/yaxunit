@@ -2,20 +2,18 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>ПутьКРабочемуКаталогу</name>
-    <id>1</id>
+    <id>9</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПутьКРабочемуКаталогу</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПутьКРабочемуКаталогу</segments>
     </dataPath>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
-      <name>ПутьКРабочемуКаталогуExtendedTooltip</name>
+      <name>ПутьКРабочемуКаталогуРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -31,7 +29,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ПутьКРабочемуКаталогуКонтекстноеМеню</name>
-      <id>2</id>
+      <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -65,14 +63,12 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>КраткийЗаголовок</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>КраткийЗаголовок</segments>
     </dataPath>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
-      <name>КраткийЗаголовокExtendedTooltip</name>
+      <name>КраткийЗаголовокРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -115,7 +111,7 @@
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>Сохранить</name>
-      <id>3</id>
+      <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -123,7 +119,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СохранитьExtendedTooltip</name>
+        <name>СохранитьРасширеннаяПодсказка</name>
         <id>6</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -158,7 +154,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -166,7 +161,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>10</id>
     <valueType>
       <types>DataProcessorObject.НастройкиПользователя</types>
     </valueType>
@@ -233,7 +228,6 @@
         <name>Сохранить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -1,3 +1,20 @@
+//©///////////////////////////////////////////////////////////////////////////©//
+//
+//  Copyright 2021-2025 BIA-Technologies Limited Liability Company
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+//©///////////////////////////////////////////////////////////////////////////©//
 
 // Функция возвращает имя провайдера геопозиционирования в зависимости от настроек
 &НаСервере
@@ -17,7 +34,6 @@
 	    НаборКонстант.Записать();
 		
 	КонецЕсли;
-	
 	Структура = Новый Структура();
 	Структура.Вставить("Выбор", Выбор);
 	Структура.Вставить("Имя", Константы.ИмяПровайдера.Получить());
@@ -32,7 +48,7 @@
 	
 	// Выбираем покупателей (не больше 20) по самым свежим, не закрытым заказам
 	Запрос = Новый Запрос;
-	Запрос.Текст = 
+	Запрос.Текст =
 	 "ВЫБРАТЬ ПЕРВЫЕ 20
 	 |	Заказ.Покупатель.Широта КАК ПокупательШирота,
 	 |	Заказ.Покупатель.Долгота КАК ПокупательДолгота,

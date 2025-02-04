@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d312bbaf-1c9a-4b4f-a554-1fa5a90e475e">
+  <name>ДТОткрытиеФормТипыТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открытие форм типы тестов</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

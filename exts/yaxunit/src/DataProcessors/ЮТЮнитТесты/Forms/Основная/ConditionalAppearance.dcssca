@@ -3,61 +3,6 @@
 	<item>
 		<selection>
 			<item>
-				<field>ДеревоТестовПрогресс</field>
-			</item>
-		</selection>
-		<filter>
-			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">ДеревоТестов.Набор</left>
-				<comparisonType>Equal</comparisonType>
-				<right xsi:type="xs:boolean">false</right>
-			</item>
-		</filter>
-		<appearance>
-			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>Видимость</dcscor:parameter>
-				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
-			</dcscor:item>
-		</appearance>
-		<presentation xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Скрытие колонок. Тест</v8:content>
-			</v8:item>
-		</presentation>
-	</item>
-	<item>
-		<selection>
-			<item>
-				<field>ДеревоТестовИконка</field>
-			</item>
-			<item>
-				<field>ДеревоТестовСостояние</field>
-			</item>
-		</selection>
-		<filter>
-			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">ДеревоТестов.Набор</left>
-				<comparisonType>Equal</comparisonType>
-				<right xsi:type="xs:boolean">true</right>
-			</item>
-		</filter>
-		<appearance>
-			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>Видимость</dcscor:parameter>
-				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
-			</dcscor:item>
-		</appearance>
-		<presentation xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Скрытие колонок. Набор</v8:content>
-			</v8:item>
-		</presentation>
-	</item>
-	<item>
-		<selection>
-			<item>
 				<field>ДеревоТестовКонтекст</field>
 			</item>
 		</selection>

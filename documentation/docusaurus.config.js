@@ -7,7 +7,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'YAx Unit',
   tagline: 'Модульные тесты для 1С - это не сложно',
-  favicon: 'img/logo.png',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
   url: 'https://bia-technologies.github.io/',
@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ru',
+    locales: ['ru'],
   },
 
   presets: [
@@ -46,7 +46,8 @@ const config = {
             'https://github.com/bia-technologies/yaxunit/',
         },
         blog: {
-          blogTitle: 'Заметки'
+          blogTitle: 'Заметки',
+          onUntruncatedBlogPosts: 'ignore'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -95,7 +96,7 @@ const config = {
         title: 'YAx Unit',
         logo: {
           alt: 'YAxUnit Logo',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -169,7 +170,13 @@ const config = {
       prism: {
         theme: prismThemes.vsLight,
         darkTheme: prismThemes.vsDark,
-        additionalLanguages: ['bsl'],
+        additionalLanguages: ['bsl', 'json'],
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
     }),
     markdown: {

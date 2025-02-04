@@ -2,19 +2,17 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Владелец</name>
-    <id>4</id>
+    <id>66</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Owner</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Owner</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВладелецExtendedTooltip</name>
+      <name>ВладелецРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -30,7 +28,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ВладелецКонтекстноеМеню</name>
-      <id>10</id>
+      <id>60</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -54,19 +52,17 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Код</name>
-    <id>2</id>
+    <id>62</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Code</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Code</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КодExtendedTooltip</name>
+      <name>КодРасширеннаяПодсказка</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -82,7 +78,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>КодКонтекстноеМеню</name>
-      <id>5</id>
+      <id>65</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -106,20 +102,18 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Наименование</name>
-    <id>3</id>
+    <id>67</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -135,7 +129,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>НаименованиеКонтекстноеМеню</name>
-      <id>9</id>
+      <id>61</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -159,19 +153,17 @@
   </items>
   <items xsi:type="form:FormField">
     <name>ИмяФайла</name>
-    <id>8</id>
+    <id>68</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ИмяФайла</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ИмяФайла</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ИмяФайлаExtendedTooltip</name>
+      <name>ИмяФайлаРасширеннаяПодсказка</name>
       <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -187,7 +179,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ИмяФайлаКонтекстноеМеню</name>
-      <id>11</id>
+      <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -221,14 +213,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Подписан</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Подписан</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ПодписанExtendedTooltip</name>
+        <name>ПодписанРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -267,14 +257,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Зашифрован</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Зашифрован</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ЗашифрованExtendedTooltip</name>
+        <name>ЗашифрованРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -321,7 +309,7 @@
     <readOnly>true</readOnly>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>ГруппаФлажковExtendedTooltip</name>
+      <name>ГруппаФлажковРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -340,12 +328,11 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Button">
     <name>ВыбратьФайлСДискаИЗаписать</name>
-    <id>6</id>
+    <id>64</id>
     <displayImportance>High</displayImportance>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -354,7 +341,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>ВыбратьФайлСДискаИЗаписатьExtendedTooltip</name>
+      <name>ВыбратьФайлСДискаИЗаписатьРасширеннаяПодсказка</name>
       <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -488,13 +475,11 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -599,13 +584,11 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -710,18 +693,16 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Button">
     <name>ПрочитатьФайлИСохранитьНаДиск</name>
-    <id>7</id>
+    <id>63</id>
     <displayImportance>High</displayImportance>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -730,7 +711,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>ПрочитатьФайлИСохранитьНаДискExtendedTooltip</name>
+      <name>ПрочитатьФайлИСохранитьНаДискРасширеннаяПодсказка</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -767,17 +748,17 @@
     <id>-1</id>
     <items xsi:type="form:FormGroup">
       <name>Криптография</name>
-      <id>12</id>
+      <id>40</id>
       <items xsi:type="form:Button">
         <name>Подписать</name>
-        <id>13</id>
+        <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПодписатьExtendedTooltip</name>
+          <name>ПодписатьРасширеннаяПодсказка</name>
           <id>25</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -806,7 +787,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПроверитьПодписьExtendedTooltip</name>
+          <name>ПроверитьПодписьРасширеннаяПодсказка</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -835,7 +816,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПоместитьЗашифрованныйНаСерверExtendedTooltip</name>
+          <name>ПоместитьЗашифрованныйНаСерверРасширеннаяПодсказка</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -864,7 +845,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗашифроватьExtendedTooltip</name>
+          <name>ЗашифроватьРасширеннаяПодсказка</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -893,7 +874,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПолучитьСРасшифровкойExtendedTooltip</name>
+          <name>ПолучитьСРасшифровкойРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -927,7 +908,7 @@
         <value>Криптография</value>
       </toolTip>
       <extendedTooltip>
-        <name>КриптографияExtendedTooltip</name>
+        <name>КриптографияРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -965,7 +946,6 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -973,7 +953,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>17</id>
     <valueType>
       <types>CatalogObject.ХранимыеФайлы</types>
     </valueType>
@@ -1008,7 +988,6 @@
         <name>ВыбратьФайлСДискаИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПрочитатьФайлИСохранитьНаДиск</name>
@@ -1029,7 +1008,6 @@
         <name>ПрочитатьФайлИСохранитьНаДиск</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Подписать</name>
@@ -1050,7 +1028,6 @@
         <name>Подписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПроверитьПодпись</name>
@@ -1071,7 +1048,6 @@
         <name>ПроверитьПодпись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПоместитьЗашифрованныйНаСервер</name>
@@ -1092,7 +1068,6 @@
         <name>ПоместитьЗашифрованныйНаСервер</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПолучитьСРасшифровкой</name>
@@ -1113,7 +1088,6 @@
         <name>ПолучитьСРасшифровкой</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Зашифровать</name>
@@ -1134,7 +1108,6 @@
         <name>Зашифровать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьСохраненноеАудиоИЗаписать</name>
@@ -1155,7 +1128,6 @@
         <name>ДобавитьСохраненноеАудиоИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьСохраненноеВидеоИЗаписать</name>
@@ -1176,7 +1148,6 @@
         <name>ДобавитьСохраненноеВидеоИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьСохраненноеФотоИЗаписать</name>
@@ -1197,7 +1168,6 @@
         <name>ДобавитьСохраненноеФотоИЗаписать</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьАудиозаписьИЗаписать</name>
@@ -1218,7 +1188,6 @@
         <name>СделатьАудиозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьВидеозаписьИЗаписать</name>
@@ -1239,7 +1208,6 @@
         <name>СделатьВидеозапись</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СделатьФотоснимокИЗаписать</name>
@@ -1260,7 +1228,6 @@
         <name>СделатьФотоснимок</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

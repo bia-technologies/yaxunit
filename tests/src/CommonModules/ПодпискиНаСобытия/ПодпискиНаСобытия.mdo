@@ -4,14 +4,5 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CommonModuleExtension">
     <module>Extended</module>
-    <global>Checked</global>
-    <clientManagedApplication>Checked</clientManagedApplication>
-    <server>Checked</server>
-    <externalConnection>Checked</externalConnection>
-    <serverCall>Checked</serverCall>
-    <clientOrdinaryApplication>Checked</clientOrdinaryApplication>
   </extension>
-  <server>true</server>
-  <externalConnection>true</externalConnection>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="507e5e24-db8a-4b5e-a6de-2340df51d47c">
+  <producedTypes>
+    <objectType typeId="32f73ef1-8755-4e27-b57a-37b9619029fa" valueTypeId="e5fa2eee-8dc5-4142-bed8-c267e52b3629"/>
+    <managerType typeId="ad3f6a53-5c45-475c-90c5-d2a834f837c5" valueTypeId="a974b36e-cd5c-4cf7-8b72-a3bee2d65fb5"/>
+  </producedTypes>
+  <name>ЮТГенераторКода</name>
+  <synonym>
+    <key></key>
+    <value>ЮТГенератор кода</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор кода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЮТГенераторКода.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c07a80c3-1784-48d4-973a-c3009a09c1d7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

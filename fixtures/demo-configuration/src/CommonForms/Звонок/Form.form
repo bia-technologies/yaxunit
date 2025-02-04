@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Текст</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Текст</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -54,7 +52,7 @@
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>Позвонить</name>
-      <id>1</id>
+      <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -62,7 +60,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ПозвонитьРасширеннаяПодсказка</name>
-        <id>2</id>
+        <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -96,7 +94,6 @@
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -108,7 +105,7 @@
       <key>ru</key>
       <value>Текст</value>
     </title>
-    <id>1</id>
+    <id>7</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -160,7 +157,6 @@
         <name>Позвонить</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
