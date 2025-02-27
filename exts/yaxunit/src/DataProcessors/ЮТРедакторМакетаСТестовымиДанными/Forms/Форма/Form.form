@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>Страницы</name>
-    <id>1</id>
+    <id>37</id>
     <items xsi:type="form:FormGroup">
       <name>СтраницаТабличногоДокумента</name>
       <id>9</id>
@@ -192,7 +192,7 @@
     </title>
     <extendedTooltip>
       <name>СтраницыРасширеннаяПодсказка</name>
-      <id>2</id>
+      <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -215,10 +215,10 @@
     <id>-1</id>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКомандРежимаРедактирования</name>
-      <id>3</id>
+      <id>41</id>
       <items xsi:type="form:Button">
         <name>ВключитьРедактированиеТабличногоДокумента</name>
-        <id>5</id>
+        <id>45</id>
         <title>
           <key>ru</key>
           <value>Таблица</value>
@@ -295,7 +295,7 @@
       </title>
       <extendedTooltip>
         <name>ГруппаКомандРежимаРедактированияРасширеннаяПодсказка</name>
-        <id>4</id>
+        <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -618,7 +618,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>38</id>
     <valueType>
       <types>DataProcessorObject.ЮТРедакторМакетаСТестовымиДанными</types>
     </valueType>
@@ -636,7 +636,7 @@
       <key>ru</key>
       <value>Макет табличного документа</value>
     </title>
-    <id>2</id>
+    <id>40</id>
     <valueType>
       <types>SpreadsheetDocument</types>
     </valueType>
@@ -654,7 +654,7 @@
       <key>ru</key>
       <value>Макет текстового документа</value>
     </title>
-    <id>3</id>
+    <id>42</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -672,7 +672,7 @@
       <key>ru</key>
       <value>Редактирование табличного документа</value>
     </title>
-    <id>4</id>
+    <id>44</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -682,9 +682,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>РедактированиеТабличногоДокумента</segments>
-    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>ВключитьРедактированиеТабличногоДокумента</name>
