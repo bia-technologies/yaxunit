@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>ТипКодаДляФормирования</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ТипКодаДляФормированияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ТипКодаДляФормированияРасширеннаяПодсказка</name>
       <id>116</id>
@@ -59,6 +63,15 @@
         </presentation>
         <value xsi:type="core:StringValue">
           <value>КонструкторОбъектаYaxunit</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Yaxunit: Таблица Markdown</value>
+        </presentation>
+        <value xsi:type="core:StringValue">
+          <value>ТаблицаMarkdownYaxunit</value>
         </value>
       </choiceList>
     </extInfo>
@@ -242,6 +255,36 @@
               </extendedTooltip>
               <commandName>Form.Command.СформироватьКодПоСписку</commandName>
               <representation>PictureAndText</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>СписокЗначенийПоСсылкеРедактироватьТаблицуMarkdown</name>
+              <id>129</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>СписокЗначенийПоСсылкеРедактироватьТаблицуMarkdownРасширеннаяПодсказка</name>
+                <id>130</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.РедактироватьТаблицуMarkdown</commandName>
+              <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
@@ -1648,7 +1691,6 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
@@ -1891,7 +1933,7 @@
       <key>ru</key>
       <value>Картинка таблица</value>
     </title>
-    <id>9</id>
+    <id>131</id>
     <valueType>
       <types>Picture</types>
     </valueType>
@@ -2078,7 +2120,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Clear</picture>
+      <picture>-200</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -2181,6 +2223,31 @@
         <name>Загрузить</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>РедактироватьТаблицуMarkdown</name>
+    <title>
+      <key>ru</key>
+      <value>Редактировать таблицу Markdown</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Редактировать таблицу markdown</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЮТРедактировать</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РедактироватьТаблицуMarkdown</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
