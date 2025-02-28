@@ -26,8 +26,9 @@ if [ ! -d "$MONACO_EDITOR_PATH/dist" ]; then
     exit 1
 fi
 
-cd $MONACO_EDITOR_PATH/dist
 
+echo "Упаковка редактора ($MONACO_EDITOR_PATH/dist) в архив"
+cd $MONACO_EDITOR_PATH/dist
 
 zip -r -9 $SCRIPTPATH/monaco.zip ./
 mv $SCRIPTPATH/monaco.zip $TARGET_DIR/Template.bin
