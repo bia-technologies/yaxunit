@@ -56,7 +56,6 @@
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТMonacoEditor</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТRegEx1CAddin</commonTemplates>
-  <commonTemplates>CommonTemplate.ЮТV8UnpackWS</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТWebSocketAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТИнформацияОбОшибке</commonTemplates>
@@ -172,6 +171,7 @@
   <dataProcessors>DataProcessor.ЮТКонструкторОбъектаXDTO</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТРедакторОбработки</dataProcessors>
   <dataProcessors>DataProcessor.ЮТРедакторТестов</dataProcessors>
   <dataProcessors>DataProcessor.ЮТСообщениеСервисаИнтеграции</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>
