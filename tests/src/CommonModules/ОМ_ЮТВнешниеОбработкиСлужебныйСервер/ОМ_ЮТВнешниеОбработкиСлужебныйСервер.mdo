@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef210801-2b91-4498-8998-ba1a285b2a2c">
   <name>ОМ_ЮТВнешниеОбработкиСлужебныйСервер</name>
+  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
