@@ -18,6 +18,7 @@
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПерехват</content>
   <content>CommonModule.МокитоПроверки</content>
+  <content>CommonModule.ЮТАлюр</content>
   <content>CommonModule.ЮТест</content>
   <content>CommonModule.ЮТЗависимости</content>
   <content>CommonModule.ЮТЗапросы</content>
@@ -32,7 +33,6 @@
   <content>CommonModule.ЮТНастройкиВыполнения</content>
   <content>CommonModule.ЮТОбщий</content>
   <content>CommonModule.ЮТОкружение</content>
-  <content>CommonModule.ЮТОтчеты</content>
   <content>CommonModule.ЮТПодражатель</content>
   <content>CommonModule.ЮТПодражатель_Банки</content>
   <content>CommonModule.ЮТПодражатель_Компании</content>
@@ -52,8 +52,8 @@
   <content>DataProcessor.ЮТГенераторКода</content>
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
+  <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
   <content>DataProcessor.ЮТРедакторТестов</content>
   <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
-  <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
 </mdclass:Subsystem>
