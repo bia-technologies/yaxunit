@@ -19,3 +19,7 @@ sidebar_position: 1
 Для прогона тестов используется [доработанная демо-конфигурация](https://github.com/bia-technologies/yaxunit/tree/develop/fixtures/demo-configuration) от фирмы  [1С](https://github.com/1C-Company).
 
 Вам необходимо импортировать ее в рабочую область и привязать к ней проект yaxunit, запустить тесты.
+
+## Полезные ссылки
+
+- [Руководство для контрибьюторов в проекты с открытым исходным кодом](https://alei1180.github.io/open-source-contributor-guide/)
