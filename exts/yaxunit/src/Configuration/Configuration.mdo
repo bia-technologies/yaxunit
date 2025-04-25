@@ -162,6 +162,7 @@
   <commonModules>CommonModule.ЮТФильтрацияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЧитательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЧитательСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЧитательСлужебныйКлиент</commonModules>
   <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPОтвет</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
