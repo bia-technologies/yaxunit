@@ -166,6 +166,7 @@
   <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPОтвет</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТHTTPСоединение</dataProcessors>
   <dataProcessors>DataProcessor.ЮТRecordSet</dataProcessors>
   <dataProcessors>DataProcessor.ЮТГенераторКода</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторДвижений</dataProcessors>
