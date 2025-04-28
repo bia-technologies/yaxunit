@@ -143,6 +143,7 @@
   <commonModules>CommonModule.ЮТСлужебныйПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТСобытияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСообщенияСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТСостояниеИсполненияТестовСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйСервер</commonModules>
