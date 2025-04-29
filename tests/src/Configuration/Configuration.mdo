@@ -29,8 +29,8 @@
   <commonModules>CommonModule.Интеграция</commonModules>
   <commonModules>CommonModule.НастройкаYAxUnit</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPОтвет</commonModules>
-  <commonModules>CommonModule.Обр_ЮТHTTPСоединение_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТHTTPСервисЗапрос</commonModules>
+  <commonModules>CommonModule.Обр_ЮТHTTPСоединение_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТRecordSet_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторДвижений_МО</commonModules>
   <commonModules>CommonModule.Обр_ЮТКонструкторОбъектаXDTO_МО</commonModules>
@@ -62,6 +62,7 @@
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Люди</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПредикатыСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТРегистрацияОшибок</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТСостояниеИсполненияТестовСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСравнениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСравнениеСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСтроки</commonModules>

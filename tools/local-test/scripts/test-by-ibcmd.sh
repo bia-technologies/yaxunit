@@ -67,7 +67,7 @@ for key in "${!SOURCE_PATHS[@]}"; do
 done
 
 echo "=========== Конвертация исходников ==========="
-for key in "${!SOURCE_PATHS[@]}"; do
+for key in "configuration" "yaxunit" "smoke" "tests"; do
     $STEPS_PATH/convert-to-xml.sh $key ${SOURCE_PATHS[$key]}
 done
 
@@ -117,7 +117,7 @@ cat >$WORK_PATH/yaxunit-config.json <<EOL
 EOL
 
 print_run "Запуск сервера"
-$ONEC_PATH/ibsrv --db-path=$DB_PATH --daemon
+$ONEC_PATH/ibsrv --db-path=$DB_PATH --data=$TMP_PATH/ibsrv-data &
 IBSRV_PID=$!
 echo "IBSRV PID=$IBSRV_PID"
 
