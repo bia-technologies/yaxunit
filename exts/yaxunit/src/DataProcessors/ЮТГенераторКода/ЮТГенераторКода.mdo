@@ -13,7 +13,6 @@
     <key>ru</key>
     <value>Генератор кода</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЮТГенераторКода.Form.Форма</defaultForm>
   <help>
     <pages>
@@ -29,4 +28,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="00b0370f-9b2e-4850-b432-c78e3c4ac221">
+    <name>ГенераторКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор кода</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>
