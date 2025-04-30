@@ -59,7 +59,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Yaxunit: Конструктор объекта</value>
+          <value>Yaxunit: Конструктор</value>
         </presentation>
         <value xsi:type="core:StringValue">
           <value>КонструкторОбъектаYaxunit</value>
