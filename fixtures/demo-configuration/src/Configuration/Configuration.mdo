@@ -226,6 +226,7 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
   <catalogs>Catalog.ХранимыеФайлы</catalogs>
+  <documents>Document.ДокументРассчета</documents>
   <documents>Document.Заказ</documents>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
@@ -272,4 +273,5 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.Основной</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Основной</chartsOfCalculationTypes>
 </mdclass:Configuration>
