@@ -16,7 +16,9 @@
   <content>CommonModule.МокитоПроверки</content>
   <content>CommonModule.МокитоСлужебный</content>
   <content>DataProcessor.ЮТHTTPServiceRequest</content>
+  <content>DataProcessor.ЮТHTTPОтвет</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
+  <content>DataProcessor.ЮТHTTPСоединение</content>
   <content>DataProcessor.ЮТRecordSet</content>
   <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>

@@ -47,7 +47,9 @@
   <content>CommonModule.ЮТФабрика</content>
   <content>CommonModule.ЮТФайлы</content>
   <content>DataProcessor.ЮТHTTPServiceRequest</content>
+  <content>DataProcessor.ЮТHTTPОтвет</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
+  <content>DataProcessor.ЮТHTTPСоединение</content>
   <content>DataProcessor.ЮТRecordSet</content>
   <content>DataProcessor.ЮТГенераторКода</content>
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
