@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-tags: [Начало]
+tags: [Отчеты, Allure, JUnit]
 ---
 
 # Отчеты о тестировании
