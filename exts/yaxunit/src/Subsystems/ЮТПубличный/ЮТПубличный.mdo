@@ -18,6 +18,7 @@
   <content>CommonModule.МокитоОбучение</content>
   <content>CommonModule.МокитоПерехват</content>
   <content>CommonModule.МокитоПроверки</content>
+  <content>CommonModule.ЮТАлюр</content>
   <content>CommonModule.ЮТест</content>
   <content>CommonModule.ЮТЗависимости</content>
   <content>CommonModule.ЮТЗапросы</content>
@@ -46,13 +47,15 @@
   <content>CommonModule.ЮТФабрика</content>
   <content>CommonModule.ЮТФайлы</content>
   <content>DataProcessor.ЮТHTTPServiceRequest</content>
+  <content>DataProcessor.ЮТHTTPОтвет</content>
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
+  <content>DataProcessor.ЮТHTTPСоединение</content>
   <content>DataProcessor.ЮТRecordSet</content>
   <content>DataProcessor.ЮТГенераторКода</content>
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
+  <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
   <content>DataProcessor.ЮТРедакторТестов</content>
   <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
-  <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
 </mdclass:Subsystem>
