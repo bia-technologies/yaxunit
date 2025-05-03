@@ -51,16 +51,22 @@
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОМ_ЮТИсполнительСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКоллекции</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТКомпоненты</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТКонтекстТеста</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТЛогирование</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТНастройкиВыполнения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОбщий</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетAllureСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТПодражатель</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Банки</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Компании</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодражатель_Люди</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПредикатыСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОМ_ЮТРегистрацияОшибок</commonModules>
   <commonModules>CommonModule.ОМ_ЮТСостояниеИсполненияТестовСлужебный</commonModules>
@@ -73,6 +79,7 @@
   <commonModules>CommonModule.ОМ_ЮТТипыДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ОМ_ЮТУтвержденияИБ</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТФабрика</commonModules>
   <commonModules>CommonModule.ОМ_ЮТФильтрацияСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТЧитательСлужебный</commonModules>
   <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>

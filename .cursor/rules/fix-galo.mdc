@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+SYNTAX RULES
+
+- NEW ARRAY
+  - empty array - Новый Массив
+  - array with values - ЮТКоллекции.ЗначениеВМассиве("a", "b", "c")
+  - invalid constructor - Новый Массив("a", "b", "c")
+- COmmonModule - общие модули не могут хранить переменные, в них размещаются только методы
