@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe234e2d-6153-454e-91a4-a7940b53accb">
+  <producedTypes>
+    <objectType typeId="81a491d4-3872-4038-877e-f275ba045f62" valueTypeId="b82db34c-fe1b-43d6-b426-a59022366dc5"/>
+    <refType typeId="868d1ef2-a84f-43ab-8150-337938479245" valueTypeId="da26de13-8f4b-469f-9e16-77fab69424bf"/>
+    <selectionType typeId="452426ed-b9d2-455e-8935-913dea76f5a6" valueTypeId="457da304-71e3-45a8-89d7-d1f939f979c9"/>
+    <listType typeId="139c1c25-0f37-4771-a591-b05f20dfe2fa" valueTypeId="8930e6d6-0c52-4dce-8202-e7661904802a"/>
+    <managerType typeId="0412a86d-53ec-4df3-a4b3-7919d6ba622b" valueTypeId="55321714-9693-4d01-959e-2e61bca04aca"/>
+  </producedTypes>
+  <name>ДокументРассчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ рассчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДокументРассчета.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>DontUse</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5517f86d-5e80-4397-9254-51feb3deaa29">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.Основной</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>DontUse</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

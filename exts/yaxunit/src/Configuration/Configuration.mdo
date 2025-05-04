@@ -20,7 +20,7 @@
   <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <version>25.02</version>
+  <version>25.04</version>
   <languages uuid="b8fdae66-bc14-47de-9a8d-e0323e0d9ce8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -56,7 +56,6 @@
   <commonTemplates>CommonTemplate.ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТMonacoEditor</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТRegEx1CAddin</commonTemplates>
-  <commonTemplates>CommonTemplate.ЮТV8UnpackWS</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТWebSocketAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТYaxUnitAddIn</commonTemplates>
   <commonTemplates>CommonTemplate.ЮТИнформацияОбОшибке</commonTemplates>
@@ -66,6 +65,7 @@
   <commonModules>CommonModule.МокитоПерехват</commonModules>
   <commonModules>CommonModule.МокитоПроверки</commonModules>
   <commonModules>CommonModule.МокитоСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТАлюр</commonModules>
   <commonModules>CommonModule.ЮТАсинхроннаяОбработкаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТВнешниеОбработкиСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТВнешнийЗапускТестовСлужебныйКлиент</commonModules>
@@ -144,6 +144,7 @@
   <commonModules>CommonModule.ЮТСлужебныйПовторногоИспользования</commonModules>
   <commonModules>CommonModule.ЮТСобытияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСообщенияСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТСостояниеИсполненияТестовСлужебный</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйСервер</commonModules>
@@ -163,15 +164,18 @@
   <commonModules>CommonModule.ЮТФильтрацияСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЧитательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТЧитательСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЧитательСлужебныйКлиент</commonModules>
   <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPОтвет</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТHTTPСоединение</dataProcessors>
   <dataProcessors>DataProcessor.ЮТRecordSet</dataProcessors>
   <dataProcessors>DataProcessor.ЮТГенераторКода</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторДвижений</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторОбъектаXDTO</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТестовыхДанных</dataProcessors>
   <dataProcessors>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТРедакторОбработки</dataProcessors>
   <dataProcessors>DataProcessor.ЮТРедакторТестов</dataProcessors>
   <dataProcessors>DataProcessor.ЮТСообщениеСервисаИнтеграции</dataProcessors>
   <dataProcessors>DataProcessor.ЮТЮнитТесты</dataProcessors>

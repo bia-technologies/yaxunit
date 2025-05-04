@@ -63,7 +63,7 @@ for key in "${!SOURCE_PATHS[@]}"; do
 done
 
 echo "=========== Конвертация исходников ==========="
-for key in "${!SOURCE_PATHS[@]}"; do
+for key in "configuration" "yaxunit" "smoke" "tests"; do
     $STEPS_PATH/convert-to-xml.sh $key ${SOURCE_PATHS[$key]}
 done
 

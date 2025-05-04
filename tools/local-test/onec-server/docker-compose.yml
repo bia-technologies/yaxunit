@@ -1,10 +1,14 @@
 services:
   onec-server:
-    image: onec-server:${ONEC_VERSION}
+    image: onec-server:8.3.21.1895
     container_name: onec-server
     restart: always
     depends_on:
       - postgres
+    volumes:
+      - onec-data:/home/usr1cv8/.1cv8
+    environment:
+      - DEBUG=-http
     network_mode: host
     # networks:
     #   - private
@@ -17,8 +21,13 @@ services:
     container_name: postgresql-pro-1c
     restart: always
     network_mode: host
+    volumes:
+      - pg-data:/var/lib/postgresql
 #     networks:
 #       - private
 # networks:
 #   private:
 #     driver: bridge
+volumes:
+  onec-data:
+  pg-data:

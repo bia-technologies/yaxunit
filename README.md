@@ -6,11 +6,11 @@
 [![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=yaxunit)
 [![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=yaxunit&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=yaxunit)  
 [![Тестирование](https://github.com/bia-technologies/yaxunit/actions/workflows/perform-tests.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/perform-tests.yml)
-[![Сборка документации](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)  
+[![Сборка документации](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml/badge.svg)](https://github.com/bia-technologies/yaxunit/actions/workflows/deploy-documentation.yml)
 [![Download](https://img.shields.io/github/release/bia-technologies/yaxunit.svg?label=download&style=flat)](https://github.com/bia-technologies/yaxunit/releases/latest)
 [![GitHub Releases](https://img.shields.io/github/downloads/bia-technologies/yaxunit/latest/total?style=flat-square)](https://github.com/bia-technologies/yaxunit/releases)  
-
-Обсудить в [Telegram чате](https://t.me/BIAOpenTools/12)
+[![OpenYellow](https://img.shields.io/endpoint?url=https://openyellow.org/data/badges/2/497867241.json)](https://openyellow.org/grid?data=top&repo=497867241)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/BIAOpenTools/12)
 
 ----
 

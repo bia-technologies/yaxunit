@@ -16,11 +16,13 @@
   <content>CommonModule.ЮТИсполнительСлужебныйКлиент</content>
   <content>CommonModule.ЮТИсполнительСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТПараметрыЗапускаСлужебный</content>
+  <content>CommonModule.ЮТСостояниеИсполненияТестовСлужебный</content>
   <content>CommonModule.ЮТТесты</content>
   <content>CommonModule.ЮТТестыСлужебный</content>
   <content>CommonModule.ЮТФильтрацияСлужебный</content>
   <content>CommonModule.ЮТЧитательСлужебный</content>
   <content>CommonModule.ЮТЧитательСлужебныйВызовСервера</content>
+  <content>CommonModule.ЮТЧитательСлужебныйКлиент</content>
   <content>DataProcessor.ЮТРедакторТестов</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
