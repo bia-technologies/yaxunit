@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+CODE STYLE RULES
+
+- use tabs
+- use copyright
+- generate doc comment for export methods, exclude tests
