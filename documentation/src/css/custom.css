@@ -28,3 +28,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+pre code {
+  background-color: var(--ifm-code-background);
+}
+
+/* Material style for tables */
+table {
+  display: table;
+  width: 100%;
+}
+
+table th, table td {
+  border: none;
+  text-align: left;
+}
+
+
