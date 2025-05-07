@@ -4,9 +4,19 @@ on:
     branches: 
       - feature/**
       - develop
+    paths:
+      - '.github/workflows/**'
+      - 'exts/**'
+      - 'tests/**'
+      - 'fixtures/**'
 
   pull_request_target:
     branches: [ develop ]
+    paths:
+      - '.github/workflows/**'
+      - 'exts/**'
+      - 'tests/**'
+      - 'fixtures/**'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.number }}-main
