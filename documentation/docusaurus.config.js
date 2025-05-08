@@ -43,8 +43,11 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/bia-technologies/yaxunit/blob/develop/documentation/',
+          editUrl: 'https://github.com/bia-technologies/yaxunit/blob/develop/documentation/',
+          admonitions: {
+            keywords: ['bad', 'good'],
+            extendDefaults: true,
+          },
         },
 
         theme: {
@@ -101,30 +104,30 @@ const config = {
             docId: 'features/features',
             position: 'left',
             label: 'Описание',
-          },
-          {
+          }, {
             type: 'doc',
             docId: 'index',
             docsPluginId: 'lessons',
             position: 'left',
             label: 'Уроки',
-          },
-          {
+          }, {
+            type: 'docSidebar',
+            sidebarId: 'recomendationSidebar',
+            position: 'left',
+            label: 'Рекомендации',
+          }, {
             type: 'docSidebar',
             sidebarId: 'api',
             docsPluginId: 'api',
             position: 'left',
             label: 'API',
-          },
-          {
+          }, {
             type: 'doc',
             docId: 'index',
             docsPluginId: 'contributing',
             position: 'left',
             label: 'Руководство разработчика',
-          },          
-          {to: 'blog', label: 'Заметки', position: 'left'},
-          {
+          }, {
             href: 'https://github.com/bia-technologies/yaxunit',
             label: 'bia-technologies/yaxunit',
             position: 'right',
