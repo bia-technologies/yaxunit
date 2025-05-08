@@ -57,6 +57,10 @@ const config = {
               },
             ],
           ],
+          admonitions: {
+            keywords: ['bad', 'good'],
+            extendDefaults: true,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -113,29 +117,30 @@ const config = {
             docId: 'features/features',
             position: 'left',
             label: 'Описание',
-          },
-          {
+          }, {
             type: 'doc',
             docId: 'index',
             docsPluginId: 'lessons',
             position: 'left',
             label: 'Уроки',
-          },
-          {
+          }, {
+            type: 'docSidebar',
+            sidebarId: 'recomendationSidebar',
+            position: 'left',
+            label: 'Рекомендации',
+          }, {
             type: 'docSidebar',
             sidebarId: 'api',
             docsPluginId: 'api',
             position: 'left',
             label: 'API',
-          },
-          {
+          }, {
             type: 'doc',
             docId: 'index',
             docsPluginId: 'contributing',
             position: 'left',
             label: 'Руководство разработчика',
-          },          
-          {
+          }, {
             href: 'https://github.com/bia-technologies/yaxunit',
             label: 'bia-technologies/yaxunit',
             position: 'right',
