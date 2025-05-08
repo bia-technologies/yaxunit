@@ -1,6 +1,6 @@
 ---
 tags: [Начало, Рекомендации]
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 # Почему именно модульные тесты
