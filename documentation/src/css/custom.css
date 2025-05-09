@@ -15,6 +15,9 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --y-color-border: rgba(27, 31, 35, 0.15);
+  --y-admonition-icon--success: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg>');
+  --y-admonition-icon--failure: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>');
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,21 +30,72 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --y-color-border: rgba(255, 255, 255, 0.15)
 }
 
 pre code {
   background-color: var(--ifm-code-background);
 }
 
-/* Material style for tables */
 table {
   display: table;
   width: 100%;
 }
 
-table th, table td {
+table th,
+table td {
   border: none;
   text-align: left;
 }
 
+.theme-code-block,
+.tabs-container {
+  border: 1px solid var(--y-color-border);
+  border-radius: 16px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+}
 
+.language-bsl-bad.theme-code-block {
+  border: 2px solid red;
+
+}
+
+.language-bsl-good.theme-code-block {
+  border: 2px solid green;
+}
+
+.admonition-header {
+  font: var(--ifm-heading-font-weight) var(--ifm-h5-font-size) / var(--ifm-heading-line-height) var(--ifm-heading-font-family);
+  text-transform: uppercase;
+}
+
+.admonition-header::before {
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  mask-size: contain;
+  position: relative;
+  top: 0.45em;
+}
+
+.alert--good>.admonition-header::before {
+  mask-image: var(--y-admonition-icon--success);
+  background-color: var(--ifm-color-success-dark);
+}
+
+.alert--bad>.admonition-header::before {
+  mask-image: var(--y-admonition-icon--failure);
+  background-color: var(--ifm-color-danger-dark);
+}
+
+.alert--bad {
+  --y-color-border: var(--ifm-color-danger-dark);
+  --y-color-border: var(--ifm-color-danger-dark);
+}
+
+.alert--good {
+  --y-color-border: var(--ifm-color-success-dark);
+  color: var(--ifm-color-success-contrast-foreground);
+}
