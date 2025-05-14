@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Функциональность работы с контекстами</value>
   </explanation>
+  <content>CommonModule.ЮТКонтекст</content>
   <content>CommonModule.ЮТКонтекстСлужебный</content>
   <content>CommonModule.ЮТКонтекстСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТКонтекстСлужебныйКлиент</content>

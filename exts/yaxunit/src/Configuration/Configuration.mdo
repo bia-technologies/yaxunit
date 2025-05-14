@@ -93,6 +93,7 @@
   <commonModules>CommonModule.ЮТКомпонентыСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ЮТКонструкторТестовыхДанныхСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТКонтекст</commonModules>
   <commonModules>CommonModule.ЮТКонтекстИсполненияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебный</commonModules>
   <commonModules>CommonModule.ЮТКонтекстСлужебныйВызовСервера</commonModules>

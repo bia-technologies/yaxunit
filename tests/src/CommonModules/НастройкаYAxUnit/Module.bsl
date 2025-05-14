@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2025 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -31,6 +31,13 @@
 Процедура Инициализация(ПараметрыЗапуска) Экспорт
 	
 	ПомощникТестированияВызовСервера.ПервичнаяНастройка();
+	
+КонецПроцедуры
+
+Процедура НастройкаПараметровДвижка(ПараметрыДвижка) Экспорт
+	
+	ПараметрыДвижка.Вставить("ЭтоТестированиеYAxUnit", Истина);
+	ПараметрыДвижка.ОбменДаннымиЗагрузкаПриСозданииДанных = Истина;
 	
 КонецПроцедуры
 

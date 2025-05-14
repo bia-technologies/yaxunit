@@ -53,6 +53,7 @@
   <commonModules>CommonModule.ОМ_ЮТКоллекции</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторВариантов</commonModules>
   <commonModules>CommonModule.ОМ_ЮТКонструкторТестовыхДанных</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТКонтекст</commonModules>
   <commonModules>CommonModule.ОМ_ЮТМетаданные</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОбщий</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетAllureСлужебный</commonModules>

@@ -26,6 +26,7 @@
   <content>CommonModule.ЮТКоллекции</content>
   <content>CommonModule.ЮТКомпоненты</content>
   <content>CommonModule.ЮТКонструкторВариантов</content>
+  <content>CommonModule.ЮТКонтекст</content>
   <content>CommonModule.ЮТКонтекстТеста</content>
   <content>CommonModule.ЮТЛогирование</content>
   <content>CommonModule.ЮТМетаданные</content>
