@@ -14,5 +14,5 @@ YAxUnit выполняет тесты последовательно, вызов
 ## Тестирование форм
 
 YAxUnit плохо подходит для тестирования форм. Формы, это в первую очередь про взаимодействие с пользователем, с другими объектами системы. 
-Для их проверки лучше подходят такие инструменты как [vanessa-automation]([vanessa-automation](https://github.com/Pr-Mex/vanessa-automation)), [add](https://github.com/vanessa-opensource/add) или [tester](https://github.com/grumagargler/tester). Они позволяют проще и комплексно проверить работу форм.  
+Для их проверки лучше подходят такие инструменты как [vanessa-automation](https://github.com/Pr-Mex/vanessa-automation), [add](https://github.com/vanessa-opensource/add) или [tester](https://github.com/grumagargler/tester). Они позволяют проще и комплексно проверить работу форм.  
 Если же в форме расположена сложная логика слабо связанная с отображением, то ее можно вынести в общий модуль, который будет вызываться из формы и тестировать уже методы этого общего модуля.
