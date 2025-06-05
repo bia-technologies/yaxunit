@@ -5,6 +5,6 @@ alwaysApply: true
 ---
 CODE STYLE RULES
 
-- use tabs
+- Используй табуляция в качестве отступов
 - use copyright
 - generate doc comment for export methods, exclude tests
