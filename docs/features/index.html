@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Возможности YAxUnit | YAx Unit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://bia-technologies.github.io/yaxunit/docs/features/"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Возможности YAxUnit | YAx Unit"><meta data-rh="true" name="description" content="YAxUnit предоставляет относительно богатый набор инструментов для помощи разработчикам в написании тестов."><meta data-rh="true" property="og:description" content="YAxUnit предоставляет относительно богатый набор инструментов для помощи разработчикам в написании тестов."><link data-rh="true" rel="icon" href="/yaxunit/img/logo.svg"><link data-rh="true" rel="canonical" href="https://bia-technologies.github.io/yaxunit/docs/features/"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/docs/features/" hreflang="ru"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/docs/features/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Руководство","item":"https://bia-technologies.github.io/yaxunit/docs/features/"}]}</script><link rel="stylesheet" href="/yaxunit/assets/css/styles.7df234a1.css">
-<script src="/yaxunit/assets/js/runtime~main.9a1c1ca8.js" defer="defer"></script>
-<script src="/yaxunit/assets/js/main.47397c3c.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/runtime~main.c0e8854b.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/main.2509c525.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -18,11 +18,11 @@
 <p><a href="/yaxunit/docs/features/test-registration">Описание</a>, <a href="/yaxunit/api/ЮТТесты">API</a></p>
 <p>Создание тестов начинается с регистрации их в движке, необходимо рассказать движку, какие имеются тесты, как их запускать, с какими параметрами.</p>
 <p>Для этого используется обязательный предопределенный экспортный метод <code>ИсполняемыеСценарии</code></p>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты.Добавить...</span></span>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты.Добавить...</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <p>Подробнее смотрите в <a href="/yaxunit/docs/features/test-registration">описании</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="реализация-тестов">Реализация тестов<a href="#реализация-тестов" class="hash-link" aria-label="Прямая ссылка на Реализация тестов" title="Прямая ссылка на Реализация тестов">​</a></h2>
 <p>Большая часть методов программного интерфейса YAxUnit собрана в модуле <a href="/yaxunit/api/ЮТест">ЮТест</a>. Этот модуль является точкой входа в API используемый в тестах, он предоставляет доступ к другим модулям движка:</p>

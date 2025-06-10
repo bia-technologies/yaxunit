@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Свойства Allure | YAx Unit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://bia-technologies.github.io/yaxunit/docs/features/reports/allure-properties"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Свойства Allure | YAx Unit"><meta data-rh="true" name="description" content="Модуль ЮТАлюр предоставляет возможность настройки свойств тестов для формирования отчетов в формате Allure. Эти свойства позволяют добавить дополнительную информацию о тестах, такую как описание, уровень критичности, владелец и другие метаданные."><meta data-rh="true" property="og:description" content="Модуль ЮТАлюр предоставляет возможность настройки свойств тестов для формирования отчетов в формате Allure. Эти свойства позволяют добавить дополнительную информацию о тестах, такую как описание, уровень критичности, владелец и другие метаданные."><link data-rh="true" rel="icon" href="/yaxunit/img/logo.svg"><link data-rh="true" rel="canonical" href="https://bia-technologies.github.io/yaxunit/docs/features/reports/allure-properties"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/docs/features/reports/allure-properties" hreflang="ru"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/docs/features/reports/allure-properties" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Руководство","item":"https://bia-technologies.github.io/yaxunit/docs/features/"},{"@type":"ListItem","position":2,"name":"Отчеты о тестировании","item":"https://bia-technologies.github.io/yaxunit/docs/features/reports/"},{"@type":"ListItem","position":3,"name":"Свойства Allure","item":"https://bia-technologies.github.io/yaxunit/docs/features/reports/allure-properties"}]}</script><link rel="stylesheet" href="/yaxunit/assets/css/styles.7df234a1.css">
-<script src="/yaxunit/assets/js/runtime~main.9a1c1ca8.js" defer="defer"></script>
-<script src="/yaxunit/assets/js/main.47397c3c.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/runtime~main.c0e8854b.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/main.2509c525.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -44,145 +44,145 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="примеры-использования">Примеры использования<a href="#примеры-использования" class="hash-link" aria-label="Прямая ссылка на Примеры использования" title="Прямая ссылка на Примеры использования">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="регистрация-тестов">Регистрация тестов<a href="#регистрация-тестов" class="hash-link" aria-label="Прямая ссылка на Регистрация тестов" title="Прямая ссылка на Регистрация тестов">​</a></h3>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="базовое-использование">Базовое использование<a href="#базовое-использование" class="hash-link" aria-label="Прямая ссылка на Базовое использование" title="Прямая ссылка на Базовое использование">​</a></h4>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .ДобавитьТестовыйНабор(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестыДокументов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .ДобавитьТест(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестСозданияДокумента&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .TestCaseId(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;TC-001&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Description(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка создания нового документа&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Owner(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Иванов И.И.&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                </span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .ДобавитьТестовыйНабор(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестыДокументов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .ДобавитьТест(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестСозданияДокумента&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .TestCaseId(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;TC-001&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Description(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка создания нового документа&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Owner(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Иванов И.И.&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">));</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                </span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="использование-html-описания">Использование HTML-описания<a href="#использование-html-описания" class="hash-link" aria-label="Прямая ссылка на Использование HTML-описания" title="Прямая ссылка на Использование HTML-описания">​</a></h4>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .ДобавитьТест(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестПроведенияДокумента&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .DescriptionHtml(</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    &quot;&lt;h3&gt;Проверка проведения документа&lt;/h3&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    |&lt;p&gt;Тест проверяет корректность проведения документа и формирования движений&lt;/p&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    |&lt;ul&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    |&lt;li&gt;Создание документа&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    |&lt;li&gt;Заполнение табличной части&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    |&lt;li&gt;Проведение документа&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    |&lt;li&gt;Проверка движений&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">                    |&lt;/ul&gt;&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                </span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .ДобавитьТест(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестПроведенияДокумента&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .DescriptionHtml(</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    &quot;&lt;h3&gt;Проверка проведения документа&lt;/h3&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    |&lt;p&gt;Тест проверяет корректность проведения документа и формирования движений&lt;/p&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    |&lt;ul&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    |&lt;li&gt;Создание документа&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    |&lt;li&gt;Заполнение табличной части&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    |&lt;li&gt;Проведение документа&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    |&lt;li&gt;Проверка движений&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">                    |&lt;/ul&gt;&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">));</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                </span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="иерархическая-структура-тестов">Иерархическая структура тестов<a href="#иерархическая-структура-тестов" class="hash-link" aria-label="Прямая ссылка на Иерархическая структура тестов" title="Прямая ссылка на Иерархическая структура тестов">​</a></h4>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .ДобавитьТестовыйНабор(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестыДокументов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .Эпик(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документооборот&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .Функциональность(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документы продаж&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .История(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Создание и проведение документов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .ДобавитьТест(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестСозданияДокумента&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .РодительскийНабор(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документы&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Набор(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документы продаж&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .ПодчиненныйНабор(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Создание документов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                </span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .ДобавитьТестовыйНабор(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестыДокументов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .Эпик(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документооборот&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .Функциональность(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документы продаж&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .История(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Создание и проведение документов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">))</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .ДобавитьТест(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестСозданияДокумента&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .РодительскийНабор(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документы&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Набор(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документы продаж&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .ПодчиненныйНабор(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Создание документов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">));</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                </span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="комбинированное-использование">Комбинированное использование<a href="#комбинированное-использование" class="hash-link" aria-label="Прямая ссылка на Комбинированное использование" title="Прямая ссылка на Комбинированное использование">​</a></h4>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .ДобавитьТестовыйНабор(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестыДокументов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .Epic(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документооборот&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .Feature(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документы продаж&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .ДобавитьТест(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестПроведенияДокумента&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .TestCaseId(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;TC-002&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Description(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка проведения документа продаж&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Owner(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Петров П.П.&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Story(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проведение документов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Suite(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документы продаж&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                    .Package(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Основной функционал&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">                </span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .ДобавитьТестовыйНабор(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестыДокументов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .Epic(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документооборот&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .Feature(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документы продаж&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">))</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .ДобавитьТест(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестПроведенияДокумента&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .TestCaseId(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;TC-002&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Description(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка проведения документа продаж&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Owner(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Петров П.П.&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Story(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проведение документов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Suite(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документы продаж&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                    .Package(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Основной функционал&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">));</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">                </span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="настройка-свойств-на-уровне-модуля">Настройка свойств на уровне модуля<a href="#настройка-свойств-на-уровне-модуля" class="hash-link" aria-label="Прямая ссылка на Настройка свойств на уровне модуля" title="Прямая ссылка на Настройка свойств на уровне модуля">​</a></h4>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Epic(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Unit tests&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Suite(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка формирования отчета Allure&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Feature(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка формирования отчета Allure&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Package(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ФормированиеОтчета.Allure&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Owner(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;alkoleft&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Свойство(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверяемый объект&quot;</span><span style="color:#CF222E;--shiki-dark:#FF7B72">,</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> &quot;ЮТОтчетAllureСлужебный&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .ДобавитьТест(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестФормированияОтчета&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        </span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Epic(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Unit tests&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Suite(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка формирования отчета Allure&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Feature(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка формирования отчета Allure&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Package(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ФормированиеОтчета.Allure&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Owner(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;alkoleft&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Свойство(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверяемый объект&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">, </span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ЮТОтчетAllureСлужебный&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">))</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .ДобавитьТест(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестФормированияОтчета&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        </span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="настройка-свойств-внутри-тестового-метода">Настройка свойств внутри тестового метода<a href="#настройка-свойств-внутри-тестового-метода" class="hash-link" aria-label="Прямая ссылка на Настройка свойств внутри тестового метода" title="Прямая ссылка на Настройка свойств внутри тестового метода">​</a></h3>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .ДобавитьТест(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестСозданияДокумента&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        </span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .ДобавитьТест(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестСозданияДокумента&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        </span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ТестСозданияДокумента</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#6E7781;--shiki-dark:#8B949E">    // Настройка свойств теста</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .TestCaseId(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;TC-003&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Description(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка создания документа с заполнением всех реквизитов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Owner(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Сидоров С.С.&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .DescriptionHtml(</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            &quot;&lt;h3&gt;Проверка создания документа&lt;/h3&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;p&gt;Тест проверяет корректность создания документа и заполнения всех реквизитов&lt;/p&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;ul&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;li&gt;Создание документа&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;li&gt;Заполнение реквизитов&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;li&gt;Проверка значений&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;/ul&gt;&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#6E7781;--shiki-dark:#8B949E">    // Тест</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ТестСозданияДокумента</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#008000;--shiki-dark:#6A9955">    // Настройка свойств теста</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .TestCaseId(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;TC-003&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Description(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка создания документа с заполнением всех реквизитов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Owner(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Сидоров С.С.&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .DescriptionHtml(</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            &quot;&lt;h3&gt;Проверка создания документа&lt;/h3&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;p&gt;Тест проверяет корректность создания документа и заполнения всех реквизитов&lt;/p&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;ul&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;li&gt;Создание документа&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;li&gt;Заполнение реквизитов&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;li&gt;Проверка значений&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;/ul&gt;&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#008000;--shiki-dark:#6A9955">    // Тест</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="настройка-свойств-при-регистрации-и-внутри-теста">Настройка свойств при регистрации и внутри теста<a href="#настройка-свойств-при-регистрации-и-внутри-теста" class="hash-link" aria-label="Прямая ссылка на Настройка свойств при регистрации и внутри теста" title="Прямая ссылка на Настройка свойств при регистрации и внутри теста">​</a></h3>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ИсполняемыеСценарии</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТТесты</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Настроить(ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Epic(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документооборот&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Feature(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Документы продаж&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Suite(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка документов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">            .Owner(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Иванов И.И.&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">))</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .ДобавитьТест(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;ТестПроверкиДокумента&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        </span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ИсполняемыеСценарии</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТТесты</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Настроить(ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Epic(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документооборот&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Feature(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Документы продаж&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Suite(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка документов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">            .Owner(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Иванов И.И.&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">));</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .ДобавитьТест(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;ТестПроверкиДокумента&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        </span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ТестПроверкиДокумента</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">() </span><span style="color:#CF222E;--shiki-dark:#FF7B72">Экспорт</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#6E7781;--shiki-dark:#8B949E">    // Дополнительная настройка свойств внутри теста</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ЮТАлюр</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .TestCaseId(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;TC-004&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Description(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка корректности заполнения документа продаж&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .Story(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Проверка реквизитов&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">        .DescriptionHtml(</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            &quot;&lt;h3&gt;Проверка документа продаж&lt;/h3&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;p&gt;Тест проверяет корректность заполнения всех реквизитов документа продаж&lt;/p&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;ul&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;li&gt;Проверка обязательных реквизитов&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;li&gt;Проверка корректности сумм&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;li&gt;Проверка связей с контрагентами&lt;/li&gt;</span></span>
-<span class="line"><span style="color:#0A3069;--shiki-dark:#A5D6FF">            |&lt;/ul&gt;&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    </span></span>
-<span class="line"><span style="color:#6E7781;--shiki-dark:#8B949E">    // Тест</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ТестПроверкиДокумента</span><span style="color:#000000;--shiki-dark:#D4D4D4">() </span><span style="color:#0000FF;--shiki-dark:#569CD6">Экспорт</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#008000;--shiki-dark:#6A9955">    // Дополнительная настройка свойств внутри теста</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    ЮТАлюр</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .TestCaseId(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;TC-004&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Description(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка корректности заполнения документа продаж&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Severity(ЮТАлюр.УровниСерьезности().Критический)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .Story(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Проверка реквизитов&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">)</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">        .DescriptionHtml(</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            &quot;&lt;h3&gt;Проверка документа продаж&lt;/h3&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;p&gt;Тест проверяет корректность заполнения всех реквизитов документа продаж&lt;/p&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;ul&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;li&gt;Проверка обязательных реквизитов&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;li&gt;Проверка корректности сумм&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;li&gt;Проверка связей с контрагентами&lt;/li&gt;</span></span>
+<span class="line"><span style="color:#A31515;--shiki-dark:#CE9178">            |&lt;/ul&gt;&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">    </span></span>
+<span class="line"><span style="color:#008000;--shiki-dark:#6A9955">    // Тест</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span></code></pre>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span></code></pre>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="примечания">Примечания<a href="#примечания" class="hash-link" aria-label="Прямая ссылка на Примечания" title="Прямая ссылка на Примечания">​</a></h2>
 <ol>
 <li>Все свойства можно указывать как на уровне тестового набора (модуля), так и на уровне отдельного теста</li>

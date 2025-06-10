@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Контекст | YAx Unit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://bia-technologies.github.io/yaxunit/docs/features/context"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Контекст | YAx Unit"><meta data-rh="true" name="description" content="Механизм глобальных контекстов в тестовом движке играет ключевую роль. Он предоставляет следующие основные возможности:"><meta data-rh="true" property="og:description" content="Механизм глобальных контекстов в тестовом движке играет ключевую роль. Он предоставляет следующие основные возможности:"><link data-rh="true" rel="icon" href="/yaxunit/img/logo.svg"><link data-rh="true" rel="canonical" href="https://bia-technologies.github.io/yaxunit/docs/features/context"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/docs/features/context" hreflang="ru"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/docs/features/context" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Руководство","item":"https://bia-technologies.github.io/yaxunit/docs/features/"},{"@type":"ListItem","position":2,"name":"Контекст","item":"https://bia-technologies.github.io/yaxunit/docs/features/context"}]}</script><link rel="stylesheet" href="/yaxunit/assets/css/styles.7df234a1.css">
-<script src="/yaxunit/assets/js/runtime~main.9a1c1ca8.js" defer="defer"></script>
-<script src="/yaxunit/assets/js/main.47397c3c.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/runtime~main.c0e8854b.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/main.2509c525.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -42,32 +42,32 @@
 <!-- -->Метод <code>УстановитьЗначение</code> автоматически определяет контекст, в котором вызывается установка значения, и сохраняет значение в соответствующем контексте. Это позволяет вам не задумываться о том, в каком контексте нужно сохранить данные, и при необходимости переопределять значения.</p>
 </li>
 </ol>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#6E7781;--shiki-dark:#8B949E">// Создаем организацию, которую будем использовать во всех тестах</span></span>
-<span class="line"><span style="color:#6E7781;--shiki-dark:#8B949E">// Но для конкретного набора переопределим ее</span></span>
-<span class="line"><span style="color:#6E7781;--shiki-dark:#8B949E">// При этом используется общий метод создания данных, который получает организацию из контекста</span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ПередВсемиТестами</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">()</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  ЮТест.Контекст().УстановитьЗначение(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Организация&quot;</span><span style="color:#CF222E;--shiki-dark:#FF7B72">,</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> НоваяОрганизация())</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="line"><span style="color:#008000;--shiki-dark:#6A9955">// Создаем организацию, которую будем использовать во всех тестах</span></span>
+<span class="line"><span style="color:#008000;--shiki-dark:#6A9955">// Но для конкретного набора переопределим ее</span></span>
+<span class="line"><span style="color:#008000;--shiki-dark:#6A9955">// При этом используется общий метод создания данных, который получает организацию из контекста</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ПередВсемиТестами</span><span style="color:#000000;--shiki-dark:#D4D4D4">()</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">  ЮТест.Контекст().УстановитьЗначение(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Организация&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">, НоваяОрганизация());</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> ПередТестовымНаборомДругойОрганизации</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">()</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  ЮТест.Контекст().УстановитьЗначение(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Организация&quot;</span><span style="color:#CF222E;--shiki-dark:#FF7B72">,</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> НоваяДругаяОрганизация())</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span><span style="color:#6E7781;--shiki-dark:#8B949E"> // Переопределим настройку из модуля</span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> ПередТестовымНаборомДругойОрганизации</span><span style="color:#000000;--shiki-dark:#D4D4D4">()</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">  ЮТест.Контекст().УстановитьЗначение(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Организация&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">, НоваяДругаяОрганизация()); </span><span style="color:#008000;--shiki-dark:#6A9955">// Переопределим настройку из модуля</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> Тест</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">()</span></span>
-<span class="line"><span style="color:#953800;--shiki-dark:#FFA657">  Документ</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> =</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> СоздатьДокумент()</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  ...</span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> Тест</span><span style="color:#000000;--shiki-dark:#D4D4D4">()</span></span>
+<span class="line"><span style="color:#001080;--shiki-dark:#9CDCFE">  Документ</span><span style="color:#000000;--shiki-dark:#D4D4D4"> = СоздатьДокумент();</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">  ...</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Процедура</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> Тест2</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">()</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  ЮТест.Контекст().УстановитьЗначение(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Организация&quot;</span><span style="color:#CF222E;--shiki-dark:#FF7B72">,</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> НоваяТретьяОрганизация())</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span><span style="color:#6E7781;--shiki-dark:#8B949E"> // Переопределим настройку</span></span>
-<span class="line"><span style="color:#953800;--shiki-dark:#FFA657">  Документ</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> =</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> СоздатьДокумент()</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  ...</span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецПроцедуры</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Процедура</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> Тест2</span><span style="color:#000000;--shiki-dark:#D4D4D4">()</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">  ЮТест.Контекст().УстановитьЗначение(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Организация&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">, НоваяТретьяОрганизация()); </span><span style="color:#008000;--shiki-dark:#6A9955">// Переопределим настройку</span></span>
+<span class="line"><span style="color:#001080;--shiki-dark:#9CDCFE">  Документ</span><span style="color:#000000;--shiki-dark:#D4D4D4"> = СоздатьДокумент();</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">  ...</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецПроцедуры</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">Функция</span><span style="color:#8250DF;--shiki-dark:#D2A8FF"> СоздатьДокумент</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">()</span></span>
-<span class="line"><span style="color:#953800;--shiki-dark:#FFA657">  Документ</span><span style="color:#CF222E;--shiki-dark:#FF7B72"> =</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> НовыйДокумент()</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  Документ.Организация </span><span style="color:#CF222E;--shiki-dark:#FF7B72">=</span><span style="color:#1F2328;--shiki-dark:#E6EDF3"> ЮТест.Контекст().Значение(</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">&quot;Организация&quot;</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">)</span><span style="color:#CF222E;--shiki-dark:#FF7B72">;</span></span>
-<span class="line"><span style="color:#CF222E;--shiki-dark:#FF7B72">КонецФункции</span></span></code></pre>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">Функция</span><span style="color:#795E26;--shiki-dark:#DCDCAA"> СоздатьДокумент</span><span style="color:#000000;--shiki-dark:#D4D4D4">()</span></span>
+<span class="line"><span style="color:#001080;--shiki-dark:#9CDCFE">  Документ</span><span style="color:#000000;--shiki-dark:#D4D4D4"> = НовыйДокумент();</span></span>
+<span class="line"><span style="color:#000000;--shiki-dark:#D4D4D4">  Документ.Организация = ЮТест.Контекст().Значение(</span><span style="color:#A31515;--shiki-dark:#CE9178">&quot;Организация&quot;</span><span style="color:#000000;--shiki-dark:#D4D4D4">);</span></span>
+<span class="line"><span style="color:#0000FF;--shiki-dark:#569CD6">КонецФункции</span></span></code></pre>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="реализация">Реализация<a href="#реализация" class="hash-link" aria-label="Прямая ссылка на Реализация" title="Прямая ссылка на Реализация">​</a></h2>
 <p>Реализация механизма контекстов включает следующие аспекты:</p>
 <ul>
