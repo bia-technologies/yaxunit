@@ -1,7 +1,7 @@
 ---
 description: 
-globs: 
-alwaysApply: true
+globs: *.bsl
+alwaysApply: false
 ---
 SYNTAX RULES
 

@@ -1,6 +1,6 @@
 ---
-description: Правила написания модульных тестов, yaxunit
-globs: 
+description: 
+globs: tests/**/*.bsl
 alwaysApply: false
 ---
 # Рекомендации по тестированию с использованием YAxUnit

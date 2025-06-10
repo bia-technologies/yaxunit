@@ -1,7 +1,7 @@
 ---
 description: 
-globs: 
-alwaysApply: true
+globs: tests/**/*.bsl
+alwaysApply: false
 ---
 VARIABLE ASSERTIONS RULES
 

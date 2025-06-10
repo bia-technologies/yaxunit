@@ -1,6 +1,6 @@
 ---
-description: Стандарты разработки 1С
-globs: 
+description: 
+globs: *.bsl
 alwaysApply: false
 ---
 # Правила кодирования на 1С
