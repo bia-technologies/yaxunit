@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47cbc029-b365-473a-8138-3e8e4a9066fb">
-  <name>ЮТПоискДанныхСлужебныйСервер</name>
-  <synonym>
-    <key>ru</key>
-    <value>Поиск данных служебный сервер</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>

@@ -130,9 +130,6 @@
   <commonModules>CommonModule.ЮТПодражательСлужебный</commonModules>
   <commonModules>CommonModule.ЮТПодражательСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПодражательСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.ЮТПоискДанных</commonModules>
-  <commonModules>CommonModule.ЮТПоискДанныхСлужебныйВызовСервера</commonModules>
-  <commonModules>CommonModule.ЮТПоискДанныхСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТПользовательскийИнтерфейсСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
   <commonModules>CommonModule.ЮТПредикатыСлужебныйКлиентСервер</commonModules>

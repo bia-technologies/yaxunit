@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43fc45c0-04be-4447-845f-4e376823095b">
-  <name>ОМ_ЮТПоискДанных</name>
+  <name>ОМ_ЮТТестовыеДанные_ПоискДанных</name>
   <synonym>
     <key>ru</key>
-    <value>О м ЮТПоиск данных</value>
+    <value>О м ЮТТестовые данные поиск данных</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
