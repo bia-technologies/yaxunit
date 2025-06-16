@@ -70,9 +70,7 @@
   <commonModules>CommonModule.ЮТВнешниеОбработкиСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТВнешнийЗапускТестовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТесты</commonModules>
-  <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ЮТДымовыеТестыСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТест</commonModules>
   <commonModules>CommonModule.ЮТЗависимости</commonModules>
   <commonModules>CommonModule.ЮТЗависимостиСлужебный</commonModules>

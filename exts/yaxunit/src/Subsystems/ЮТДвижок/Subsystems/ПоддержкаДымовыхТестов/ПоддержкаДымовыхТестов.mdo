@@ -7,8 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ЮТДымовыеТесты</content>
-  <content>CommonModule.ЮТДымовыеТестыСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТДымовыеТестыСлужебныйКлиентСервер</content>
-  <content>CommonModule.ЮТДымовыеТестыСлужебныйСервер</content>
   <parentSubsystem>Subsystem.ЮТДвижок</parentSubsystem>
 </mdclass:Subsystem>
