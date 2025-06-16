@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2025 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -49,7 +49,7 @@
 	|	%5", НомерЭлемента, Реквизиты, ПолноеИмя, Условия, РеквизитУпорядочивания);
 	// BSLLS:QueryParseError-on
 	
-	ЗначенияРеквизитов = ЮТЗапросыСлужебныйВызовСервера.ЗначенияИзЗапроса(Запрос, Реквизиты);
+	ЗначенияРеквизитов = ЮТЗапросыСлужебныйСервер.ЗначенияИзЗапроса(Запрос, Реквизиты);
 	
 	Если ОписаниеОбъектаМетаданных.ОписаниеТипа.Ссылочный Тогда
 		Возврат ЗначенияРеквизитов.Ссылка;

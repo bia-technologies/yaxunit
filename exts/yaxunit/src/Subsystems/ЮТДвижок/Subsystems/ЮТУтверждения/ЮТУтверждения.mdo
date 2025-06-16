@@ -10,8 +10,8 @@
     <key>ru</key>
     <value>Реализация утверждений для проверки результатов при тестировании</value>
   </explanation>
-  <content>CommonModule.ЮТЗапросыСлужебныйВызовСервера</content>
   <content>CommonModule.ЮТЗапросыСлужебныйКлиентСервер</content>
+  <content>CommonModule.ЮТЗапросыСлужебныйСервер</content>
   <content>CommonModule.ЮТПредикаты</content>
   <content>CommonModule.ЮТПредикатыСлужебныйКлиентСервер</content>
   <content>CommonModule.ЮТСравнениеСлужебныйВызовСервера</content>

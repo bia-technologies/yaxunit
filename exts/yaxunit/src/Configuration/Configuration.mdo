@@ -81,6 +81,7 @@
   <commonModules>CommonModule.ЮТЗапросы</commonModules>
   <commonModules>CommonModule.ЮТЗапросыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТЗапросыСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЮТЗапросыСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТИсключения</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТИсполнительСлужебныйГлобальный</commonModules>
@@ -132,6 +133,7 @@
   <commonModules>CommonModule.ЮТПодражательСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПодражательСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЮТПоискДанных</commonModules>
+  <commonModules>CommonModule.ЮТПоискДанныхСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТПоискДанныхСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТПользовательскийИнтерфейсСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТПредикаты</commonModules>
