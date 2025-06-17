@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">ЮТМетаданные | YAx Unit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://bia-technologies.github.io/yaxunit/api/ЮТМетаданные"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-api-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-api-current"><meta data-rh="true" property="og:title" content="ЮТМетаданные | YAx Unit"><meta data-rh="true" name="description" content="Методы модуля"><meta data-rh="true" property="og:description" content="Методы модуля"><link data-rh="true" rel="icon" href="/yaxunit/img/logo.svg"><link data-rh="true" rel="canonical" href="https://bia-technologies.github.io/yaxunit/api/ЮТМетаданные"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/api/ЮТМетаданные" hreflang="ru"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/api/ЮТМетаданные" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ЮТМетаданные","item":"https://bia-technologies.github.io/yaxunit/api/ЮТМетаданные"}]}</script><link rel="stylesheet" href="/yaxunit/assets/css/styles.7df234a1.css">
-<script src="/yaxunit/assets/js/runtime~main.c0e8854b.js" defer="defer"></script>
-<script src="/yaxunit/assets/js/main.2509c525.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/runtime~main.c179b021.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/main.8daa7e0c.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -28,13 +28,18 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
+</ul>
+</li>
+<li><code>ВыбрасыватьИсключение</code>
+<ul>
+<li><code>Булево</code> - Выбрасывать исключение, если объект не найден</li>
 </ul>
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><a href="#%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%D0%BC%D0%B5%D1%82%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">см. СтруктураОписанияОбъектаМетаданных</a><code>см. СтруктураОписанияОбъектаМетаданных</code> - Описание объекта метаданных</p>
+<p><a href="#%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%D0%BC%D0%B5%D1%82%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">см. СтруктураОписанияОбъектаМетаданных</a>`` -</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">// Получение описания по объекту метаданных</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Описание = ЮТМетаданные.ОписаниеОбъектаМетаданных(Метаданные.Справочники.Номенклатура);</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">// Получение описания по типу</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Описание = ЮТМетаданные.ОписаниеОбъектаМетаданных(Тип(&quot;СправочникСсылка.Номенклатура&quot;));</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">// Получение описания по имени</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Описание = ЮТМетаданные.ОписаниеОбъектаМетаданных(&quot;Справочник.Номенклатура&quot;);</span><br></span></code></pre></div></div>
 <hr>
@@ -52,7 +57,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных, может включать имя табличной части</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -81,7 +86,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -105,7 +110,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -129,7 +134,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -153,7 +158,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -177,7 +182,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -201,7 +206,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -225,7 +230,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -249,7 +254,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -273,7 +278,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -297,7 +302,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -321,7 +326,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
@@ -345,7 +350,7 @@
 <li><code>ОбъектМетаданных</code> - Объект метаданных</li>
 <li><code>Тип</code> - Тип объекта информационной базы</li>
 <li><code>Строка</code> - Полное имя объекта метаданных</li>
-<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> - Готовое описание объекта</li>
+<li>СтруктураОписанияОбъектаМетаданных<code>см. СтруктураОписанияОбъектаМетаданных</code> -</li>
 <li><code>Произвольный</code> - Объект информационной базы</li>
 </ul>
 </li>
