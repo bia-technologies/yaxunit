@@ -38,6 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -56,6 +57,10 @@ const config = {
               },
             ],
           ],
+          admonitions: {
+            keywords: ['bad', 'good'],
+            extendDefaults: true,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,7 +77,6 @@ const config = {
         path: 'api',
         routeBasePath: 'api',
         sidebarPath: require.resolve('./sidebarsAPI.js'),
-        // ... other options
       },
     ],
     [
@@ -82,7 +86,7 @@ const config = {
         path: 'lessons',
         routeBasePath: 'lessons',
         sidebarPath: require.resolve('./sidebarsLessons.js'),
-        // ... other options
+        editUrl: (args)=>'https://github.com/bia-technologies/yaxunit/edit/develop/documentation/lessons/' + args.docPath,
       },
     ],
     [
@@ -92,7 +96,7 @@ const config = {
         path: 'contributing',
         routeBasePath: 'contributing',
         sidebarPath: require.resolve('./sidebarsContributing.js'),
-        // ... other options
+        editUrl: (args)=>'https://github.com/bia-technologies/yaxunit/edit/develop/documentation/contributing/' + args.docPath,
       },
     ]
   ],
@@ -113,29 +117,30 @@ const config = {
             docId: 'features/features',
             position: 'left',
             label: 'Описание',
-          },
-          {
+          }, {
             type: 'doc',
             docId: 'index',
             docsPluginId: 'lessons',
             position: 'left',
             label: 'Уроки',
-          },
-          {
+          }, {
+            type: 'docSidebar',
+            sidebarId: 'recomendationSidebar',
+            position: 'left',
+            label: 'Рекомендации',
+          }, {
             type: 'docSidebar',
             sidebarId: 'api',
             docsPluginId: 'api',
             position: 'left',
             label: 'API',
-          },
-          {
+          }, {
             type: 'doc',
             docId: 'index',
             docsPluginId: 'contributing',
             position: 'left',
             label: 'Руководство разработчика',
-          },          
-          {
+          }, {
             href: 'https://github.com/bia-technologies/yaxunit',
             label: 'bia-technologies/yaxunit',
             position: 'right',
