@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8589b4f-3957-4307-95c9-427555e85d16">
+  <name>ЮТГенераторКодаСлужебныйСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор кода</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
