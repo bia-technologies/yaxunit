@@ -7,8 +7,13 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ЮТГенераторКода</content>
+  <content>CommonModule.ЮТГенераторКодаСлужебныйКлиент</content>
+  <content>CommonModule.ЮТГенераторКодаСлужебныйСервер</content>
+  <content>CommonModule.ЮТРаботаСТекстом</content>
+  <content>CommonModule.ЮТТестовыеДанныеПереопределяемый</content>
+  <content>DataProcessor.ЮТГенераторКода</content>
+  <content>DataProcessor.ЮТГенераторКодаМод</content>
   <content>DataProcessor.ЮТКонструкторТекста</content>
   <content>DataProcessor.ЮТПомощникДляСозданияТестовыхДанных</content>
-  <content>CommonModule.ЮТТестовыеДанныеПереопределяемый</content>
-  <content>CommonModule.ЮТРаботаСТекстом</content>
 </mdclass:Subsystem>

@@ -177,6 +177,7 @@
   <dataProcessors>DataProcessor.ЮТHTTPСоединение</dataProcessors>
   <dataProcessors>DataProcessor.ЮТRecordSet</dataProcessors>
   <dataProcessors>DataProcessor.ЮТГенераторКода</dataProcessors>
+  <dataProcessors>DataProcessor.ЮТГенераторКодаМод</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторДвижений</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторОбъектаXDTO</dataProcessors>
   <dataProcessors>DataProcessor.ЮТКонструкторТекста</dataProcessors>

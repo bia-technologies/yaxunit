@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a394af05-fab0-4e27-abbc-d50ed53982ca">
+  <producedTypes>
+    <objectType typeId="8c37d134-fa15-4574-946e-3b39a64aee76" valueTypeId="62f194b8-5022-4498-a5f2-7f507b643cd2"/>
+    <managerType typeId="90591057-49cf-43e7-bad6-0168e69d5422" valueTypeId="b6108ad0-4aaa-47e4-9c8e-5c39a17d9d1f"/>
+  </producedTypes>
+  <name>ЮТГенераторКодаМод</name>
+  <synonym>
+    <key></key>
+    <value>ЮТГенератор кода мод</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор кода (Mod)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЮТГенераторКодаМод.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5cc9a970-c55d-4445-a0f5-5459edfc98e7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d563e78f-5183-4ede-8d47-cebfb13112a2">
+    <name>ГенераторКодаМод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор кода(Мод)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
