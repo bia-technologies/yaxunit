@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb703906-3f78-4bf9-ad67-542ff9edc43f">
+  <producedTypes>
+    <objectType typeId="3e2b3181-cf4a-4e17-b018-84f4ff2537b4" valueTypeId="949008a7-ed8d-44ac-848f-aa9015cfc672"/>
+    <managerType typeId="9baffa68-b326-4619-ac98-35397bf99074" valueTypeId="b702f66d-4c36-4127-90c0-a5659967d098"/>
+  </producedTypes>
+  <name>ЮТГенераторКодаТестовыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор кода тестовых данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЮТГенераторКодаТестовыхДанных.Form.ГенераторНаОснованииДанных</defaultForm>
+  <forms uuid="deba3ea6-f97b-4af9-8e5d-1aa45d21a173">
+    <name>ГенераторНаОснованииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор на основании данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="22faec12-56aa-4571-8d91-3c801218392b">
+    <name>ГенераторНаОснованииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор кода на основании данных</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

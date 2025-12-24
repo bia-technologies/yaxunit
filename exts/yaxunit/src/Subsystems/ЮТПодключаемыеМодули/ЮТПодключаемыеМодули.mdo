@@ -12,5 +12,6 @@
   </explanation>
   <subsystems>ДымовыеТесты</subsystems>
   <subsystems>ОбработчикиСобытий</subsystems>
+  <subsystems>ТестовыеДанные</subsystems>
   <subsystems>ФормированиеОтчета</subsystems>
 </mdclass:Subsystem>

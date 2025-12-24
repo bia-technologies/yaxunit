@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46383f22-a834-40f0-b79e-c358ce9f5a10">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="46383f22-a834-40f0-b79e-c358ce9f5a10">
   <name>ЮТПубличный</name>
   <synonym>
     <key>ru</key>
     <value>YAxUnit</value>
   </synonym>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <explanation>
@@ -52,13 +55,11 @@
   <content>DataProcessor.ЮТHTTPСервисЗапрос</content>
   <content>DataProcessor.ЮТHTTPСоединение</content>
   <content>DataProcessor.ЮТRecordSet</content>
-  <content>DataProcessor.ЮТГенераторКода</content>
-  <content>DataProcessor.ЮТГенераторКодаМод</content>
   <content>DataProcessor.ЮТКонструкторОбъектаXDTO</content>
   <content>DataProcessor.ЮТКонструкторТестовыхДанных</content>
-  <content>DataProcessor.ЮТПомощникДляСозданияТестовыхДанных</content>
   <content>DataProcessor.ЮТРедакторМакетаСТестовымиДанными</content>
   <content>DataProcessor.ЮТРедакторТестов</content>
   <content>DataProcessor.ЮТСообщениеСервисаИнтеграции</content>
   <content>DataProcessor.ЮТЮнитТесты</content>
+  <subsystems>ГенерацияКода</subsystems>
 </mdclass:Subsystem>
