@@ -276,6 +276,15 @@
           <dataPath xsi:type="form:DataPath">
             <segments>НастройкиРежимУстановкиРеквизитов</segments>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Описание режима</value>
+          </toolTip>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <handlers>
+            <event>OnChange</event>
+            <name>НастройкиРежимУстановкиРеквизитовПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>НастройкиРежимУстановкиРеквизитовРасширеннаяПодсказка</name>
             <id>103</id>
@@ -298,24 +307,6 @@
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
             <radioButtonsType>Tumbler</radioButtonsType>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Поиск</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>Поиск</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Создание</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>СозданиеФикции</value>
-              </value>
-            </choiceList>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -444,45 +435,6 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>НастройкиФорматНаименованияПеременных</name>
-          <id>98</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НастройкиФорматНаименованияПеременных</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>НастройкиФорматНаименованияПеременныхРасширеннаяПодсказка</name>
-            <id>100</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НастройкиФорматНаименованияПеременныхКонтекстноеМеню</name>
-            <id>99</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
           <name>НастройкиРежимИспользованияПеременных</name>
           <id>104</id>
           <enabled>true</enabled>
@@ -553,6 +505,50 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НастройкиФорматИменованияПеременных</name>
+          <id>98</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НастройкиФорматИменованияПеременных</segments>
+          </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Описание формата</value>
+          </toolTip>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <handlers>
+            <event>OnChange</event>
+            <name>НастройкиФорматИменованияПеременныхПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>НастройкиФорматИменованияПеременныхРасширеннаяПодсказка</name>
+            <id>100</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НастройкиФорматИменованияПеременныхКонтекстноеМеню</name>
+            <id>99</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>RadioButtonField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+            <radioButtonsType>Tumbler</radioButtonsType>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -932,10 +928,17 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoUrl>true</autoUrl>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
@@ -1080,10 +1083,10 @@
     </settingsSavedData>
   </attributes>
   <attributes>
-    <name>НастройкиФорматНаименованияПеременных</name>
+    <name>НастройкиФорматИменованияПеременных</name>
     <title>
       <key>ru</key>
-      <value>Настройки формат наименования переменных</value>
+      <value>Формат именования переменных</value>
     </title>
     <id>13</id>
     <valueType>
@@ -1097,7 +1100,7 @@
       <common>true</common>
     </edit>
     <settingsSavedData xsi:type="form:DataPath">
-      <segments>НастройкиФорматНаименованияПеременных</segments>
+      <segments>НастройкиФорматИменованияПеременных</segments>
     </settingsSavedData>
   </attributes>
   <attributes>
