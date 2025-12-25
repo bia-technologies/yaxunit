@@ -14,8 +14,8 @@ sidebar_position: 4
   * `Yaxunit: Конструктор`
   * `Yaxunit: Таблица Markdown`
 
-![gen-code](./images/gen-code.png)
-![gen-code2](./images/gen-code-2.png)
+![gen-code](./images/object-builder-generator.png)
+![gen-code2](./images/object-builder-generator-2.png)
 
 Обработка позволяет
 
