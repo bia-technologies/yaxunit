@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf514241-b01f-44f1-ae9a-f4dca1c58128">
+  <name>Кодогенерация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кодогенерация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.НастройкиКодогенерации</content>
+  <parentSubsystem>Subsystem.Тесты_ЮТПодключаемыеМодули</parentSubsystem>
+</mdclass:Subsystem>

@@ -310,170 +310,6 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>НастройкиИспользоватьМакетыРегистровДвижений</name>
-          <id>86</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НастройкиИспользоватьМакетыРегистровДвижений</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>НастройкиИспользоватьМакетыРегистровДвиженийРасширеннаяПодсказка</name>
-            <id>88</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НастройкиИспользоватьМакетыРегистровДвиженийКонтекстноеМеню</name>
-            <id>87</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>НастройкиИспользоватьМакетыТабличныхЧастей</name>
-          <id>89</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НастройкиИспользоватьМакетыТабличныхЧастей</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>НастройкиИспользоватьМакетыТабличныхЧастейРасширеннаяПодсказка</name>
-            <id>91</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НастройкиИспользоватьМакетыТабличныхЧастейКонтекстноеМеню</name>
-            <id>90</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>НастройкиРежимВыгрузкиМакетаДвижений</name>
-          <id>95</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НастройкиРежимВыгрузкиМакетаДвижений</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>НастройкиРежимВыгрузкиМакетаДвиженийРасширеннаяПодсказка</name>
-            <id>97</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НастройкиРежимВыгрузкиМакетаДвиженийКонтекстноеМеню</name>
-            <id>96</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>RadioButtonField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
-            <radioButtonsType>Tumbler</radioButtonsType>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Табличный документ</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>ТабличныйДокумент</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Markdown</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>Markdown</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Inline</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>Inline</value>
-              </value>
-            </choiceList>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>НастройкиРежимИспользованияПеременных</name>
-          <id>104</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НастройкиРежимИспользованияПеременных</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>НастройкиРежимИспользованияПеременныхРасширеннаяПодсказка</name>
-            <id>106</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НастройкиРежимИспользованияПеременныхКонтекстноеМеню</name>
-            <id>105</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
           <name>НастройкиПропускатьПустыеЗначения</name>
           <id>107</id>
           <visible>true</visible>
@@ -549,6 +385,44 @@
           <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
             <radioButtonsType>Tumbler</radioButtonsType>
           </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НастройкиИгнорироватьКодИнициализацииПоТипам</name>
+          <id>110</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НастройкиИгнорироватьКодИнициализацииПоТипам</segments>
+          </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Игнорировать настройки указанные в НастройкиКодогенерации.КодИнициализацииПоТипам</value>
+          </toolTip>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <extendedTooltip>
+            <name>НастройкиИгнорироватьКодИнициализацииПоТипамРасширеннаяПодсказка</name>
+            <id>112</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НастройкиИгнорироватьКодИнициализацииПоТипамКонтекстноеМеню</name>
+            <id>111</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1104,27 +978,6 @@
     </settingsSavedData>
   </attributes>
   <attributes>
-    <name>НастройкиРежимИспользованияПеременных</name>
-    <title>
-      <key>ru</key>
-      <value>Настройки режим использования переменных</value>
-    </title>
-    <id>15</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>НастройкиРежимИспользованияПеременных</segments>
-    </settingsSavedData>
-  </attributes>
-  <attributes>
     <name>НастройкиПропускатьПустыеЗначения</name>
     <title>
       <key>ru</key>
@@ -1143,6 +996,23 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>НастройкиПропускатьПустыеЗначения</segments>
     </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>НастройкиИгнорироватьКодИнициализацииПоТипам</name>
+    <title>
+      <key>ru</key>
+      <value>Игнорировать код инициализации по типам</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>СформироватьТекст</name>

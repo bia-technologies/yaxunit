@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27c3fd30-9f8a-4a57-83fc-ee22a2a89714">
+  <name>НастройкиКодогенерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки кодогенерации</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

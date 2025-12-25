@@ -6,5 +6,6 @@
     <value>Подключаемые модули</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>Кодогенерация</subsystems>
   <subsystems>ОбработчикиСобытий</subsystems>
 </mdclass:Subsystem>
