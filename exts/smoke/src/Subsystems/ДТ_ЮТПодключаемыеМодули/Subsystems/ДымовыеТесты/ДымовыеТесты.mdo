@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ДТОткрытиеФорм</content>
+  <content>CommonModule.ДТПроверкаПрав</content>
   <parentSubsystem>Subsystem.ДТ_ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>
