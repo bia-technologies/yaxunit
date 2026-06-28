@@ -24,4 +24,6 @@
   <commonModules>CommonModule.ДТОткрытиеФорм</commonModules>
   <commonModules>CommonModule.ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ДТОткрытиеФормСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ДТЗаписьСправочников</commonModules>
+  <commonModules>CommonModule.ДТЗаписьСправочниковСлужебныйВызовСервера</commonModules>
 </mdclass:Configuration>
