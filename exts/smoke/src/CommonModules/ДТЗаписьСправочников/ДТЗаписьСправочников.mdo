@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa8066b5-1594-4326-aaf0-2ef7e7ced0dd">
+  <name>ДТЗаписьСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДТЗапись справочников</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
