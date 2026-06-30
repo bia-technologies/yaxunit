@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ДТОткрытиеФорм</content>
   <content>CommonModule.ДТПроведениеДокументов</content>
+  <content>CommonModule.ДТПроверкаПрав</content>
+  <content>CommonModule.ДТЗаписьСправочников</content>
   <parentSubsystem>Subsystem.ДТ_ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>

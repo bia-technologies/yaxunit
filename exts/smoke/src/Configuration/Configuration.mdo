@@ -26,4 +26,8 @@
   <commonModules>CommonModule.ДТОткрытиеФормСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ДТПроведениеДокументов</commonModules>
   <commonModules>CommonModule.ДТПроведениеДокументовСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ДТПроверкаПрав</commonModules>
+  <commonModules>CommonModule.ДТПроверкаПравСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ДТЗаписьСправочников</commonModules>
+  <commonModules>CommonModule.ДТЗаписьСправочниковСлужебныйВызовСервера</commonModules>
 </mdclass:Configuration>
