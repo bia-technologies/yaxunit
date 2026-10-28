@@ -67,9 +67,16 @@ jobs:
 
     - name: Подготовка окружения (Windows)
       if: runner.os == 'Windows'
+      shell: pwsh
       run: |
-        mkdir -p "C:\Program Files\1cv8\conf"
-        "DisableUnsafeActionProtection=.*" | Out-File -FilePath "C:\Program Files\1cv8\conf\conf.cfg" -Encoding Unicode -Append
+        # Платформа читает conf.cfg как UTF-8 (без BOM): Set-Content в pwsh
+        # пишет utf8NoBOM. Out-File -Encoding Unicode (UTF-16LE+BOM) ломал
+        # параметр — защита от опасных действий оставалась активной и
+        # блокировала модальным диалогом подключение внешних обработок в тестах.
+        New-Item -ItemType Directory -Force -Path "C:\Program Files\1cv8\conf"
+        Set-Content -Path "C:\Program Files\1cv8\conf\conf.cfg" -Value @'
+        DisableUnsafeActionProtection=.*
+        '@
   
     - name: Определение "короткой" локали
       id: short_locale
