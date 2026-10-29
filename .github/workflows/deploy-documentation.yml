@@ -27,9 +27,9 @@ jobs:
         run: java -jar ./bsldoc.jar ./../exts/yaxunit ./api -f Docusaurus -s ЮТДвижок
 
       - name: Установка NodeJS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: yarn
           cache-dependency-path: 'documentation/yarn.lock'
 
