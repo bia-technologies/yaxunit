@@ -1426,7 +1426,7 @@
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+    <id>58</id>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -1446,7 +1446,7 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>true</allowFormCustomize>
+  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>

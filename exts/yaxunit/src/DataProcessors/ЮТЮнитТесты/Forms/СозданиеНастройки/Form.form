@@ -1244,7 +1244,7 @@
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+    <id>45</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

@@ -56,7 +56,7 @@
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+    <id>5</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -73,7 +73,7 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>true</allowFormCustomize>
+  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showCloseButton>true</showCloseButton>
   <attributes>

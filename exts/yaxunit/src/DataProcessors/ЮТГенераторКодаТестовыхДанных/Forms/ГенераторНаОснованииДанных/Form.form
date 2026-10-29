@@ -568,7 +568,7 @@
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+    <id>3</id>
     <items xsi:type="form:Button">
       <name>ФормаСформироватьТекст</name>
       <id>75</id>

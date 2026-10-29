@@ -21,6 +21,8 @@
   <version>0.2.1</version>
   <subsystems>Subsystem.ДТ_ЮТПодключаемыеМодули</subsystems>
   <commonTemplates>CommonTemplate.ДТОткрытиеФормТипыТестов</commonTemplates>
+  <commonModules>CommonModule.ДТЗаписьСправочников</commonModules>
+  <commonModules>CommonModule.ДТЗаписьСправочниковСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ДТОткрытиеФорм</commonModules>
   <commonModules>CommonModule.ДТОткрытиеФормСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ДТОткрытиеФормСлужебныйКлиентСервер</commonModules>
@@ -28,6 +30,4 @@
   <commonModules>CommonModule.ДТПроведениеДокументовСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ДТПроверкаПрав</commonModules>
   <commonModules>CommonModule.ДТПроверкаПравСлужебныйВызовСервера</commonModules>
-  <commonModules>CommonModule.ДТЗаписьСправочников</commonModules>
-  <commonModules>CommonModule.ДТЗаписьСправочниковСлужебныйВызовСервера</commonModules>
 </mdclass:Configuration>

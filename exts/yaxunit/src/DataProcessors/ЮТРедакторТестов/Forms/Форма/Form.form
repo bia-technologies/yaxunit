@@ -266,7 +266,7 @@
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+    <id>21</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

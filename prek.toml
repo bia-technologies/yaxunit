@@ -1,0 +1,7 @@
+[[repos]]
+repo = "https://github.com/alkoleft/prec-bsl"
+rev = "v0.1.5"
+
+[[repos.hooks]]
+id = "prec-bsl"
+args = ["--config", "v8config.json"]
