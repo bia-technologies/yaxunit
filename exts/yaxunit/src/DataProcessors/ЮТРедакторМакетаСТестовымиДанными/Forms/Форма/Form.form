@@ -212,7 +212,7 @@
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+    <id>46</id>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКомандРежимаРедактирования</name>
       <id>41</id>
@@ -612,7 +612,7 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>true</allowFormCustomize>
+  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>

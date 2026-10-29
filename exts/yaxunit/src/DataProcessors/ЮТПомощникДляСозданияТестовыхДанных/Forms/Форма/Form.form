@@ -2,10 +2,10 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаШапка</name>
-    <id>1</id>
+    <id>12</id>
     <items xsi:type="form:FormField">
       <name>СсылкаНаОбъект</name>
-      <id>5</id>
+      <id>27</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -20,7 +20,7 @@
       </handlers>
       <extendedTooltip>
         <name>СсылкаНаОбъектРасширеннаяПодсказка</name>
-        <id>7</id>
+        <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -30,7 +30,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СсылкаНаОбъектКонтекстноеМеню</name>
-        <id>6</id>
+        <id>29</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -63,7 +63,7 @@
     </toolTip>
     <extendedTooltip>
       <name>ГруппаШапкаРасширеннаяПодсказка</name>
-      <id>2</id>
+      <id>30</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1012,10 +1012,10 @@
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+    <id>31</id>
     <items xsi:type="form:Button">
       <name>ФормаСформироватьКод</name>
-      <id>8</id>
+      <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1023,7 +1023,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ФормаСформироватьКодРасширеннаяПодсказка</name>
-        <id>9</id>
+        <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1081,13 +1081,13 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>true</allowFormCustomize>
+  <allowFormCustomize>false</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1</id>
+    <id>34</id>
     <valueType>
       <types>DataProcessorObject.ЮТПомощникДляСозданияТестовыхДанных</types>
     </valueType>
@@ -1105,7 +1105,7 @@
       <key>ru</key>
       <value>Ссылка на объект</value>
     </title>
-    <id>2</id>
+    <id>35</id>
     <valueType>
       <types>AnyRef</types>
     </valueType>
@@ -1126,7 +1126,7 @@
       <key>ru</key>
       <value>Код тестового модуля</value>
     </title>
-    <id>3</id>
+    <id>36</id>
     <valueType>
       <types>TextDocument</types>
     </valueType>
@@ -1143,7 +1143,7 @@
       <key>ru</key>
       <value>Код модуля обработки</value>
     </title>
-    <id>4</id>
+    <id>37</id>
     <valueType>
       <types>TextDocument</types>
     </valueType>
@@ -1160,7 +1160,7 @@
       <key>ru</key>
       <value>Добавленные элементы</value>
     </title>
-    <id>6</id>
+    <id>38</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -1180,7 +1180,7 @@
       <key>ru</key>
       <value>Добавленные реквизиты</value>
     </title>
-    <id>7</id>
+    <id>39</id>
     <valueType>
       <types>ValueList</types>
     </valueType>
@@ -1220,7 +1220,7 @@
       <key>ru</key>
       <value>Режим выгрузки макета движений</value>
     </title>
-    <id>5</id>
+    <id>40</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -1238,7 +1238,7 @@
       <key>ru</key>
       <value>Использовать макеты табличных частей</value>
     </title>
-    <id>8</id>
+    <id>41</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
