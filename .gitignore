@@ -44,3 +44,8 @@ workpath/
 *.log
 *.log.*.gz
 tools/mcp-test-runner/local-env-config.yml
+*.pyc
+.plans/
+build/
+v8project.local.yaml
+ConfigDumpInfo.xml

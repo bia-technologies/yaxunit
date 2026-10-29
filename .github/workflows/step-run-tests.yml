@@ -65,12 +65,6 @@ jobs:
         sudo apt-get install -y xvfb x11-utils net-tools libgstreamer-plugins-base1.0-0 gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
         sudo ldconfig
 
-    - name: Подготовка окружения (Windows)
-      if: runner.os == 'Windows'
-      run: |
-        mkdir -p "C:\Program Files\1cv8\conf"
-        "DisableUnsafeActionProtection=.*" | Out-File -FilePath "C:\Program Files\1cv8\conf\conf.cfg" -Encoding Unicode -Append
-  
     - name: Определение "короткой" локали
       id: short_locale
       shell: pwsh
@@ -87,6 +81,21 @@ jobs:
         ONEC_USERNAME: ${{ secrets.ONEC_USERNAME }}
         ONEC_PASSWORD: ${{ secrets.ONEC_PASSWORD }}
       timeout-minutes: 10
+
+    - name: Подготовка окружения (Windows)
+      if: runner.os == 'Windows'
+      shell: pwsh
+      run: |
+        # ВАЖНО: шаг выполняется ПОСЛЕ установки платформы. Установка восстанавливает
+        # C:\Program Files\1cv8 из кэша actions/cache (tar -xf поверх каталога),
+        # затирая conf.cfg, записанный до неё. Платформа читает conf.cfg как UTF-8
+        # (без BOM): Set-Content в pwsh пишет utf8NoBOM. Out-File -Encoding Unicode
+        # (UTF-16LE+BOM) также ломал параметр — защита от опасных действий оставалась
+        # активной и блокировала модальным диалогом подключение внешних обработок.
+        New-Item -ItemType Directory -Force -Path "C:\Program Files\1cv8\conf"
+        Set-Content -Path "C:\Program Files\1cv8\conf\conf.cfg" -Value @'
+        DisableUnsafeActionProtection=.*
+        '@
 
     - name: Создание информационной базы
       shell: bash
