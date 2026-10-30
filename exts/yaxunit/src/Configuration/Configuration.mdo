@@ -167,6 +167,7 @@
   <commonModules>CommonModule.ЮТСравнениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТСравнениеСлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЮТСтроки</commonModules>
+  <commonModules>CommonModule.ЮТСтандартныеРеквизитыСлужебный</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанные</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеПереопределяемый</commonModules>
   <commonModules>CommonModule.ЮТТестовыеДанныеСлужебный</commonModules>

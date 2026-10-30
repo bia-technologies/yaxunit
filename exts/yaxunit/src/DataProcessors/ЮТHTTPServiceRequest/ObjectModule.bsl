@@ -58,9 +58,9 @@ Function GetBodyAsBinaryData() Export
 	
 	If Body = Undefined Then
 		Return GetBinaryDataFromBase64String("");
-	ElsIf BodyType = Type("BinaryData") Then
+	ElsIf BodyType = TypeOf(GetBinaryDataFromBase64String("")) Then
 		Return Body;
-	ElsIf BodyType = Type("String") Then
+	ElsIf BodyType = TypeOf("") Then
 		Return GetBinaryDataFromString(Body);
 	EndIf;
 	
@@ -114,9 +114,9 @@ Function GetBodyAsString(Encoding = Undefined) Export
 	
 	If Body = Undefined Then
 		Return "";
-	ElsIf BodyType = Тип("BinaryData") Then
+	ElsIf BodyType = TypeOf(GetBinaryDataFromBase64String("")) Then
 		Return GetStringFromBinaryData(Body, Encoding);
-	ElsIf BodyType = Тип("String") Then
+	ElsIf BodyType = TypeOf("") Then
 		Return Body;
 	EndIf;
 	
