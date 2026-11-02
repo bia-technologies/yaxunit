@@ -131,6 +131,7 @@
   <commonModules>CommonModule.ЮТОкружение</commonModules>
   <commonModules>CommonModule.ЮТОкружениеСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТОтчетAllureСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТОтчетCTRFСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетJSONСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетJUnitСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетСлужебный</commonModules>

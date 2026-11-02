@@ -62,6 +62,7 @@
   <commonModules>CommonModule.ОМ_ЮТМетоды</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОбщий</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетAllureСлужебный</commonModules>
+  <commonModules>CommonModule.ОМ_ЮТОтчетCTRFСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТОтчетСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПараметрыЗапускаСлужебный</commonModules>
   <commonModules>CommonModule.ОМ_ЮТПодключаемыеМодулиСлужебныйВызовСервера</commonModules>
