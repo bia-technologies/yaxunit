@@ -92,6 +92,7 @@
   <commonModules>CommonModule.ОМ_ЮТЧитательСлужебный</commonModules>
   <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.ПерехватУдаленияТестовыхДанных</commonModules>
   <commonModules>CommonModule.ПомощникТестированияВызовСервера</commonModules>
   <commonModules>CommonModule.ТегиТестов</commonModules>
   <commonModules>CommonModule.ТестовыеДанные</commonModules>
