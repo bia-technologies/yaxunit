@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="907e93e4-23ef-4725-8a24-37d9233547d0">
-  <name>ЮТОтчетCTRFСлужебный</name>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44860213-5b5a-4765-960c-07c8d1ca6f08">
+  <name>ЮТОтчетJUnitСлужебныйКлиент</name>
   <synonym>
     <key>ru</key>
-    <value>Отчет CTRF</value>
+    <value>Отчет jUnit</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

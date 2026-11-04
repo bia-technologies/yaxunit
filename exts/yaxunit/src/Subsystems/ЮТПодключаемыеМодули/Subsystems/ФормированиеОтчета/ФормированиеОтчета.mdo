@@ -10,9 +10,9 @@
     <key>ru</key>
     <value>Функциональность формирования отчетов</value>
   </explanation>
-  <content>CommonModule.ЮТОтчетAllureСлужебный</content>
-  <content>CommonModule.ЮТОтчетCTRFСлужебный</content>
-  <content>CommonModule.ЮТОтчетJSONСлужебный</content>
-  <content>CommonModule.ЮТОтчетJUnitСлужебный</content>
+  <content>CommonModule.ЮТОтчетAllureСлужебныйКлиент</content>
+  <content>CommonModule.ЮТОтчетCTRFСлужебныйКлиент</content>
+  <content>CommonModule.ЮТОтчетJSONСлужебныйКлиент</content>
+  <content>CommonModule.ЮТОтчетJUnitСлужебныйКлиент</content>
   <parentSubsystem>Subsystem.ЮТПодключаемыеМодули</parentSubsystem>
 </mdclass:Subsystem>

@@ -130,10 +130,10 @@
   <commonModules>CommonModule.ЮТОбщийСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ЮТОкружение</commonModules>
   <commonModules>CommonModule.ЮТОкружениеСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ЮТОтчетAllureСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТОтчетCTRFСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТОтчетJSONСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТОтчетJUnitСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТОтчетAllureСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТОтчетCTRFСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТОтчетJSONСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЮТОтчетJUnitСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЮТОтчетСлужебный</commonModules>
   <commonModules>CommonModule.ЮТОтчетСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЮТПараметрыЗапускаСлужебный</commonModules>
