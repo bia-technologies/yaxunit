@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.10.2">
 <title data-rh="true">ЮТПредикаты | YAx Unit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://bia-technologies.github.io/yaxunit/api/ЮТПредикаты"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-api-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-api-current"><meta data-rh="true" property="og:title" content="ЮТПредикаты | YAx Unit"><meta data-rh="true" name="description" content="Механизм предикатов позволяет:"><meta data-rh="true" property="og:description" content="Механизм предикатов позволяет:"><link data-rh="true" rel="icon" href="/yaxunit/img/logo.svg"><link data-rh="true" rel="canonical" href="https://bia-technologies.github.io/yaxunit/api/ЮТПредикаты"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/api/ЮТПредикаты" hreflang="ru"><link data-rh="true" rel="alternate" href="https://bia-technologies.github.io/yaxunit/api/ЮТПредикаты" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ЮТПредикаты","item":"https://bia-technologies.github.io/yaxunit/api/ЮТПредикаты"}]}</script><link rel="stylesheet" href="/yaxunit/assets/css/styles.2d679c2f.css">
-<script src="/yaxunit/assets/js/runtime~main.ad66742d.js" defer="defer"></script>
+<script src="/yaxunit/assets/js/runtime~main.88c37e6c.js" defer="defer"></script>
 <script src="/yaxunit/assets/js/main.a94f6040.js" defer="defer"></script>
 </head>
 <body>
@@ -33,7 +33,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка реквизита &quot;Код&quot; на равенство &quot;123&quot;</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Код&quot;).Равно(&quot;123&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка элемента массива по индексу</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(0).Равно(&quot;Первый&quot;);</span><br></div></code></pre></div></div>
 <hr>
@@ -51,7 +51,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="равно"><code>Равно</code><a href="#равно" class="hash-link" aria-label="Прямая ссылка на равно" title="Прямая ссылка на равно" translate="no">​</a></h3>
 <p>Добавляет предикат, проверяющий равенство объекта (свойства) указанному значению</p>
@@ -64,7 +64,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка на равенство строки</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Наименование&quot;).Равно(&quot;Товар&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка на равенство числа</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Количество&quot;).Равно(10);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка на равенство даты</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Дата&quot;).Равно(ТекущаяДата());</span><br></div></code></pre></div></div>
 <hr>
@@ -79,28 +79,28 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка на неравенство строки</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Наименование&quot;).НеРавно(&quot;Товар&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка на неравенство числа</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Количество&quot;).НеРавно(0);</span><br></div></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="заполнено"><code>Заполнено</code><a href="#заполнено" class="hash-link" aria-label="Прямая ссылка на заполнено" title="Прямая ссылка на заполнено" translate="no">​</a></h3>
 <p>Добавляет предикат, проверяющий заполненность объекта (свойства)</p>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка заполненности реквизита</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Наименование&quot;).Заполнено();</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка заполненности элемента массива</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(0).Заполнено();</span><br></div></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="незаполнено"><code>НеЗаполнено</code><a href="#незаполнено" class="hash-link" aria-label="Прямая ссылка на незаполнено" title="Прямая ссылка на незаполнено" translate="no">​</a></h3>
 <p>Добавляет предикат, проверяющий, что объект (свойств) не заполнено</p>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка пустоты реквизита</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Комментарий&quot;).НеЗаполнено();</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка пустоты элемента массива</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(0).НеЗаполнено();</span><br></div></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="пусто"><code>Пусто</code><a href="#пусто" class="hash-link" aria-label="Прямая ссылка на пусто" title="Прямая ссылка на пусто" translate="no">​</a></h3>
 <p>Добавляет предикат, проверяющий, что объект (свойств) не заполнено</p>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка пустоты реквизита</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Комментарий&quot;).Пусто();</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка пустоты элемента массива</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(0).Пусто();</span><br></div></code></pre></div></div>
 <hr>
@@ -115,7 +115,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что число больше</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Количество&quot;).Больше(0);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что дата больше</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Дата&quot;).Больше(ДобавитьКДате(ТекущаяДата(), &quot;ДЕНЬ&quot;, -1));</span><br></div></code></pre></div></div>
 <hr>
@@ -130,7 +130,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что число больше или равно</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Количество&quot;).БольшеИлиРавно(0);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что дата больше или равна</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Дата&quot;).БольшеИлиРавно(ТекущаяДата());</span><br></div></code></pre></div></div>
 <hr>
@@ -145,7 +145,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что число меньше</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Количество&quot;).Меньше(100);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что дата меньше</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Дата&quot;).Меньше(ТекущаяДата());</span><br></div></code></pre></div></div>
 <hr>
@@ -160,7 +160,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что число меньше или равно</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Количество&quot;).МеньшеИлиРавно(100);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что дата меньше или равна</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Дата&quot;).МеньшеИлиРавно(ТекущаяДата());</span><br></div></code></pre></div></div>
 <hr>
@@ -177,7 +177,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка типа по имени</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Значение&quot;).ИмеетТип(&quot;Строка&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка типа по типу</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Дата&quot;).ИмеетТип(Тип(&quot;Дата&quot;));</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка типа по описанию типов</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Сумма&quot;).ИмеетТип(Новый ОписаниеТипов(&quot;Число&quot;));</span><br></div></code></pre></div></div>
 <hr>
@@ -194,7 +194,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что значение не строка</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Значение&quot;).ИмеетТипОтличныйОт(&quot;Строка&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что значение не число</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Сумма&quot;).ИмеетТипОтличныйОт(Тип(&quot;Число&quot;));</span><br></div></code></pre></div></div>
 <hr>
@@ -209,7 +209,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка длины строки</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Наименование&quot;).ИмеетДлину(10);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка размера массива</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Элементы&quot;).ИмеетДлину(5);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка количества записей в таблице</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Товары&quot;).ИмеетДлину(100);</span><br></div></code></pre></div></div>
 <hr>
@@ -224,7 +224,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что длина строки не равна</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Наименование&quot;).ИмеетДлинуОтличнуюОт(0);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка, что размер массива не равен</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Элементы&quot;).ИмеетДлинуОтличнуюОт(1);</span><br></div></code></pre></div></div>
 <hr>
@@ -241,7 +241,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка наличия свойства в структуре</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Данные&quot;).ИмеетСвойство(&quot;Код&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка наличия элемента в массиве по индексу</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Массив&quot;).ИмеетСвойство(0);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка наличия значения в соответствии по ключу</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Соответствие&quot;).ИмеетСвойство(&quot;Ключ&quot;);</span><br></div></code></pre></div></div>
 <hr>
@@ -258,7 +258,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка отсутствия свойства в структуре</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Данные&quot;).НеИмеетСвойства(&quot;Код&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка отсутствия элемента в массиве</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Массив&quot;).НеИмеетСвойства(10);</span><br></div></code></pre></div></div>
 <hr>
@@ -273,7 +273,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка наличия подстроки</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Наименование&quot;).Содержит(&quot;Товар&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка наличия элемента в массиве</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Элементы&quot;).Содержит(&quot;ИскомыйЭлемент&quot;);</span><br></div></code></pre></div></div>
 <hr>
@@ -288,7 +288,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка отсутствия подстроки</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Наименование&quot;).НеСодержит(&quot;ЗапрещенноеСлово&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка отсутствия элемента в массиве</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Элементы&quot;).НеСодержит(&quot;НежелательныйЭлемент&quot;);</span><br></div></code></pre></div></div>
 <hr>
@@ -303,7 +303,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка соответствия шаблону</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Код&quot;).СодержитСтрокуПоШаблону(&quot;\d{6}&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка формата даты</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;ДатаСтрокой&quot;).СодержитСтрокуПоШаблону(&quot;\d{2}\.\d{2}\.\d{4}&quot;);</span><br></div></code></pre></div></div>
 <hr>
@@ -318,7 +318,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка несоответствия шаблону</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Код&quot;).НеСодержитСтрокуПоШаблону(&quot;[А-Я]&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка формата даты</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;ДатаСтрокой&quot;).НеСодержитСтрокуПоШаблону(&quot;\d{2}-\d{2}-\d{4}&quot;);</span><br></div></code></pre></div></div>
 <hr>
@@ -334,7 +334,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка вхождения в массив значений</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Статус&quot;).ВСписке(ЮТКоллекции.ЗначениеВМассиве(&quot;Новый&quot;, &quot;ВРаботе&quot;, &quot;Завершен&quot;));</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка вхождения в список значений</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">СписокСтатусов = Новый СписокЗначений;</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">СписокСтатусов.Добавить(&quot;Новый&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">СписокСтатусов.Добавить(&quot;ВРаботе&quot;);</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Статус&quot;).ВСписке(СписокСтатусов);</span><br></div></code></pre></div></div>
 <hr>
@@ -355,7 +355,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <p>Примеры:</p>
 <div class="language-bsl codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bsl codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">// Проверка вхождения числа в интервал</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ЮТест.Предикат().Реквизит(&quot;Количество&quot;).Между(0, 100);</span><br></div></code></pre></div></div>
 <hr>
@@ -376,7 +376,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="междуисключаяграницы"><code>МеждуИсключаяГраницы</code><a href="#междуисключаяграницы" class="hash-link" aria-label="Прямая ссылка на междуисключаяграницы" title="Прямая ссылка на междуисключаяграницы" translate="no">​</a></h3>
 <p>Добавляет условие, что проверяемое значение (или значение его свойства) входит в заданный интервал.</p>
@@ -395,7 +395,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="междувключаяначалограницы"><code>МеждуВключаяНачалоГраницы</code><a href="#междувключаяначалограницы" class="hash-link" aria-label="Прямая ссылка на междувключаяначалограницы" title="Прямая ссылка на междувключаяначалограницы" translate="no">​</a></h3>
 <p>Добавляет условие, что проверяемое значение (или значение его свойства) входит в заданный интервал.</p>
@@ -414,7 +414,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="междувключаяокончаниеграницы"><code>МеждуВключаяОкончаниеГраницы</code><a href="#междувключаяокончаниеграницы" class="hash-link" aria-label="Прямая ссылка на междувключаяокончаниеграницы" title="Прямая ссылка на междувключаяокончаниеграницы" translate="no">​</a></h3>
 <p>Добавляет условие, что проверяемое значение (или значение его свойства) входит в заданный интервал.</p>
@@ -433,7 +433,7 @@
 </li>
 </ul>
 <p><strong>Возвращает</strong></p>
-<p><code>ОбщийМодуль</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
+<p><code>CommonModule.ЮТПредикаты</code> - <a class="" href="/yaxunit/api/ЮТПредикаты">см. ЮТПредикаты</a>.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="получить"><code>Получить</code><a href="#получить" class="hash-link" aria-label="Прямая ссылка на получить" title="Прямая ссылка на получить" translate="no">​</a></h3>
 <p>Возвращает набор сформированных утверждений.</p>
